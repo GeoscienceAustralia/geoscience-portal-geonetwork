@@ -28,7 +28,7 @@
                     <xpath schema="iso19139" path="gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract/gco:CharacterString"/>
                 </parameter>
 
-				<parameter name="AuthorSurname" field="authorSurname" type="SupportedISOQueryables" range="true">
+                <parameter name="AuthorSurname" field="authorSurname" type="SupportedISOQueryables" range="true">
                     <xpath schema="iso19139" path="gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[gmd:role/gmd:CI_RoleCode/@codeListValue='author']/gmd:individualName/gco:CharacterString"/>
                 </parameter>
                 
