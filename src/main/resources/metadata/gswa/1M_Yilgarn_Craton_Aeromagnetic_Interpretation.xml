@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?>
+<gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                 xmlns:gts="http://www.isotc211.org/2005/gts"
+                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                 xmlns:gss="http://www.isotc211.org/2005/gss"
+                 xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                 xmlns:gml="http://www.opengis.net/gml"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+   <gmd:fileIdentifier>
+      <gco:CharacterString>ANZWA1220000651</gco:CharacterString>
+   </gmd:fileIdentifier>
+   <gmd:language>
+      <gco:CharacterString>eng</gco:CharacterString>
+   </gmd:language>
+   <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+   </gmd:characterSet>
+   <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                        codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+   </gmd:hierarchyLevel>
+   <gmd:hierarchyLevelName>
+      <gco:CharacterString>dataset</gco:CharacterString>
+   </gmd:hierarchyLevelName>
+   <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+            <gco:CharacterString>Geoscience Australia</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:positionName>
+            <gco:CharacterString>Director, Sales and Distribution, CIMA</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>PO Box 2
+Not documented</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Belconnen</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>ACT</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>2617</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gco:CharacterString>Australia</gco:CharacterString>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>BrianBurbidge@auslig.gov.au</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                             codeListValue="custodian">custodian</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:contact>
+   <gmd:dateStamp>
+      <gco:Date>2004-06-16</gco:Date>
+   </gmd:dateStamp>
+   <gmd:metadataStandardName>
+      <gco:CharacterString>ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS ISO 19115:2005, Geographic information - Metadata</gco:CharacterString>
+   </gmd:metadataStandardName>
+   <gmd:metadataStandardVersion>
+      <gco:CharacterString>1.1</gco:CharacterString>
+   </gmd:metadataStandardVersion>
+   <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>Yilgarn Craton aeromagnetic interpretation (1:1 000 000 scale data)</gco:CharacterString>
+               </gmd:title>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2004-06-16</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:identifier>
+                  <gmd:MD_Identifier>
+                     <gmd:authority>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>ANZLIC Identifier</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2001-02</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                         codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:edition>
+                              <gco:CharacterString>Version 2</gco:CharacterString>
+                           </gmd:edition>
+                           <gmd:editionDate>
+                              <gco:Date>2001-02</gco:Date>
+                           </gmd:editionDate>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>ANZLIC - the Spatial Information Council</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                                     codeListValue="owner">owner</gmd:CI_RoleCode>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:otherCitationDetails>
+                              <gco:CharacterString>Defined in ANZLIC Metadata Guidelines Version 2 http://www.anzlic.org.au/download.html?oid=2358011755</gco:CharacterString>
+                           </gmd:otherCitationDetails>
+                        </gmd:CI_Citation>
+                     </gmd:authority>
+                     <gmd:code>
+                        <gco:CharacterString>ANZWA1220000651</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:identifier>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Geoscience Australia</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>
+This dataset/map presents an interpretation of aeromagnetic data across the full extent of the Yilgarn Craton. Interpretation was undertaken at 1:250 000 scale using images and contours of Total magnetic intensity for 3000m and 1500m data. Only images of TMI and TMI 1st vertical derivative were used for 200-400m flight line data. Approximately twelve sheets along the northern margin of the Yilgarn Craton were only summarily interpreted. In this area, particularly the Bullen, Trainor, and Stanley Sheets, anomalies due to laterally extensive dolerite sills in the Bangemall Basin were largely ignored for simplicity. The interpretation largely addresses the Archaean crust of the Yilgarn Craton but includes interpretation of adjacent, abutting or onlapping Proterozoic rocks such as the Northampton Block, Yerrida, Bryah, Padbury and Earaheedy groups, Albany-Fraser Province, the Stirling and Mt Barren Beds, and Phanerozoic Perth and Officer Basins. The aeromagnetic interpretation provides most information on the distribution of Archaean rocks as these rocks are generally moderately to highly magnetised with reasonable variation of magnetisation. Adjacent Perth Basin sediments are poorly magnetised and spatially associated magnetic anomalies are attributed to underlying Proterozoic rocks. 
+The Archaean rocks of the Yilgarn Craton are subdivided into undivided gneiss-migmatite-granite (Agmg), banded gneiss (Agn), sinuous gneiss (Anu), greenstone (Aa), and granite plutons (Ag). Where important relative differences in magnetisation are mapped, the geophysical map units include the suffixes _h (high), _m (medium), _l (low) and _r (remanent) for the level of magnetisation. Dykes, faults, and unassigned small intrusives are also mapped. Large Archaean domains equivalent to geologically defined Provinces are also defined including Narryer, Murchison, Toodyay-Lake Grace, Southwest, Southern Cross and Yeelirrie, Lake Johnston and Eastern Goldfields domains.
+</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:status>
+            <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode"
+                                 codeListValue="completed">completed</gmd:MD_ProgressCode>
+         </gmd:status>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:organisationName>
+                  <gco:CharacterString>Geoscience Australia</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName>
+                  <gco:CharacterString>Director, Sales and Distribution, CIMA</gco:CharacterString>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>PO Box 2
+Not documented</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Belconnen</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>ACT</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>2617</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gco:CharacterString>Australia</gco:CharacterString>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>BrianBurbidge@auslig.gov.au</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                   codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+                                                   codeListValue="irregular">irregular</gmd:MD_MaintenanceFrequencyCode>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:resourceFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>ArcInfo vector coverages. Geographic projection, GRS80 Spheroid, GDA94 Datum</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>none</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:resourceFormat>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Australia</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>ANZLIC Jurisdictions</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2008-10-29</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="revision"/>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:edition>
+                        <gco:CharacterString>Version 2.1</gco:CharacterString>
+                     </gmd:edition>
+                     <gmd:editionDate>
+                        <gco:Date>2008-10-29</gco:Date>
+                     </gmd:editionDate>
+                     <gmd:identifier>
+                        <gmd:MD_Identifier>
+                           <gmd:code>
+                              <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml#anzlic-jurisdic</gco:CharacterString>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:identifier>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>ANZLIC the Spatial Information Council" </gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="custodian"/>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>GEOSCIENCES Geophysics</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>ANZLIC Search Words</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2001</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:edition>
+                        <gco:CharacterString>Version 2</gco:CharacterString>
+                     </gmd:edition>
+                     <gmd:editionDate>
+                        <gco:Date>2001-02</gco:Date>
+                     </gmd:editionDate>
+                     <gmd:identifier>
+                        <gmd:MD_Identifier>
+                           <gmd:code>
+                              <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-theme.xml</gco:CharacterString>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:identifier>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>ANZLIC - the Spatial Information Council</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_Constraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Digital data available from Geoscience Australia on CD or via the internet (GEOCAT # 39393). Print on demand map, 1:1 500 000 scale, available from Geoscience Australia sales centre (GEOCAT # 39935).</gco:CharacterString>
+               </gmd:useLimitation>
+            </gmd:MD_Constraints>
+         </gmd:resourceConstraints>
+         <gmd:language>
+            <gco:CharacterString>eng</gco:CharacterString>
+         </gmd:language>
+         <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+         </gmd:characterSet>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>114</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>126</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>-36</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>-24</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimePeriod gml:id="d1e29">
+                           <gml:beginPosition>1998-02-01</gml:beginPosition>
+                           <gml:endPosition>2002-07-31</gml:endPosition>
+                        </gml:TimePeriod>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+      </gmd:MD_DataIdentification>
+   </gmd:identificationInfo>
+   <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>ArcInfo vector coverages. Geographic projection, GRS80 Spheroid, GDA94 Datum</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>none</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+      </gmd:MD_Distribution>
+   </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                                    codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_CompletenessOmission>
+               <gmd:result>
+                  <gmd:DQ_ConformanceResult>
+                     <gmd:specification>
+                        <gmd:CI_Citation>
+                           <gmd:title gco:nilReason="missing"/>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date gco:nilReason="unknown"/>
+                                 <gmd:dateType gco:nilReason="unknown"/>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                        </gmd:CI_Citation>
+                     </gmd:specification>
+                     <gmd:explanation>
+                        <gco:CharacterString>Interpretation was undertaken at 1:250 000 scale through out the area covered to provide a relatively consistent product appropriate for the intended presentation scale of 1:1M. Aeromagnetic surveys with 400 and 200m line spacing may be interpreted at greater scale to provide more detail. A complete interpretation was not undertaken for sheets along the northern margin of the Craton (Glenburgh, Robinson Range, Peak Hill, Collier, Bullen, Trainor, Stanley, Herbert, Robert, Yowalga, Throssell and Westwood). 400m and 200m line spaced data have been more recently acquired by GA/GSWA for the Sandstone sheet but these data have not been interpreted for this study.</gco:CharacterString>
+                     </gmd:explanation>
+                     <gmd:pass gco:nilReason="missing"/>
+                  </gmd:DQ_ConformanceResult>
+               </gmd:result>
+            </gmd:DQ_CompletenessOmission>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+               <gmd:result>
+                  <gmd:DQ_ConformanceResult>
+                     <gmd:specification>
+                        <gmd:CI_Citation>
+                           <gmd:title gco:nilReason="missing"/>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date gco:nilReason="unknown"/>
+                                 <gmd:dateType gco:nilReason="unknown"/>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                        </gmd:CI_Citation>
+                     </gmd:specification>
+                     <gmd:explanation>
+                        <gco:CharacterString>The estimated positional accuracy of mapped anomalies and boundaries for the aeromagnetic interpretation is in the order of 200 - 500 m (drawing accuracy at 1: 250 000 interpretation capture scale) where flight lines cut anomalies at right angles, but may be less accurate where flight lines cross anomalies at acute angles (particularly for the areas between the flight lines in 3000m or 1500m surveys).</gco:CharacterString>
+                     </gmd:explanation>
+                     <gmd:pass gco:nilReason="missing"/>
+                  </gmd:DQ_ConformanceResult>
+               </gmd:result>
+            </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_NonQuantitativeAttributeAccuracy>
+               <gmd:result>
+                  <gmd:DQ_ConformanceResult>
+                     <gmd:specification>
+                        <gmd:CI_Citation>
+                           <gmd:title gco:nilReason="missing"/>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date gco:nilReason="unknown"/>
+                                 <gmd:dateType gco:nilReason="unknown"/>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                        </gmd:CI_Citation>
+                     </gmd:specification>
+                     <gmd:explanation>
+                        <gco:CharacterString>The assigned attributes in the interpretive covers are qualitative as may be expected from interpretation of regional aeromagnetic data. However, extensive field work has been undertaken on the Albany, Esperance, and Kalgoorlie 1:1M Sheets to 'ground truth' aspects of the interpretations.</gco:CharacterString>
+                     </gmd:explanation>
+                     <gmd:pass gco:nilReason="missing"/>
+                  </gmd:DQ_ConformanceResult>
+               </gmd:result>
+            </gmd:DQ_NonQuantitativeAttributeAccuracy>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_ConceptualConsistency>
+               <gmd:result>
+                  <gmd:DQ_ConformanceResult>
+                     <gmd:specification>
+                        <gmd:CI_Citation>
+                           <gmd:title gco:nilReason="missing"/>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date gco:nilReason="unknown"/>
+                                 <gmd:dateType gco:nilReason="unknown"/>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                        </gmd:CI_Citation>
+                     </gmd:specification>
+                     <gmd:explanation>
+                        <gco:CharacterString>Data have been checked/edited visually on plots and for topological consistency using in-house routines and Arc/Info software. Public domain aeromagnetic coverage of the Yilgarn Craton includes surveys with widely differing specifications (3000 m to 200 m line spacing and 60 m to ~10 m station spacing along lines) giving rise to differences in interpretation detail across the map face. Some 42 sheets of 1500m (GA data), 13 sheets of 400m (Glengarry, Youanmi, Barlee, Jackson, Nabberu, Wiluna, Kingston, Sir Samuel, Duketon, Leonora, Laverton, Rason, and Edjudina; GA and GSWA data), approximately 6 sheets of 200m (Menzies, Kalgoorlie, Kurnalpi, Boorabbin, Widgiemooltha, Norseman, and W Minigwal, W Cundeelee, and NW Zanthus; Fugro Airborne Surveys Pty. Ltd. are acknowledged for access to these data), 1 sheet of 3km line spaced data (Neale; GA data) and the off shore Bremer Basin survey (Esso Australia Ltd., 1972) formed the main data set interpreted. Additional sheets along the largely buried northern margin of the Craton (Glenburgh, Robinson Range, Peak Hill, Collier, Bullen, Trainor, Stanley, Herbert, Robert, Yowalga, Throssell and Westwood) were summarily interpreted to provide information on the major features to the northern limits of inferred Yilgarn crust.</gco:CharacterString>
+                     </gmd:explanation>
+                     <gmd:pass gco:nilReason="missing"/>
+                  </gmd:DQ_ConformanceResult>
+               </gmd:result>
+            </gmd:DQ_ConceptualConsistency>
+         </gmd:report>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>The lines and polygons of the aeromagnetic interpretation were drawn on film overlaying images and contour plots at 1:250 000 scale. Images and contour plots of TMI were used for 3000m and 1500 m line spaced data (most of the map sheets) while images only of TMI and 1st vertical derivative of TMI were used for 400 m / 200 m data (~20 sheets). The film drawings were subsequently scanned, digitised on screen and attributed.</gco:CharacterString>
+               </gmd:statement>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+</gmd:MD_Metadata>
