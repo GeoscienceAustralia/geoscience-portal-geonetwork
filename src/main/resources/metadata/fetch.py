@@ -29,7 +29,7 @@ def fetch_metadata(catalogue_name, csw_endpoint):
         csw_request = read_file(csw_request_filename)
         csw_response = send_csw_request(csw_endpoint, csw_request)
 
-        metadata_dir = catalogue_name + "/metadata/"
+        metadata_dir = catalogue_name + "/records/"
         setup_metadata_directory(metadata_dir)
 
         num_records = 0
