@@ -1,0 +1,136 @@
+<csw:GetRecords
+        xmlns:csw="http://www.opengis.net/cat/csw/2.0.2"
+        xmlns:ogc="http://www.opengis.net/ogc"
+        service="CSW" version="2.0.2"
+        resultType="results"
+        startPosition="1"
+        maxRecords="100000"
+        outputFormat="application/xml"
+        outputSchema="http://www.isotc211.org/2005/gmd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:gml="http://www.opengis.net/gml"
+        xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2 http://schemas.opengis.net/csw/2.0.2/CSW-discovery.xsd">
+  <csw:Query typeNames="csw:Record">
+    <csw:ElementSetName>full</csw:ElementSetName>
+    <csw:Constraint version="1.1.0">
+        <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:Or>
+                <!-- Populated Places -->
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>Populated_Places_1</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>Populated_Places_2</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>Populated_Places_3</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>Populated_Places_4</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>Populated_Places_5</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>Populated_Places_6</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>Populated_Places_7</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>Populated_Places_8</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+
+                <!-- Rivers and Lakes -->
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>AusHydro_PondageAreas_1</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>AusHydro_PondageAreas_2</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>AusHydro_Lakes_1</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>AusHydro_Lakes_2</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>AusHydro_Lakes_3</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>AusHydro_WatercourseAreas_1</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>AusHydro_WatercourseAreas_2</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>AusHydro_Rivers_1</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>AusHydro_Rivers_2</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>AusHydro_Rivers_3</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+
+                <!-- Roads -->
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>Roads_1</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>Roads_2</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>Roads_3</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>Roads_4</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>TOPO250K_Roads</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+
+                <!-- Railways -->
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>Railways_1</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>Railways_2</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>Railways_3</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:Or>
+        </ogc:Filter>
+    </csw:Constraint>
+  </csw:Query>
+</csw:GetRecords>
