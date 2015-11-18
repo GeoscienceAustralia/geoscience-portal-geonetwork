@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# pylint: disable=missing-docstring, invalid-name, blacklisted-name, bad-builtin, broad-except
+# pylint: disable=missing-docstring, invalid-name, blacklisted-name, bad-builtin, broad-except, line-too-long
 
 import os
 import shutil
