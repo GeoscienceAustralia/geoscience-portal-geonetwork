@@ -6,6 +6,7 @@
 # pylint: disable=bad-builtin
 # pylint: disable=broad-except
 # pylint: disable=line-too-long
+# pylint: disable=fixme
 
 import os
 import shutil
@@ -32,27 +33,31 @@ def fetch_metadata(catalogue_name, csw_endpoint):
     try:
         csw_request_filename = catalogue_name + "/request.xml"
         csw_request = read_file(csw_request_filename)
-        csw_response = send_csw_request(csw_endpoint, csw_request)
+        response = send_csw_request(csw_endpoint, csw_request)
 
-        metadata_dir = catalogue_name + "/records/"
-        setup_metadata_directory(metadata_dir)
+        if response.status == 200: # TODO: find a constant or a function like is_ok()
+            csw_response = ET.fromstring(response.data.decode(encoding="UTF-8"))
 
-        num_records = 0
-        metadata_records = csw_response.iterfind("csw:SearchResults/gmd:MD_Metadata", namespaces)
-        for r in metadata_records:
-            write_metadata(metadata_dir, r)
-            num_records += 1
+            metadata_dir = catalogue_name + "/records/"
+            setup_metadata_directory(metadata_dir)
 
-        print("Fetched %d records from %s" % (num_records, csw_endpoint))
+            num_records = 0
+            metadata_records = csw_response.iterfind("csw:SearchResults/gmd:MD_Metadata", namespaces)
+            for r in metadata_records:
+                write_metadata(metadata_dir, r)
+                num_records += 1
+
+            print("Fetched %d records from %s" % (num_records, csw_endpoint))
+        else:
+            sys.stderr.write("HTTP %d from %s\n" % (response.status, csw_endpoint))
 
     except Exception as e:
-        sys.stderr.write(str(e))
+        sys.stderr.write(str(e) + "\n")
 
 def send_csw_request(csw_endpoint, request_body):
-    response = http.urlopen("POST", csw_endpoint,
-                            headers={"Content-type": "text/xml"},
-                            body=request_body)
-    return ET.fromstring(response.data.decode(encoding="UTF-8"))
+    return http.urlopen("POST", csw_endpoint,
+                        headers={"Content-type": "text/xml"},
+                        body=request_body)
 
 def read_file(filename):
     with open(filename, "r") as f:
