@@ -85,6 +85,8 @@ def main():
     fetch_metadata("mrt", "https://data.thelist.tas.gov.au/datagn/srv/eng/csw")
     # fetch_metadata("australian-topography-featured",
     #                "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-australian-topography")
+    # fetch_metadata("australian-surface-geology-featured",
+    #                "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-australian-surface-geology")
 
 if __name__ == "__main__":
     main()
