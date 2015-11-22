@@ -224,6 +224,8 @@
                 <parameter name="Date" field="createDate" type="AdditionalQueryables" />
 
                 <parameter name="Relation" field="relation" type="AdditionalQueryables" />
+
+                <parameter name="LinkageName" field="linkageName" type="AdditionalQueryables" />
 			</parameters>
 			<outputformat>
 				<format>application/xml</format>

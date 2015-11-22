@@ -541,6 +541,7 @@
           <xsl:variable name="title" select="normalize-space(gmd:name/gco:CharacterString|gmd:name/gmx:MimeFileType)"/>
           <xsl:variable name="desc" select="normalize-space(gmd:description/gco:CharacterString)"/>
           <xsl:variable name="protocol" select="normalize-space(gmd:protocol/gco:CharacterString)"/>
+          <xsl:variable name="name" select="gmd:name/gco:CharacterString"/>
           <xsl:variable name="mimetype" select="geonet:protocolMimeType($linkage, $protocol, gmd:name/gmx:MimeFileType/@type)"/>
 
           <!-- If the linkage points to WMS service and no protocol specified, manage as protocol OGC:WMS -->
@@ -549,6 +550,10 @@
           <!-- ignore empty downloads -->
           <xsl:if test="string($linkage)!='' and not(contains($linkage,$download_check))">
             <Field name="protocol" string="{string($protocol)}" store="true" index="true"/>
+          </xsl:if>
+
+          <xsl:if test="string($name)!=''">
+            <Field name="linkageName" string="{string($name)}" store="true" index="true"/>
           </xsl:if>
 
           <xsl:if test="string($title)!='' and string($desc)!='' and not(contains($linkage,$download_check))">
