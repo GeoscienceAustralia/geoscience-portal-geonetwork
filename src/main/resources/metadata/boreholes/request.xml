@@ -14,10 +14,16 @@
     <csw:ElementSetName>full</csw:ElementSetName>
     <csw:Constraint version="1.1.0">
         <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike escapeChar="!" wildCard="*" singleChar="#">
-                <ogc:PropertyName>LinkageName</ogc:PropertyName>
-                <ogc:Literal>gsml:Borehole</ogc:Literal>
-            </ogc:PropertyIsLike>
+            <ogc:Or>
+                <ogc:PropertyIsLike escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
+                    <ogc:Literal>gsml:Borehole</ogc:Literal>
+                </ogc:PropertyIsLike>
+                <ogc:PropertyIsLike escapeChar="!" wildCard="*" singleChar="#">
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
+                    <ogc:Literal>nvcl:ScannedBoreholeCollection</ogc:Literal>
+                </ogc:PropertyIsLike>
+            </ogc:Or>
         </ogc:Filter>
     </csw:Constraint>
   </csw:Query>
