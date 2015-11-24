@@ -1,0 +1,91 @@
+<csw:GetRecords
+        xmlns:csw="http://www.opengis.net/cat/csw/2.0.2"
+        xmlns:ogc="http://www.opengis.net/ogc"
+        service="CSW" version="2.0.2"
+        resultType="results"
+        startPosition="1"
+        maxRecords="100000"
+        outputFormat="application/xml"
+        outputSchema="http://www.isotc211.org/2005/gmd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:gml="http://www.opengis.net/gml"
+        xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2 http://schemas.opengis.net/csw/2.0.2/CSW-discovery.xsd">
+
+  <csw:Query typeNames="csw:Record">
+    <csw:ElementSetName>full</csw:ElementSetName>
+    <csw:Constraint version="1.1.0">
+        <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:Or>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>E6029ED0-636B-4F91-A6A1-535EBA4B5AD1</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>1c3f5e49-4241-4511-a3cc-60314ea09414</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>02e4fa4c-cbd0-429f-b487-381282debb8f</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>ab9e636a-86f8-4366-acec-c24db7b72ff5</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>7bc66a7a-5ba0-447e-9a00-bf1ccd84e4f3</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>f938456a-926d-4547-b111-093844f8fc5d</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>ea755cf7-eb59-41d1-86bd-4d1954c93bfe</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>137a4e7e-9633-40d8-9b2f-2d2d1eb15c08</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>a101fef8-2c52-4d62-9b43-0914487af197</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>2bd17d05-22f8-4b0d-a318-3eaabc1b5c2a</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>8601612e-3f3e-4334-9d31-3c6ec30f092a</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>8348fe99-0d50-45cd-8a0a-5439e82da833</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>bfd6b137-7227-47f4-82f0-9e7fb788c507</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>768dcbde-ae8a-440e-9b4b-44624ba4c836</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>b070d1d4-6420-4770-8ca6-3bf4b6682c3d</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>EB574238-BCB9-4A98-B1C1-71D1D1B0A946</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>cca633fe-5cdc-4fea-b77f-71b81c701c47</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+            </ogc:Or>
+        </ogc:Filter>
+    </csw:Constraint>
+  </csw:Query>
+</csw:GetRecords>

@@ -89,6 +89,11 @@ def main():
     #                "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-australian-surface-geology")
     # fetch_metadata("boreholes",
     #                "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-boreholes")
+    # fetch_metadata("boreholes",
+    #                "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-boreholes")
+    # fetch_metadata("aster-maps",
+    #                "http://aster.nci.org.au/geonetwork/srv/en/csw")
+
 
 if __name__ == "__main__":
     main()
