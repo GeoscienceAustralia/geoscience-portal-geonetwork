@@ -42,6 +42,10 @@
 				</ogc:PropertyIsEqualTo>
 				<ogc:PropertyIsEqualTo>
 				  <ogc:PropertyName>Identifier</ogc:PropertyName>
+				  <ogc:Literal>aa27099f-13dd-4294-8558-595661eeba01</ogc:Literal>
+				</ogc:PropertyIsEqualTo>
+				<ogc:PropertyIsEqualTo>
+				  <ogc:PropertyName>Identifier</ogc:PropertyName>
 				  <ogc:Literal>ea755cf7-eb59-41d1-86bd-4d1954c93bfe</ogc:Literal>
 				</ogc:PropertyIsEqualTo>
 				<ogc:PropertyIsEqualTo>
