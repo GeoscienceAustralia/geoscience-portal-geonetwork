@@ -10,10 +10,11 @@
 
 import os
 import shutil
-import sys
+import traceback
 import xml.etree.cElementTree as ET
 import xml.dom.minidom as Minidom
 import urllib3
+import uuid
 
 namespaces = {
     "csw": "http://www.opengis.net/cat/csw/2.0.2",
@@ -29,35 +30,47 @@ urllib3.disable_warnings()
 http_proxy = os.environ.get('http_proxy')
 http = urllib3.proxy_from_url(http_proxy) if http_proxy else urllib3.PoolManager()
 
-def fetch_metadata(catalogue_name, csw_endpoint):
+def fetch_metadata_from_csw(catalogue):
+    def get_request():
+        request_filename = catalogue[0] + "/request.xml"
+        request_body = read_file(request_filename)
+        return http.urlopen("POST", catalogue[1],
+                            headers={"Content-type": "text/xml"},
+                            body=request_body)
+
+    fetch_metadata(catalogue, get_request)
+
+def fetch_metadata_from_url(catalogue):
+    def get_request():
+        return http.urlopen("GET", catalogue[1])
+
+    fetch_metadata(catalogue, get_request)
+
+def fetch_metadata(catalogue, get_request):
     try:
-        csw_request_filename = catalogue_name + "/request.xml"
-        csw_request = read_file(csw_request_filename)
-        response = send_csw_request(csw_endpoint, csw_request)
+        save_metadata(catalogue, get_request())
 
-        if response.status == 200: # TODO: find a constant or a function like is_ok()
-            csw_response = ET.fromstring(response.data.decode(encoding="UTF-8"))
+    except Exception as _:
+        traceback.print_exc()
 
-            metadata_dir = catalogue_name + "/records/"
-            setup_metadata_directory(metadata_dir)
+def save_metadata(catalogue, response):
+    csw_response = parse_response(response)
 
-            num_records = 0
-            metadata_records = csw_response.iterfind("csw:SearchResults/gmd:MD_Metadata", namespaces)
-            for r in metadata_records:
-                write_metadata(metadata_dir, r)
-                num_records += 1
+    metadata_dir = catalogue[0] + "/records/"
+    setup_metadata_directory(metadata_dir)
 
-            print("Fetched %d records from %s" % (num_records, csw_endpoint))
-        else:
-            sys.stderr.write("HTTP %d from %s\n" % (response.status, csw_endpoint))
+    num_records = 0
+    metadata_records = csw_response.findall(".//gmd:MD_Metadata", namespaces)
+    for r in metadata_records:
+        write_metadata(metadata_dir, r)
+        num_records += 1
 
-    except Exception as e:
-        sys.stderr.write(str(e) + "\n")
+    print("Fetched %d records from %s" % (num_records, catalogue[1]))
 
-def send_csw_request(csw_endpoint, request_body):
-    return http.urlopen("POST", csw_endpoint,
-                        headers={"Content-type": "text/xml"},
-                        body=request_body)
+def parse_response(response):
+    text = response.data.decode(encoding="UTF-8")
+    text = text[text.index('\n'):] #skip preamble
+    return ET.fromstring("<root>" + text + "</root>")
 
 def read_file(filename):
     with open(filename, "r") as f:
@@ -76,24 +89,34 @@ def metadata_filename(metadata_record):
     return extract_id(metadata_record) + ".xml"
 
 def extract_id(metadata_record):
-    return metadata_record.find("gmd:fileIdentifier/gco:CharacterString", namespaces).text
+    record_id = metadata_record.find("gmd:fileIdentifier/gco:CharacterString", namespaces)
+    if record_id:
+        return record_id.text
+    if "id" in metadata_record.attrib:
+        return metadata_record.attrib["id"]
+    if "uuid" in metadata_record.attrib:
+        return metadata_record.attrib["uuid"]
+    return str(uuid.uuid4().hex)
 
 def xml_string(metadata_record):
     return Minidom.parseString(ET.tostring(metadata_record, "utf-8")).toprettyxml()
 
 def main():
-    fetch_metadata("mrt", "https://data.thelist.tas.gov.au/datagn/srv/eng/csw")
-    # fetch_metadata("australian-topography-featured",
+    fetch_metadata_from_csw(("mrt", "https://data.thelist.tas.gov.au/datagn/srv/eng/csw"))
+    # fetch_metadata_from_csw("australian-topography-featured",
     #                "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-australian-topography")
-    # fetch_metadata("australian-surface-geology-featured",
+    # fetch_metadata_from_csw("australian-surface-geology-featured",
     #                "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-australian-surface-geology")
-    # fetch_metadata("boreholes",
+    # fetch_metadata_from_csw("boreholes",
     #                "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-boreholes")
-    # fetch_metadata("boreholes",
+    # fetch_metadata_from_csw("boreholes",
     #                "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-boreholes")
-    # fetch_metadata("aster-maps",
+    # fetch_metadata_from_csw("aster-maps",
     #                "http://aster.nci.org.au/geonetwork/srv/en/csw")
-
+    # fetch_metadata_from_csw("geological-maps-featured",
+    #                         "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-australian-surface-geology")
+    # fetch_metadata_from_url(("geological-survey-of-victoria",
+    #                          "http://geology.data.vic.gov.au/searchAssistant/csw/gsv-solr-csw.xml"))
 
 if __name__ == "__main__":
     main()
