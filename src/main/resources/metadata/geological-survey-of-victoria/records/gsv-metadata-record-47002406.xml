@@ -1,0 +1,920 @@
+<?xml version="1.0" ?>
+<gmd:MD_Metadata id="gsv-metadata-record-47002406" uuid="gsv-product-number-19493" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd">
+	
+  
+	<gmd:language>
+		
+    
+		<gmd:LanguageCode codeList="http://id.loc.gov/vocabulary/iso639-1.html" codeListValue="EN"/>
+		
+  
+	</gmd:language>
+	
+  
+	<gmd:parentIdentifier/>
+	
+  
+	<gmd:hierarchyLevel>
+		
+    
+		<gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml" codeListValue="dataset"/>
+		
+  
+	</gmd:hierarchyLevel>
+	
+  
+	<gmd:contact>
+		
+    
+		<gmd:CI_ResponsibleParty>
+			
+      
+			<gmd:individualName>
+				
+        
+				<gco:CharacterString>Paul Mcdonald</gco:CharacterString>
+				
+      
+			</gmd:individualName>
+			
+      
+			<gmd:organisationName>
+				
+        
+				<gco:CharacterString>Geological Survey of Victoria</gco:CharacterString>
+				
+      
+			</gmd:organisationName>
+			
+      
+			<gmd:positionName>
+				
+        
+				<gco:CharacterString>Director</gco:CharacterString>
+				
+      
+			</gmd:positionName>
+			
+      
+			<gmd:contactInfo>
+				
+        
+				<gmd:CI_Contact>
+					
+          
+					<gmd:phone>
+						
+            
+						<gmd:CI_Telephone>
+							
+              
+							<gmd:voice>
+								
+                
+								<gco:CharacterString>+61 3 90274438</gco:CharacterString>
+								
+              
+							</gmd:voice>
+							
+              
+							<gmd:facsimile>
+								
+                
+								<gco:CharacterString/>
+								
+              
+							</gmd:facsimile>
+							
+            
+						</gmd:CI_Telephone>
+						
+          
+					</gmd:phone>
+					
+          
+					<gmd:address>
+						
+            
+						<gmd:CI_Address>
+							
+              
+							<gmd:deliveryPoint>
+								
+                
+								<gco:CharacterString>GPO Box 4509</gco:CharacterString>
+								
+              
+							</gmd:deliveryPoint>
+							
+              
+							<gmd:city>
+								
+                
+								<gco:CharacterString>Melbourne</gco:CharacterString>
+								
+              
+							</gmd:city>
+							
+              
+							<gmd:administrativeArea>
+								
+                
+								<gco:CharacterString>Victoria</gco:CharacterString>
+								
+              
+							</gmd:administrativeArea>
+							
+              
+							<gmd:postalCode>
+								
+                
+								<gco:CharacterString>3001</gco:CharacterString>
+								
+              
+							</gmd:postalCode>
+							
+              
+							<gmd:country>
+								
+                
+								<gco:CharacterString>Australia</gco:CharacterString>
+								
+              
+							</gmd:country>
+							
+              
+							<gmd:electronicMailAddress>
+								
+                
+								<gco:CharacterString>paul.a.mcdonald@ecodev.vic.gov.au</gco:CharacterString>
+								
+              
+							</gmd:electronicMailAddress>
+							
+            
+						</gmd:CI_Address>
+						
+          
+					</gmd:address>
+					
+        
+				</gmd:CI_Contact>
+				
+      
+			</gmd:contactInfo>
+			
+      
+			<gmd:role>
+				
+        
+				<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml" codeListValue="custodian"/>
+				
+      
+			</gmd:role>
+			
+    
+		</gmd:CI_ResponsibleParty>
+		
+  
+	</gmd:contact>
+	
+  
+	<gmd:contact>
+		
+    
+		<gmd:CI_ResponsibleParty>
+			
+      
+			<gmd:individualName>
+				
+        
+				<gco:CharacterString>Gavin Stilgoe</gco:CharacterString>
+				
+      
+			</gmd:individualName>
+			
+      
+			<gmd:organisationName>
+				
+        
+				<gco:CharacterString>Geological Survey of Victoria</gco:CharacterString>
+				
+      
+			</gmd:organisationName>
+			
+      
+			<gmd:positionName>
+				
+        
+				<gco:CharacterString>Manager Geoscience Information</gco:CharacterString>
+				
+      
+			</gmd:positionName>
+			
+      
+			<gmd:contactInfo>
+				
+        
+				<gmd:CI_Contact>
+					
+          
+					<gmd:phone>
+						
+            
+						<gmd:CI_Telephone>
+							
+              
+							<gmd:voice>
+								
+                
+								<gco:CharacterString>+61 390274463</gco:CharacterString>
+								
+              
+							</gmd:voice>
+							
+              
+							<gmd:facsimile>
+								
+                
+								<gco:CharacterString/>
+								
+              
+							</gmd:facsimile>
+							
+            
+						</gmd:CI_Telephone>
+						
+          
+					</gmd:phone>
+					
+          
+					<gmd:address>
+						
+            
+						<gmd:CI_Address>
+							
+              
+							<gmd:deliveryPoint>
+								
+                
+								<gco:CharacterString>GPO Box 4509</gco:CharacterString>
+								
+              
+							</gmd:deliveryPoint>
+							
+              
+							<gmd:city>
+								
+                
+								<gco:CharacterString>Melbourne</gco:CharacterString>
+								
+              
+							</gmd:city>
+							
+              
+							<gmd:administrativeArea>
+								
+                
+								<gco:CharacterString>Victoria</gco:CharacterString>
+								
+              
+							</gmd:administrativeArea>
+							
+              
+							<gmd:postalCode>
+								
+                
+								<gco:CharacterString>3001</gco:CharacterString>
+								
+              
+							</gmd:postalCode>
+							
+              
+							<gmd:country>
+								
+                
+								<gco:CharacterString>Australia</gco:CharacterString>
+								
+              
+							</gmd:country>
+							
+              
+							<gmd:electronicMailAddress>
+								
+                
+								<gco:CharacterString>gavin.stilgoe@ecodev.vic.gov.au</gco:CharacterString>
+								
+              
+							</gmd:electronicMailAddress>
+							
+            
+						</gmd:CI_Address>
+						
+          
+					</gmd:address>
+					
+        
+				</gmd:CI_Contact>
+				
+      
+			</gmd:contactInfo>
+			
+      
+			<gmd:role>
+				
+        
+				<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml" codeListValue="pointOfContact"/>
+				
+      
+			</gmd:role>
+			
+    
+		</gmd:CI_ResponsibleParty>
+		
+  
+	</gmd:contact>
+	
+  
+	<gmd:dateStamp>
+		
+    
+		<gco:Date>2015-05-28</gco:Date>
+		
+  
+	</gmd:dateStamp>
+	
+  
+	<gmd:metadataStandardName>
+		
+    
+		<gco:CharacterString>GA Metadata Profile: A Geoscience Australia Profile of AS/NZS ISO 19115:2005, Geographic information - Metadata</gco:CharacterString>
+		
+  
+	</gmd:metadataStandardName>
+	
+  
+	<gmd:metadataStandardVersion>
+		
+    
+		<gco:CharacterString>1</gco:CharacterString>
+		
+  
+	</gmd:metadataStandardVersion>
+	
+  
+	<gmd:dataSetURI>
+		
+    
+		<gco:CharacterString>http://geology.data.vic.gov.au/searchAssistant/reference.html?q=record_id:19493</gco:CharacterString>
+		
+  
+	</gmd:dataSetURI>
+	
+  
+	<gmd:referenceSystemInfo>
+		
+    
+		<gmd:MD_ReferenceSystem id="WGS84">
+			
+      
+			<gmd:referenceSystemIdentifier>
+				
+        
+				<gmd:RS_Identifier>
+					
+          
+					<gmd:authority>
+						
+            
+						<gmd:CI_Citation>
+							
+              
+							<gmd:title>
+								
+                
+								<gco:CharacterString>EPSG</gco:CharacterString>
+								
+              
+							</gmd:title>
+							
+              
+							<gmd:date>
+								
+                
+								<gmd:CI_Date>
+									
+                  
+									<gmd:date>
+										
+                    
+										<gco:Date>2009</gco:Date>
+										
+                  
+									</gmd:date>
+									
+                  
+									<gmd:dateType/>
+									
+                
+								</gmd:CI_Date>
+								
+              
+							</gmd:date>
+							
+            
+						</gmd:CI_Citation>
+						
+          
+					</gmd:authority>
+					
+          
+					<gmd:code>
+						
+            
+						<gco:CharacterString>4326</gco:CharacterString>
+						
+          
+					</gmd:code>
+					
+        
+				</gmd:RS_Identifier>
+				
+      
+			</gmd:referenceSystemIdentifier>
+			
+    
+		</gmd:MD_ReferenceSystem>
+		
+  
+	</gmd:referenceSystemInfo>
+	
+  
+	<gmd:identificationInfo>
+		
+    
+		<gmd:MD_DataIdentification>
+			
+      
+			<gmd:citation>
+				
+        
+				<gmd:CI_Citation>
+					
+          
+					<gmd:title>
+						
+            
+						<gco:CharacterString>CONDON, M.A., 1965. Summary of data and results Otway Basin, Victoria Flaxmans No 1 Bureau of Mineral Resources, Geology and Geophysics Published Map 62. Frome-Broken Hill Co Pty Ltd.</gco:CharacterString>
+						
+          
+					</gmd:title>
+					
+          
+					<gmd:date>
+						
+            
+						<gmd:CI_Date>
+							
+              
+							<gmd:date>
+								
+                
+								<gco:Date>1965</gco:Date>
+								
+              
+							</gmd:date>
+							
+              
+							<gmd:dateType>
+								
+                
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml" codeListValue="publication"/>
+								
+              
+							</gmd:dateType>
+							
+            
+						</gmd:CI_Date>
+						
+          
+					</gmd:date>
+					
+          
+					<gmd:edition/>
+					
+          
+					<gmd:presentationForm>
+						
+            
+						<gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml" codeListValue="documentDigital"/>
+						
+          
+					</gmd:presentationForm>
+					
+          
+					<gmd:ISBN/>
+					
+          
+					<gmd:ISSN/>
+					
+        
+				</gmd:CI_Citation>
+				
+      
+			</gmd:citation>
+			
+      
+			<gmd:abstract>
+				
+        
+				<gco:CharacterString>Report Summary:
+Flaxmans No 1 Well was located within the south-eastern part of the Otway Basin, approximaately 20 miles south-east of Warrnambool, on the Victoria coast. the well was drilled by Oil Drilling and Exploration Limited for Frome-Broken Hill Company Proprietary Limited, to a depth of 11,528 feet. Drilling commenced on 3rd May, 1961 and was completed on 25th August, 1961. A full programme of logging, testing, and coring was undertaken. The well penetrated Miocene-Oligocene sediments to a depth of 2008 feet, Eocene-Upper Cretaceous to 4833 feet, Upper Cretaceous to 6490 feet, Middle Cretaceous to 6876 feet, Lowere Cretaceous 7330 feet, and Lower Cretaceous - (?) Jurassic Otway Group sediments to total depth of 11,528 feet. Flaxmans No 1 was drilled to test the hydrocarbon potential of the Teriary and Mesozoic sediments in a closed seismic structure. Sixteen drillstem tests and ten production test were undertaken but the maximum yield of 250 Mcf/D of gas from the interval 10,842 to 11,528 feet could not be maintained and the well was plugged and abandoned. Other possible reservoirs tested in the well yielded only small amounts of petroliferous gas, probably from solution in formation water. The stratigraphic drilling operation at Flaxman No 1 was subsidized under the Petroleum Search Subsidy Act 1959, from 4833 feet to total depth.
+
+</gco:CharacterString>
+				
+      
+			</gmd:abstract>
+			
+      
+			<gmd:pointOfContact>
+				
+        
+				<gmd:CI_ResponsibleParty>
+					
+          
+					<gmd:individualName>
+						
+            
+						<gco:CharacterString>CONDON,M,A</gco:CharacterString>
+						
+          
+					</gmd:individualName>
+					
+          
+					<gmd:organisationName>
+						
+            
+						<gco:CharacterString>Frome-Broken Hill Co Pty Ltd</gco:CharacterString>
+						
+          
+					</gmd:organisationName>
+					
+          
+					<gmd:role>
+						
+            
+						<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml" codeListValue="author"/>
+						
+          
+					</gmd:role>
+					
+        
+				</gmd:CI_ResponsibleParty>
+				
+      
+			</gmd:pointOfContact>
+			
+      
+			<gmd:resourceFormat>
+				
+        
+				<gmd:MD_Format>
+					
+          
+					<gmd:name>
+						
+            
+						<gco:CharacterString>Map  Published</gco:CharacterString>
+						
+          
+					</gmd:name>
+					
+          
+					<gmd:version/>
+					
+        
+				</gmd:MD_Format>
+				
+      
+			</gmd:resourceFormat>
+			
+      
+			<gmd:descriptiveKeywords>
+				
+        
+				<gmd:MD_Keywords>
+					
+          
+					<gmd:keyword>
+						
+            
+						<gco:CharacterString>Map  Published</gco:CharacterString>
+						
+          
+					</gmd:keyword>
+					
+          
+					<gmd:type>
+						
+            
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml" codeListValue="theme"/>
+						
+          
+					</gmd:type>
+					
+          
+					<gmd:thesaurusName/>
+					
+        
+				</gmd:MD_Keywords>
+				
+      
+			</gmd:descriptiveKeywords>
+			
+      
+			<gmd:language>
+				
+        
+				<gmd:LanguageCode codeList="http://id.loc.gov/vocabulary/iso639-1.html" codeListValue="en"/>
+				
+      
+			</gmd:language>
+			
+      
+			<gmd:topicCategory>
+				
+        
+				<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+				
+      
+			</gmd:topicCategory>
+			
+      
+			<gmd:extent>
+				
+        
+				<gmd:EX_Extent>
+					
+          
+					<gmd:description>
+						
+            
+						<gco:CharacterString>Bounding box of Basin</gco:CharacterString>
+						
+          
+					</gmd:description>
+					
+          
+					<gmd:geographicElement>
+						
+            
+						<gmd:EX_GeographicBoundingBox>
+							
+              
+							<gmd:westBoundLongitude>
+								
+                
+								<gco:Decimal>140.964435884</gco:Decimal>
+								
+              
+							</gmd:westBoundLongitude>
+							
+              
+							<gmd:eastBoundLongitude>
+								
+                
+								<gco:Decimal>145.12248065</gco:Decimal>
+								
+              
+							</gmd:eastBoundLongitude>
+							
+              
+							<gmd:southBoundLatitude>
+								
+                
+								<gco:Decimal>-38.9081749999999</gco:Decimal>
+								
+              
+							</gmd:southBoundLatitude>
+							
+              
+							<gmd:northBoundLatitude>
+								
+                
+								<gco:Decimal>-37.290792871</gco:Decimal>
+								
+              
+							</gmd:northBoundLatitude>
+							
+            
+						</gmd:EX_GeographicBoundingBox>
+						
+          
+					</gmd:geographicElement>
+					
+          
+					<gmd:geographicElement>
+						
+            
+						<gmd:EX_BoundingPolygon>
+							
+              
+							<gmd:polygon/>
+							
+            
+						</gmd:EX_BoundingPolygon>
+						
+          
+					</gmd:geographicElement>
+					
+        
+				</gmd:EX_Extent>
+				
+      
+			</gmd:extent>
+			
+    
+		</gmd:MD_DataIdentification>
+		
+  
+	</gmd:identificationInfo>
+	
+  
+	<gmd:distributionInfo>
+		
+    
+		<gmd:MD_Distribution>
+			
+      
+			<gmd:distributionFormat>
+				
+        
+				<gmd:MD_Format>
+					
+          
+					<gmd:name>
+						
+            
+						<gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml" codeListValue="documentDigital"/>
+						
+          
+					</gmd:name>
+					
+          
+					<gmd:version/>
+					
+        
+				</gmd:MD_Format>
+				
+      
+			</gmd:distributionFormat>
+			
+    
+		</gmd:MD_Distribution>
+		
+  
+	</gmd:distributionInfo>
+	
+  
+	<gmd:dataQualityInfo>
+		
+    
+		<gmd:DQ_DataQuality>
+			
+      
+			<gmd:scope>
+				
+        
+				<gmd:DQ_Scope>
+					
+          
+					<gmd:level>
+						
+            
+						<gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml" codeListValue="dataset"/>
+						
+          
+					</gmd:level>
+					
+        
+				</gmd:DQ_Scope>
+				
+      
+			</gmd:scope>
+			
+      
+			<gmd:lineage>
+				
+        
+				<gmd:LI_Lineage>
+					
+          
+					<gmd:statement/>
+					
+          
+					<gmd:source>
+						
+            
+						<gmd:LI_Source>
+							
+              
+							<gmd:description>
+								
+                
+								<gco:CharacterString>Data was acquired by Geological Survey of Victoria</gco:CharacterString>
+								
+              
+							</gmd:description>
+							
+            
+						</gmd:LI_Source>
+						
+          
+					</gmd:source>
+					
+        
+				</gmd:LI_Lineage>
+				
+      
+			</gmd:lineage>
+			
+    
+		</gmd:DQ_DataQuality>
+		
+  
+	</gmd:dataQualityInfo>
+	
+  
+	<gmd:metadataConstraints>
+		
+    
+		<gmd:MD_LegalConstraints>
+			
+      
+			<gmd:accessConstraints>
+				
+        
+				<gmd:MD_RestrictionCode codeList="Geoscience Australia" codeListValue="Public Access"/>
+				
+      
+			</gmd:accessConstraints>
+			
+      
+			<gmd:useConstraints>
+				
+        
+				<gmd:MD_RestrictionCode codeList="http://creativecommons.org.au/" codeListValue="Creative Commons Attribution 3.0 Australia License"/>
+				
+      
+			</gmd:useConstraints>
+			
+    
+		</gmd:MD_LegalConstraints>
+		
+  
+	</gmd:metadataConstraints>
+	
+  
+	<gmd:metadataConstraints>
+		
+    
+		<gmd:MD_SecurityConstraints>
+			
+      
+			<gmd:classification>
+				
+        
+				<gmd:MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml" codeListValue="unclassified"/>
+				
+      
+			</gmd:classification>
+			
+    
+		</gmd:MD_SecurityConstraints>
+		
+  
+	</gmd:metadataConstraints>
+	
+  
+	<gmd:metadataMaintenance>
+		
+    
+		<gmd:MD_MaintenanceInformation>
+			
+      
+			<gmd:maintenanceAndUpdateFrequency>
+				
+        
+				<gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml" codeListValue="notPlanned"/>
+				
+      
+			</gmd:maintenanceAndUpdateFrequency>
+			
+    
+		</gmd:MD_MaintenanceInformation>
+		
+  
+	</gmd:metadataMaintenance>
+	
+
+</gmd:MD_Metadata>
