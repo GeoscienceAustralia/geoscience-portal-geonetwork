@@ -62,6 +62,7 @@ def save_metadata(catalogue, response):
     num_records = 0
     metadata_records = csw_response.findall(".//gmd:MD_Metadata", namespaces)
     for r in metadata_records:
+        check_file_identifier(r)
         write_metadata(metadata_dir, r)
         num_records += 1
 
@@ -88,15 +89,28 @@ def setup_metadata_directory(directory_name):
 def metadata_filename(metadata_record):
     return extract_id(metadata_record) + ".xml"
 
-def extract_id(metadata_record):
+def check_file_identifier(metadata_record):
     record_id = metadata_record.find("gmd:fileIdentifier/gco:CharacterString", namespaces)
-    if record_id:
-        return record_id.text
-    if "id" in metadata_record.attrib:
-        return metadata_record.attrib["id"]
-    if "uuid" in metadata_record.attrib:
-        return metadata_record.attrib["uuid"]
-    return str(uuid.uuid4().hex)
+    if not record_id:
+        record_id = metadata_record.attrib.get("uuid")
+    elif not record_id:
+        record_id = metadata_record.attrib.get("id")
+    else:
+        record_id = str(uuid.uuid4().hex)
+
+    id_element_text = '''
+        <gmd:fileIdentifier
+            xmlns:gco="http://www.isotc211.org/2005/gco"
+            xmlns:gmd="http://www.isotc211.org/2005/gmd">
+
+            <gco:CharacterString>%s</gco:CharacterString>
+        </gmd:fileIdentifier>
+    ''' % (record_id)
+    id_element = ET.fromstring(id_element_text)
+    metadata_record.insert(0, id_element)
+
+def extract_id(metadata_record):
+    return metadata_record.find("gmd:fileIdentifier/gco:CharacterString", namespaces).text
 
 def xml_string(metadata_record):
     return Minidom.parseString(ET.tostring(metadata_record, "utf-8")).toprettyxml()
