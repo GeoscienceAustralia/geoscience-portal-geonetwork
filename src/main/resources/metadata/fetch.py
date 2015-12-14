@@ -132,6 +132,8 @@ def main():
     #                         "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-australian-surface-geology")
     # fetch_metadata_from_url(("geological-survey-of-victoria",
     #                          "http://geology.data.vic.gov.au/searchAssistant/csw/gsv-solr-csw.xml"))
+    fetch_metadata_from_csw(("restricted-areas-featured",
+                             "http://dev.portal.geoscience.gov.au/geonetwork/srv/eng/csw-restricted-areas"))
 
 if __name__ == "__main__":
     main()
