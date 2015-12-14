@@ -91,23 +91,24 @@ def metadata_filename(metadata_record):
 
 def check_file_identifier(metadata_record):
     record_id = metadata_record.find("gmd:fileIdentifier/gco:CharacterString", namespaces)
-    if not record_id:
+    if record_id is None:
         record_id = metadata_record.attrib.get("uuid")
-    elif not record_id:
-        record_id = metadata_record.attrib.get("id")
-    else:
-        record_id = str(uuid.uuid4().hex)
 
-    id_element_text = '''
-        <gmd:fileIdentifier
-            xmlns:gco="http://www.isotc211.org/2005/gco"
-            xmlns:gmd="http://www.isotc211.org/2005/gmd">
+        if not record_id:
+            record_id = metadata_record.attrib.get("id")
+        else:
+            record_id = str(uuid.uuid4().hex)
 
-            <gco:CharacterString>%s</gco:CharacterString>
-        </gmd:fileIdentifier>
-    ''' % (record_id)
-    id_element = ET.fromstring(id_element_text)
-    metadata_record.insert(0, id_element)
+        id_element_text = '''
+            <gmd:fileIdentifier
+                xmlns:gco="http://www.isotc211.org/2005/gco"
+                xmlns:gmd="http://www.isotc211.org/2005/gmd">
+
+                <gco:CharacterString>%s</gco:CharacterString>
+            </gmd:fileIdentifier>
+        ''' % (record_id)
+        id_element = ET.fromstring(id_element_text)
+        metadata_record.insert(0, id_element)
 
 def extract_id(metadata_record):
     return metadata_record.find("gmd:fileIdentifier/gco:CharacterString", namespaces).text
