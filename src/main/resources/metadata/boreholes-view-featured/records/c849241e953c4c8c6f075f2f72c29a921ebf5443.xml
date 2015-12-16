@@ -1,0 +1,1255 @@
+<?xml version="1.0" ?>
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd">
+	
+      
+	<gmd:fileIdentifier>
+		
+        
+		<gco:CharacterString>c849241e953c4c8c6f075f2f72c29a921ebf5443</gco:CharacterString>
+		
+      
+	</gmd:fileIdentifier>
+	
+      
+	<gmd:language>
+		
+        
+		<gco:CharacterString>eng</gco:CharacterString>
+		
+      
+	</gmd:language>
+	
+      
+	<gmd:characterSet>
+		
+        
+		<gmd:MD_CharacterSetCode codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+		
+      
+	</gmd:characterSet>
+	
+      
+	<gmd:hierarchyLevel>
+		
+        
+		<gmd:MD_ScopeCode codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset"/>
+		
+      
+	</gmd:hierarchyLevel>
+	
+      
+	<gmd:contact>
+		
+        
+		<gmd:CI_ResponsibleParty>
+			
+          
+			<gmd:individualName>
+				
+            
+				<gco:CharacterString>Geoscience Business Systems</gco:CharacterString>
+				
+          
+			</gmd:individualName>
+			
+          
+			<gmd:organisationName>
+				
+            
+				<gco:CharacterString>Department of Mines and Energy</gco:CharacterString>
+				
+          
+			</gmd:organisationName>
+			
+          
+			<gmd:positionName>
+				
+            
+				<gco:CharacterString/>
+				
+          
+			</gmd:positionName>
+			
+          
+			<gmd:contactInfo>
+				
+            
+				<gmd:CI_Contact>
+					
+              
+					<gmd:phone>
+						
+                
+						<gmd:CI_Telephone>
+							
+                  
+							<gmd:voice>
+								
+                    
+								<gco:CharacterString>(08) 8999 5448</gco:CharacterString>
+								
+                  
+							</gmd:voice>
+							
+                  
+							<gmd:facsimile>
+								
+                    
+								<gco:CharacterString/>
+								
+                  
+							</gmd:facsimile>
+							
+                
+						</gmd:CI_Telephone>
+						
+              
+					</gmd:phone>
+					
+              
+					<gmd:address>
+						
+                
+						<gmd:CI_Address>
+							
+                  
+							<gmd:city>
+								
+                    
+								<gco:CharacterString>Darwin</gco:CharacterString>
+								
+                  
+							</gmd:city>
+							
+                  
+							<gmd:administrativeArea>
+								
+                    
+								<gco:CharacterString>Northern Territory</gco:CharacterString>
+								
+                  
+							</gmd:administrativeArea>
+							
+                  
+							<gmd:postalCode>
+								
+                    
+								<gco:CharacterString>0800</gco:CharacterString>
+								
+                  
+							</gmd:postalCode>
+							
+                  
+							<gmd:country>
+								
+                    
+								<gco:CharacterString>Australia</gco:CharacterString>
+								
+                  
+							</gmd:country>
+							
+                
+						</gmd:CI_Address>
+						
+              
+					</gmd:address>
+					
+            
+				</gmd:CI_Contact>
+				
+          
+			</gmd:contactInfo>
+			
+          
+			<gmd:role>
+				
+            
+				<gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+				
+          
+			</gmd:role>
+			
+        
+		</gmd:CI_ResponsibleParty>
+		
+      
+	</gmd:contact>
+	
+      
+	<gmd:dateStamp>
+		
+        
+		<gco:DateTime>2015-11-21T20:23:29</gco:DateTime>
+		
+      
+	</gmd:dateStamp>
+	
+      
+	<gmd:metadataStandardName>
+		
+        
+		<gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+		
+      
+	</gmd:metadataStandardName>
+	
+      
+	<gmd:metadataStandardVersion>
+		
+        
+		<gco:CharacterString>1.0</gco:CharacterString>
+		
+      
+	</gmd:metadataStandardVersion>
+	
+      
+	<gmd:identificationInfo>
+		
+        
+		<gmd:MD_DataIdentification>
+			
+          
+			<gmd:citation>
+				
+            
+				<gmd:CI_Citation>
+					
+              
+					<gmd:title>
+						
+                
+						<gco:CharacterString>Borehole Portrayal View</gco:CharacterString>
+						
+              
+					</gmd:title>
+					
+              
+					<gmd:date>
+						
+                
+						<gmd:CI_Date>
+							
+                  
+							<gmd:date>
+								
+                    
+								<gco:DateTime>2015-11-21T20:23:29</gco:DateTime>
+								
+                  
+							</gmd:date>
+							
+                  
+							<gmd:dateType>
+								
+                    
+								<gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision"/>
+								
+                  
+							</gmd:dateType>
+							
+                
+						</gmd:CI_Date>
+						
+              
+					</gmd:date>
+					
+            
+				</gmd:CI_Citation>
+				
+          
+			</gmd:citation>
+			
+          
+			<gmd:abstract>
+				
+            
+				<gco:CharacterString>GeoSciML Portrayal Borehole View for NVCL Borehole</gco:CharacterString>
+				
+          
+			</gmd:abstract>
+			
+          
+			<gmd:status>
+				
+            
+				<gmd:MD_ProgressCode codeList="./resources/codeList.xml#MD_ProgressCode" codeListValue="completed"/>
+				
+          
+			</gmd:status>
+			
+          
+			<gmd:descriptiveKeywords>
+				
+            
+				<gmd:MD_Keywords/>
+				
+          
+			</gmd:descriptiveKeywords>
+			
+          
+			<gmd:descriptiveKeywords>
+				
+            
+				<gmd:MD_Keywords>
+					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>association:http://geology.data.nt.gov.au/resource/feature/ntgs/gsmlp/borehole/</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+            
+				</gmd:MD_Keywords>
+				
+          
+			</gmd:descriptiveKeywords>
+			
+          
+			<gmd:spatialRepresentationType>
+				
+            
+				<gmd:MD_SpatialRepresentationTypeCode codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector"/>
+				
+          
+			</gmd:spatialRepresentationType>
+			
+          
+			<gmd:language gco:nilReason="missing">
+				
+            
+				<gco:CharacterString/>
+				
+          
+			</gmd:language>
+			
+          
+			<gmd:characterSet>
+				
+            
+				<gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode" codeListValue=""/>
+				
+          
+			</gmd:characterSet>
+			
+          
+			<gmd:topicCategory>
+				
+            
+				<gmd:MD_TopicCategoryCode/>
+				
+          
+			</gmd:topicCategory>
+			
+          
+			<gmd:extent>
+				
+            
+				<gmd:EX_Extent>
+					
+              
+					<gmd:geographicElement>
+						
+                
+						<gmd:EX_GeographicBoundingBox>
+							
+                  
+							<gmd:westBoundLongitude>
+								
+                    
+								<gco:Decimal>126.7874</gco:Decimal>
+								
+                  
+							</gmd:westBoundLongitude>
+							
+                  
+							<gmd:eastBoundLongitude>
+								
+                    
+								<gco:Decimal>140.3126</gco:Decimal>
+								
+                  
+							</gmd:eastBoundLongitude>
+							
+                  
+							<gmd:southBoundLatitude>
+								
+                    
+								<gco:Decimal>-25.262600000000003</gco:Decimal>
+								
+                  
+							</gmd:southBoundLatitude>
+							
+                  
+							<gmd:northBoundLatitude>
+								
+                    
+								<gco:Decimal>-11.737399999999997</gco:Decimal>
+								
+                  
+							</gmd:northBoundLatitude>
+							
+                
+						</gmd:EX_GeographicBoundingBox>
+						
+              
+					</gmd:geographicElement>
+					
+            
+				</gmd:EX_Extent>
+				
+          
+			</gmd:extent>
+			
+        
+		</gmd:MD_DataIdentification>
+		
+      
+	</gmd:identificationInfo>
+	
+      
+	<gmd:distributionInfo>
+		
+        
+		<gmd:MD_Distribution>
+			
+          
+			<gmd:distributionFormat>
+				
+            
+				<gmd:MD_Format>
+					
+              
+					<gmd:name gco:nilReason="missing">
+						
+                
+						<gco:CharacterString/>
+						
+              
+					</gmd:name>
+					
+              
+					<gmd:version gco:nilReason="missing">
+						
+                
+						<gco:CharacterString/>
+						
+              
+					</gmd:version>
+					
+            
+				</gmd:MD_Format>
+				
+          
+			</gmd:distributionFormat>
+			
+          
+			<gmd:transferOptions>
+				
+            
+				<gmd:MD_DigitalTransferOptions>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://geology.data.nt.gov.au:80/geoserver/wfs</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>gsmlp:BoreholeView</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Borehole Portrayal View</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://geology.data.nt.gov.au:80/geoserver/wfs?&amp;request=GetFeature&amp;service=WFS&amp;typename=gsmlp:BoreholeView&amp;outputFormat=text/xml; subtype=gml/3.1.1&amp;version=1.1.0</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>gsmlp:BoreholeView</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Borehole Portrayal View
+				(text/xml; subtype=gml/3.1.1)</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://geology.data.nt.gov.au:80/geoserver/wfs?&amp;request=GetFeature&amp;service=WFS&amp;typename=gsmlp:BoreholeView&amp;outputFormat=GML2&amp;version=1.1.0</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>gsmlp:BoreholeView</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Borehole Portrayal View
+				(GML2)</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://geology.data.nt.gov.au:80/geoserver/wfs?&amp;request=GetFeature&amp;service=WFS&amp;typename=gsmlp:BoreholeView&amp;outputFormat=KML&amp;version=1.1.0</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>gsmlp:BoreholeView</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Borehole Portrayal View
+				(KML)</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://geology.data.nt.gov.au:80/geoserver/wfs?&amp;request=GetFeature&amp;service=WFS&amp;typename=gsmlp:BoreholeView&amp;outputFormat=SHAPE-ZIP&amp;version=1.1.0</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>gsmlp:BoreholeView</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Borehole Portrayal View
+				(SHAPE-ZIP)</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://geology.data.nt.gov.au:80/geoserver/wfs?&amp;request=GetFeature&amp;service=WFS&amp;typename=gsmlp:BoreholeView&amp;outputFormat=application/gml+xml; version=3.2&amp;version=1.1.0</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>gsmlp:BoreholeView</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Borehole Portrayal View
+				(application/gml+xml; version=3.2)</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://geology.data.nt.gov.au:80/geoserver/wfs?&amp;request=GetFeature&amp;service=WFS&amp;typename=gsmlp:BoreholeView&amp;outputFormat=application/json&amp;version=1.1.0</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>gsmlp:BoreholeView</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Borehole Portrayal View
+				(application/json)</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://geology.data.nt.gov.au:80/geoserver/wfs?&amp;request=GetFeature&amp;service=WFS&amp;typename=gsmlp:BoreholeView&amp;outputFormat=application/vnd.google-earth.kml xml&amp;version=1.1.0</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>gsmlp:BoreholeView</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Borehole Portrayal View
+				(application/vnd.google-earth.kml xml)</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://geology.data.nt.gov.au:80/geoserver/wfs?&amp;request=GetFeature&amp;service=WFS&amp;typename=gsmlp:BoreholeView&amp;outputFormat=application/vnd.google-earth.kml+xml&amp;version=1.1.0</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>gsmlp:BoreholeView</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Borehole Portrayal View
+				(application/vnd.google-earth.kml+xml)</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://geology.data.nt.gov.au:80/geoserver/wfs?&amp;request=GetFeature&amp;service=WFS&amp;typename=gsmlp:BoreholeView&amp;outputFormat=csv&amp;version=1.1.0</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>gsmlp:BoreholeView</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Borehole Portrayal View
+				(csv)</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://geology.data.nt.gov.au:80/geoserver/wfs?&amp;request=GetFeature&amp;service=WFS&amp;typename=gsmlp:BoreholeView&amp;outputFormat=gml3&amp;version=1.1.0</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>gsmlp:BoreholeView</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Borehole Portrayal View
+				(gml3)</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://geology.data.nt.gov.au:80/geoserver/wfs?&amp;request=GetFeature&amp;service=WFS&amp;typename=gsmlp:BoreholeView&amp;outputFormat=gml32&amp;version=1.1.0</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>gsmlp:BoreholeView</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Borehole Portrayal View
+				(gml32)</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://geology.data.nt.gov.au:80/geoserver/wfs?&amp;request=GetFeature&amp;service=WFS&amp;typename=gsmlp:BoreholeView&amp;outputFormat=json&amp;version=1.1.0</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>gsmlp:BoreholeView</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Borehole Portrayal View
+				(json)</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://geology.data.nt.gov.au:80/geoserver/wfs?&amp;request=GetFeature&amp;service=WFS&amp;typename=gsmlp:BoreholeView&amp;outputFormat=text/xml; subtype=gml/2.1.2&amp;version=1.1.0</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>gsmlp:BoreholeView</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Borehole Portrayal View
+				(text/xml; subtype=gml/2.1.2)</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://geology.data.nt.gov.au:80/geoserver/wfs?&amp;request=GetFeature&amp;service=WFS&amp;typename=gsmlp:BoreholeView&amp;outputFormat=text/xml; subtype=gml/3.2&amp;version=1.1.0</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>gsmlp:BoreholeView</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Borehole Portrayal View
+				(text/xml; subtype=gml/3.2)</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+            
+				</gmd:MD_DigitalTransferOptions>
+				
+          
+			</gmd:transferOptions>
+			
+        
+		</gmd:MD_Distribution>
+		
+      
+	</gmd:distributionInfo>
+	
+      
+	<gmd:dataQualityInfo>
+		
+        
+		<gmd:DQ_DataQuality>
+			
+          
+			<gmd:scope>
+				
+            
+				<gmd:DQ_Scope>
+					
+              
+					<gmd:level>
+						
+                
+						<gmd:MD_ScopeCode codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="dataset"/>
+						
+              
+					</gmd:level>
+					
+            
+				</gmd:DQ_Scope>
+				
+          
+			</gmd:scope>
+			
+          
+			<gmd:lineage>
+				
+            
+				<gmd:LI_Lineage>
+					
+              
+					<gmd:statement gco:nilReason="missing">
+						
+                
+						<gco:CharacterString/>
+						
+              
+					</gmd:statement>
+					
+            
+				</gmd:LI_Lineage>
+				
+          
+			</gmd:lineage>
+			
+        
+		</gmd:DQ_DataQuality>
+		
+      
+	</gmd:dataQualityInfo>
+	
+    
+</gmd:MD_Metadata>

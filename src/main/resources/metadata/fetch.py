@@ -124,6 +124,8 @@ def main():
     #                "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-australian-surface-geology")
     # fetch_metadata_from_csw("boreholes",
     #                "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-boreholes")
+    # fetch_metadata_from_csw(("boreholes-view-featured",
+    #                          "http://dev.portal.geoscience.gov.au/geonetwork/srv/eng/csw-boreholes"))
     # fetch_metadata_from_csw("boreholes",
     #                "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-boreholes")
     # fetch_metadata_from_csw("aster-maps",
