@@ -29,7 +29,9 @@
                 </parameter>
 
                 <parameter name="AuthorSurname" field="authorSurname" type="SupportedISOQueryables" range="true">
-                    <xpath schema="iso19139" path="gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[gmd:role/gmd:CI_RoleCode/@codeListValue='author']/gmd:individualName/gco:CharacterString"/>
+                    <xpath schema="iso19139" path=
+                        "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString|
+                         gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString"/>
                 </parameter>
                 
                 <parameter name="AnyText" field="any" type="SupportedISOQueryables" />
