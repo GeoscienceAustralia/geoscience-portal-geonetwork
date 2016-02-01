@@ -147,7 +147,8 @@
 				</xsl:for-each>
 
 				<!-- authorSurname -->
-				<xsl:for-each select="gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[gmd:role/gmd:CI_RoleCode/@codeListValue='author']/gmd:individualName/gco:CharacterString">
+				<xsl:for-each select="gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString
+				    |gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString">
 					<Field name="authorSurname" string="{string(.)}" store="true" index="true"/>
 				</xsl:for-each>
 				
