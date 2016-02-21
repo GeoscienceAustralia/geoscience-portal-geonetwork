@@ -117,9 +117,9 @@ def xml_string(metadata_record):
     return Minidom.parseString(ET.tostring(metadata_record, "utf-8")).toprettyxml()
 
 def main():
-    fetch_metadata_from_csw(("mrt", "https://data.thelist.tas.gov.au/datagn/srv/eng/csw"))
-    # fetch_metadata_from_csw("australian-topography-featured",
-    #                "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-australian-topography")
+    # fetch_metadata_from_csw(("mrt", "https://data.thelist.tas.gov.au/datagn/srv/eng/csw"))
+    fetch_metadata_from_csw(("australian-topography-featured",
+                    "http://localhost:8080/geonetwork/srv/eng/csw-australian-topography"))
     # fetch_metadata_from_csw("australian-surface-geology-featured",
     #                "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-australian-surface-geology")
     # fetch_metadata_from_csw("boreholes",

@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>ddc7e3e018116b47add950cc41070d256332f389</gco:CharacterString>
+		<gco:CharacterString>76a0e38f2663c0cabff8455e10c66b99a4ea08ca</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -194,7 +194,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Australian_Topography_2014_WM/MapServer/WMSServer</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/gis/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -230,7 +230,7 @@
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>2015-11-17T18:51:23</gco:DateTime>
+		<gco:DateTime>2016-02-19T16:39:52</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -353,6 +353,39 @@
 	</gmd:referenceSystemInfo>
 	
       
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:102100</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
 	<gmd:identificationInfo>
 		
         
@@ -368,7 +401,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>TOPO250K_Roads</gco:CharacterString>
+						<gco:CharacterString>AusHydro_Rivers_2</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -383,7 +416,7 @@
 							<gmd:date>
 								
                     
-								<gco:DateTime>2015-11-17T18:51:23</gco:DateTime>
+								<gco:DateTime>2016-02-19T16:39:52</gco:DateTime>
 								
                   
 							</gmd:date>
@@ -413,7 +446,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>TOPO250K_Roads</gco:CharacterString>
+				<gco:CharacterString/>
 				
           
 			</gmd:abstract>
@@ -584,7 +617,7 @@
 									<gmd:linkage>
 										
                         
-										<gmd:URL>http://www.ga.gov.au/gis/services/topography/Australian_Topography_2014_WM/MapServer/WMSServer</gmd:URL>
+										<gmd:URL>http://services.ga.gov.au/gis/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
 										
                       
 									</gmd:linkage>
@@ -632,7 +665,40 @@
 							<gmd:denominator>
 								
                     
-								<gco:Integer>283482.142857</gco:Integer>
+								<gco:Integer>283483.087798</gco:Integer>
+								
+                  
+							</gmd:denominator>
+							
+                
+						</gmd:MD_RepresentativeFraction>
+						
+              
+					</gmd:equivalentScale>
+					
+            
+				</gmd:MD_Resolution>
+				
+          
+			</gmd:spatialResolution>
+			
+          
+			<gmd:spatialResolution>
+				
+            
+				<gmd:MD_Resolution>
+					
+              
+					<gmd:equivalentScale>
+						
+                
+						<gmd:MD_RepresentativeFraction>
+							
+                  
+							<gmd:denominator>
+								
+                    
+								<gco:Integer>2882068.452381</gco:Integer>
 								
                   
 							</gmd:denominator>
@@ -692,7 +758,7 @@
 							<gmd:westBoundLongitude>
 								
                     
-								<gco:Decimal>112.93174</gco:Decimal>
+								<gco:Decimal>113.621402</gco:Decimal>
 								
                   
 							</gmd:westBoundLongitude>
@@ -701,7 +767,7 @@
 							<gmd:eastBoundLongitude>
 								
                     
-								<gco:Decimal>153.63281</gco:Decimal>
+								<gco:Decimal>153.586911</gco:Decimal>
 								
                   
 							</gmd:eastBoundLongitude>
@@ -710,7 +776,7 @@
 							<gmd:southBoundLatitude>
 								
                     
-								<gco:Decimal>-43.58749</gco:Decimal>
+								<gco:Decimal>-43.552825</gco:Decimal>
 								
                   
 							</gmd:southBoundLatitude>
@@ -719,7 +785,7 @@
 							<gmd:northBoundLatitude>
 								
                     
-								<gco:Decimal>-8.93333000000001</gco:Decimal>
+								<gco:Decimal>-9.408074</gco:Decimal>
 								
                   
 							</gmd:northBoundLatitude>
@@ -794,7 +860,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Australian_Topography_2014_WM/MapServer/WMSServer</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/gis/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -812,7 +878,7 @@
 							<gmd:name>
 								
                     
-								<gco:CharacterString>TOPO250K_Roads</gco:CharacterString>
+								<gco:CharacterString>AusHydro_Rivers_2</gco:CharacterString>
 								
                   
 							</gmd:name>
@@ -821,7 +887,7 @@
 							<gmd:description>
 								
                     
-								<gco:CharacterString>TOPO250K_Roads</gco:CharacterString>
+								<gco:CharacterString>AusHydro_Rivers_2</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -842,7 +908,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Australian_Topography_2014_WM/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=TOPO250K_Roads</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/gis/services/Topographic_Base_Map/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AusHydro_Rivers_2</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -860,7 +926,7 @@
 							<gmd:name>
 								
                     
-								<gco:CharacterString>TOPO250K_Roads (LegendURL)</gco:CharacterString>
+								<gco:CharacterString>AusHydro_Rivers_2 (LegendURL)</gco:CharacterString>
 								
                   
 							</gmd:name>

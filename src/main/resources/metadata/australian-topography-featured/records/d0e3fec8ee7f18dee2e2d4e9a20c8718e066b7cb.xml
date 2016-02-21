@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>6e7819b69c2e890c53c251124037e8fca2c2b855</gco:CharacterString>
+		<gco:CharacterString>d0e3fec8ee7f18dee2e2d4e9a20c8718e066b7cb</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -194,7 +194,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Australian_Topography_2014_WM/MapServer/WMSServer</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/gis/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -230,7 +230,7 @@
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>2015-11-17T18:51:20</gco:DateTime>
+		<gco:DateTime>2016-02-19T16:39:55</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -353,6 +353,39 @@
 	</gmd:referenceSystemInfo>
 	
       
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:102100</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
 	<gmd:identificationInfo>
 		
         
@@ -383,7 +416,7 @@
 							<gmd:date>
 								
                     
-								<gco:DateTime>2015-11-17T18:51:20</gco:DateTime>
+								<gco:DateTime>2016-02-19T16:39:55</gco:DateTime>
 								
                   
 							</gmd:date>
@@ -413,7 +446,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>AusHydro_Lakes_1</gco:CharacterString>
+				<gco:CharacterString/>
 				
           
 			</gmd:abstract>
@@ -584,7 +617,7 @@
 									<gmd:linkage>
 										
                         
-										<gmd:URL>http://www.ga.gov.au/gis/services/topography/Australian_Topography_2014_WM/MapServer/WMSServer</gmd:URL>
+										<gmd:URL>http://services.ga.gov.au/gis/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
 										
                       
 									</gmd:linkage>
@@ -725,7 +758,7 @@
 							<gmd:westBoundLongitude>
 								
                     
-								<gco:Decimal>113.47903</gco:Decimal>
+								<gco:Decimal>113.479030</gco:Decimal>
 								
                   
 							</gmd:westBoundLongitude>
@@ -734,7 +767,7 @@
 							<gmd:eastBoundLongitude>
 								
                     
-								<gco:Decimal>140.06445</gco:Decimal>
+								<gco:Decimal>140.064450</gco:Decimal>
 								
                   
 							</gmd:eastBoundLongitude>
@@ -743,7 +776,7 @@
 							<gmd:southBoundLatitude>
 								
                     
-								<gco:Decimal>-32.37562</gco:Decimal>
+								<gco:Decimal>-32.375620</gco:Decimal>
 								
                   
 							</gmd:southBoundLatitude>
@@ -752,7 +785,7 @@
 							<gmd:northBoundLatitude>
 								
                     
-								<gco:Decimal>-21.9957499999999</gco:Decimal>
+								<gco:Decimal>-21.995750</gco:Decimal>
 								
                   
 							</gmd:northBoundLatitude>
@@ -827,7 +860,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Australian_Topography_2014_WM/MapServer/WMSServer</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/gis/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -875,7 +908,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Australian_Topography_2014_WM/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AusHydro_Lakes_1</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/gis/services/Topographic_Base_Map/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AusHydro_Lakes_1</gmd:URL>
 								
                   
 							</gmd:linkage>
