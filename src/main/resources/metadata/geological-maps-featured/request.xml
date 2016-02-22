@@ -54,7 +54,7 @@
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>LinkageName</ogc:PropertyName>
-                    <ogc:Literal>AUS_GA_1M_Contacts</ogc:Literal>
+                    <ogc:Literal>AUS_GA_1M_GULine</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>LinkageName</ogc:PropertyName>
