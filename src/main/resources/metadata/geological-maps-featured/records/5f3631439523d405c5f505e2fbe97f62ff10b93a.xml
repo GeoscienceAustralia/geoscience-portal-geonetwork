@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>040f955cb1958cbc43f720b58ce9e7af9f52c489</gco:CharacterString>
+		<gco:CharacterString>5f3631439523d405c5f505e2fbe97f62ff10b93a</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -230,7 +230,7 @@
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>2015-11-21T00:00:18</gco:DateTime>
+		<gco:DateTime>2015-11-21T00:00:16</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -401,7 +401,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>AUS GA 1:2.5M Geological Unit Polygons - Lithostratigraphy</gco:CharacterString>
+						<gco:CharacterString>AUS GA 1:1M Geological Unit Lines</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -416,7 +416,7 @@
 							<gmd:date>
 								
                     
-								<gco:DateTime>2015-11-21T00:00:18</gco:DateTime>
+								<gco:DateTime>2015-11-21T00:00:16</gco:DateTime>
 								
                   
 							</gmd:date>
@@ -446,7 +446,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Surface geological units (outcrop or near-outcrop bedrock and surficial regolith units) symbolised by lithostratigraphic classification, compiled at 1:2.5M scale. This layer is limited to display only at scales less than 1:1,500,000.</gco:CharacterString>
+				<gco:CharacterString>Surface geological units (outcrop or near-outcrop) that are too narrow to be represented by polygons, compiled for use around 1:1M scale. This layer is limited to display only at scales greater than 1:1,500,000.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -695,7 +695,7 @@
 					<gmd:keyword>
 						
                 
-						<gco:CharacterString>lithostratigraphy</gco:CharacterString>
+						<gco:CharacterString>lithology</gco:CharacterString>
 						
               
 					</gmd:keyword>
@@ -704,7 +704,7 @@
 					<gmd:keyword>
 						
                 
-						<gco:CharacterString>lithology</gco:CharacterString>
+						<gco:CharacterString>lithostratigraphy</gco:CharacterString>
 						
               
 					</gmd:keyword>
@@ -723,15 +723,6 @@
 						
                 
 						<gco:CharacterString>bedrock</gco:CharacterString>
-						
-              
-					</gmd:keyword>
-					
-              
-					<gmd:keyword>
-						
-                
-						<gco:CharacterString>regolith</gco:CharacterString>
 						
               
 					</gmd:keyword>
@@ -800,15 +791,6 @@
 					</gmd:keyword>
 					
               
-					<gmd:keyword>
-						
-                
-						<gco:CharacterString>Geosciml_portrayal_age_or_litho_queryable</gco:CharacterString>
-						
-              
-					</gmd:keyword>
-					
-              
 					<gmd:type>
 						
                 
@@ -839,7 +821,7 @@
 							<gmd:denominator>
 								
                     
-								<gco:Integer>1417411.659226</gco:Integer>
+								<gco:Integer>1417410.714286</gco:Integer>
 								
                   
 							</gmd:denominator>
@@ -899,7 +881,7 @@
 							<gmd:westBoundLongitude>
 								
                     
-								<gco:Decimal>112.912461919</gco:Decimal>
+								<gco:Decimal>114.536185277</gco:Decimal>
 								
                   
 							</gmd:westBoundLongitude>
@@ -908,7 +890,7 @@
 							<gmd:eastBoundLongitude>
 								
                     
-								<gco:Decimal>153.640280325</gco:Decimal>
+								<gco:Decimal>152.548753395</gco:Decimal>
 								
                   
 							</gmd:eastBoundLongitude>
@@ -917,7 +899,7 @@
 							<gmd:southBoundLatitude>
 								
                     
-								<gco:Decimal>-43.642476666</gco:Decimal>
+								<gco:Decimal>-41.608574374</gco:Decimal>
 								
                   
 							</gmd:southBoundLatitude>
@@ -926,7 +908,7 @@
 							<gmd:northBoundLatitude>
 								
                     
-								<gco:Decimal>-10.015987786</gco:Decimal>
+								<gco:Decimal>-12.428458141</gco:Decimal>
 								
                   
 							</gmd:northBoundLatitude>
@@ -1019,7 +1001,7 @@
 							<gmd:name>
 								
                     
-								<gco:CharacterString>AUS_GA_2500k_GUPoly_Lithostratigraphy</gco:CharacterString>
+								<gco:CharacterString>AUS_GA_1M_GULine</gco:CharacterString>
 								
                   
 							</gmd:name>
@@ -1028,7 +1010,7 @@
 							<gmd:description>
 								
                     
-								<gco:CharacterString>AUS GA 1:2.5M Geological Unit Polygons - Lithostratigraphy</gco:CharacterString>
+								<gco:CharacterString>AUS GA 1:1M Geological Unit Lines</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -1049,7 +1031,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.ga.gov.au/metadata-gateway/metadata/record/gcat_73140</gmd:URL>
+								<gmd:URL>http://www.ga.gov.au/metadata-gateway/metadata/record/gcat_74619</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1067,7 +1049,7 @@
 							<gmd:name>
 								
                     
-								<gco:CharacterString>AUS_GA_2500k_GUPoly_Lithostratigraphy (MetadataURL)</gco:CharacterString>
+								<gco:CharacterString>AUS_GA_1M_GULine (MetadataURL)</gco:CharacterString>
 								
                   
 							</gmd:name>
@@ -1097,7 +1079,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.ga.gov.au/gis/server/capabilities/Surface_geology_legend_2012.jpg</gmd:URL>
+								<gmd:URL>http://www.ga.gov.au/gis/server/capabilities/Surface_geology_lines_legend_2012.jpg</gmd:URL>
 								
                   
 							</gmd:linkage>
