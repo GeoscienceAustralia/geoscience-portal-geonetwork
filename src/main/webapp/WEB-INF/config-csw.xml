@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <geonet>
-	<operations>
-		<operation name="GetCapabilities">
-			<!-- Defines the number of keywords displayed in capabilities, ordered by frequency -->
-			<numberOfKeywords>10</numberOfKeywords>
-			<!-- Defines the number of records that will be processed to build the keyword frequency list  -->
-			<maxNumberOfRecordsForKeywords>1000</maxNumberOfRecordsForKeywords>
-		</operation>
-		<operation name="GetDomain">
-			<!-- Defines the number of records that will be processed for any propertyname  -->
-			<maxNumberOfRecordsForPropertyNames>1000</maxNumberOfRecordsForPropertyNames>
-		</operation>
-		<operation name="GetRecords">
-			<parameters>
-				<!-- - - - - - - - - - - - - - -->
-				<!-- Core queryable properties -->
-				<!-- - - - - - - - - - - - - - -->
+    <operations>
+        <operation name="GetCapabilities">
+            <!-- Defines the number of keywords displayed in capabilities, ordered by frequency -->
+            <numberOfKeywords>10</numberOfKeywords>
+            <!-- Defines the number of records that will be processed to build the keyword frequency list  -->
+            <maxNumberOfRecordsForKeywords>1000</maxNumberOfRecordsForKeywords>
+        </operation>
+        <operation name="GetDomain">
+            <!-- Defines the number of records that will be processed for any propertyname  -->
+            <maxNumberOfRecordsForPropertyNames>1000</maxNumberOfRecordsForPropertyNames>
+        </operation>
+        <operation name="GetRecords">
+            <parameters>
+                <!-- - - - - - - - - - - - - - -->
+                <!-- Core queryable properties -->
+                <!-- - - - - - - - - - - - - - -->
                 <parameter name="Subject" field="keyword" type="SupportedISOQueryables">
                     <xpath schema="iso19139" path="*/gmd:MD_Keywords/gmd:keyword/gco:CharacterString" />
                 </parameter>
@@ -29,9 +29,7 @@
                 </parameter>
 
                 <parameter name="AuthorSurname" field="authorSurname" type="SupportedISOQueryables" range="true">
-                    <xpath schema="iso19139" path=
-                        "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString|
-                         gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString"/>
+                    <xpath schema="iso19139" path="gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString|gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString"/>
                 </parameter>
                 
                 <parameter name="AnyText" field="any" type="SupportedISOQueryables" />
@@ -53,14 +51,14 @@
                 </parameter>
                 <!-- what about CRS / BoundingBox -->
 
-				<!-- - - - - - - - - - - - - - - - - - - - - - - -->
-				<!-- Additional queryable properties  (common)   -->
-				<!-- - - - - - - - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - - - - - - - - - - -->
+                <!-- Additional queryable properties  (common)   -->
+                <!-- - - - - - - - - - - - - - - - - - - - - - - -->
                 <parameter name="RevisionDate" field="revisionDate" type="SupportedISOQueryables" range="true">
                     <xpath schema="iso19139" path="gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[gmd:dateType/gmd:CI_DateTypeCode/@codeListValue='revision']/gmd:date/gco:Date|gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[gmd:dateType/gmd:CI_DateTypeCode/@codeListValue='revision']/gmd:date/gco:Date"/>
                 </parameter>
 
-				<parameter name="AlternateTitle" field="altTitle" type="SupportedISOQueryables">
+                <parameter name="AlternateTitle" field="altTitle" type="SupportedISOQueryables">
                     <xpath schema="iso19139" path="gmd:identificationInfo/gmd:MD_DataIdentification/gmd:alternateTitle/gco:CharacterString"/>
                 </parameter>
 
@@ -68,11 +66,11 @@
                     <xpath schema="iso19139" path="gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[gmd:dateType/gmd:CI_DateTypeCode/@codeListValue='creation']/gmd:date/gco:Date|gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[gmd:dateType/gmd:CI_DateTypeCode/@codeListValue='creation']/gmd:date/gco:Date"/>
                 </parameter>
 
-				<parameter name="PublicationDate" field="publicationDate" type="SupportedISOQueryables" range="true">
+                <parameter name="PublicationDate" field="publicationDate" type="SupportedISOQueryables" range="true">
                     <xpath schema="iso19139" path="gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[gmd:dateType/gmd:CI_DateTypeCode/@codeListValue='publication']/gmd:date/gco:Date|gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[gmd:dateType/gmd:CI_DateTypeCode/@codeListValue='publication']/gmd:date/gco:Date"/>
                 </parameter>
 
-				<parameter name="OrganisationName" field="orgName" type="SupportedISOQueryables">
+                <parameter name="OrganisationName" field="orgName" type="SupportedISOQueryables">
                     <xpath schema="iso19139" path="gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString"/>
                 </parameter>
 
@@ -82,11 +80,11 @@
                     <xpath schema="iso19139" path="gmd:language/gco:CharacterString|gmd:language/gmd:LanguageCode/@codeListValue"/>
                 </parameter>
 
-				<parameter name="ResourceIdentifier" field="identifier" type="SupportedISOQueryables">
+                <parameter name="ResourceIdentifier" field="identifier" type="SupportedISOQueryables">
                     <xpath schema="iso19139" path="gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString|gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString"/>
                 </parameter>
 
-				<parameter name="ParentIdentifier" field="parentUuid" type="SupportedISOQueryables">
+                <parameter name="ParentIdentifier" field="parentUuid" type="SupportedISOQueryables">
                     <xpath schema="iso19139" path="gmd:parentIdentifier/gco:CharacterString"/>
                 </parameter>
 
@@ -94,19 +92,19 @@
                     <xpath schema="iso19139" path="*/gmd:MD_Keywords/gmd:type/gmd:MD_KeywordTypeCode/@codeListValue"/>
                 </parameter>
 
-				<!-- - - - - - - - - - - - - - - - - -->
-				<!-- Additional queryable properties -->
-				<!-- (both services and datasets)    -->
-				<!-- - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - - - - -->
+                <!-- Additional queryable properties -->
+                <!-- (both services and datasets)    -->
+                <!-- - - - - - - - - - - - - - - - - -->
 
-				<parameter name="GeographicDescriptionCode" field="geoDescCode" type="SupportedISOQueryables">
+                <parameter name="GeographicDescriptionCode" field="geoDescCode" type="SupportedISOQueryables">
                     <xpath schema="iso19139" path="*/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicDescription/gmd:geographicIdentifier/gmd:MD_Identifier/gmd:code/gco:CharacterString" />
                 </parameter>
 
-				<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
-				<!--    Additional queryable properties              -->
-				<!-- (dataset, datasetcollection, application ...)   -->
-				<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
+                <!--    Additional queryable properties              -->
+                <!-- (dataset, datasetcollection, application ...)   -->
+                <!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 
                 <parameter name="TopicCategory" field="topicCat" type="SupportedISOQueryables">
                     <xpath schema="iso19139" path="gmd:identificationInfo//gmd:MD_DataIdentification/gmd:topicCategory/gmd:MD_TopicCategoryCode|gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:topicCategory/gmd:MD_TopicCategoryCode"/>
@@ -137,15 +135,15 @@
                 </parameter>
 
 
-				<!-- - - - - - - - - - - - - - - - - - - - - - - -->
-				<!-- Additional queryable properties  (services) -->
-				<!-- - - - - - - - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - - - - - - - - - - -->
+                <!-- Additional queryable properties  (services) -->
+                <!-- - - - - - - - - - - - - - - - - - - - - - - -->
 
                 <parameter name="ServiceType" field="serviceType" type="SupportedISOQueryables">
                     <xpath schema="iso19139" path="gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceType/gco:LocalName"/>
                 </parameter>
 
-				<parameter name="ServiceTypeVersion" field="serviceTypeVersion" type="SupportedISOQueryables">
+                <parameter name="ServiceTypeVersion" field="serviceTypeVersion" type="SupportedISOQueryables">
                     <xpath schema="iso19139" path="gmd:identificationInfo/srv:SV_ServiceIdentification]/srv:serviceTypeVersion/gco:CharacterString"/>
                 </parameter>
 
@@ -171,9 +169,9 @@
                 </parameter>
 
 
-				<!-- - - - - - - - - - - - - - - - - - - - - - -->
-				<!-- INSPIRE additional queryable properties   -->
-				<!-- - - - - - - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - - - - - - - - - -->
+                <!-- INSPIRE additional queryable properties   -->
+                <!-- - - - - - - - - - - - - - - - - - - - - - -->
 
                 <parameter name="Degree" field="degree" type="AdditionalQueryables">
                     <xpath schema="iso19139" path="gmd:dataQualityInfo/*/gmd:report/*/gmd:result//gmd:pass/gco:Boolean"/>
@@ -203,67 +201,67 @@
                     <xpath schema="iso19139" path="gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:classification/gmd:MD_ClassificationCode/@codeListValue|gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:resourceConstraints/gmd:classification/gmd:MD_ClassificationCode/@codeListValue"/>
                 </parameter>
 
-				<parameter name="ConditionApplyingToAccessAndUse" field="conditionApplyingToAccessAndUse" type="AdditionalQueryables" />
+                <parameter name="ConditionApplyingToAccessAndUse" field="conditionApplyingToAccessAndUse" type="AdditionalQueryables" />
 
-				<parameter name="MetadataPointOfContact" field="metadataPOC" type="AdditionalQueryables">
+                <parameter name="MetadataPointOfContact" field="metadataPOC" type="AdditionalQueryables">
                     <xpath schema="iso19139" path="gmd:contact/*/gmd:organisationName/gco:CharacterString"/>
                 </parameter>
 
-				<parameter name="Lineage" field="lineage" type="AdditionalQueryables">
+                <parameter name="Lineage" field="lineage" type="AdditionalQueryables">
                     <xpath schema="iso19139" path="gmd:dataQualityInfo/*/gmd:lineage/*/gmd:statement/gco:CharacterString"/>
                 </parameter>
 
                 <parameter name="ResponsiblePartyRole" field="responsiblePartyRole"
                     type="AdditionalQueryables" />
                 
-				<!-- - - - - - - - - - - - - - - - - - - - - - -->
-				<!-- Other additional queryable properties   -->
-				<!-- - - - - - - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - - - - - - - - - -->
+                <!-- Other additional queryable properties   -->
+                <!-- - - - - - - - - - - - - - - - - - - - - - -->
 
-				<parameter name="OnlineResourceType" field="protocol" type="AdditionalQueryables" />
-				<parameter name="OnlineResourceMimeType" field="mimetype" type="AdditionalQueryables" />
+                <parameter name="OnlineResourceType" field="protocol" type="AdditionalQueryables" />
+                <parameter name="OnlineResourceMimeType" field="mimetype" type="AdditionalQueryables" />
 
                 <parameter name="Date" field="createDate" type="AdditionalQueryables" />
 
                 <parameter name="Relation" field="relation" type="AdditionalQueryables" />
 
                 <parameter name="LinkageName" field="linkageName" type="AdditionalQueryables" />
-			</parameters>
-			<outputformat>
-				<format>application/xml</format>
-			</outputformat>
-			<constraintLanguage>
-				<value>Filter</value>
-				<value>CQL</value>
-			</constraintLanguage>
-			<typenames>
-				<typename namespace="http://www.isotc211.org/2005/gmd" 
-				prefix="gmd" name="MD_Metadata" />
-				<!-- FIXME ISO PROFIL : Use declared primeNS in current node. 
-				<typename namespace="http://www.cnig.gouv.fr/2005/fra"
-				prefix="fra" name="MD_Metadata" />-->
-				<typename namespace="http://www.opengis.net/cat/csw/2.0.2" 
-					prefix="csw" name="Record" />
-			</typenames>
-		</operation>
-		<operation name="DescribeRecord">
-			<!-- schema attribute must defined an existing schema file name -->
-			<!-- located at /web/geonetwork/xml/validation/csw/2.0.2/ -->
-			<typenames>
-				<typename namespace="http://www.isotc211.org/2005/gmd" 
-				    prefix="gmd" name="MD_Metadata" schema="identification.xsd" />
-				<!-- FIXME ISO PROFIL : Use declared primeNS in current node. 
-					<typename namespace="http://www.cnig.gouv.fr/2005/fra"
-					prefix="fra" name="MD_Metadata" schema="fra.xsd" />-->
-				<typename namespace="http://www.opengis.net/cat/csw/2.0.2" 
-				    prefix="csw" name="Record" schema="record.xsd" />
-			</typenames>
-			<outputformat>
-				<format>application/xml</format>
-			</outputformat>
-		</operation>
-	    <operation name="GetRecordById">
-	        <increasePopularity>no</increasePopularity>
-	    </operation>
-	</operations>
+            </parameters>
+            <outputformat>
+                <format>application/xml</format>
+            </outputformat>
+            <constraintLanguage>
+                <value>Filter</value>
+                <value>CQL</value>
+            </constraintLanguage>
+            <typenames>
+                <typename namespace="http://www.isotc211.org/2005/gmd" 
+                prefix="gmd" name="MD_Metadata" />
+                <!-- FIXME ISO PROFIL : Use declared primeNS in current node. 
+                <typename namespace="http://www.cnig.gouv.fr/2005/fra"
+                prefix="fra" name="MD_Metadata" />-->
+                <typename namespace="http://www.opengis.net/cat/csw/2.0.2" 
+                    prefix="csw" name="Record" />
+            </typenames>
+        </operation>
+        <operation name="DescribeRecord">
+            <!-- schema attribute must defined an existing schema file name -->
+            <!-- located at /web/geonetwork/xml/validation/csw/2.0.2/ -->
+            <typenames>
+                <typename namespace="http://www.isotc211.org/2005/gmd" 
+                    prefix="gmd" name="MD_Metadata" schema="identification.xsd" />
+                <!-- FIXME ISO PROFIL : Use declared primeNS in current node. 
+                    <typename namespace="http://www.cnig.gouv.fr/2005/fra"
+                    prefix="fra" name="MD_Metadata" schema="fra.xsd" />-->
+                <typename namespace="http://www.opengis.net/cat/csw/2.0.2" 
+                    prefix="csw" name="Record" schema="record.xsd" />
+            </typenames>
+            <outputformat>
+                <format>application/xml</format>
+            </outputformat>
+        </operation>
+        <operation name="GetRecordById">
+            <increasePopularity>no</increasePopularity>
+        </operation>
+    </operations>
 </geonet>
