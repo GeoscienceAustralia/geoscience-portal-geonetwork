@@ -1,0 +1,6 @@
+17,21d16
+< 
+< DROP ROLE geonetwork;
+< 
+< CREATE USER geonetwork WITH PASSWORD '${password}';
+< 
