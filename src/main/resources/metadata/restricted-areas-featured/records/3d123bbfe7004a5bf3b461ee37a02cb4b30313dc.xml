@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>c733d812933b4e9c8fc5f3773e1043045482dfba</gco:CharacterString>
+		<gco:CharacterString>3d123bbfe7004a5bf3b461ee37a02cb4b30313dc</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -65,7 +65,7 @@
 			<gmd:positionName>
 				
             
-				<gco:CharacterString>Parks Data Manager</gco:CharacterString>
+				<gco:CharacterString>Heritage Data Manager</gco:CharacterString>
 				
           
 			</gmd:positionName>
@@ -86,7 +86,7 @@
 							<gmd:voice>
 								
                     
-								<gco:CharacterString>02 6274 1111</gco:CharacterString>
+								<gco:CharacterString>02 62741111</gco:CharacterString>
 								
                   
 							</gmd:voice>
@@ -95,7 +95,7 @@
 							<gmd:facsimile>
 								
                     
-								<gco:CharacterString>02 6274 1666</gco:CharacterString>
+								<gco:CharacterString>02 62741666</gco:CharacterString>
 								
                   
 							</gmd:facsimile>
@@ -116,7 +116,7 @@
 							<gmd:electronicMailAddress>
 								
                     
-								<gco:CharacterString>parks.metadata@environment.gov.au</gco:CharacterString>
+								<gco:CharacterString>heritage.metadata@environment.gov.au</gco:CharacterString>
 								
                   
 							</gmd:electronicMailAddress>
@@ -173,7 +173,7 @@
 							<gmd:country>
 								
                     
-								<gco:CharacterString>Australia</gco:CharacterString>
+								<gco:CharacterString>AU</gco:CharacterString>
 								
                   
 							</gmd:country>
@@ -194,7 +194,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Dept_of_Environment_Protected_Areas/MapServer/WMSServer</gmd:URL>
+								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/World_Heritage_Areas/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -230,7 +230,7 @@
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>2015-12-14T00:00:01</gco:DateTime>
+		<gco:DateTime>2016-03-02T12:07:52</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -269,7 +269,7 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>EPSG:4283</gco:CharacterString>
+						<gco:CharacterString>CRS:84</gco:CharacterString>
 						
               
 					</gmd:code>
@@ -335,39 +335,6 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>CRS:84</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
 						<gco:CharacterString>EPSG:3857</gco:CharacterString>
 						
               
@@ -401,7 +368,7 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>EPSG:28348</gco:CharacterString>
+						<gco:CharacterString>EPSG:102100</gco:CharacterString>
 						
               
 					</gmd:code>
@@ -434,469 +401,7 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>EPSG:28349</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28350</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28351</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28352</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28353</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28354</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28355</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28356</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28357</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28358</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:3111</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32748</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32749</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32750</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32751</gco:CharacterString>
+						<gco:CharacterString>EPSG:4283</gco:CharacterString>
 						
               
 					</gmd:code>
@@ -929,7 +434,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>Protected Areas (CAPAD 2014) Marine</gco:CharacterString>
+						<gco:CharacterString>World_Heritage_Areas_Australia</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -944,7 +449,7 @@
 							<gmd:date>
 								
                     
-								<gco:DateTime>2015-12-14T00:00:01</gco:DateTime>
+								<gco:DateTime>2016-03-02T12:07:52</gco:DateTime>
 								
                   
 							</gmd:date>
@@ -974,16 +479,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>The Collaborative Australian Protected Areas Database (CAPAD) 2014 is published by the Australian Commonwealth Department of Environment, and provides both spatial and text information about government, Indigenous and privately protected areas for continental Australia. State and Territory conservation agencies supplied data current to 30 June 2014. The terrestrial component of the database has been previously released in 1997, 2000, 2002, 2004, 2006, 2008 2010 and 2012.
-          This version, provides both spatial and text information about off-shore protected areas in both state and Commonwealth waters.  State and Territory conservation agencies supplied data current for 30 June 2014. This is the seventh version of the CAPAD- Marine database, with previous versions published in 1997, 2002, 2004, 2008 2010 and 2012. 
-          CAPAD provides a snapshot of protected areas that meet the IUCN definition of a protected area:
-          &quot;A protected area is an area of land and/or sea especially dedicated to the protection and maintenance of biological diversity, and of natural and associated cultural resources, and managed through legal or other effective means&quot; (IUCN 1994).
-          The Australian Government Department of the Environment (DOE) publishes a summary of the CAPAD data biennially on its website at http://www.environment.gov.au/capad
-          This version of CAPAD 2014-Marine is a public / downloadable dataset available for use through the CC-BY licencing model. 
-          
-          IMPORTANT INFORMATION FOR MARINE USERS – TRANSITIONAL ARRANGEMENTS
-          The process for developing management plans has been completed for the five Commonwealth marine reserve networks declared around Australia and the Coral Sea Commonwealth Marine Reserve. Until the new management plans come into effect transitional management arrangements are in place. Under these transitional arrangements, there are no changes &quot;on the water&quot; for users in the new areas added to the Commonwealth marine reserve estate. If people hold an existing approval to undertake activities within Commonwealth marine reserves or the now-revoked Coral Sea Conservation Zone, they are able to continue to operate under the terms of the existing approval. No additional administrative requirements apply.
-          The management plan for the South-east Network came into effect on 1 July 2013 with the management plans for the South-west, North-west, North and Temperate East Networks and the Coral Sea Commonwealth Marine Reserve are under review. More information is available at http://www.environment.gov.au/topics/marine/marine-reserves</gco:CharacterString>
+				<gco:CharacterString>Australian heritage places that are of outstanding universal value and have been included on this United Nations Educational, Scientific and Cultural Organisation (UNESCO) - managed World Heritage list.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -1025,7 +521,7 @@
 					<gmd:positionName>
 						
                 
-						<gco:CharacterString>Parks Data Manager</gco:CharacterString>
+						<gco:CharacterString>Heritage Data Manager</gco:CharacterString>
 						
               
 					</gmd:positionName>
@@ -1046,7 +542,7 @@
 									<gmd:voice>
 										
                         
-										<gco:CharacterString>02 6274 1111</gco:CharacterString>
+										<gco:CharacterString>02 62741111</gco:CharacterString>
 										
                       
 									</gmd:voice>
@@ -1055,7 +551,7 @@
 									<gmd:facsimile>
 										
                         
-										<gco:CharacterString>02 6274 1666</gco:CharacterString>
+										<gco:CharacterString>02 62741666</gco:CharacterString>
 										
                       
 									</gmd:facsimile>
@@ -1076,7 +572,7 @@
 									<gmd:electronicMailAddress>
 										
                         
-										<gco:CharacterString>parks.metadata@environment.gov.au</gco:CharacterString>
+										<gco:CharacterString>heritage.metadata@environment.gov.au</gco:CharacterString>
 										
                       
 									</gmd:electronicMailAddress>
@@ -1133,7 +629,7 @@
 									<gmd:country>
 										
                         
-										<gco:CharacterString>Australia</gco:CharacterString>
+										<gco:CharacterString>AU</gco:CharacterString>
 										
                       
 									</gmd:country>
@@ -1154,7 +650,7 @@
 									<gmd:linkage>
 										
                         
-										<gmd:URL>http://www.ga.gov.au/gis/services/topography/Dept_of_Environment_Protected_Areas/MapServer/WMSServer</gmd:URL>
+										<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/World_Heritage_Areas/MapServer/WmsServer?</gmd:URL>
 										
                       
 									</gmd:linkage>
@@ -1185,6 +681,39 @@
 				
           
 			</gmd:pointOfContact>
+			
+          
+			<gmd:spatialResolution>
+				
+            
+				<gmd:MD_Resolution>
+					
+              
+					<gmd:equivalentScale>
+						
+                
+						<gmd:MD_RepresentativeFraction>
+							
+                  
+							<gmd:denominator>
+								
+                    
+								<gco:Integer>75595238.095238</gco:Integer>
+								
+                  
+							</gmd:denominator>
+							
+                
+						</gmd:MD_RepresentativeFraction>
+						
+              
+					</gmd:equivalentScale>
+					
+            
+				</gmd:MD_Resolution>
+				
+          
+			</gmd:spatialResolution>
 			
           
 			<gmd:language gco:nilReason="missing">
@@ -1229,7 +758,7 @@
 							<gmd:westBoundLongitude>
 								
                     
-								<gco:Decimal>70.7170185310001</gco:Decimal>
+								<gco:Decimal>72.246193</gco:Decimal>
 								
                   
 							</gmd:westBoundLongitude>
@@ -1238,7 +767,7 @@
 							<gmd:eastBoundLongitude>
 								
                     
-								<gco:Decimal>170.366666795</gco:Decimal>
+								<gco:Decimal>167.972839</gco:Decimal>
 								
                   
 							</gmd:eastBoundLongitude>
@@ -1247,7 +776,7 @@
 							<gmd:southBoundLatitude>
 								
                     
-								<gco:Decimal>-58.449468613</gco:Decimal>
+								<gco:Decimal>-55.322817</gco:Decimal>
 								
                   
 							</gmd:southBoundLatitude>
@@ -1256,7 +785,7 @@
 							<gmd:northBoundLatitude>
 								
                     
-								<gco:Decimal>-8.88188934299994</gco:Decimal>
+								<gco:Decimal>-10.681889</gco:Decimal>
 								
                   
 							</gmd:northBoundLatitude>
@@ -1331,7 +860,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Dept_of_Environment_Protected_Areas/MapServer/WMSServer</gmd:URL>
+								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/World_Heritage_Areas/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1349,7 +878,7 @@
 							<gmd:name>
 								
                     
-								<gco:CharacterString>Protected_Areas_CAPAD_2014_Marine</gco:CharacterString>
+								<gco:CharacterString>World_Heritage_Areas_Australia</gco:CharacterString>
 								
                   
 							</gmd:name>
@@ -1358,7 +887,7 @@
 							<gmd:description>
 								
                     
-								<gco:CharacterString>Protected Areas (CAPAD 2014) Marine</gco:CharacterString>
+								<gco:CharacterString>World_Heritage_Areas_Australia</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -1379,7 +908,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.environment.gov.au/land/nrs/science/capad</gmd:URL>
+								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/World_Heritage_Areas/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=World_Heritage_Areas_Australia</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1388,7 +917,7 @@
 							<gmd:protocol>
 								
                     
-								<gco:CharacterString>text/html</gco:CharacterString>
+								<gco:CharacterString>image/png</gco:CharacterString>
 								
                   
 							</gmd:protocol>
@@ -1397,55 +926,7 @@
 							<gmd:name>
 								
                     
-								<gco:CharacterString>Protected_Areas_CAPAD_2014_Marine (MetadataURL)</gco:CharacterString>
-								
-                  
-							</gmd:name>
-							
-                  
-							<gmd:description>
-								
-                    
-								<gco:CharacterString/>
-								
-                  
-							</gmd:description>
-							
-                
-						</gmd:CI_OnlineResource>
-						
-              
-					</gmd:onLine>
-					
-              
-					<gmd:onLine>
-						
-                
-						<gmd:CI_OnlineResource>
-							
-                  
-							<gmd:linkage>
-								
-                    
-								<gmd:URL>http://www.ga.gov.au/gis/server/capabilities/Protected_Areas_CAPAD_2014_Marine_DeptEnvironment.jpg</gmd:URL>
-								
-                  
-							</gmd:linkage>
-							
-                  
-							<gmd:protocol>
-								
-                    
-								<gco:CharacterString>image/jpeg</gco:CharacterString>
-								
-                  
-							</gmd:protocol>
-							
-                  
-							<gmd:name>
-								
-                    
-								<gco:CharacterString>Protected Areas (CAPAD 2014) Marine (LegendURL)</gco:CharacterString>
+								<gco:CharacterString>World_Heritage_Areas_Australia (LegendURL)</gco:CharacterString>
 								
                   
 							</gmd:name>
