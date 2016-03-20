@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>69ee9f05ebf649957d28afbd1ee00dbc4ae02001</gco:CharacterString>
+		<gco:CharacterString>6cd862d180adb50c7ec7fde53bc1422a10a8f64c</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -65,7 +65,7 @@
 			<gmd:positionName>
 				
             
-				<gco:CharacterString>Parks Data Manager</gco:CharacterString>
+				<gco:CharacterString>Marine Data Manager</gco:CharacterString>
 				
           
 			</gmd:positionName>
@@ -116,7 +116,7 @@
 							<gmd:electronicMailAddress>
 								
                     
-								<gco:CharacterString>parks.metadata@environment.gov.au</gco:CharacterString>
+								<gco:CharacterString>marine.metadata@environment.gov.au</gco:CharacterString>
 								
                   
 							</gmd:electronicMailAddress>
@@ -194,7 +194,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/capad/MapServer/WmsServer?</gmd:URL>
+								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/Commonwealth_Marine_Reserves/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -230,7 +230,7 @@
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>2016-03-21T00:01:06</gco:DateTime>
+		<gco:DateTime>2016-03-21T00:00:22</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -434,7 +434,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>Protected_Areas_2014</gco:CharacterString>
+						<gco:CharacterString>Australia_Commonwealth_Marine_Reserves</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -449,7 +449,7 @@
 							<gmd:date>
 								
                     
-								<gco:DateTime>2016-03-21T00:01:06</gco:DateTime>
+								<gco:DateTime>2016-03-21T00:00:22</gco:DateTime>
 								
                   
 							</gmd:date>
@@ -479,12 +479,14 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>The Collaborative Australian Protected Areas Database (CAPAD) 2014 web service provides both spatial and text information about government, indigenous and privately protected areas for continental Australia. State and Territory conservation agencies supplied data current to 30 June 2014. This is the ninth version of the database, with previous versions released in 1997, 2000, 2002, 2004, 2006, 2008, 2010 and 2012.  
+				<gco:CharacterString>Consistent with the Australian Government's commitment to develop a National Representative System of Marine Protected Areas (MPAs), networks of Commonwealth Marine Reserves has been proclaimed for Commonwealth waters across the South-west, North-west, North, Coral Sea and Temperate East Marine Regions. These networks build on previous Marine Protected Area proclamations, including the South-east network declared in 2007.
 
-The Department also publishes protected areas data for the marine environment. &quot;CAPAD 2014-marine&quot; contains spatial and text information about offshore protected areas, for both State and Commonwealth waters. Previous versions of CAPAD marine information have been published in 1997, 2002, 2004, 2008, 2010 and 2012. 
+This dataset is released under Creative Commons by Attribution-NonCommercial 3.0 Australia (CC BY-NC 3.0).
 
- 
-The department publishes a summary of the CAPAD data biennially on its website at http://www.environment.gov.au/capad</gco:CharacterString>
+IMPORTANT INFORMATION FOR MARINE USERS 
+The Commonwealth marine reserves declared in November 2012 are under transitional arrangements until management plans come into effect in July 2014. Transitional arrangements involve NO CHANGES ON THE WATER for marine users. Note, there are no changes to management arrangements in the marine reserves that existed prior to the establishment of the new reserves, that is, the same restrictions on activities will continue to apply even where those reserves have been incorporated into new reserves. The South-east Network of Commonwealth Marine Reserves are managed under the South-east Commonwealth Marine Reserves Network Management Plan 2013-23, in place from 1 July 2013. More information is available at www.environment.gov.au/marinereserves
+
+This data contains spatial and contextual information about Commonwealth Marine Reserves under the jurisdiction of the Commonwealth governments Environment Protection and Biodiversity Conservation Act 1999, which are managed by the Australian Government Department of Sustainability, Environment, Water, Population and Communities (DSEWPaC). It does not include data on MPA's in other Australian jurisdictions (e.g. the Great Barrier Reef Marine Park, State/Territory parks), or Terrestrial Protected Areas with marine components (eg Pulu Keeling National Park).</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -526,7 +528,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 					<gmd:positionName>
 						
                 
-						<gco:CharacterString>Parks Data Manager</gco:CharacterString>
+						<gco:CharacterString>Marine Data Manager</gco:CharacterString>
 						
               
 					</gmd:positionName>
@@ -577,7 +579,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 									<gmd:electronicMailAddress>
 										
                         
-										<gco:CharacterString>parks.metadata@environment.gov.au</gco:CharacterString>
+										<gco:CharacterString>marine.metadata@environment.gov.au</gco:CharacterString>
 										
                       
 									</gmd:electronicMailAddress>
@@ -655,7 +657,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 									<gmd:linkage>
 										
                         
-										<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/capad/MapServer/WmsServer?</gmd:URL>
+										<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/Commonwealth_Marine_Reserves/MapServer/WmsServer?</gmd:URL>
 										
                       
 									</gmd:linkage>
@@ -703,7 +705,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:denominator>
 								
                     
-								<gco:Integer>75595238.095238</gco:Integer>
+								<gco:Integer>94494047.619048</gco:Integer>
 								
                   
 							</gmd:denominator>
@@ -763,7 +765,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:westBoundLongitude>
 								
                     
-								<gco:Decimal>60.879271</gco:Decimal>
+								<gco:Decimal>70.717019</gco:Decimal>
 								
                   
 							</gmd:westBoundLongitude>
@@ -772,7 +774,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:eastBoundLongitude>
 								
                     
-								<gco:Decimal>167.964895</gco:Decimal>
+								<gco:Decimal>170.366667</gco:Decimal>
 								
                   
 							</gmd:eastBoundLongitude>
@@ -781,7 +783,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:southBoundLatitude>
 								
                     
-								<gco:Decimal>-69.477778</gco:Decimal>
+								<gco:Decimal>-58.449469</gco:Decimal>
 								
                   
 							</gmd:southBoundLatitude>
@@ -790,7 +792,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:northBoundLatitude>
 								
                     
-								<gco:Decimal>-9.512017</gco:Decimal>
+								<gco:Decimal>-8.881889</gco:Decimal>
 								
                   
 							</gmd:northBoundLatitude>
@@ -865,7 +867,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/capad/MapServer/WmsServer?</gmd:URL>
+								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/Commonwealth_Marine_Reserves/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -883,7 +885,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:name>
 								
                     
-								<gco:CharacterString>Protected_Areas_2014</gco:CharacterString>
+								<gco:CharacterString>0</gco:CharacterString>
 								
                   
 							</gmd:name>
@@ -892,7 +894,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:description>
 								
                     
-								<gco:CharacterString>Protected_Areas_2014</gco:CharacterString>
+								<gco:CharacterString>Australia_Commonwealth_Marine_Reserves</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -913,7 +915,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/capad/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Protected_Areas_2014</gmd:URL>
+								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/Commonwealth_Marine_Reserves/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=0</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -931,7 +933,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:name>
 								
                     
-								<gco:CharacterString>Protected_Areas_2014 (LegendURL)</gco:CharacterString>
+								<gco:CharacterString>0 (LegendURL)</gco:CharacterString>
 								
                   
 							</gmd:name>

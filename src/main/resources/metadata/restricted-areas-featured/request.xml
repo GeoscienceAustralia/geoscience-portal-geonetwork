@@ -22,7 +22,7 @@
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>Collaborative Australian Protected Areas Database (CAPAD) 2014</ogc:Literal>
+                    <ogc:Literal>Australia_Commonwealth_Marine_Reserves</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>Title</ogc:PropertyName>
