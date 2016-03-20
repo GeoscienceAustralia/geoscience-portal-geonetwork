@@ -1,0 +1,1976 @@
+<?xml version="1.0" ?>
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:ns2="http://www.isotc211.org/2005/srv" xmlns:ns3="http://www.w3.org/1999/xlink">
+	
+      
+	<gmd:fileIdentifier>
+		
+        
+		<gco:CharacterString>2a495aa5a7258a386ad1ff0698ea0d7e4db02388</gco:CharacterString>
+		
+      
+	</gmd:fileIdentifier>
+	
+      
+	<gmd:language>
+		
+        
+		<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng"/>
+		
+      
+	</gmd:language>
+	
+      
+	<gmd:characterSet>
+		
+        
+		<gmd:MD_CharacterSetCode codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+		
+      
+	</gmd:characterSet>
+	
+      
+	<gmd:hierarchyLevel>
+		
+        
+		<gmd:MD_ScopeCode codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="service"/>
+		
+      
+	</gmd:hierarchyLevel>
+	
+      
+	<gmd:contact>
+		
+        
+		<gmd:CI_ResponsibleParty>
+			
+          
+			<gmd:individualName>
+				
+            
+				<gco:CharacterString/>
+				
+          
+			</gmd:individualName>
+			
+          
+			<gmd:organisationName>
+				
+            
+				<gco:CharacterString>Geoscience Australia</gco:CharacterString>
+				
+          
+			</gmd:organisationName>
+			
+          
+			<gmd:positionName>
+				
+            
+				<gco:CharacterString>Client Services</gco:CharacterString>
+				
+          
+			</gmd:positionName>
+			
+          
+			<gmd:contactInfo>
+				
+            
+				<gmd:CI_Contact>
+					
+              
+					<gmd:phone>
+						
+                
+						<gmd:CI_Telephone>
+							
+                  
+							<gmd:voice>
+								
+                    
+								<gco:CharacterString>+61 2 6249 9111</gco:CharacterString>
+								
+                  
+							</gmd:voice>
+							
+                  
+							<gmd:facsimile>
+								
+                    
+								<gco:CharacterString/>
+								
+                  
+							</gmd:facsimile>
+							
+                
+						</gmd:CI_Telephone>
+						
+              
+					</gmd:phone>
+					
+              
+					<gmd:address>
+						
+                
+						<gmd:CI_Address>
+							
+                  
+							<gmd:electronicMailAddress>
+								
+                    
+								<gco:CharacterString>clientservices@ga.gov.au</gco:CharacterString>
+								
+                  
+							</gmd:electronicMailAddress>
+							
+                
+						</gmd:CI_Address>
+						
+              
+					</gmd:address>
+					
+              
+					<gmd:address>
+						
+                
+						<gmd:CI_Address>
+							
+                  
+							<gmd:deliveryPoint>
+								
+                    
+								<gco:CharacterString>GPO Box 378</gco:CharacterString>
+								
+                  
+							</gmd:deliveryPoint>
+							
+                  
+							<gmd:city>
+								
+                    
+								<gco:CharacterString>Canberra</gco:CharacterString>
+								
+                  
+							</gmd:city>
+							
+                  
+							<gmd:administrativeArea>
+								
+                    
+								<gco:CharacterString>ACT</gco:CharacterString>
+								
+                  
+							</gmd:administrativeArea>
+							
+                  
+							<gmd:postalCode>
+								
+                    
+								<gco:CharacterString>2601</gco:CharacterString>
+								
+                  
+							</gmd:postalCode>
+							
+                  
+							<gmd:country>
+								
+                    
+								<gco:CharacterString>Australia</gco:CharacterString>
+								
+                  
+							</gmd:country>
+							
+                
+						</gmd:CI_Address>
+						
+              
+					</gmd:address>
+					
+              
+					<gmd:onlineResource>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onlineResource>
+					
+            
+				</gmd:CI_Contact>
+				
+          
+			</gmd:contactInfo>
+			
+          
+			<gmd:role>
+				
+            
+				<gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+				
+          
+			</gmd:role>
+			
+        
+		</gmd:CI_ResponsibleParty>
+		
+      
+	</gmd:contact>
+	
+      
+	<gmd:dateStamp>
+		
+        
+		<gco:DateTime>2016-03-17T16:20:27</gco:DateTime>
+		
+      
+	</gmd:dateStamp>
+	
+      
+	<gmd:metadataStandardName>
+		
+        
+		<gco:CharacterString>ISO 19119/2005</gco:CharacterString>
+		
+      
+	</gmd:metadataStandardName>
+	
+      
+	<gmd:metadataStandardVersion>
+		
+        
+		<gco:CharacterString>1.0</gco:CharacterString>
+		
+      
+	</gmd:metadataStandardVersion>
+	
+      
+	<gmd:identificationInfo>
+		
+        
+		<ns2:SV_ServiceIdentification>
+			
+          
+			<gmd:citation>
+				
+            
+				<gmd:CI_Citation>
+					
+              
+					<gmd:title>
+						
+                
+						<gco:CharacterString>Defence Restricted Areas</gco:CharacterString>
+						
+              
+					</gmd:title>
+					
+              
+					<gmd:date>
+						
+                
+						<gmd:CI_Date>
+							
+                  
+							<gmd:date>
+								
+                    
+								<gco:DateTime>2016-03-17T16:20:27</gco:DateTime>
+								
+                  
+							</gmd:date>
+							
+                  
+							<gmd:dateType>
+								
+                    
+								<gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision"/>
+								
+                  
+							</gmd:dateType>
+							
+                
+						</gmd:CI_Date>
+						
+              
+					</gmd:date>
+					
+            
+				</gmd:CI_Citation>
+				
+          
+			</gmd:citation>
+			
+          
+			<gmd:abstract>
+				
+            
+				<gco:CharacterString>This service is being decommissioned on 4 April 2016. A replacement service is located at: http://services.ga.gov.au/gis/rest/services/Defence_Restricted_Areas/MapServer Defence Prohibited and Training Areas. Data included in this service is indicative only and should not be used for detailed planning.</gco:CharacterString>
+				
+          
+			</gmd:abstract>
+			
+          
+			<gmd:status>
+				
+            
+				<gmd:MD_ProgressCode codeList="./resources/codeList.xml#MD_ProgressCode" codeListValue="completed"/>
+				
+          
+			</gmd:status>
+			
+          
+			<gmd:pointOfContact>
+				
+            
+				<gmd:CI_ResponsibleParty>
+					
+              
+					<gmd:individualName>
+						
+                
+						<gco:CharacterString/>
+						
+              
+					</gmd:individualName>
+					
+              
+					<gmd:organisationName>
+						
+                
+						<gco:CharacterString>Geoscience Australia</gco:CharacterString>
+						
+              
+					</gmd:organisationName>
+					
+              
+					<gmd:positionName>
+						
+                
+						<gco:CharacterString>Client Services</gco:CharacterString>
+						
+              
+					</gmd:positionName>
+					
+              
+					<gmd:contactInfo>
+						
+                
+						<gmd:CI_Contact>
+							
+                  
+							<gmd:phone>
+								
+                    
+								<gmd:CI_Telephone>
+									
+                      
+									<gmd:voice>
+										
+                        
+										<gco:CharacterString>+61 2 6249 9111</gco:CharacterString>
+										
+                      
+									</gmd:voice>
+									
+                      
+									<gmd:facsimile>
+										
+                        
+										<gco:CharacterString/>
+										
+                      
+									</gmd:facsimile>
+									
+                    
+								</gmd:CI_Telephone>
+								
+                  
+							</gmd:phone>
+							
+                  
+							<gmd:address>
+								
+                    
+								<gmd:CI_Address>
+									
+                      
+									<gmd:electronicMailAddress>
+										
+                        
+										<gco:CharacterString>clientservices@ga.gov.au</gco:CharacterString>
+										
+                      
+									</gmd:electronicMailAddress>
+									
+                    
+								</gmd:CI_Address>
+								
+                  
+							</gmd:address>
+							
+                  
+							<gmd:address>
+								
+                    
+								<gmd:CI_Address>
+									
+                      
+									<gmd:deliveryPoint>
+										
+                        
+										<gco:CharacterString>GPO Box 378</gco:CharacterString>
+										
+                      
+									</gmd:deliveryPoint>
+									
+                      
+									<gmd:city>
+										
+                        
+										<gco:CharacterString>Canberra</gco:CharacterString>
+										
+                      
+									</gmd:city>
+									
+                      
+									<gmd:administrativeArea>
+										
+                        
+										<gco:CharacterString>ACT</gco:CharacterString>
+										
+                      
+									</gmd:administrativeArea>
+									
+                      
+									<gmd:postalCode>
+										
+                        
+										<gco:CharacterString>2601</gco:CharacterString>
+										
+                      
+									</gmd:postalCode>
+									
+                      
+									<gmd:country>
+										
+                        
+										<gco:CharacterString>Australia</gco:CharacterString>
+										
+                      
+									</gmd:country>
+									
+                    
+								</gmd:CI_Address>
+								
+                  
+							</gmd:address>
+							
+                  
+							<gmd:onlineResource>
+								
+                    
+								<gmd:CI_OnlineResource>
+									
+                      
+									<gmd:linkage>
+										
+                        
+										<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+										
+                      
+									</gmd:linkage>
+									
+                    
+								</gmd:CI_OnlineResource>
+								
+                  
+							</gmd:onlineResource>
+							
+                
+						</gmd:CI_Contact>
+						
+              
+					</gmd:contactInfo>
+					
+              
+					<gmd:role>
+						
+                
+						<gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+						
+              
+					</gmd:role>
+					
+            
+				</gmd:CI_ResponsibleParty>
+				
+          
+			</gmd:pointOfContact>
+			
+          
+			<gmd:descriptiveKeywords>
+				
+            
+				<gmd:MD_Keywords>
+					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>Defence</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>Training Areas</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>Prohibited Areas</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>Public Exclusion Zone</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+              
+					<gmd:type>
+						
+                
+						<gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+						
+              
+					</gmd:type>
+					
+            
+				</gmd:MD_Keywords>
+				
+          
+			</gmd:descriptiveKeywords>
+			
+          
+			<gmd:resourceConstraints>
+				
+            
+				<gmd:MD_LegalConstraints>
+					
+              
+					<gmd:accessConstraints>
+						
+                
+						<gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions"/>
+						
+              
+					</gmd:accessConstraints>
+					
+              
+					<gmd:otherConstraints>
+						
+                
+						<gco:CharacterString>Unclassified, copyright Australian Government (Department of Defence) 2015</gco:CharacterString>
+						
+              
+					</gmd:otherConstraints>
+					
+            
+				</gmd:MD_LegalConstraints>
+				
+          
+			</gmd:resourceConstraints>
+			
+          
+			<ns2:serviceType>
+				
+            
+				<gco:LocalName codeSpace="www.w3c.org">OGC:WMS</gco:LocalName>
+				
+          
+			</ns2:serviceType>
+			
+          
+			<ns2:serviceTypeVersion>
+				
+            
+				<gco:CharacterString>1.3.0</gco:CharacterString>
+				
+          
+			</ns2:serviceTypeVersion>
+			
+          
+			<ns2:accessProperties>
+				
+            
+				<gmd:MD_StandardOrderProcess>
+					
+              
+					<gmd:fees>
+						
+                
+						<gco:CharacterString/>
+						
+              
+					</gmd:fees>
+					
+            
+				</gmd:MD_StandardOrderProcess>
+				
+          
+			</ns2:accessProperties>
+			
+          
+			<ns2:extent>
+				
+            
+				<gmd:EX_Extent>
+					
+              
+					<gmd:geographicElement>
+						
+                
+						<gmd:EX_GeographicBoundingBox>
+							
+                  
+							<gmd:westBoundLongitude>
+								
+                    
+								<gco:Decimal>111.511816084543</gco:Decimal>
+								
+                  
+							</gmd:westBoundLongitude>
+							
+                  
+							<gmd:eastBoundLongitude>
+								
+                    
+								<gco:Decimal>153.731749001</gco:Decimal>
+								
+                  
+							</gmd:eastBoundLongitude>
+							
+                  
+							<gmd:southBoundLatitude>
+								
+                    
+								<gco:Decimal>-44.1666799693598</gco:Decimal>
+								
+                  
+							</gmd:southBoundLatitude>
+							
+                  
+							<gmd:northBoundLatitude>
+								
+                    
+								<gco:Decimal>-9.90599151514947</gco:Decimal>
+								
+                  
+							</gmd:northBoundLatitude>
+							
+                
+						</gmd:EX_GeographicBoundingBox>
+						
+              
+					</gmd:geographicElement>
+					
+            
+				</gmd:EX_Extent>
+				
+          
+			</ns2:extent>
+			
+          
+			<ns2:coupledResource>
+				
+            
+				<ns2:SV_CoupledResource>
+					
+              
+					<ns2:operationName>
+						
+                
+						<gco:CharacterString>GetMap</gco:CharacterString>
+						
+              
+					</ns2:operationName>
+					
+              
+					<ns2:identifier>
+						
+                
+						<gco:CharacterString>1482f0a81066dd18f3ef73cc1c58192726225fd5</gco:CharacterString>
+						
+              
+					</ns2:identifier>
+					
+              
+					<gco:ScopedName>Defence_Practice_Areas</gco:ScopedName>
+					
+            
+				</ns2:SV_CoupledResource>
+				
+          
+			</ns2:coupledResource>
+			
+          
+			<ns2:coupledResource>
+				
+            
+				<ns2:SV_CoupledResource>
+					
+              
+					<ns2:operationName>
+						
+                
+						<gco:CharacterString>GetMap</gco:CharacterString>
+						
+              
+					</ns2:operationName>
+					
+              
+					<ns2:identifier>
+						
+                
+						<gco:CharacterString>16ae5b2661361e4dd53084d3b92c2cd70be93dfc</gco:CharacterString>
+						
+              
+					</ns2:identifier>
+					
+              
+					<gco:ScopedName>Defence_Training_Areas</gco:ScopedName>
+					
+            
+				</ns2:SV_CoupledResource>
+				
+          
+			</ns2:coupledResource>
+			
+          
+			<ns2:coupledResource>
+				
+            
+				<ns2:SV_CoupledResource>
+					
+              
+					<ns2:operationName>
+						
+                
+						<gco:CharacterString>GetMap</gco:CharacterString>
+						
+              
+					</ns2:operationName>
+					
+              
+					<ns2:identifier>
+						
+                
+						<gco:CharacterString>efc84539a9e985a71f57c8ab81ca5fa59852e560</gco:CharacterString>
+						
+              
+					</ns2:identifier>
+					
+              
+					<gco:ScopedName>Defence_Prohibited_Areas</gco:ScopedName>
+					
+            
+				</ns2:SV_CoupledResource>
+				
+          
+			</ns2:coupledResource>
+			
+          
+			<ns2:couplingType>
+				
+            
+				<ns2:SV_CouplingType codeList="./resources/codeList.xml#SV_CouplingType" codeListValue="tight">tight</ns2:SV_CouplingType>
+				
+          
+			</ns2:couplingType>
+			
+          
+			<ns2:containsOperations>
+				
+            
+				<ns2:SV_OperationMetadata>
+					
+              
+					<ns2:operationName>
+						
+                
+						<gco:CharacterString>GetCapabilities</gco:CharacterString>
+						
+              
+					</ns2:operationName>
+					
+              
+					<ns2:DCP>
+						
+                
+						<ns2:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-GET"/>
+						
+              
+					</ns2:DCP>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>application/vnd.ogc.wms_xml</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : application/vnd.ogc.wms_xml</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>text/xml</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : text/xml</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+            
+				</ns2:SV_OperationMetadata>
+				
+          
+			</ns2:containsOperations>
+			
+          
+			<ns2:containsOperations>
+				
+            
+				<ns2:SV_OperationMetadata>
+					
+              
+					<ns2:operationName>
+						
+                
+						<gco:CharacterString>GetMap</gco:CharacterString>
+						
+              
+					</ns2:operationName>
+					
+              
+					<ns2:DCP>
+						
+                
+						<ns2:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-GET"/>
+						
+              
+					</ns2:DCP>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>image/bmp</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : image/bmp</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>image/jpeg</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : image/jpeg</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>image/tiff</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : image/tiff</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>image/png</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : image/png</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>image/png8</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : image/png8</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>image/png24</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : image/png24</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>image/png32</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : image/png32</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>image/gif</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : image/gif</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>image/svg+xml</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : image/svg+xml</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+            
+				</ns2:SV_OperationMetadata>
+				
+          
+			</ns2:containsOperations>
+			
+          
+			<ns2:containsOperations>
+				
+            
+				<ns2:SV_OperationMetadata>
+					
+              
+					<ns2:operationName>
+						
+                
+						<gco:CharacterString>GetFeatureInfo</gco:CharacterString>
+						
+              
+					</ns2:operationName>
+					
+              
+					<ns2:DCP>
+						
+                
+						<ns2:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-GET"/>
+						
+              
+					</ns2:DCP>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>application/vnd.esri.wms_raw_xml</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : application/vnd.esri.wms_raw_xml</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>application/vnd.esri.wms_featureinfo_xml</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : application/vnd.esri.wms_featureinfo_xml</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>application/vnd.ogc.wms_xml</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : application/vnd.ogc.wms_xml</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>text/xml</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : text/xml</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>text/html</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : text/html</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>text/plain</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : text/plain</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+            
+				</ns2:SV_OperationMetadata>
+				
+          
+			</ns2:containsOperations>
+			
+          
+			<ns2:containsOperations>
+				
+            
+				<ns2:SV_OperationMetadata>
+					
+              
+					<ns2:operationName>
+						
+                
+						<gco:CharacterString>esri_wms:GetStyles</gco:CharacterString>
+						
+              
+					</ns2:operationName>
+					
+              
+					<ns2:DCP>
+						
+                
+						<ns2:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-GET"/>
+						
+              
+					</ns2:DCP>
+					
+              
+					<ns2:connectPoint>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>application/vnd.ogc.sld+xml</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Format : application/vnd.ogc.sld+xml</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:function>
+								
+                    
+								<gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+								
+                  
+							</gmd:function>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</ns2:connectPoint>
+					
+            
+				</ns2:SV_OperationMetadata>
+				
+          
+			</ns2:containsOperations>
+			
+          
+			<ns2:operatesOn ns3:href="http://localhost:8080/geonetwork/srv/eng//xml.metadata.get?uuid=efc84539a9e985a71f57c8ab81ca5fa59852e560" uuidref="efc84539a9e985a71f57c8ab81ca5fa59852e560"/>
+			
+          
+			<ns2:operatesOn ns3:href="http://localhost:8080/geonetwork/srv/eng//xml.metadata.get?uuid=16ae5b2661361e4dd53084d3b92c2cd70be93dfc" uuidref="16ae5b2661361e4dd53084d3b92c2cd70be93dfc"/>
+			
+          
+			<ns2:operatesOn ns3:href="http://localhost:8080/geonetwork/srv/eng//xml.metadata.get?uuid=1482f0a81066dd18f3ef73cc1c58192726225fd5" uuidref="1482f0a81066dd18f3ef73cc1c58192726225fd5"/>
+			
+        
+		</ns2:SV_ServiceIdentification>
+		
+      
+	</gmd:identificationInfo>
+	
+      
+	<gmd:distributionInfo>
+		
+        
+		<gmd:MD_Distribution>
+			
+          
+			<gmd:distributionFormat>
+				
+            
+				<gmd:MD_Format>
+					
+              
+					<gmd:name gco:nilReason="missing">
+						
+                
+						<gco:CharacterString/>
+						
+              
+					</gmd:name>
+					
+              
+					<gmd:version gco:nilReason="missing">
+						
+                
+						<gco:CharacterString/>
+						
+              
+					</gmd:version>
+					
+            
+				</gmd:MD_Format>
+				
+          
+			</gmd:distributionFormat>
+			
+          
+			<gmd:transferOptions>
+				
+            
+				<gmd:MD_DigitalTransferOptions>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:protocol>
+								
+                    
+								<gco:CharacterString>application/vnd.ogc.wms_xml</gco:CharacterString>
+								
+                  
+							</gmd:protocol>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+            
+				</gmd:MD_DigitalTransferOptions>
+				
+          
+			</gmd:transferOptions>
+			
+        
+		</gmd:MD_Distribution>
+		
+      
+	</gmd:distributionInfo>
+	
+      
+	<gmd:dataQualityInfo>
+		
+        
+		<gmd:DQ_DataQuality>
+			
+          
+			<gmd:scope>
+				
+            
+				<gmd:DQ_Scope>
+					
+              
+					<gmd:level>
+						
+                
+						<gmd:MD_ScopeCode codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="service"/>
+						
+              
+					</gmd:level>
+					
+              
+					<gmd:levelDescription>
+						
+                
+						<gmd:MD_ScopeDescription>
+							
+                  
+							<gmd:attributes/>
+							
+                
+						</gmd:MD_ScopeDescription>
+						
+              
+					</gmd:levelDescription>
+					
+            
+				</gmd:DQ_Scope>
+				
+          
+			</gmd:scope>
+			
+          
+			<gmd:lineage>
+				
+            
+				<gmd:LI_Lineage>
+					
+              
+					<gmd:statement gco:nilReason="missing">
+						
+                
+						<gco:CharacterString/>
+						
+              
+					</gmd:statement>
+					
+            
+				</gmd:LI_Lineage>
+				
+          
+			</gmd:lineage>
+			
+        
+		</gmd:DQ_DataQuality>
+		
+      
+	</gmd:dataQualityInfo>
+	
+    
+</gmd:MD_Metadata>

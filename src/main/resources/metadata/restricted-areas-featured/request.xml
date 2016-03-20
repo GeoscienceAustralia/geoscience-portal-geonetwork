@@ -18,19 +18,19 @@
             <ogc:Or>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>Protected_Areas_CAPAD_2014_Marine</ogc:Literal>
+                    <ogc:Literal>Protected_Areas_2014</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>Protected_Areas_CAPAD_2014_Terrestrial</ogc:Literal>
+                    <ogc:Literal>Collaborative Australian Protected Areas Database (CAPAD) 2014</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>World_Heritage_Areas_Australia</ogc:Literal>
+                    <ogc:Literal>World Heritage Areas of Australia</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>Defence Prohibited Areas</ogc:Literal>
+                    <ogc:Literal>Defence Restricted Areas</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>Title</ogc:PropertyName>
