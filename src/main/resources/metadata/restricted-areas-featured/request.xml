@@ -26,15 +26,15 @@
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>World Heritage Areas of Australia</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>Defence Restricted Areas</ogc:Literal>
+                    <ogc:Literal>World_Heritage_Areas_Australia</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>Title</ogc:PropertyName>
                     <ogc:Literal>Defence Practice Areas</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:Literal>Defence Prohibited Areas</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>Title</ogc:PropertyName>
