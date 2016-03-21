@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>69ee9f05ebf649957d28afbd1ee00dbc4ae02001</gco:CharacterString>
+		<gco:CharacterString>3d123bbfe7004a5bf3b461ee37a02cb4b30313dc</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -65,7 +65,7 @@
 			<gmd:positionName>
 				
             
-				<gco:CharacterString>Parks Data Manager</gco:CharacterString>
+				<gco:CharacterString>Heritage Data Manager</gco:CharacterString>
 				
           
 			</gmd:positionName>
@@ -86,7 +86,7 @@
 							<gmd:voice>
 								
                     
-								<gco:CharacterString>02 6274 1111</gco:CharacterString>
+								<gco:CharacterString>02 62741111</gco:CharacterString>
 								
                   
 							</gmd:voice>
@@ -95,7 +95,7 @@
 							<gmd:facsimile>
 								
                     
-								<gco:CharacterString>02 6274 1666</gco:CharacterString>
+								<gco:CharacterString>02 62741666</gco:CharacterString>
 								
                   
 							</gmd:facsimile>
@@ -116,7 +116,7 @@
 							<gmd:electronicMailAddress>
 								
                     
-								<gco:CharacterString>parks.metadata@environment.gov.au</gco:CharacterString>
+								<gco:CharacterString>heritage.metadata@environment.gov.au</gco:CharacterString>
 								
                   
 							</gmd:electronicMailAddress>
@@ -194,7 +194,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/capad/MapServer/WmsServer?</gmd:URL>
+								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/World_Heritage_Areas/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -230,7 +230,7 @@
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>2016-03-21T16:26:55</gco:DateTime>
+		<gco:DateTime>2016-03-21T16:28:13</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -434,7 +434,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>Protected_Areas_2014</gco:CharacterString>
+						<gco:CharacterString>World_Heritage_Areas_Australia</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -449,7 +449,7 @@
 							<gmd:date>
 								
                     
-								<gco:DateTime>2016-03-21T16:26:55</gco:DateTime>
+								<gco:DateTime>2016-03-21T16:28:13</gco:DateTime>
 								
                   
 							</gmd:date>
@@ -479,12 +479,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>The Collaborative Australian Protected Areas Database (CAPAD) 2014 web service provides both spatial and text information about government, indigenous and privately protected areas for continental Australia. State and Territory conservation agencies supplied data current to 30 June 2014. This is the ninth version of the database, with previous versions released in 1997, 2000, 2002, 2004, 2006, 2008, 2010 and 2012.  
-
-The Department also publishes protected areas data for the marine environment. &quot;CAPAD 2014-marine&quot; contains spatial and text information about offshore protected areas, for both State and Commonwealth waters. Previous versions of CAPAD marine information have been published in 1997, 2002, 2004, 2008, 2010 and 2012. 
-
- 
-The department publishes a summary of the CAPAD data biennially on its website at http://www.environment.gov.au/capad</gco:CharacterString>
+				<gco:CharacterString>Australian heritage places that are of outstanding universal value and have been included on this United Nations Educational, Scientific and Cultural Organisation (UNESCO) - managed World Heritage list.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -526,7 +521,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 					<gmd:positionName>
 						
                 
-						<gco:CharacterString>Parks Data Manager</gco:CharacterString>
+						<gco:CharacterString>Heritage Data Manager</gco:CharacterString>
 						
               
 					</gmd:positionName>
@@ -547,7 +542,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 									<gmd:voice>
 										
                         
-										<gco:CharacterString>02 6274 1111</gco:CharacterString>
+										<gco:CharacterString>02 62741111</gco:CharacterString>
 										
                       
 									</gmd:voice>
@@ -556,7 +551,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 									<gmd:facsimile>
 										
                         
-										<gco:CharacterString>02 6274 1666</gco:CharacterString>
+										<gco:CharacterString>02 62741666</gco:CharacterString>
 										
                       
 									</gmd:facsimile>
@@ -577,7 +572,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 									<gmd:electronicMailAddress>
 										
                         
-										<gco:CharacterString>parks.metadata@environment.gov.au</gco:CharacterString>
+										<gco:CharacterString>heritage.metadata@environment.gov.au</gco:CharacterString>
 										
                       
 									</gmd:electronicMailAddress>
@@ -655,7 +650,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 									<gmd:linkage>
 										
                         
-										<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/capad/MapServer/WmsServer?</gmd:URL>
+										<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/World_Heritage_Areas/MapServer/WmsServer?</gmd:URL>
 										
                       
 									</gmd:linkage>
@@ -763,7 +758,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:westBoundLongitude>
 								
                     
-								<gco:Decimal>60.879271</gco:Decimal>
+								<gco:Decimal>72.246193</gco:Decimal>
 								
                   
 							</gmd:westBoundLongitude>
@@ -772,7 +767,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:eastBoundLongitude>
 								
                     
-								<gco:Decimal>167.964895</gco:Decimal>
+								<gco:Decimal>167.972839</gco:Decimal>
 								
                   
 							</gmd:eastBoundLongitude>
@@ -781,7 +776,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:southBoundLatitude>
 								
                     
-								<gco:Decimal>-69.477778</gco:Decimal>
+								<gco:Decimal>-55.322817</gco:Decimal>
 								
                   
 							</gmd:southBoundLatitude>
@@ -790,7 +785,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:northBoundLatitude>
 								
                     
-								<gco:Decimal>-9.512017</gco:Decimal>
+								<gco:Decimal>-10.681889</gco:Decimal>
 								
                   
 							</gmd:northBoundLatitude>
@@ -865,7 +860,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/capad/MapServer/WmsServer?</gmd:URL>
+								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/World_Heritage_Areas/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -883,7 +878,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:name>
 								
                     
-								<gco:CharacterString>Protected_Areas_2014</gco:CharacterString>
+								<gco:CharacterString>World_Heritage_Areas_Australia</gco:CharacterString>
 								
                   
 							</gmd:name>
@@ -892,7 +887,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:description>
 								
                     
-								<gco:CharacterString>Protected_Areas_2014</gco:CharacterString>
+								<gco:CharacterString>World_Heritage_Areas_Australia</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -913,7 +908,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/capad/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Protected_Areas_2014</gmd:URL>
+								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/World_Heritage_Areas/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=World_Heritage_Areas_Australia</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -931,7 +926,7 @@ The department publishes a summary of the CAPAD data biennially on its website a
 							<gmd:name>
 								
                     
-								<gco:CharacterString>Protected_Areas_2014 (LegendURL)</gco:CharacterString>
+								<gco:CharacterString>World_Heritage_Areas_Australia (LegendURL)</gco:CharacterString>
 								
                   
 							</gmd:name>
