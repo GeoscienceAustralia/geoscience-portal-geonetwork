@@ -1,9 +1,5 @@
 from lxml import etree
 import os
-def setup_records_directory(directory_name):
-  if os.path.exists(directory_name):
-    shutil.rmtree(directory_name)
-  os.makedirs(directory_name, exist_ok=True)
 
 etree.register_namespace("xsi","http://www.w3.org/2001/XMLSchema-instance" )
 etree.register_namespace("gco","http://www.isotc211.org/2005/gco" )
@@ -19,13 +15,18 @@ RECEIVED_DIR = "received"
 RECORDS_DIR = "records"
 XSL = "transform.xsl"
 
-files = os.listdir(RECEIVED_DIR)
+def setup_records_directory(directory_name):
+  if os.path.exists(directory_name):
+    shutil.rmtree(directory_name)
+  os.makedirs(directory_name, exist_ok=True)
 
-setup_records_directory(RECORDS_DIR)
-for file in files:
-  dom=etree.parse(os.path.join(RECEIVED_DIR,file))
-  xslt = etree.parse("transform.xsl")
-  transform = etree.XSLT(xslt)
-  newdom = transform(dom)
-  newdom.write(os.path.join(RECORDS_DIR,file))
-
+def main():
+  setup_records_directory(RECORDS_DIR)
+  files = os.listdir(RECEIVED_DIR)
+  for file in files:
+    dom=etree.parse(os.path.join(RECEIVED_DIR,file))
+    xslt = etree.parse(XSL)
+    transform = etree.XSLT(xslt)
+    newdom = transform(dom)
+    newdom.write(os.path.join(RECORDS_DIR,file))
+  
