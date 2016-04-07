@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?>
-<!-- UNCLASSIFIED -->
-<!-- Built from ANZLIC MET Template ISO 19139 2009-02-18 -->
-<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?><!-- UNCLASSIFIED --><!-- Built from ANZLIC MET Template ISO 19139 2009-02-18 --><gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>72DF2049-2862-4A6B-A4EA-1779E9E5A3DD</gco:CharacterString>
   </gmd:fileIdentifier>
@@ -78,7 +74,7 @@
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion>
     <gco:CharacterString>1.1</gco:CharacterString>
-  </gmd:metadataStandardVersion>
+  </gmd:metadataStandardVersion><gmd:dataSetURI xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx"><gco:CharacterString/></gmd:dataSetURI>
   <gmd:referenceSystemInfo>
     <gmd:MD_ReferenceSystem>
       <gmd:referenceSystemIdentifier>
@@ -314,7 +310,7 @@
           <gmd:distributorFormat>
             <gmd:MD_Format>
               <gmd:name>
-                <gco:CharacterString>Digital grid – IEEE 4-byte signed integer binary raster (suitable for ER Mapper)</gco:CharacterString>
+                <gco:CharacterString>Digital grid &#8211; IEEE 4-byte signed integer binary raster (suitable for ER Mapper)</gco:CharacterString>
               </gmd:name>
               <gmd:version gco:nilReason="missing">
                 <gco:CharacterString>
@@ -345,11 +341,11 @@
       <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:statement>
-            <gco:CharacterString>The gravity data as supplied are based on the Australian Absolute Gravity Datum (AAGD07) (Tracey et al., 2008).  The gravity unit used is micrometres per second squared (µms-2) which is equivalent to 0.1 milligals (mGal).
+            <gco:CharacterString>The gravity data as supplied are based on the Australian Absolute Gravity Datum (AAGD07) (Tracey et al., 2008).  The gravity unit used is micrometres per second squared (&#181;ms-2) which is equivalent to 0.1 milligals (mGal).
 
 IMAGE DESCRIPTION
 
-The image was generated from a colour palette (white high, blue low) using a linear histogram. To emphasize the expression of high frequency anomalies, an artificial illumination was applied from overhead (70° azimuth, 80° elevation). 
+The image was generated from a colour palette (white high, blue low) using a linear histogram. To emphasize the expression of high frequency anomalies, an artificial illumination was applied from overhead (70&#176; azimuth, 80&#176; elevation). 
 The data have been compressed 10:1 using enhanced compressed wavelet technology. ECW files can be viewed using ER Viewer or various GIS applications.
 
 </gco:CharacterString>
@@ -463,8 +459,8 @@ Vertical accuracy is highly variable too, depending on the age of the survey. Pr
               </gmd:specification>
               <gmd:explanation>
                 <gco:CharacterString>Highly variable depending on the age of the individual surveys that were used to produce this grid.
-Modern surveys use LaCoste &amp; Romberg or Scintrex gravity meters with an accuracy of 0.01 µms-² (micro metres per second squared).
-Earlier surveys used older style quartz spring meters which have a lower accuracy (approximately 1.0 µms-²).
+Modern surveys use LaCoste &amp; Romberg or Scintrex gravity meters with an accuracy of 0.01 &#181;ms-&#178; (micro metres per second squared).
+Earlier surveys used older style quartz spring meters which have a lower accuracy (approximately 1.0 &#181;ms-&#178;).
 </gco:CharacterString>
               </gmd:explanation>
               <gmd:pass>
@@ -511,5 +507,4 @@ Earlier surveys used older style quartz spring meters which have a lower accurac
       </gmd:useConstraints>
     </gmd:MD_LegalConstraints>
   </gmd:metadataConstraints>
-</gmd:MD_Metadata>
-<!--METValidation=False-->
+</gmd:MD_Metadata><!--METValidation=False-->

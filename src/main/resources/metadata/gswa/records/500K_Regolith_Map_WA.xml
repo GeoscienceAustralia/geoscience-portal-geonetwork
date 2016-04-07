@@ -1,6 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?>
-<gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?><gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>ANZWA1220000578</gco:CharacterString>
   </gmd:fileIdentifier>
@@ -76,7 +74,7 @@
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion>
     <gco:CharacterString>1.1</gco:CharacterString>
-  </gmd:metadataStandardVersion>
+  </gmd:metadataStandardVersion><gmd:dataSetURI><gco:CharacterString/></gmd:dataSetURI>
   <gmd:referenceSystemInfo>
     <gmd:MD_ReferenceSystem>
       <gmd:referenceSystemIdentifier>
@@ -174,7 +172,7 @@
         <gco:CharacterString>Existing 1:250 000-scale geological maps have been synthesized and simplified to produce a seamless digital regolith map of Western Australia. Lithological units have been assigned to one of nine
 subdivisions, comprising areas of outcrop, residual or relict units (representing in situ regolith, or remnants of an earlier landscape), and seven transported regolith units (slope deposits, alluvium, lake deposits, calcrete, sandplain, coastal deposits, and tidal deposits). Significant areas of mining activity have also been identified. Where digital versions of geological maps were available, polygons were recoded according to the regolith classification scheme of the Geological Survey of Western Australia. For hard copy (analogue) maps, polygons were hand drawn, labelled, and scanned. All compilations were combined, edge-fitted, and the data gridded to reduce and standardize the complexity of the linework. This map comes with a grid spacing of 1300 metres. Data is held in GDA decimal degrees.
 
-The recommended reference for this map is: MARNHAM, J., and MORRIS, P. A., 2003, A seamless digital regolith map of Western Australia: a potential resource for mineral exploration and environmental management: Western Australia Geological Survey, Annual Review 2002–03, p. 27–33.</gco:CharacterString>
+The recommended reference for this map is: MARNHAM, J., and MORRIS, P. A., 2003, A seamless digital regolith map of Western Australia: a potential resource for mineral exploration and environmental management: Western Australia Geological Survey, Annual Review 2002&#8211;03, p. 27&#8211;33.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
@@ -888,5 +886,4 @@ MARNHAM, J.R., and MORRIS, P. A.(compilers), 2003, Regolith geology of Western A
       </gmd:classification>
     </gmd:MD_SecurityConstraints>
   </gmd:metadataConstraints>
-</gmd:MD_Metadata>
-<!--METValidation=False-->
+</gmd:MD_Metadata><!--METValidation=False-->

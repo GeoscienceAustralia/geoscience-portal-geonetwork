@@ -1,6 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?>
-<gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?><gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>ANZWA1220000614</gco:CharacterString>
   </gmd:fileIdentifier>
@@ -76,7 +74,7 @@
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion>
     <gco:CharacterString>1.1</gco:CharacterString>
-  </gmd:metadataStandardVersion>
+  </gmd:metadataStandardVersion><gmd:dataSetURI><gco:CharacterString/></gmd:dataSetURI>
   <gmd:referenceSystemInfo>
     <gmd:MD_ReferenceSystem>
       <gmd:referenceSystemIdentifier>
@@ -595,11 +593,11 @@ The inventory provides baseline data on historical mining-related features in We
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing" />
+                  <gmd:title gco:nilReason="missing"/>
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown" />
-                      <gmd:dateType gco:nilReason="unknown" />
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:dateType gco:nilReason="unknown"/>
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -607,7 +605,7 @@ The inventory provides baseline data on historical mining-related features in We
               <gmd:explanation>
                 <gco:CharacterString>Not Known</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing" />
+              <gmd:pass gco:nilReason="missing"/>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_CompletenessOmission>
@@ -618,11 +616,11 @@ The inventory provides baseline data on historical mining-related features in We
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing" />
+                  <gmd:title gco:nilReason="missing"/>
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown" />
-                      <gmd:dateType gco:nilReason="unknown" />
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:dateType gco:nilReason="unknown"/>
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -630,7 +628,7 @@ The inventory provides baseline data on historical mining-related features in We
               <gmd:explanation>
                 <gco:CharacterString>Location collected by field staff using GPS</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing" />
+              <gmd:pass gco:nilReason="missing"/>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_AbsoluteExternalPositionalAccuracy>
@@ -641,11 +639,11 @@ The inventory provides baseline data on historical mining-related features in We
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing" />
+                  <gmd:title gco:nilReason="missing"/>
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown" />
-                      <gmd:dateType gco:nilReason="unknown" />
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:dateType gco:nilReason="unknown"/>
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -653,7 +651,7 @@ The inventory provides baseline data on historical mining-related features in We
               <gmd:explanation>
                 <gco:CharacterString>Attributes visually checked</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing" />
+              <gmd:pass gco:nilReason="missing"/>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_NonQuantitativeAttributeAccuracy>
@@ -664,11 +662,11 @@ The inventory provides baseline data on historical mining-related features in We
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing" />
+                  <gmd:title gco:nilReason="missing"/>
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown" />
-                      <gmd:dateType gco:nilReason="unknown" />
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:dateType gco:nilReason="unknown"/>
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -676,7 +674,7 @@ The inventory provides baseline data on historical mining-related features in We
               <gmd:explanation>
                 <gco:CharacterString>Data are verified and validated by staff in the field</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing" />
+              <gmd:pass gco:nilReason="missing"/>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_ConceptualConsistency>
@@ -725,5 +723,4 @@ The inventory provides baseline data on historical mining-related features in We
       </gmd:useConstraints>
     </gmd:MD_LegalConstraints>
   </gmd:metadataConstraints>
-</gmd:MD_Metadata>
-<!--METValidation=False-->
+</gmd:MD_Metadata><!--METValidation=False-->
