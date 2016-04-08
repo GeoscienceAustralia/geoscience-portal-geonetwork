@@ -1,6 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?>
-<gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?><gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>ANZWA1220000491</gco:CharacterString>
   </gmd:fileIdentifier>
@@ -64,7 +62,7 @@
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion>
     <gco:CharacterString>1.1</gco:CharacterString>
-  </gmd:metadataStandardVersion>
+  </gmd:metadataStandardVersion><gmd:dataSetURI><gco:CharacterString/></gmd:dataSetURI>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
@@ -219,7 +217,7 @@
                     <gco:Date>2008-10-29</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
-                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" />
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"/>
                   </gmd:dateType>
                 </gmd:CI_Date>
               </gmd:date>
@@ -242,7 +240,7 @@
                     <gco:CharacterString>ANZLIC the Spatial Information Council" </gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" />
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian"/>
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -470,11 +468,11 @@
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing" />
+                  <gmd:title gco:nilReason="missing"/>
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown" />
-                      <gmd:dateType gco:nilReason="unknown" />
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:dateType gco:nilReason="unknown"/>
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -482,7 +480,7 @@
               <gmd:explanation>
                 <gco:CharacterString>Not known</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing" />
+              <gmd:pass gco:nilReason="missing"/>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_CompletenessOmission>
@@ -493,11 +491,11 @@
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing" />
+                  <gmd:title gco:nilReason="missing"/>
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown" />
-                      <gmd:dateType gco:nilReason="unknown" />
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:dateType gco:nilReason="unknown"/>
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -505,7 +503,7 @@
               <gmd:explanation>
                 <gco:CharacterString>Not known</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing" />
+              <gmd:pass gco:nilReason="missing"/>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_AbsoluteExternalPositionalAccuracy>
@@ -516,11 +514,11 @@
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing" />
+                  <gmd:title gco:nilReason="missing"/>
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown" />
-                      <gmd:dateType gco:nilReason="unknown" />
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:dateType gco:nilReason="unknown"/>
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -528,7 +526,7 @@
               <gmd:explanation>
                 <gco:CharacterString>Not known</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing" />
+              <gmd:pass gco:nilReason="missing"/>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_NonQuantitativeAttributeAccuracy>
@@ -539,11 +537,11 @@
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing" />
+                  <gmd:title gco:nilReason="missing"/>
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown" />
-                      <gmd:dateType gco:nilReason="unknown" />
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:dateType gco:nilReason="unknown"/>
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -551,7 +549,7 @@
               <gmd:explanation>
                 <gco:CharacterString>Not known</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing" />
+              <gmd:pass gco:nilReason="missing"/>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_ConceptualConsistency>
@@ -565,5 +563,4 @@
       </gmd:lineage>
     </gmd:DQ_DataQuality>
   </gmd:dataQualityInfo>
-</gmd:MD_Metadata>
-<!--METValidation=False-->
+</gmd:MD_Metadata><!--METValidation=False-->

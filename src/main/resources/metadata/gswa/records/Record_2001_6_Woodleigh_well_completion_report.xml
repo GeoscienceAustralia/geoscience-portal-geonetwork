@@ -1,6 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?>
-<gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?><gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>ANZWA1220000377</gco:CharacterString>
   </gmd:fileIdentifier>
@@ -76,7 +74,7 @@
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion>
     <gco:CharacterString>1.1</gco:CharacterString>
-  </gmd:metadataStandardVersion>
+  </gmd:metadataStandardVersion><gmd:dataSetURI><gco:CharacterString/></gmd:dataSetURI>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
@@ -160,13 +158,13 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Woodleigh 1, 2, and 2A are stratigraphic wells within the circular Woodleigh impact structure, on the Gascoyne Platform in the Southern Carnarvon Basin. Woodleigh 1 is located at latitude 26°03'19.3"S and longitude 114°39'56.3"E, at the centre of the structure and penetrated shock-metamorphic granitoid basement (171 - 333.1 m) below the Cretaceous Toolonga Calcilutite and Winning Group. Woodleigh 2A, 15 km to the west at latitude 2603'28"S and longitude 11431'33"E, penetrated a Cretaceous section similar to Woodleigh 1 followed by lacustrine Lower Jurassic Woodleigh Formation (223 - 521.3 m), unnamed paraconglomerate (521.3 - 587.2 m), unnamed breccia (587.2 - 600.85 m), and Silurian carbonate and gypsum (Coburn Formation, 600.85 - 618.3 m), in which the well was terminated. An impact origin for the structure is indicated by the central uplifted granitoid core. Pseudotachylite vein systems within the shocked granitoid suggest chemical fractionation attendant on shock volatilization, enrichment by an injected and volatized meteoritic component, and potential sulfide mineralization. The age of impact is regionally constrained by overlying Lower Jurassic strata and deformed Lower Devonian and older units. The petroleum potential of the Woodleigh impact structure is limited by the immaturity of the otherwise good to excellent source-rock characteristics of the Mesozoic section and low maturity of the Silurian section in Woodleigh 2A, the paucity of potential sealing sections, and the uncertainty of the age of the impact relative to peak hydrocarbon generation. However, good quality source rock is evident in Silurian clasts reworked into the unnamed breccia.</gco:CharacterString>
+        <gco:CharacterString>Woodleigh 1, 2, and 2A are stratigraphic wells within the circular Woodleigh impact structure, on the Gascoyne Platform in the Southern Carnarvon Basin. Woodleigh 1 is located at latitude 26&#176;03'19.3"S and longitude 114&#176;39'56.3"E, at the centre of the structure and penetrated shock-metamorphic granitoid basement (171 - 333.1 m) below the Cretaceous Toolonga Calcilutite and Winning Group. Woodleigh 2A, 15 km to the west at latitude 2603'28"S and longitude 11431'33"E, penetrated a Cretaceous section similar to Woodleigh 1 followed by lacustrine Lower Jurassic Woodleigh Formation (223 - 521.3 m), unnamed paraconglomerate (521.3 - 587.2 m), unnamed breccia (587.2 - 600.85 m), and Silurian carbonate and gypsum (Coburn Formation, 600.85 - 618.3 m), in which the well was terminated. An impact origin for the structure is indicated by the central uplifted granitoid core. Pseudotachylite vein systems within the shocked granitoid suggest chemical fractionation attendant on shock volatilization, enrichment by an injected and volatized meteoritic component, and potential sulfide mineralization. The age of impact is regionally constrained by overlying Lower Jurassic strata and deformed Lower Devonian and older units. The petroleum potential of the Woodleigh impact structure is limited by the immaturity of the otherwise good to excellent source-rock characteristics of the Mesozoic section and low maturity of the Silurian section in Woodleigh 2A, the paucity of potential sealing sections, and the uncertainty of the age of the impact relative to peak hydrocarbon generation. However, good quality source rock is evident in Silurian clasts reworked into the unnamed breccia.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
-        <gmd:CI_ResponsibleParty>  <gmd:individualName>    <gco:CharacterString>No Name</gco:CharacterString>  </gmd:individualName>  <gmd:organisationName>    <gco:CharacterString>Department of Mines and Petroleum - Geological Survey Division</gco:CharacterString>  </gmd:organisationName>  <gmd:positionName>    <gco:CharacterString>Manager, Petroleum Geology</gco:CharacterString>  </gmd:positionName>  <gmd:contactInfo>    <gmd:CI_Contact>      <gmd:phone>        <gmd:CI_Telephone>          <gmd:voice gco:nilReason="missing">            <gco:CharacterString></gco:CharacterString>          </gmd:voice>          <gmd:facsimile gco:nilReason="missing">            <gco:CharacterString></gco:CharacterString>          </gmd:facsimile>        </gmd:CI_Telephone>      </gmd:phone>      <gmd:address>        <gmd:CI_Address>          <gmd:deliveryPoint>            <gco:CharacterString>100 Plain Street</gco:CharacterString>          </gmd:deliveryPoint>          <gmd:city>            <gco:CharacterString>East Perth</gco:CharacterString>          </gmd:city>          <gmd:administrativeArea>            <gco:CharacterString>Western Australia</gco:CharacterString>          </gmd:administrativeArea>          <gmd:postalCode>            <gco:CharacterString>6004</gco:CharacterString>          </gmd:postalCode>          <gmd:country>            <gco:CharacterString>Australia</gco:CharacterString>          </gmd:country>          <gmd:electronicMailAddress gco:nilReason="missing">            <gco:CharacterString></gco:CharacterString>          </gmd:electronicMailAddress>        </gmd:CI_Address>      </gmd:address>    </gmd:CI_Contact>  </gmd:contactInfo>  <gmd:role>    <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>  </gmd:role></gmd:CI_ResponsibleParty>
+        <gmd:CI_ResponsibleParty>  <gmd:individualName>    <gco:CharacterString>No Name</gco:CharacterString>  </gmd:individualName>  <gmd:organisationName>    <gco:CharacterString>Department of Mines and Petroleum - Geological Survey Division</gco:CharacterString>  </gmd:organisationName>  <gmd:positionName>    <gco:CharacterString>Manager, Petroleum Geology</gco:CharacterString>  </gmd:positionName>  <gmd:contactInfo>    <gmd:CI_Contact>      <gmd:phone>        <gmd:CI_Telephone>          <gmd:voice gco:nilReason="missing">            <gco:CharacterString/>          </gmd:voice>          <gmd:facsimile gco:nilReason="missing">            <gco:CharacterString/>          </gmd:facsimile>        </gmd:CI_Telephone>      </gmd:phone>      <gmd:address>        <gmd:CI_Address>          <gmd:deliveryPoint>            <gco:CharacterString>100 Plain Street</gco:CharacterString>          </gmd:deliveryPoint>          <gmd:city>            <gco:CharacterString>East Perth</gco:CharacterString>          </gmd:city>          <gmd:administrativeArea>            <gco:CharacterString>Western Australia</gco:CharacterString>          </gmd:administrativeArea>          <gmd:postalCode>            <gco:CharacterString>6004</gco:CharacterString>          </gmd:postalCode>          <gmd:country>            <gco:CharacterString>Australia</gco:CharacterString>          </gmd:country>          <gmd:electronicMailAddress gco:nilReason="missing">            <gco:CharacterString/>          </gmd:electronicMailAddress>        </gmd:CI_Address>      </gmd:address>    </gmd:CI_Contact>  </gmd:contactInfo>  <gmd:role>    <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>  </gmd:role></gmd:CI_ResponsibleParty>
       </gmd:pointOfContact>
       <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
@@ -503,7 +501,7 @@
                     <gco:CharacterString>Record 2001/6 - GSWA Woodleigh 1, 2, and 2A well completion report - Woodleigh impact structure, Southern Carnarvon Basin, Western Australia</gco:CharacterString>
                   </gmd:name>
                   <gmd:description>
-                    <gco:CharacterString>Woodleigh 1, 2, and 2A are stratigraphic wells within the circular Woodleigh impact structure, on the Gascoyne Platform in the Southern Carnarvon Basin. Woodleigh 1 is located at latitude 26º03'19.3"S and longitude 114º39'56.3"E, at the centre of the structure and penetrated shock-metamorphic granitoid basement (171 - 333.1 m) below the Cretaceous Toolonga Calcilutite and Winning Group. Woodleigh 2A, 15 km to the west at latitude 26º03'28"S and longitude 114º31'33"E, penetrated a Cretaceous section similar to Woodleigh 1 followed by lacustrine Lower Jurassic Woodleigh Formation (223 - 521.3 m), unnamed paraconglomerate (521.3 - 587.2 m), unnamed breccia (587.2 - 600.85 m), and Silurian carbonate and gypsum (Coburn Formation, 600.85 - 618.3 m), in which the well was terminated. An impact origin for the structure is indicated by the central uplifted granitoid core. Pseudotachylite vein systems within the shocked granitoid suggest chemical fractionation attendant on shock volatilization, enrichment by an injected and volatized meteoritic component, and potential sulfide mineralization. The age of impact is regionally constrained by overlying Lower Jurassic strata and deformed Lower Devonian and older units. The petroleum potential of the Woodleigh impact structure is limited by the immaturity of the otherwise good to excellent source-rock characteristics of the Mesozoic section and low maturity of the Silurian section in Woodleigh 2A, the paucity of potential sealing sections, and the uncertainty of the age of the impact relative to peak hydrocarbon generation. However, good quality source rock is evident in Silurian clasts reworked into the unnamed breccia.</gco:CharacterString>
+                    <gco:CharacterString>Woodleigh 1, 2, and 2A are stratigraphic wells within the circular Woodleigh impact structure, on the Gascoyne Platform in the Southern Carnarvon Basin. Woodleigh 1 is located at latitude 26&#186;03'19.3"S and longitude 114&#186;39'56.3"E, at the centre of the structure and penetrated shock-metamorphic granitoid basement (171 - 333.1 m) below the Cretaceous Toolonga Calcilutite and Winning Group. Woodleigh 2A, 15 km to the west at latitude 26&#186;03'28"S and longitude 114&#186;31'33"E, penetrated a Cretaceous section similar to Woodleigh 1 followed by lacustrine Lower Jurassic Woodleigh Formation (223 - 521.3 m), unnamed paraconglomerate (521.3 - 587.2 m), unnamed breccia (587.2 - 600.85 m), and Silurian carbonate and gypsum (Coburn Formation, 600.85 - 618.3 m), in which the well was terminated. An impact origin for the structure is indicated by the central uplifted granitoid core. Pseudotachylite vein systems within the shocked granitoid suggest chemical fractionation attendant on shock volatilization, enrichment by an injected and volatized meteoritic component, and potential sulfide mineralization. The age of impact is regionally constrained by overlying Lower Jurassic strata and deformed Lower Devonian and older units. The petroleum potential of the Woodleigh impact structure is limited by the immaturity of the otherwise good to excellent source-rock characteristics of the Mesozoic section and low maturity of the Silurian section in Woodleigh 2A, the paucity of potential sealing sections, and the uncertainty of the age of the impact relative to peak hydrocarbon generation. However, good quality source rock is evident in Silurian clasts reworked into the unnamed breccia.</gco:CharacterString>
                   </gmd:description>
                   <gmd:function>
                     <gmd:CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="order">order</gmd:CI_OnLineFunctionCode>
@@ -531,11 +529,11 @@
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing" />
+                  <gmd:title gco:nilReason="missing"/>
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown" />
-                      <gmd:dateType gco:nilReason="unknown" />
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:dateType gco:nilReason="unknown"/>
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -543,7 +541,7 @@
               <gmd:explanation>
                 <gco:CharacterString>All datasets are complete and have been verified.</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing" />
+              <gmd:pass gco:nilReason="missing"/>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_CompletenessOmission>
@@ -554,11 +552,11 @@
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing" />
+                  <gmd:title gco:nilReason="missing"/>
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown" />
-                      <gmd:dateType gco:nilReason="unknown" />
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:dateType gco:nilReason="unknown"/>
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -566,7 +564,7 @@
               <gmd:explanation>
                 <gco:CharacterString>The position of the wells have been obtained directly from the WAPIMS database.</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing" />
+              <gmd:pass gco:nilReason="missing"/>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_AbsoluteExternalPositionalAccuracy>
@@ -577,11 +575,11 @@
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing" />
+                  <gmd:title gco:nilReason="missing"/>
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown" />
-                      <gmd:dateType gco:nilReason="unknown" />
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:dateType gco:nilReason="unknown"/>
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -589,7 +587,7 @@
               <gmd:explanation>
                 <gco:CharacterString>The accuracy of the attribute information is estimated at 95%.</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing" />
+              <gmd:pass gco:nilReason="missing"/>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_NonQuantitativeAttributeAccuracy>
@@ -600,11 +598,11 @@
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing" />
+                  <gmd:title gco:nilReason="missing"/>
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown" />
-                      <gmd:dateType gco:nilReason="unknown" />
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:dateType gco:nilReason="unknown"/>
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -612,7 +610,7 @@
               <gmd:explanation>
                 <gco:CharacterString>The positional data has been checked against the WAPIMS database.</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing" />
+              <gmd:pass gco:nilReason="missing"/>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_ConceptualConsistency>
@@ -661,5 +659,4 @@
       </gmd:useConstraints>
     </gmd:MD_LegalConstraints>
   </gmd:metadataConstraints>
-</gmd:MD_Metadata>
-<!--METValidation=False-->
+</gmd:MD_Metadata><!--METValidation=False-->
