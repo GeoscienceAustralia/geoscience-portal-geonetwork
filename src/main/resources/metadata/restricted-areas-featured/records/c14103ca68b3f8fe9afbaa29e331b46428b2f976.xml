@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>1482f0a81066dd18f3ef73cc1c58192726225fd5</gco:CharacterString>
+		<gco:CharacterString>c14103ca68b3f8fe9afbaa29e331b46428b2f976</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -194,7 +194,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/gis/services/Defence_Restricted_Areas/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -230,7 +230,7 @@
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>2016-03-21T16:26:24</gco:DateTime>
+		<gco:DateTime>2016-05-11T22:56:58</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -929,7 +929,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>Defence Practice Areas</gco:CharacterString>
+						<gco:CharacterString>Defence Prohibited Areas</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -944,7 +944,7 @@
 							<gmd:date>
 								
                     
-								<gco:DateTime>2016-03-21T16:26:24</gco:DateTime>
+								<gco:DateTime>2016-05-11T22:56:58</gco:DateTime>
 								
                   
 							</gmd:date>
@@ -974,7 +974,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Defence Practice Areas are public safety exclusion zones located over areas to protect the public. The public safety exclusion zones are enforced to protect the public in the unlikely event of weapon system malfunction. It is very dangerous to be on land at any time, or on the water inside the Defence Practice Area public safety exclusion zones when aircraft are using the range for bombing or air-to-ground gunnery. Data included in this layer is indicative only and should not be used for detailed planning.</gco:CharacterString>
+				<gco:CharacterString>Defence prohibited areas are defined under the Defence Act 1903 and the Defence Force Regulations 1952 and are Defence premises used for testing of war materiel under the control of the Royal Australian Air Force or Australian Army. Data included in this layer is indicative only and should not be used for detailed planning.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -1145,7 +1145,7 @@
 									<gmd:linkage>
 										
                         
-										<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+										<gmd:URL>http://services.ga.gov.au/gis/services/Defence_Restricted_Areas/MapServer/WmsServer?</gmd:URL>
 										
                       
 									</gmd:linkage>
@@ -1220,7 +1220,7 @@
 							<gmd:westBoundLongitude>
 								
                     
-								<gco:Decimal>112.118466814</gco:Decimal>
+								<gco:Decimal>131.477867</gco:Decimal>
 								
                   
 							</gmd:westBoundLongitude>
@@ -1229,7 +1229,7 @@
 							<gmd:eastBoundLongitude>
 								
                     
-								<gco:Decimal>153.731749001</gco:Decimal>
+								<gco:Decimal>138.300000</gco:Decimal>
 								
                   
 							</gmd:eastBoundLongitude>
@@ -1238,7 +1238,7 @@
 							<gmd:southBoundLatitude>
 								
                     
-								<gco:Decimal>-44.016225095</gco:Decimal>
+								<gco:Decimal>-34.567000</gco:Decimal>
 								
                   
 							</gmd:southBoundLatitude>
@@ -1247,7 +1247,7 @@
 							<gmd:northBoundLatitude>
 								
                     
-								<gco:Decimal>-10.1659620849999</gco:Decimal>
+								<gco:Decimal>-27.836486</gco:Decimal>
 								
                   
 							</gmd:northBoundLatitude>
@@ -1322,7 +1322,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.ga.gov.au/gis/services/topography/Defence_Restricted_Areas/MapServer/WMSServer</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/gis/services/Defence_Restricted_Areas/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1340,7 +1340,7 @@
 							<gmd:name>
 								
                     
-								<gco:CharacterString>Defence_Practice_Areas</gco:CharacterString>
+								<gco:CharacterString>Defence_Prohibited_Areas</gco:CharacterString>
 								
                   
 							</gmd:name>
@@ -1349,7 +1349,7 @@
 							<gmd:description>
 								
                     
-								<gco:CharacterString>Defence Practice Areas</gco:CharacterString>
+								<gco:CharacterString>Defence Prohibited Areas</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -1370,7 +1370,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.ga.gov.au/gis/server/capabilities/Defence_Prohibited_Areas_PracticeArea_Legend.png</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/gis/rest/directories/capabilities/Defence_Restricted_Areas_Prohibited_Legend.png</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1388,7 +1388,7 @@
 							<gmd:name>
 								
                     
-								<gco:CharacterString>Defence_Practice_Areas (LegendURL)</gco:CharacterString>
+								<gco:CharacterString>Defence Prohibited Areas (LegendURL)</gco:CharacterString>
 								
                   
 							</gmd:name>
