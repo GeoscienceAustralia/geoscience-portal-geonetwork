@@ -2,7 +2,7 @@
 
 ###Setting up Postgres
 
-Make sure you have postgres installed and configured correctly.
+Make sure you have Postgres installed and configured correctly.
 
 Edit the `src/main/resources/geonetwork-db.sql` and replace the variable `${password}` with your own dummy password (eg 'test').
 
@@ -14,13 +14,13 @@ This will build the database that conatins the metadata records for you GeoNetwo
 
 ###Building the GeoNetwork instance
 
-Edit `src/main/webapp/WEB-INF/config-db/jdbc.properties`, replace the variable `${password}` with the dummy password you used for the SQL.
+Edit `src/main/webapp/WEB-INF/config-db/jdbc.properties`, replace the variable `${password}` with the dummy password you used for the database.
 
 Run `mvn install` then deploy the warfile to your local Tomcat container.
 
 ###Making changes to the GeoNetwork configuration
 
-Most changes are made in the GeoNetwork web interface and these changes are persisted in the postgres database. To deploy these changes, we need to dump the database. 
+Most changes are made in the GeoNetwork web interface and these changes are persisted in the Postgres database. To deploy these changes, we need to dump the database. 
 
     pg_dump -U geonetwork -c -C  > src/main/resources/geonetwork-db.sql
 
