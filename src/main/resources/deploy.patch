@@ -1,6 +1,6 @@
---- geonetwork-db.sql.dump	2016-03-17 16:08:21.750865700 +1100
+--- geonetwork-db.sql	2016-03-17 16:08:21.750865700 +1100
 +++ geonetwork-db.sql	2016-03-17 16:05:58.098865700 +1100
-@@ -14,11 +14,17 @@
+@@ -14,6 +14,11 @@
  SET row_security = off;
  
  DROP DATABASE geonetwork;
@@ -12,10 +12,3 @@
  --
  -- Name: geonetwork; Type: DATABASE; Schema: -; Owner: geonetwork
  --
- 
--CREATE DATABASE geonetwork WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'English_Australia.1252' LC_CTYPE = 'English_Australia.1252';
-+CREATE DATABASE geonetwork WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'en_US.UTF-8' LC_CTYPE = 'en_US.UTF-8';
-+
- 
- 
- ALTER DATABASE geonetwork OWNER TO geonetwork;
