@@ -30,7 +30,7 @@ This will not create the `geonetwork` user required for deployment. It is added 
 
 ###Troubleshooting
 
-If you are getting locale or encoding errors for you local Postgres database, edit the line that creates the `geonetwork` database. But ensure that when you commit the geonetwork.-db.sql file your `CREATE DATABASE` statement matches:
+If you are getting locale or encoding errors for you local Postgres database, edit the line that creates the `geonetwork` database. But ensure that when you commit the `geonetwork-db.sql` file your `CREATE DATABASE` statement matches:
 
     CREATE DATABASE geonetwork WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'C' LC_CTYPE = 'C';
 
