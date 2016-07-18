@@ -1097,7 +1097,7 @@ Red is high ferrous iron content in carbonate and MgOH minerals like chlorite an
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://aster.nci.org.au/thredds/wcs/aster/vnir/Aus_Mainland/Aus_Mainland_Ferrous_iron_content_in_MgOH_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dapds00.nci.org.au/thredds/wcs/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_Ferrous_iron_content_in_MgOH_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1145,7 +1145,7 @@ Red is high ferrous iron content in carbonate and MgOH minerals like chlorite an
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://aster.nci.org.au/thredds/dodsC/aster/vnir/Aus_Mainland/Aus_Mainland_Ferrous_iron_content_in_MgOH_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dapds00.nci.org.au/thredds/dodsC/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_Ferrous_iron_content_in_MgOH_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1193,7 +1193,7 @@ Red is high ferrous iron content in carbonate and MgOH minerals like chlorite an
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://aster.nci.org.au/thredds/wms/aster/vnir/Aus_Mainland/Aus_Mainland_Ferrous_iron_content_in_MgOH_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dapds00.nci.org.au/thredds/wms/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_Ferrous_iron_content_in_MgOH_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1241,7 +1241,7 @@ Red is high ferrous iron content in carbonate and MgOH minerals like chlorite an
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://aster.nci.org.au/thredds/wms/aster/vnir/Tasmania/Tas_Ferrous_iron_in_MgOH_content_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dapds00.nci.org.au/thredds/wms/wx7/aster/vnir/Tasmania/Tas_Ferrous_iron_in_MgOH_content_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
