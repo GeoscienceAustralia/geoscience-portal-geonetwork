@@ -1104,7 +1104,7 @@ Blue is low content, Red is high content</gco:CharacterString>
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://aster.nci.org.au/thredds/wcs/aster/vnir/Aus_Mainland/Aus_Mainland_Kaolin_group_index_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dapds00.nci.org.au/thredds/wcs/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_Kaolin_group_index_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1152,7 +1152,7 @@ Blue is low content, Red is high content</gco:CharacterString>
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://aster.nci.org.au/thredds/dodsC/aster/vnir/Aus_Mainland/Aus_Mainland_Kaolin_group_index_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dapds00.nci.org.au/thredds/dodsC/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_Kaolin_group_index_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1200,7 +1200,7 @@ Blue is low content, Red is high content</gco:CharacterString>
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://aster.nci.org.au/thredds/wms/aster/vnir/Aus_Mainland/Aus_Mainland_Kaolin_group_index_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dapds00.nci.org.au/thredds/wms/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_Kaolin_group_index_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1248,7 +1248,7 @@ Blue is low content, Red is high content</gco:CharacterString>
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://aster.nci.org.au/thredds/wms/aster/vnir/Tasmania/Tas_Kaolin_group_index_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dapds00.nci.org.au/thredds/wms/wx7/aster/vnir/Tasmania/Tas_Kaolin_group_index_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
