@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>15f9416d7b56cfd1ebd3731eb6584aaa15787d8e</gco:CharacterString>
+		<gco:CharacterString>8a74701ddbb3836ef2186908c3d8020ecb84095b</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -47,7 +47,7 @@
 			<gmd:individualName>
 				
             
-				<gco:CharacterString>Ollie Raymond</gco:CharacterString>
+				<gco:CharacterString/>
 				
           
 			</gmd:individualName>
@@ -65,7 +65,7 @@
 			<gmd:positionName>
 				
             
-				<gco:CharacterString>Custodian, National Geological Maps</gco:CharacterString>
+				<gco:CharacterString/>
 				
           
 			</gmd:positionName>
@@ -86,7 +86,7 @@
 							<gmd:voice>
 								
                     
-								<gco:CharacterString>+61 2 62499111</gco:CharacterString>
+								<gco:CharacterString>+61 2 6249 9111</gco:CharacterString>
 								
                   
 							</gmd:voice>
@@ -95,7 +95,7 @@
 							<gmd:facsimile>
 								
                     
-								<gco:CharacterString>+61 2 62499999</gco:CharacterString>
+								<gco:CharacterString/>
 								
                   
 							</gmd:facsimile>
@@ -116,7 +116,7 @@
 							<gmd:electronicMailAddress>
 								
                     
-								<gco:CharacterString>feedback@ga.gov.au</gco:CharacterString>
+								<gco:CharacterString>clientservices@ga.gov.au</gco:CharacterString>
 								
                   
 							</gmd:electronicMailAddress>
@@ -137,7 +137,7 @@
 							<gmd:deliveryPoint>
 								
                     
-								<gco:CharacterString>GPO BOX 378</gco:CharacterString>
+								<gco:CharacterString>GPO Box 378</gco:CharacterString>
 								
                   
 							</gmd:deliveryPoint>
@@ -194,7 +194,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.ga.gov.au/products-services/data-applications.html</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/gis/services/GA_Surface_Geology/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -230,7 +230,7 @@
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>2015-11-18T20:40:48</gco:DateTime>
+		<gco:DateTime>2016-08-30T14:49:55</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -269,7 +269,7 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>CRS:84</gco:CharacterString>
+						<gco:CharacterString>EPSG:4283</gco:CharacterString>
 						
               
 					</gmd:code>
@@ -335,7 +335,7 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>EPSG:4283</gco:CharacterString>
+						<gco:CharacterString>CRS:84</gco:CharacterString>
 						
               
 					</gmd:code>
@@ -386,6 +386,534 @@
 	</gmd:referenceSystemInfo>
 	
       
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28348</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28349</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28350</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28351</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28352</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28353</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28354</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28355</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28356</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28357</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28358</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:32748</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:32749</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:32750</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:32751</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:32752</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
 	<gmd:identificationInfo>
 		
         
@@ -401,7 +929,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>AUS GA 1:1M Miscellaneous Lines</gco:CharacterString>
+						<gco:CharacterString>AUS GA 1M MiscLines</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -416,7 +944,7 @@
 							<gmd:date>
 								
                     
-								<gco:DateTime>2015-11-18T20:40:48</gco:DateTime>
+								<gco:DateTime>2016-08-30T14:49:55</gco:DateTime>
 								
                   
 							</gmd:date>
@@ -470,7 +998,7 @@
 					<gmd:individualName>
 						
                 
-						<gco:CharacterString>Ollie Raymond</gco:CharacterString>
+						<gco:CharacterString/>
 						
               
 					</gmd:individualName>
@@ -488,7 +1016,7 @@
 					<gmd:positionName>
 						
                 
-						<gco:CharacterString>Custodian, National Geological Maps</gco:CharacterString>
+						<gco:CharacterString/>
 						
               
 					</gmd:positionName>
@@ -509,7 +1037,7 @@
 									<gmd:voice>
 										
                         
-										<gco:CharacterString>+61 2 62499111</gco:CharacterString>
+										<gco:CharacterString>+61 2 6249 9111</gco:CharacterString>
 										
                       
 									</gmd:voice>
@@ -518,7 +1046,7 @@
 									<gmd:facsimile>
 										
                         
-										<gco:CharacterString>+61 2 62499999</gco:CharacterString>
+										<gco:CharacterString/>
 										
                       
 									</gmd:facsimile>
@@ -539,7 +1067,7 @@
 									<gmd:electronicMailAddress>
 										
                         
-										<gco:CharacterString>feedback@ga.gov.au</gco:CharacterString>
+										<gco:CharacterString>clientservices@ga.gov.au</gco:CharacterString>
 										
                       
 									</gmd:electronicMailAddress>
@@ -560,7 +1088,7 @@
 									<gmd:deliveryPoint>
 										
                         
-										<gco:CharacterString>GPO BOX 378</gco:CharacterString>
+										<gco:CharacterString>GPO Box 378</gco:CharacterString>
 										
                       
 									</gmd:deliveryPoint>
@@ -617,7 +1145,7 @@
 									<gmd:linkage>
 										
                         
-										<gmd:URL>http://www.ga.gov.au/products-services/data-applications.html</gmd:URL>
+										<gmd:URL>http://services.ga.gov.au/gis/services/GA_Surface_Geology/MapServer/WmsServer?</gmd:URL>
 										
                       
 									</gmd:linkage>
@@ -648,168 +1176,6 @@
 				
           
 			</gmd:pointOfContact>
-			
-          
-			<gmd:descriptiveKeywords>
-				
-            
-				<gmd:MD_Keywords>
-					
-              
-					<gmd:keyword>
-						
-                
-						<gco:CharacterString>OneGeology</gco:CharacterString>
-						
-              
-					</gmd:keyword>
-					
-              
-					<gmd:keyword>
-						
-                
-						<gco:CharacterString>Australia</gco:CharacterString>
-						
-              
-					</gmd:keyword>
-					
-              
-					<gmd:keyword>
-						
-                
-						<gco:CharacterString>map</gco:CharacterString>
-						
-              
-					</gmd:keyword>
-					
-              
-					<gmd:keyword>
-						
-                
-						<gco:CharacterString>coastline</gco:CharacterString>
-						
-              
-					</gmd:keyword>
-					
-              
-					<gmd:keyword>
-						
-                
-						<gco:CharacterString>lake</gco:CharacterString>
-						
-              
-					</gmd:keyword>
-					
-              
-					<gmd:keyword>
-						
-                
-						<gco:CharacterString>continent@Oceania</gco:CharacterString>
-						
-              
-					</gmd:keyword>
-					
-              
-					<gmd:keyword>
-						
-                
-						<gco:CharacterString>subcontinent@Australia and New Zealand</gco:CharacterString>
-						
-              
-					</gmd:keyword>
-					
-              
-					<gmd:keyword>
-						
-                
-						<gco:CharacterString>geographicarea@Australia</gco:CharacterString>
-						
-              
-					</gmd:keyword>
-					
-              
-					<gmd:keyword>
-						
-                
-						<gco:CharacterString>dataprovider@Geoscience Australia</gco:CharacterString>
-						
-              
-					</gmd:keyword>
-					
-              
-					<gmd:keyword>
-						
-                
-						<gco:CharacterString>serviceprovider@Geoscience Australia</gco:CharacterString>
-						
-              
-					</gmd:keyword>
-					
-              
-					<gmd:keyword>
-						
-                
-						<gco:CharacterString>DS_TOPIC@geoscientificInformation</gco:CharacterString>
-						
-              
-					</gmd:keyword>
-					
-              
-					<gmd:keyword>
-						
-                
-						<gco:CharacterString>DS_DATE@2012-12-18</gco:CharacterString>
-						
-              
-					</gmd:keyword>
-					
-              
-					<gmd:type>
-						
-                
-						<gmd:MD_KeywordTypeCode codeList="./resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
-						
-              
-					</gmd:type>
-					
-            
-				</gmd:MD_Keywords>
-				
-          
-			</gmd:descriptiveKeywords>
-			
-          
-			<gmd:spatialResolution>
-				
-            
-				<gmd:MD_Resolution>
-					
-              
-					<gmd:equivalentScale>
-						
-                
-						<gmd:MD_RepresentativeFraction>
-							
-                  
-							<gmd:denominator>
-								
-                    
-								<gco:Integer>1417410.714286</gco:Integer>
-								
-                  
-							</gmd:denominator>
-							
-                
-						</gmd:MD_RepresentativeFraction>
-						
-              
-					</gmd:equivalentScale>
-					
-            
-				</gmd:MD_Resolution>
-				
-          
-			</gmd:spatialResolution>
 			
           
 			<gmd:language gco:nilReason="missing">
@@ -854,7 +1220,7 @@
 							<gmd:westBoundLongitude>
 								
                     
-								<gco:Decimal>72.577237222</gco:Decimal>
+								<gco:Decimal>72.577237</gco:Decimal>
 								
                   
 							</gmd:westBoundLongitude>
@@ -872,7 +1238,7 @@
 							<gmd:southBoundLatitude>
 								
                     
-								<gco:Decimal>-54.777735976</gco:Decimal>
+								<gco:Decimal>-54.777736</gco:Decimal>
 								
                   
 							</gmd:southBoundLatitude>
@@ -881,7 +1247,7 @@
 							<gmd:northBoundLatitude>
 								
                     
-								<gco:Decimal>-9.17848014799995</gco:Decimal>
+								<gco:Decimal>-9.178480</gco:Decimal>
 								
                   
 							</gmd:northBoundLatitude>
@@ -956,7 +1322,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.ga.gov.au/gis/services/earth_science/GA_Surface_Geology_of_Australia/MapServer/WMSServer</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/gis/services/GA_Surface_Geology/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -983,7 +1349,7 @@
 							<gmd:description>
 								
                     
-								<gco:CharacterString>AUS GA 1:1M Miscellaneous Lines</gco:CharacterString>
+								<gco:CharacterString>AUS GA 1M MiscLines</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -1004,7 +1370,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.ga.gov.au/metadata-gateway/metadata/record/gcat_74619</gmd:URL>
+								<gmd:URL>http://www.ga.gov.au/metadata-gateway/metadata/record/74619</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1052,7 +1418,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://www.ga.gov.au/gis/server/capabilities/Surface_geology_lines_legend_2012.jpg</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/gis/rest/directories/capabilities/GA_Surface_Geology/GA_Surface_Geology_misclines_legend.jpg</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1061,7 +1427,7 @@
 							<gmd:protocol>
 								
                     
-								<gco:CharacterString>image/jpeg</gco:CharacterString>
+								<gco:CharacterString>image/jpg</gco:CharacterString>
 								
                   
 							</gmd:protocol>
@@ -1070,7 +1436,7 @@
 							<gmd:name>
 								
                     
-								<gco:CharacterString>default (LegendURL)</gco:CharacterString>
+								<gco:CharacterString>AUS GA 1M MiscLines (LegendURL)</gco:CharacterString>
 								
                   
 							</gmd:name>
