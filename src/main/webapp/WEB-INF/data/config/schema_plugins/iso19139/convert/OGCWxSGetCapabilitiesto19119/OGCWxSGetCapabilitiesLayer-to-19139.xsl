@@ -266,7 +266,7 @@
                                     <applicationProfile>
                                         <gco:CharacterString>
                                             <xsl:choose>
-                                                <xsl:when test="$esri='true'">ARCGIS SERVER</xsl:when>
+                                                <xsl:when test="$esri='true'">Esri:ArcGIS Server</xsl:when>
                                             </xsl:choose>
                                         </gco:CharacterString>
                                     </applicationProfile>
