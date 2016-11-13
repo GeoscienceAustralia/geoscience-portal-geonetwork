@@ -17,116 +17,115 @@
             <ogc:Or>
                 <!-- Populated Places -->
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
                     <ogc:Literal>Populated_Places_1</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
                     <ogc:Literal>Populated_Places_2</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
                     <ogc:Literal>Populated_Places_3</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
                     <ogc:Literal>Populated_Places_4</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
                     <ogc:Literal>Populated_Places_5</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
                     <ogc:Literal>Populated_Places_6</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
                     <ogc:Literal>Populated_Places_7</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
                     <ogc:Literal>Populated_Places_8</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
 
                 <!-- Rivers and Lakes -->
+                <!-- From NM_Hydrography_and_Marine end point -->
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>AusHydro_PondageAreas_1</ogc:Literal>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
+                    <ogc:Literal>Waterbody_All_Reservoirs</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>AusHydro_PondageAreas_2</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>AusHydro_Lakes_1</ogc:Literal>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
+                    <ogc:Literal>Waterbody_Reservoirs_National_Scale_to_300000</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>AusHydro_Lakes_2</ogc:Literal>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
+                    <ogc:Literal>Waterbody_All_Lakes</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>AusHydro_Lakes_3</ogc:Literal>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
+                    <ogc:Literal>Waterbody_Lakes_Scale_5Million_to_300000</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
-
+                
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>AusHydro_WatercourseAreas_1</ogc:Literal>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
+                    <ogc:Literal>Waterbody_Lakes_National_Scale_to_5Million</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>AusHydro_WatercourseAreas_2</ogc:Literal>
+                 <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
+                    <ogc:Literal>Waterbody_Extra_Lakes_and_Reservoirs</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
-
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>AusHydro_Rivers_1</ogc:Literal>
+                 <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
+                    <ogc:Literal>Watercourses_Major_Rivers_Scale_5Million_to_300000</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>AusHydro_Rivers_2</ogc:Literal>
+                 <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
+                    <ogc:Literal>Watercourses_Major_Rivers_National_Scale_to_5Million</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>AusHydro_Rivers_3</ogc:Literal>
+                 <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
+                    <ogc:Literal>Watercourse_Areas</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+                 <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
+                    <ogc:Literal>Watercourses_All_Rivers_Watercourse_Lines</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
 
                 <!-- Roads -->
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
                     <ogc:Literal>Roads_1</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
                     <ogc:Literal>Roads_2</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
                     <ogc:Literal>Roads_3</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
                     <ogc:Literal>Roads_4</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
                     <ogc:Literal>TOPO250K_Roads</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
 
                 <!-- Railways -->
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
                     <ogc:Literal>Railways_1</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
                     <ogc:Literal>Railways_2</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
                     <ogc:Literal>Railways_3</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Or>
