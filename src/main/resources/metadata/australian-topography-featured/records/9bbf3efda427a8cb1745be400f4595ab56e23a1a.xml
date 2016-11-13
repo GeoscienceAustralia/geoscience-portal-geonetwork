@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>d0e3fec8ee7f18dee2e2d4e9a20c8718e066b7cb</gco:CharacterString>
+		<gco:CharacterString>9bbf3efda427a8cb1745be400f4595ab56e23a1a</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -56,7 +56,7 @@
 			<gmd:organisationName>
 				
             
-				<gco:CharacterString/>
+				<gco:CharacterString>Geoscience Australia</gco:CharacterString>
 				
           
 			</gmd:organisationName>
@@ -65,7 +65,7 @@
 			<gmd:positionName>
 				
             
-				<gco:CharacterString/>
+				<gco:CharacterString>Client Services</gco:CharacterString>
 				
           
 			</gmd:positionName>
@@ -86,7 +86,7 @@
 							<gmd:voice>
 								
                     
-								<gco:CharacterString/>
+								<gco:CharacterString>+61 2 6249 9111</gco:CharacterString>
 								
                   
 							</gmd:voice>
@@ -116,7 +116,7 @@
 							<gmd:electronicMailAddress>
 								
                     
-								<gco:CharacterString/>
+								<gco:CharacterString>clientservices@ga.gov.au</gco:CharacterString>
 								
                   
 							</gmd:electronicMailAddress>
@@ -137,7 +137,7 @@
 							<gmd:deliveryPoint>
 								
                     
-								<gco:CharacterString/>
+								<gco:CharacterString>GPO Box 378</gco:CharacterString>
 								
                   
 							</gmd:deliveryPoint>
@@ -146,7 +146,7 @@
 							<gmd:city>
 								
                     
-								<gco:CharacterString/>
+								<gco:CharacterString>Canberra</gco:CharacterString>
 								
                   
 							</gmd:city>
@@ -155,7 +155,7 @@
 							<gmd:administrativeArea>
 								
                     
-								<gco:CharacterString/>
+								<gco:CharacterString>ACT</gco:CharacterString>
 								
                   
 							</gmd:administrativeArea>
@@ -164,7 +164,7 @@
 							<gmd:postalCode>
 								
                     
-								<gco:CharacterString/>
+								<gco:CharacterString>2601</gco:CharacterString>
 								
                   
 							</gmd:postalCode>
@@ -173,7 +173,7 @@
 							<gmd:country>
 								
                     
-								<gco:CharacterString/>
+								<gco:CharacterString>Australia</gco:CharacterString>
 								
                   
 							</gmd:country>
@@ -194,7 +194,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/gis/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/gis/services/NM_Hydrography_and_Marine/MapServer/WMSServer</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -230,7 +230,7 @@
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>2016-02-23T00:01:46</gco:DateTime>
+		<gco:DateTime>2016-11-13T13:08:30</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -269,7 +269,7 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>CRS:84</gco:CharacterString>
+						<gco:CharacterString>EPSG:4283</gco:CharacterString>
 						
               
 					</gmd:code>
@@ -335,6 +335,39 @@
 					<gmd:code>
 						
                 
+						<gco:CharacterString>CRS:84</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
 						<gco:CharacterString>EPSG:3857</gco:CharacterString>
 						
               
@@ -368,7 +401,502 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>EPSG:102100</gco:CharacterString>
+						<gco:CharacterString>EPSG:28348</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28349</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28350</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28351</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28352</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28353</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28354</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28355</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28356</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28357</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:28358</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:32748</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:32749</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:32750</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:32751</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>EPSG:32752</gco:CharacterString>
 						
               
 					</gmd:code>
@@ -401,7 +929,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>AusHydro_Lakes_1</gco:CharacterString>
+						<gco:CharacterString>Watercourses - Major Rivers National Scale to 1:5,000,000</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -416,7 +944,7 @@
 							<gmd:date>
 								
                     
-								<gco:DateTime>2016-02-23T00:01:46</gco:DateTime>
+								<gco:DateTime>2016-11-13T13:08:30</gco:DateTime>
 								
                   
 							</gmd:date>
@@ -446,7 +974,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString/>
+				<gco:CharacterString>All features have been included from the AUSHYDRO data capture. 250K Specification Description - Watercourse - A natural channel along which water may flow from time to time. Connector - An artificial line used to connect linear Hydrographic features across a defined area feature to allow network analysis of riverine networks. Connections across area features will be defined by the visual interpretation of imagery to achieve logical water flow patterns based on subtle variations in soil, vegetation and noticeable landform slope. (Source - http://www.ga.gov.au/mapspecs/topographic/v6/appendixA_files/Drainage.html). NOTE - This layer only displays between the National Scale and 1:5,050,000 scale to avoid clutter at the national scale (approx 1:36,000,000). Refer to other Watercourses layers at different scales for the National Map.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -479,7 +1007,7 @@
 					<gmd:organisationName>
 						
                 
-						<gco:CharacterString/>
+						<gco:CharacterString>Geoscience Australia</gco:CharacterString>
 						
               
 					</gmd:organisationName>
@@ -488,7 +1016,7 @@
 					<gmd:positionName>
 						
                 
-						<gco:CharacterString/>
+						<gco:CharacterString>Client Services</gco:CharacterString>
 						
               
 					</gmd:positionName>
@@ -509,7 +1037,7 @@
 									<gmd:voice>
 										
                         
-										<gco:CharacterString/>
+										<gco:CharacterString>+61 2 6249 9111</gco:CharacterString>
 										
                       
 									</gmd:voice>
@@ -539,7 +1067,7 @@
 									<gmd:electronicMailAddress>
 										
                         
-										<gco:CharacterString/>
+										<gco:CharacterString>clientservices@ga.gov.au</gco:CharacterString>
 										
                       
 									</gmd:electronicMailAddress>
@@ -560,7 +1088,7 @@
 									<gmd:deliveryPoint>
 										
                         
-										<gco:CharacterString/>
+										<gco:CharacterString>GPO Box 378</gco:CharacterString>
 										
                       
 									</gmd:deliveryPoint>
@@ -569,7 +1097,7 @@
 									<gmd:city>
 										
                         
-										<gco:CharacterString/>
+										<gco:CharacterString>Canberra</gco:CharacterString>
 										
                       
 									</gmd:city>
@@ -578,7 +1106,7 @@
 									<gmd:administrativeArea>
 										
                         
-										<gco:CharacterString/>
+										<gco:CharacterString>ACT</gco:CharacterString>
 										
                       
 									</gmd:administrativeArea>
@@ -587,7 +1115,7 @@
 									<gmd:postalCode>
 										
                         
-										<gco:CharacterString/>
+										<gco:CharacterString>2601</gco:CharacterString>
 										
                       
 									</gmd:postalCode>
@@ -596,7 +1124,7 @@
 									<gmd:country>
 										
                         
-										<gco:CharacterString/>
+										<gco:CharacterString>Australia</gco:CharacterString>
 										
                       
 									</gmd:country>
@@ -617,7 +1145,7 @@
 									<gmd:linkage>
 										
                         
-										<gmd:URL>http://services.ga.gov.au/gis/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
+										<gmd:URL>http://services.ga.gov.au/gis/services/NM_Hydrography_and_Marine/MapServer/WMSServer</gmd:URL>
 										
                       
 									</gmd:linkage>
@@ -758,7 +1286,7 @@
 							<gmd:westBoundLongitude>
 								
                     
-								<gco:Decimal>113.479030</gco:Decimal>
+								<gco:Decimal>95</gco:Decimal>
 								
                   
 							</gmd:westBoundLongitude>
@@ -767,7 +1295,7 @@
 							<gmd:eastBoundLongitude>
 								
                     
-								<gco:Decimal>140.064450</gco:Decimal>
+								<gco:Decimal>170</gco:Decimal>
 								
                   
 							</gmd:eastBoundLongitude>
@@ -776,7 +1304,7 @@
 							<gmd:southBoundLatitude>
 								
                     
-								<gco:Decimal>-32.375620</gco:Decimal>
+								<gco:Decimal>-55</gco:Decimal>
 								
                   
 							</gmd:southBoundLatitude>
@@ -785,7 +1313,7 @@
 							<gmd:northBoundLatitude>
 								
                     
-								<gco:Decimal>-21.995750</gco:Decimal>
+								<gco:Decimal>-1</gco:Decimal>
 								
                   
 							</gmd:northBoundLatitude>
@@ -860,7 +1388,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/gis/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/gis/services/NM_Hydrography_and_Marine/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -875,10 +1403,19 @@
 							</gmd:protocol>
 							
                   
+							<gmd:applicationProfile>
+								
+                    
+								<gco:CharacterString>Esri:ArcGIS Server</gco:CharacterString>
+								
+                  
+							</gmd:applicationProfile>
+							
+                  
 							<gmd:name>
 								
                     
-								<gco:CharacterString>AusHydro_Lakes_1</gco:CharacterString>
+								<gco:CharacterString>Watercourses_Major_Rivers_National_Scale_to_5Million</gco:CharacterString>
 								
                   
 							</gmd:name>
@@ -887,7 +1424,7 @@
 							<gmd:description>
 								
                     
-								<gco:CharacterString>AusHydro_Lakes_1</gco:CharacterString>
+								<gco:CharacterString>Watercourses - Major Rivers National Scale to 1:5,000,000</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -908,7 +1445,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/gis/services/Topographic_Base_Map/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=AusHydro_Lakes_1</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/gis/rest/directories/capabilities/NM_Hydrography_and_Marine_/NM_Hydrography_and_Marine_Watercourses.png</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -926,7 +1463,7 @@
 							<gmd:name>
 								
                     
-								<gco:CharacterString>AusHydro_Lakes_1 (LegendURL)</gco:CharacterString>
+								<gco:CharacterString>Watercourses - Major Rivers National Scale to 1:5,000,000 (LegendURL)</gco:CharacterString>
 								
                   
 							</gmd:name>

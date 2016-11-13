@@ -194,7 +194,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/gis/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -230,7 +230,7 @@
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>2016-02-23T00:02:23</gco:DateTime>
+		<gco:DateTime>2016-11-13T13:03:39</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -416,7 +416,7 @@
 							<gmd:date>
 								
                     
-								<gco:DateTime>2016-02-23T00:02:23</gco:DateTime>
+								<gco:DateTime>2016-11-13T13:03:39</gco:DateTime>
 								
                   
 							</gmd:date>
@@ -617,7 +617,7 @@
 									<gmd:linkage>
 										
                         
-										<gmd:URL>http://services.ga.gov.au/gis/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
+										<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
 										
                       
 									</gmd:linkage>
@@ -827,7 +827,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/gis/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -840,6 +840,15 @@
 								
                   
 							</gmd:protocol>
+							
+                  
+							<gmd:applicationProfile>
+								
+                    
+								<gco:CharacterString>Esri:ArcGIS Server</gco:CharacterString>
+								
+                  
+							</gmd:applicationProfile>
 							
                   
 							<gmd:name>
@@ -875,7 +884,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/gis/services/Topographic_Base_Map/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Populated_Places_1</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Populated_Places_1</gmd:URL>
 								
                   
 							</gmd:linkage>
