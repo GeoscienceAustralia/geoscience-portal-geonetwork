@@ -1,4 +1,8 @@
-<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?><!-- UNCLASSIFIED --><!-- Built from ANZLIC MET Template ISO 19139 2009-02-18 --><gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?>
+<!-- UNCLASSIFIED -->
+<!-- Built from ANZLIC MET Template ISO 19139 2009-02-18 -->
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>E07EDCAB-5BF9-432A-B5F3-39C9B82011C3</gco:CharacterString>
   </gmd:fileIdentifier>
@@ -74,7 +78,7 @@
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion>
     <gco:CharacterString>1.1</gco:CharacterString>
-  </gmd:metadataStandardVersion><gmd:dataSetURI xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx"><gco:CharacterString>http://www.dmp.wa.gov.au/7797.aspx</gco:CharacterString></gmd:dataSetURI>
+  </gmd:metadataStandardVersion>
   <gmd:referenceSystemInfo>
     <gmd:MD_ReferenceSystem>
       <gmd:referenceSystemIdentifier>
@@ -91,7 +95,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>Magnetic anomaly grid (80m) of Western Australia, Version 2 &#8211; 2013</gco:CharacterString>
+            <gco:CharacterString>Magnetic anomaly grid (80m) of Western Australia, Version 2 – 2013</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -427,7 +431,7 @@
                     <gmd:URL>http://www.dmp.wa.gov.au/7797.aspx</gmd:URL>
                   </gmd:linkage>
                   <gmd:name>
-                    <gco:CharacterString>Magnetic anomaly grid (80m) of Western Australia, Version 5 &#8211; 2011</gco:CharacterString>
+                    <gco:CharacterString>Magnetic anomaly grid (80m) of Western Australia, Version 5 – 2011</gco:CharacterString>
                   </gmd:name>
                   <gmd:description>
                     <gco:CharacterString>This merged magnetic anomaly grid is generated from Federal and State government data sets acquired with a line spacing of 500 metres or less. The "Geoscience Australia magnetic grid of Australia v5 2010" (80 m cell size) has been used as a base reference grid. The final grid has a cell size of approximately 80 metres (0.00833333 degrees) and was generated using Intrepid software. The image was generated from a colour palette (white high, blue low) using histogram equalisation. To emphasize the expression of high-frequency anomalies, an artificial illumination was applied from the northeast.  The data have been compressed 10:1 using enhanced compressed wavelet technology.</gco:CharacterString>
@@ -504,4 +508,5 @@
       </gmd:useConstraints>
     </gmd:MD_LegalConstraints>
   </gmd:metadataConstraints>
-</gmd:MD_Metadata><!--METValidation=False-->
+</gmd:MD_Metadata>
+<!--METValidation=False-->

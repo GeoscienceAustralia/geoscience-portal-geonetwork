@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?><gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?>
+<gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>ANZWA1220000399</gco:CharacterString>
   </gmd:fileIdentifier>
@@ -62,7 +64,7 @@
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion>
     <gco:CharacterString>1.1</gco:CharacterString>
-  </gmd:metadataStandardVersion><gmd:dataSetURI><gco:CharacterString/></gmd:dataSetURI>
+  </gmd:metadataStandardVersion>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
@@ -219,7 +221,7 @@ The Leeuwin 1:50 000 data package on regolith-landform resources contains geosci
                     <gco:Date>2008-10-29</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
-                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"/>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" />
                   </gmd:dateType>
                 </gmd:CI_Date>
               </gmd:date>
@@ -242,7 +244,7 @@ The Leeuwin 1:50 000 data package on regolith-landform resources contains geosci
                     <gco:CharacterString>ANZLIC the Spatial Information Council" </gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian"/>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" />
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -424,11 +426,11 @@ The Leeuwin 1:50 000 data package on regolith-landform resources contains geosci
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing"/>
+                  <gmd:title gco:nilReason="missing" />
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown"/>
-                      <gmd:dateType gco:nilReason="unknown"/>
+                      <gmd:date gco:nilReason="unknown" />
+                      <gmd:dateType gco:nilReason="unknown" />
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -436,7 +438,7 @@ The Leeuwin 1:50 000 data package on regolith-landform resources contains geosci
               <gmd:explanation>
                 <gco:CharacterString>All datasets are complete and have been verified</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing"/>
+              <gmd:pass gco:nilReason="missing" />
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_CompletenessOmission>
@@ -447,11 +449,11 @@ The Leeuwin 1:50 000 data package on regolith-landform resources contains geosci
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing"/>
+                  <gmd:title gco:nilReason="missing" />
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown"/>
-                      <gmd:dateType gco:nilReason="unknown"/>
+                      <gmd:date gco:nilReason="unknown" />
+                      <gmd:dateType gco:nilReason="unknown" />
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -459,7 +461,7 @@ The Leeuwin 1:50 000 data package on regolith-landform resources contains geosci
               <gmd:explanation>
                 <gco:CharacterString>All the field localities were captured from 1 m resolution digital orthophotomaps. Topographic base themes have an estimated accuracy of 5 m for road data and 5 m for localities</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing"/>
+              <gmd:pass gco:nilReason="missing" />
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_AbsoluteExternalPositionalAccuracy>
@@ -470,11 +472,11 @@ The Leeuwin 1:50 000 data package on regolith-landform resources contains geosci
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing"/>
+                  <gmd:title gco:nilReason="missing" />
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown"/>
-                      <gmd:dateType gco:nilReason="unknown"/>
+                      <gmd:date gco:nilReason="unknown" />
+                      <gmd:dateType gco:nilReason="unknown" />
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -482,7 +484,7 @@ The Leeuwin 1:50 000 data package on regolith-landform resources contains geosci
               <gmd:explanation>
                 <gco:CharacterString>The accuracy of the attribute information on all datasets in this data package is estimated at 95%</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing"/>
+              <gmd:pass gco:nilReason="missing" />
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_NonQuantitativeAttributeAccuracy>
@@ -493,11 +495,11 @@ The Leeuwin 1:50 000 data package on regolith-landform resources contains geosci
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing"/>
+                  <gmd:title gco:nilReason="missing" />
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown"/>
-                      <gmd:dateType gco:nilReason="unknown"/>
+                      <gmd:date gco:nilReason="unknown" />
+                      <gmd:dateType gco:nilReason="unknown" />
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -505,7 +507,7 @@ The Leeuwin 1:50 000 data package on regolith-landform resources contains geosci
               <gmd:explanation>
                 <gco:CharacterString>All digitized and scanned converted data were visually compared with original map work to verify complete capture and attribution. In the case of the precision input index datasets, a visual check was undertaken.</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing"/>
+              <gmd:pass gco:nilReason="missing" />
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_ConceptualConsistency>
@@ -519,4 +521,5 @@ The Leeuwin 1:50 000 data package on regolith-landform resources contains geosci
       </gmd:lineage>
     </gmd:DQ_DataQuality>
   </gmd:dataQualityInfo>
-</gmd:MD_Metadata><!--METValidation=False-->
+</gmd:MD_Metadata>
+<!--METValidation=False-->

@@ -1,4 +1,8 @@
-<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?><!-- UNCLASSIFIED --><!-- Built from ANZLIC MET Template ISO 19139 2009-02-18 --><gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?>
+<!-- UNCLASSIFIED -->
+<!-- Built from ANZLIC MET Template ISO 19139 2009-02-18 -->
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>D31AC729-7680-4047-8FD5-31839B7238C5</gco:CharacterString>
   </gmd:fileIdentifier>
@@ -74,7 +78,7 @@
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion>
     <gco:CharacterString>1.1</gco:CharacterString>
-  </gmd:metadataStandardVersion><gmd:dataSetURI xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx"><gco:CharacterString>http://www.dmp.wa.gov.au/datacentre</gco:CharacterString></gmd:dataSetURI>
+  </gmd:metadataStandardVersion>
   <gmd:referenceSystemInfo>
     <gmd:MD_ReferenceSystem>
       <gmd:referenceSystemIdentifier>
@@ -706,7 +710,7 @@ AMBIS 2001Version 1.1 - released January 2001
 Titles between 16 February 2006 and 8 February 2001 are captured to this version.
 AMBIS 1995 (unvalidated) - released Early 1995
 Titles prior to 8 February 2001 are captured to this version.
-Section 5AAA of the Petroleum (Submerged Lands) Act provides, that where a change to the baseline of Australia&#8217;s territorial sea would impact on the boundary of a pre-existing petroleum title (either a Commonwealth, State or Territory waters title), there is no such impact. The relevant Commonwealth, State or Territory Act under which a title has been granted, continues to apply to that title for as long as it remains in force.
+Section 5AAA of the Petroleum (Submerged Lands) Act provides, that where a change to the baseline of Australia’s territorial sea would impact on the boundary of a pre-existing petroleum title (either a Commonwealth, State or Territory waters title), there is no such impact. The relevant Commonwealth, State or Territory Act under which a title has been granted, continues to apply to that title for as long as it remains in force.
 Overlaps and gaps may exist in instances where abutting titles are defined on the differing AMB versions. No attempt is made to adjust or fit title boundaries to multiple AMB datasets, or to remove encroachments and close gaps. The precision of title boundaries captured along AMB boundaries is dependent on the accuracy of the AMB data.
 Further information is available at: www.ga.gov.au/nmd/products/thematic/ambis.jsp</gco:CharacterString>
               </gmd:explanation>
@@ -754,4 +758,5 @@ Further information is available at: www.ga.gov.au/nmd/products/thematic/ambis.j
       </gmd:useConstraints>
     </gmd:MD_LegalConstraints>
   </gmd:metadataConstraints>
-</gmd:MD_Metadata><!--METValidation=False-->
+</gmd:MD_Metadata>
+<!--METValidation=False-->

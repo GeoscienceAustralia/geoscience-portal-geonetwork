@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?><gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?>
+<gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>ANZWA1220000432</gco:CharacterString>
   </gmd:fileIdentifier>
@@ -62,7 +64,7 @@
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion>
     <gco:CharacterString>1.1</gco:CharacterString>
-  </gmd:metadataStandardVersion><gmd:dataSetURI><gco:CharacterString/></gmd:dataSetURI>
+  </gmd:metadataStandardVersion>
   <gmd:identificationInfo>
     <gmd:MD_DataIdentification>
       <gmd:citation>
@@ -219,7 +221,7 @@ Detailed geological mapping at 1:50 000 providing information on such themes as 
                     <gco:Date>2008-10-29</gco:Date>
                   </gmd:date>
                   <gmd:dateType>
-                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"/>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" />
                   </gmd:dateType>
                 </gmd:CI_Date>
               </gmd:date>
@@ -242,7 +244,7 @@ Detailed geological mapping at 1:50 000 providing information on such themes as 
                     <gco:CharacterString>ANZLIC the Spatial Information Council" </gco:CharacterString>
                   </gmd:organisationName>
                   <gmd:role>
-                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian"/>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" />
                   </gmd:role>
                 </gmd:CI_ResponsibleParty>
               </gmd:citedResponsibleParty>
@@ -351,8 +353,8 @@ Detailed geological mapping at 1:50 000 providing information on such themes as 
             <gmd:EX_TemporalExtent>
               <gmd:extent>
                 <gml:TimePeriod gml:id="d1e35">
-                  <gml:beginPosition indeterminatePosition="unknown"/>
-                  <gml:endPosition indeterminatePosition="unknown"/>
+                  <gml:beginPosition indeterminatePosition="unknown" />
+                  <gml:endPosition indeterminatePosition="unknown" />
                 </gml:TimePeriod>
               </gmd:extent>
             </gmd:EX_TemporalExtent>
@@ -390,11 +392,11 @@ Detailed geological mapping at 1:50 000 providing information on such themes as 
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing"/>
+                  <gmd:title gco:nilReason="missing" />
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown"/>
-                      <gmd:dateType gco:nilReason="unknown"/>
+                      <gmd:date gco:nilReason="unknown" />
+                      <gmd:dateType gco:nilReason="unknown" />
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -402,7 +404,7 @@ Detailed geological mapping at 1:50 000 providing information on such themes as 
               <gmd:explanation>
                 <gco:CharacterString>All datasets are complete and have been verified.</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing"/>
+              <gmd:pass gco:nilReason="missing" />
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_CompletenessOmission>
@@ -413,11 +415,11 @@ Detailed geological mapping at 1:50 000 providing information on such themes as 
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing"/>
+                  <gmd:title gco:nilReason="missing" />
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown"/>
-                      <gmd:dateType gco:nilReason="unknown"/>
+                      <gmd:date gco:nilReason="unknown" />
+                      <gmd:dateType gco:nilReason="unknown" />
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -425,7 +427,7 @@ Detailed geological mapping at 1:50 000 providing information on such themes as 
               <gmd:explanation>
                 <gco:CharacterString>Estimated accuracy for the geology coverage is +/-50m (horizontal).</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing"/>
+              <gmd:pass gco:nilReason="missing" />
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_AbsoluteExternalPositionalAccuracy>
@@ -436,11 +438,11 @@ Detailed geological mapping at 1:50 000 providing information on such themes as 
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing"/>
+                  <gmd:title gco:nilReason="missing" />
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown"/>
-                      <gmd:dateType gco:nilReason="unknown"/>
+                      <gmd:date gco:nilReason="unknown" />
+                      <gmd:dateType gco:nilReason="unknown" />
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -448,7 +450,7 @@ Detailed geological mapping at 1:50 000 providing information on such themes as 
               <gmd:explanation>
                 <gco:CharacterString>Geological units classified by standard nomenclature showing rock types (together with lithological formations in the pre 1984 series). Units are identified by standard colours and symbols. Graphic lithologic logs shown on the back. Standard rock type symbols identified by stipples are shown against depth below surface in selected drillholes. Geomorphological units classified by physical features related to landscape evolution.</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing"/>
+              <gmd:pass gco:nilReason="missing" />
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_NonQuantitativeAttributeAccuracy>
@@ -459,11 +461,11 @@ Detailed geological mapping at 1:50 000 providing information on such themes as 
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing"/>
+                  <gmd:title gco:nilReason="missing" />
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown"/>
-                      <gmd:dateType gco:nilReason="unknown"/>
+                      <gmd:date gco:nilReason="unknown" />
+                      <gmd:dateType gco:nilReason="unknown" />
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -471,7 +473,7 @@ Detailed geological mapping at 1:50 000 providing information on such themes as 
               <gmd:explanation>
                 <gco:CharacterString>All digitized and compiled data was visually compared with source data to verify correct capture and attribution.</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing"/>
+              <gmd:pass gco:nilReason="missing" />
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_ConceptualConsistency>
@@ -485,4 +487,5 @@ Detailed geological mapping at 1:50 000 providing information on such themes as 
       </gmd:lineage>
     </gmd:DQ_DataQuality>
   </gmd:dataQualityInfo>
-</gmd:MD_Metadata><!--METValidation=False-->
+</gmd:MD_Metadata>
+<!--METValidation=False-->
