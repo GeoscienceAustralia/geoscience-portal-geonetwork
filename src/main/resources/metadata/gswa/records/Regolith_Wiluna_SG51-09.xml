@@ -1,4 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?><gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?>
+<gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>ANZWA1220000413</gco:CharacterString>
   </gmd:fileIdentifier>
@@ -74,7 +76,7 @@
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion>
     <gco:CharacterString>1.1</gco:CharacterString>
-  </gmd:metadataStandardVersion><gmd:dataSetURI><gco:CharacterString>http://www.dmp.wa.gov.au/datacentre</gco:CharacterString></gmd:dataSetURI>
+  </gmd:metadataStandardVersion>
   <gmd:referenceSystemInfo>
     <gmd:MD_ReferenceSystem>
       <gmd:referenceSystemIdentifier>
@@ -627,11 +629,11 @@
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing"/>
+                  <gmd:title gco:nilReason="missing" />
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown"/>
-                      <gmd:dateType gco:nilReason="unknown"/>
+                      <gmd:date gco:nilReason="unknown" />
+                      <gmd:dateType gco:nilReason="unknown" />
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -639,7 +641,7 @@
               <gmd:explanation>
                 <gco:CharacterString>All datasets are complete and have been verified.</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing"/>
+              <gmd:pass gco:nilReason="missing" />
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_CompletenessOmission>
@@ -650,11 +652,11 @@
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing"/>
+                  <gmd:title gco:nilReason="missing" />
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown"/>
-                      <gmd:dateType gco:nilReason="unknown"/>
+                      <gmd:date gco:nilReason="unknown" />
+                      <gmd:dateType gco:nilReason="unknown" />
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -662,7 +664,7 @@
               <gmd:explanation>
                 <gco:CharacterString>Mineral occurrence data were precision captured from the WAMIN database and includes operating and abandoned mines, deposits, prospects, and occurrences.. Bedrock geology was interpreted from Landsat TM images 741 (1994 data); FARRELL, T.R., 1997, Wiluna, W.A. Sheet SG51-09 (2nd edition); Western Australia Geological Survey, 1:250 000 Geological Series.The regolith compilations were interpreted from 1:100 000 Landsat TM 1993, and black and white aerial photography1993, GSWA geology 1988 and field obversations 1998. Estimated accuracy for the regolith coverage is +/- 100 m. Open file mineral exploration was digitised at a scale of 1:100 000 from company exploration reports submitted to the Department at various scales. Topographic base themes have an estimated accuracy of +/-200 m for road data and +/-125 m for localities</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing"/>
+              <gmd:pass gco:nilReason="missing" />
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_AbsoluteExternalPositionalAccuracy>
@@ -673,11 +675,11 @@
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing"/>
+                  <gmd:title gco:nilReason="missing" />
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown"/>
-                      <gmd:dateType gco:nilReason="unknown"/>
+                      <gmd:date gco:nilReason="unknown" />
+                      <gmd:dateType gco:nilReason="unknown" />
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -685,7 +687,7 @@
               <gmd:explanation>
                 <gco:CharacterString>The accuracy of the attribute information on all datasets in this data package is estimated at 95%.</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing"/>
+              <gmd:pass gco:nilReason="missing" />
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_NonQuantitativeAttributeAccuracy>
@@ -696,11 +698,11 @@
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing"/>
+                  <gmd:title gco:nilReason="missing" />
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown"/>
-                      <gmd:dateType gco:nilReason="unknown"/>
+                      <gmd:date gco:nilReason="unknown" />
+                      <gmd:dateType gco:nilReason="unknown" />
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -708,7 +710,7 @@
               <gmd:explanation>
                 <gco:CharacterString>All digitized and compiled data was visually compared with source data to verify correct capture and attribution.</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing"/>
+              <gmd:pass gco:nilReason="missing" />
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_ConceptualConsistency>
@@ -757,4 +759,5 @@
       </gmd:useConstraints>
     </gmd:MD_LegalConstraints>
   </gmd:metadataConstraints>
-</gmd:MD_Metadata><!--METValidation=False-->
+</gmd:MD_Metadata>
+<!--METValidation=False-->
