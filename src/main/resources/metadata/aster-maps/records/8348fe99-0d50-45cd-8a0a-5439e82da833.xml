@@ -1120,7 +1120,7 @@ useful for mapping:
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/wcs/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_MgOH_group_composition_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/wcs/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_MgOH_group_composition_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1168,7 +1168,7 @@ useful for mapping:
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/dodsC/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_MgOH_group_composition_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/dodsC/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_MgOH_group_composition_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1216,7 +1216,7 @@ useful for mapping:
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/wms/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_MgOH_group_composition_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/wms/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_MgOH_group_composition_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1264,7 +1264,7 @@ useful for mapping:
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/wms/wx7/aster/vnir/Tasmania/Tas_MgOH_group_composition_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/wms/wx7/aster/vnir/Tasmania/Tas_MgOH_group_composition_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>

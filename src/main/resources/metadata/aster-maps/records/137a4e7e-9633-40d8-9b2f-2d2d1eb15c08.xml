@@ -1084,7 +1084,7 @@ ordered silica (e.g. opal), feldspars and compacted clays.</gco:CharacterString>
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/wcs/aster/thermal/Aus_ASTER_L2EM_Quartz_Index_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/wcs/aster/thermal/Aus_ASTER_L2EM_Quartz_Index_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1132,7 +1132,7 @@ ordered silica (e.g. opal), feldspars and compacted clays.</gco:CharacterString>
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/dodsC/aster/thermal/Aus_ASTER_L2EM_Quartz_Index_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/dodsC/aster/thermal/Aus_ASTER_L2EM_Quartz_Index_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1180,7 +1180,7 @@ ordered silica (e.g. opal), feldspars and compacted clays.</gco:CharacterString>
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/wms/aster/thermal/Aus_ASTER_L2EM_Quartz_Index_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/wms/aster/thermal/Aus_ASTER_L2EM_Quartz_Index_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>

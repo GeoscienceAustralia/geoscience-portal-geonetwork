@@ -1089,7 +1089,7 @@ Red is high gypsum content</gco:CharacterString>
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/wcs/aster/thermal/Aus_ASTER_L2EM_Gypsum_Index_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/wcs/aster/thermal/Aus_ASTER_L2EM_Gypsum_Index_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1137,7 +1137,7 @@ Red is high gypsum content</gco:CharacterString>
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/dodsC/aster/thermal/Aus_ASTER_L2EM_Gypsum_Index_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/dodsC/aster/thermal/Aus_ASTER_L2EM_Gypsum_Index_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1185,7 +1185,7 @@ Red is high gypsum content</gco:CharacterString>
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/wms/aster/thermal/Aus_ASTER_L2EM_Gypsum_Index_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/wms/aster/thermal/Aus_ASTER_L2EM_Gypsum_Index_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>

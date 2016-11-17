@@ -1093,7 +1093,7 @@ Blue is low abundance, Red is high abundance</gco:CharacterString>
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/wcs/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_Ferric_oxide_content_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/wcs/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_Ferric_oxide_content_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1141,7 +1141,7 @@ Blue is low abundance, Red is high abundance</gco:CharacterString>
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/dodsC/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_Ferric_oxide_content_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/dodsC/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_Ferric_oxide_content_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1189,7 +1189,7 @@ Blue is low abundance, Red is high abundance</gco:CharacterString>
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/wms/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_Ferric_oxide_content_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/wms/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_Ferric_oxide_content_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1237,7 +1237,7 @@ Blue is low abundance, Red is high abundance</gco:CharacterString>
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/wms/wx7/aster/vnir/Tasmania/Tas_Ferric_Oxide_content_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/wms/wx7/aster/vnir/Tasmania/Tas_Ferric_Oxide_content_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
