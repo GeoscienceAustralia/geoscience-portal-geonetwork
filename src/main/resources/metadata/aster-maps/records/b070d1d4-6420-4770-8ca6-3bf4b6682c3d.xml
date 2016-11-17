@@ -1098,7 +1098,7 @@ Also combine with AlOH composition to help map:
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/wcs/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_AlOH_group_content_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/wcs/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_AlOH_group_content_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1146,7 +1146,7 @@ Also combine with AlOH composition to help map:
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/dodsC/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_AlOH_group_content_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/dodsC/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_AlOH_group_content_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1194,7 +1194,7 @@ Also combine with AlOH composition to help map:
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/wms/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_AlOH_group_content_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/wms/wx7/aster/vnir/Aus_Mainland/Aus_Mainland_AlOH_group_content_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1242,7 +1242,7 @@ Also combine with AlOH composition to help map:
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://dapds00.nci.org.au/thredds/wms/wx7/aster/vnir/Tasmania/Tas_AlOH_Group_content_reprojected.nc4</gmd:URL>
+								<gmd:URL>http://dap-wms.nci.org.au/thredds/wms/wx7/aster/vnir/Tasmania/Tas_AlOH_Group_content_reprojected.nc4</gmd:URL>
 								
                   
 							</gmd:linkage>
