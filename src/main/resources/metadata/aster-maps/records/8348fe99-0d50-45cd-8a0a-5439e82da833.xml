@@ -796,25 +796,7 @@ useful for mapping:
 			</gmd:resourceConstraints>
 			
           
-			<gmd:resourceConstraints>
-				
-            
-				<gmd:MD_LegalConstraints>
-					
-              
-					<gmd:otherConstraints>
-						
-                
-						<gco:CharacterString>&lt;html&gt;&lt;body&gt;&lt;div style=&quot;width:900;height:480;&quot;&gt;&lt;p&gt;The ASTER L1B (radiance@sensor) and L2 (reflectance and emissivity) data used in this project are copyright protected by Japan Space Systems(&lt;a href=&quot;http://www.gds.aster.ersdac.or.jp/gds_www2002/index_e.html&quot;&gt;www.gds.aster.ersdac.or.jp/gds_www2002/index_e.html&lt;/a&gt;) and are not publicly available. All the derived geoscience products are copyright owned by CSIRO, Geoscience Australia and the Geological Surveys of Western Australia, South Australia, Northern Territory and Queensland who financially sponsored this project.&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;View and download the ASTER geoscience product notes &lt;a href=&quot;http://c3dmm.csiro.au/Australia_ASTER/stage_1_geoscienceproductnotes.html&quot;&gt;http://c3dmm.csiro.au/Australia_ASTER/stage_1_geoscienceproductnotes.html&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;View the ASTER maps using World Wind &lt;a href=&quot;http://www.ga.gov.au/aster-viewer&quot;&gt;http://www.ga.gov.au/aster-viewer&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;View and download ASTER maps &lt;a href=&quot;http://portal.auscope.org/&quot;&gt;http://portal.auscope.org/&lt;/a&gt;; &lt;a href=&quot;http://c3dmm.csiro.au&quot;&gt;http://c3dmm.csiro.au&lt;/a&gt;; &lt;a href=&quot;https://sarig.pir.sa.gov.au/Map&quot;&gt;https://sarig.pir.sa.gov.au/Map&lt;/a&gt;; &lt;a href=&quot;http://geoscience.nt.gov.au/giws&quot;&gt;http://geoscience.nt.gov.au/giws&lt;/a&gt;&lt;/p&gt; &lt;table border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/auscope.png&quot;/&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/csiro.png&quot;/&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/ga.png&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/jss.png&quot;/&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/nasa.png&quot;/&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/jpl.png&quot;/&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/usgs.png&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/gswa.png&quot;/&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/sa.png&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/ntgs.png&quot;/&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/qld.png&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/exploration%20incentive%20scheme.png&quot;/&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/pace.png&quot;/&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/nt-gov.png&quot;/&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/nci.png&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table border=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/dpi-vic.png&quot;/&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/mrt.png&quot;/&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&quot;http://aster.nci.org.au/gsnsw.png&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</gco:CharacterString>
-						
-              
-					</gmd:otherConstraints>
-					
-            
-				</gmd:MD_LegalConstraints>
-				
-          
-			</gmd:resourceConstraints>
+			
 			
           
 			<gmd:spatialResolution>
