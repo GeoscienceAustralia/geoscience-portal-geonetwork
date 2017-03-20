@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>9132f213b69a976ac0264bba41b304b25f479fe1</gco:CharacterString>
+		<gco:CharacterString>af6d6a55027d0a8aa523725fbbb501af354b1696</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -56,7 +56,7 @@
 			<gmd:organisationName>
 				
             
-				<gco:CharacterString>Geoscience Australia</gco:CharacterString>
+				<gco:CharacterString/>
 				
           
 			</gmd:organisationName>
@@ -65,7 +65,7 @@
 			<gmd:positionName>
 				
             
-				<gco:CharacterString>Client Services</gco:CharacterString>
+				<gco:CharacterString/>
 				
           
 			</gmd:positionName>
@@ -86,7 +86,7 @@
 							<gmd:voice>
 								
                     
-								<gco:CharacterString>+61 2 6249 9111</gco:CharacterString>
+								<gco:CharacterString/>
 								
                   
 							</gmd:voice>
@@ -116,7 +116,7 @@
 							<gmd:electronicMailAddress>
 								
                     
-								<gco:CharacterString>clientservices@ga.gov.au</gco:CharacterString>
+								<gco:CharacterString/>
 								
                   
 							</gmd:electronicMailAddress>
@@ -137,7 +137,7 @@
 							<gmd:deliveryPoint>
 								
                     
-								<gco:CharacterString>GPO Box 378</gco:CharacterString>
+								<gco:CharacterString/>
 								
                   
 							</gmd:deliveryPoint>
@@ -146,7 +146,7 @@
 							<gmd:city>
 								
                     
-								<gco:CharacterString>Canberra</gco:CharacterString>
+								<gco:CharacterString/>
 								
                   
 							</gmd:city>
@@ -155,7 +155,7 @@
 							<gmd:administrativeArea>
 								
                     
-								<gco:CharacterString>ACT</gco:CharacterString>
+								<gco:CharacterString/>
 								
                   
 							</gmd:administrativeArea>
@@ -164,7 +164,7 @@
 							<gmd:postalCode>
 								
                     
-								<gco:CharacterString>2601</gco:CharacterString>
+								<gco:CharacterString/>
 								
                   
 							</gmd:postalCode>
@@ -173,7 +173,7 @@
 							<gmd:country>
 								
                     
-								<gco:CharacterString>Australia</gco:CharacterString>
+								<gco:CharacterString/>
 								
                   
 							</gmd:country>
@@ -194,7 +194,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/gis/services/NM_Hydrography_and_Marine/MapServer/WMSServer</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map_WM/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -230,7 +230,7 @@
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>2016-11-13T13:08:30</gco:DateTime>
+		<gco:DateTime>2017-03-20T15:34:17</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -269,7 +269,7 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>EPSG:4283</gco:CharacterString>
+						<gco:CharacterString>CRS:84</gco:CharacterString>
 						
               
 					</gmd:code>
@@ -335,39 +335,6 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>CRS:84</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
 						<gco:CharacterString>EPSG:3857</gco:CharacterString>
 						
               
@@ -401,502 +368,7 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>EPSG:28348</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28349</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28350</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28351</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28352</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28353</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28354</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28355</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28356</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28357</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28358</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32748</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32749</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32750</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32751</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32752</gco:CharacterString>
+						<gco:CharacterString>EPSG:102100</gco:CharacterString>
 						
               
 					</gmd:code>
@@ -929,7 +401,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>Waterbody - All Reservoirs</gco:CharacterString>
+						<gco:CharacterString>Populated_Places_8</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -944,7 +416,7 @@
 							<gmd:date>
 								
                     
-								<gco:DateTime>2016-11-13T13:08:30</gco:DateTime>
+								<gco:DateTime>2017-03-20T15:34:17</gco:DateTime>
 								
                   
 							</gmd:date>
@@ -974,7 +446,10 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>All features have been included from the AUSHYDRO data capture. 250K Specification Description - Town Water Storage - A body of water collected and stored behind a constructed barrier for some specific use (with the exception of Flood Irrigation Storage). Town Water Storage are bodies of water primarily stored for the consumption of urban, semi urban and rural township populations. The water is treated post storage by government, or private authorities, and connected to government regulated water networks. (Source - http://www.ga.gov.au/mapspecs/topographic/v6/appendixA_files/Waterbodies.html). NOTE - This layer only displays 1:300,000 to 1:70,000 to avoid clutter at the national scale (approx 1:36,000,000). Refer to other Waterbody - Reservoir layers at different scales for the National Map.</gco:CharacterString>
+				<gco:CharacterString>All features have been included from the 250K data capture. 
+Populated Place - A named settlement with a population of 200 or more persons. 
+(Source - http://www.ga.gov.au/mapspecs/topographic/v6/appendixA_files/Habitation.html ) 
+Activated at scales larger than approximately 1:300,000.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -1007,7 +482,7 @@
 					<gmd:organisationName>
 						
                 
-						<gco:CharacterString>Geoscience Australia</gco:CharacterString>
+						<gco:CharacterString/>
 						
               
 					</gmd:organisationName>
@@ -1016,7 +491,7 @@
 					<gmd:positionName>
 						
                 
-						<gco:CharacterString>Client Services</gco:CharacterString>
+						<gco:CharacterString/>
 						
               
 					</gmd:positionName>
@@ -1037,7 +512,7 @@
 									<gmd:voice>
 										
                         
-										<gco:CharacterString>+61 2 6249 9111</gco:CharacterString>
+										<gco:CharacterString/>
 										
                       
 									</gmd:voice>
@@ -1067,7 +542,7 @@
 									<gmd:electronicMailAddress>
 										
                         
-										<gco:CharacterString>clientservices@ga.gov.au</gco:CharacterString>
+										<gco:CharacterString/>
 										
                       
 									</gmd:electronicMailAddress>
@@ -1088,7 +563,7 @@
 									<gmd:deliveryPoint>
 										
                         
-										<gco:CharacterString>GPO Box 378</gco:CharacterString>
+										<gco:CharacterString/>
 										
                       
 									</gmd:deliveryPoint>
@@ -1097,7 +572,7 @@
 									<gmd:city>
 										
                         
-										<gco:CharacterString>Canberra</gco:CharacterString>
+										<gco:CharacterString/>
 										
                       
 									</gmd:city>
@@ -1106,7 +581,7 @@
 									<gmd:administrativeArea>
 										
                         
-										<gco:CharacterString>ACT</gco:CharacterString>
+										<gco:CharacterString/>
 										
                       
 									</gmd:administrativeArea>
@@ -1115,7 +590,7 @@
 									<gmd:postalCode>
 										
                         
-										<gco:CharacterString>2601</gco:CharacterString>
+										<gco:CharacterString/>
 										
                       
 									</gmd:postalCode>
@@ -1124,7 +599,7 @@
 									<gmd:country>
 										
                         
-										<gco:CharacterString>Australia</gco:CharacterString>
+										<gco:CharacterString/>
 										
                       
 									</gmd:country>
@@ -1145,7 +620,7 @@
 									<gmd:linkage>
 										
                         
-										<gmd:URL>http://services.ga.gov.au/gis/services/NM_Hydrography_and_Marine/MapServer/WMSServer</gmd:URL>
+										<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map_WM/MapServer/WmsServer?</gmd:URL>
 										
                       
 									</gmd:linkage>
@@ -1176,39 +651,6 @@
 				
           
 			</gmd:pointOfContact>
-			
-          
-			<gmd:spatialResolution>
-				
-            
-				<gmd:MD_Resolution>
-					
-              
-					<gmd:equivalentScale>
-						
-                
-						<gmd:MD_RepresentativeFraction>
-							
-                  
-							<gmd:denominator>
-								
-                    
-								<gco:Integer>66145.833333</gco:Integer>
-								
-                  
-							</gmd:denominator>
-							
-                
-						</gmd:MD_RepresentativeFraction>
-						
-              
-					</gmd:equivalentScale>
-					
-            
-				</gmd:MD_Resolution>
-				
-          
-			</gmd:spatialResolution>
 			
           
 			<gmd:spatialResolution>
@@ -1286,7 +728,7 @@
 							<gmd:westBoundLongitude>
 								
                     
-								<gco:Decimal>95</gco:Decimal>
+								<gco:Decimal>113.533668</gco:Decimal>
 								
                   
 							</gmd:westBoundLongitude>
@@ -1295,7 +737,7 @@
 							<gmd:eastBoundLongitude>
 								
                     
-								<gco:Decimal>170</gco:Decimal>
+								<gco:Decimal>153.611940</gco:Decimal>
 								
                   
 							</gmd:eastBoundLongitude>
@@ -1304,7 +746,7 @@
 							<gmd:southBoundLatitude>
 								
                     
-								<gco:Decimal>-55</gco:Decimal>
+								<gco:Decimal>-43.314230</gco:Decimal>
 								
                   
 							</gmd:southBoundLatitude>
@@ -1313,7 +755,7 @@
 							<gmd:northBoundLatitude>
 								
                     
-								<gco:Decimal>-1</gco:Decimal>
+								<gco:Decimal>-9.230700</gco:Decimal>
 								
                   
 							</gmd:northBoundLatitude>
@@ -1388,7 +830,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/gis/services/NM_Hydrography_and_Marine/MapServer/WmsServer?</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map_WM/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1415,7 +857,7 @@
 							<gmd:name>
 								
                     
-								<gco:CharacterString>Waterbody_All_Reservoirs</gco:CharacterString>
+								<gco:CharacterString>Populated_Places_8</gco:CharacterString>
 								
                   
 							</gmd:name>
@@ -1424,7 +866,7 @@
 							<gmd:description>
 								
                     
-								<gco:CharacterString>Waterbody - All Reservoirs</gco:CharacterString>
+								<gco:CharacterString>Populated_Places_8</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -1445,7 +887,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/gis/rest/directories/capabilities/NM_Hydrography_and_Marine_/NM_Hydrography_and_Marine_Reservoirs.png</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map_WM/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Populated_Places_8</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1463,7 +905,7 @@
 							<gmd:name>
 								
                     
-								<gco:CharacterString>Waterbody - All Reservoirs (LegendURL)</gco:CharacterString>
+								<gco:CharacterString>Populated_Places_8 (LegendURL)</gco:CharacterString>
 								
                   
 							</gmd:name>

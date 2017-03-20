@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>bdc40f015ba522b928bd82d36855e249ddb82e60</gco:CharacterString>
+		<gco:CharacterString>69f68ff31994c3f1c3f2e7f667a014b34b99dc26</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -194,7 +194,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map_WM/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -230,7 +230,7 @@
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>2016-11-13T13:03:31</gco:DateTime>
+		<gco:DateTime>2017-03-20T15:33:59</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -416,7 +416,7 @@
 							<gmd:date>
 								
                     
-								<gco:DateTime>2016-11-13T13:03:31</gco:DateTime>
+								<gco:DateTime>2017-03-20T15:33:59</gco:DateTime>
 								
                   
 							</gmd:date>
@@ -446,7 +446,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString/>
+				<gco:CharacterString>All features have been included from the 250K data capture and carry a Classification (CLASS) attribute value of “Dual Carriageway”, “Principal Road”, “Secondary Road”, “Minor Road” or “Track”. Dual Carriageway - Divided Highway, Freeway, Tollway, or other road with a physical separation of carriageways via remnant land, significant carriageway height variation or constructed barrier preventing movement of vehicles between carriageways. Each carriageway has opposite directions of traffic flow but the same name and other common core attributes. Standard Road - A route for the movement of vehicles contained within a single carriageway. These roads have sufficient levels of maintenance or construction for two wheel drive access in normal weather conditions for the region. Traffic flow may be one or two way and vehicles are able to cross between traffic lanes freely. Vehicular Track – A public or private roadways of minimum or no construction which are not necessarily maintained. Generally require four wheel drive but may be accessible by two wheel drive in sustained good weather conditions. (Source - http://www.ga.gov.au/mapspecs/topographic/v6/appendixA_files/RoadTransport.html) Activated at scales larger than approximately 1:300,000.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -617,7 +617,7 @@
 									<gmd:linkage>
 										
                         
-										<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
+										<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map_WM/MapServer/WmsServer?</gmd:URL>
 										
                       
 									</gmd:linkage>
@@ -827,7 +827,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map/MapServer/WmsServer?</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map_WM/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -884,7 +884,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=TOPO250K_Roads</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map_WM/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=TOPO250K_Roads</gmd:URL>
 								
                   
 							</gmd:linkage>
