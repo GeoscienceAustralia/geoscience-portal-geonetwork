@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>b37fb699d912aad08a580f87ed21a4f2ed425463</gco:CharacterString>
+		<gco:CharacterString>f1bdc714e70677ccac42d07f5b7c1e778b65e5a9</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -56,7 +56,7 @@
 			<gmd:organisationName>
 				
             
-				<gco:CharacterString>Geoscience Australia</gco:CharacterString>
+				<gco:CharacterString/>
 				
           
 			</gmd:organisationName>
@@ -65,7 +65,7 @@
 			<gmd:positionName>
 				
             
-				<gco:CharacterString>Client Services</gco:CharacterString>
+				<gco:CharacterString/>
 				
           
 			</gmd:positionName>
@@ -86,7 +86,7 @@
 							<gmd:voice>
 								
                     
-								<gco:CharacterString>+61 2 6249 9111</gco:CharacterString>
+								<gco:CharacterString/>
 								
                   
 							</gmd:voice>
@@ -116,7 +116,7 @@
 							<gmd:electronicMailAddress>
 								
                     
-								<gco:CharacterString>clientservices@ga.gov.au</gco:CharacterString>
+								<gco:CharacterString/>
 								
                   
 							</gmd:electronicMailAddress>
@@ -137,7 +137,7 @@
 							<gmd:deliveryPoint>
 								
                     
-								<gco:CharacterString>GPO Box 378</gco:CharacterString>
+								<gco:CharacterString/>
 								
                   
 							</gmd:deliveryPoint>
@@ -146,7 +146,7 @@
 							<gmd:city>
 								
                     
-								<gco:CharacterString>Canberra</gco:CharacterString>
+								<gco:CharacterString/>
 								
                   
 							</gmd:city>
@@ -155,7 +155,7 @@
 							<gmd:administrativeArea>
 								
                     
-								<gco:CharacterString>ACT</gco:CharacterString>
+								<gco:CharacterString/>
 								
                   
 							</gmd:administrativeArea>
@@ -164,7 +164,7 @@
 							<gmd:postalCode>
 								
                     
-								<gco:CharacterString>2601</gco:CharacterString>
+								<gco:CharacterString/>
 								
                   
 							</gmd:postalCode>
@@ -173,7 +173,7 @@
 							<gmd:country>
 								
                     
-								<gco:CharacterString>Australia</gco:CharacterString>
+								<gco:CharacterString/>
 								
                   
 							</gmd:country>
@@ -194,7 +194,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/gis/services/NM_Hydrography_and_Marine/MapServer/WMSServer</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map_WM/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -230,7 +230,7 @@
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>2016-11-13T13:08:31</gco:DateTime>
+		<gco:DateTime>2017-03-20T15:33:59</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -269,7 +269,7 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>EPSG:4283</gco:CharacterString>
+						<gco:CharacterString>CRS:84</gco:CharacterString>
 						
               
 					</gmd:code>
@@ -335,39 +335,6 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>CRS:84</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
 						<gco:CharacterString>EPSG:3857</gco:CharacterString>
 						
               
@@ -401,502 +368,7 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>EPSG:28348</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28349</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28350</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28351</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28352</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28353</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28354</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28355</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28356</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28357</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28358</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32748</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32749</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32750</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32751</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32752</gco:CharacterString>
+						<gco:CharacterString>EPSG:102100</gco:CharacterString>
 						
               
 					</gmd:code>
@@ -929,7 +401,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>Waterbody - Lakes National Scale to 1:5,000,000</gco:CharacterString>
+						<gco:CharacterString>Roads_4</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -944,7 +416,7 @@
 							<gmd:date>
 								
                     
-								<gco:DateTime>2016-11-13T13:08:31</gco:DateTime>
+								<gco:DateTime>2017-03-20T15:33:59</gco:DateTime>
 								
                   
 							</gmd:date>
@@ -974,7 +446,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>All features have been included from the AUSHYDRO data capture. 250K Specification Description - Lake - A naturally occurring body of mainly static water surrounded by land. (Source - http://www.ga.gov.au/mapspecs/topographic/v6/appendixA_files/Waterbodies.html). NOTE - This layer only displays between the National Scale of 1:5,050,000 scale and a size criteria of area greater than 0.1 map units to avoid clutter at the national scale (approx 1:36,000,000). Refer to other Waterbody - Lake layers at different scales for the National Map.</gco:CharacterString>
+				<gco:CharacterString>All features have been derived or generalised from the 250K data capture and carry a Classification (CLASS) attribute value of “Dual Carriageway”, “Principal Road” or “Secondary Road”. Dual Carriageway - Divided Highway, Freeway, Tollway, or other road with a physical separation of carriageways via remnant land, significant carriageway height variation or constructed barrier preventing movement of vehicles between carriageways. Each carriageway has opposite directions of traffic flow but the same name and other common core attributes. Standard Road - A route for the movement of vehicles contained within a single carriageway. These roads have sufficient levels of maintenance or construction for two wheel drive access in normal weather conditions for the region. Traffic flow may be one or two way and vehicles are able to cross between traffic lanes freely. Activated in a scale range between approximately 1:2 million and 1:300,000.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -1007,7 +479,7 @@
 					<gmd:organisationName>
 						
                 
-						<gco:CharacterString>Geoscience Australia</gco:CharacterString>
+						<gco:CharacterString/>
 						
               
 					</gmd:organisationName>
@@ -1016,7 +488,7 @@
 					<gmd:positionName>
 						
                 
-						<gco:CharacterString>Client Services</gco:CharacterString>
+						<gco:CharacterString/>
 						
               
 					</gmd:positionName>
@@ -1037,7 +509,7 @@
 									<gmd:voice>
 										
                         
-										<gco:CharacterString>+61 2 6249 9111</gco:CharacterString>
+										<gco:CharacterString/>
 										
                       
 									</gmd:voice>
@@ -1067,7 +539,7 @@
 									<gmd:electronicMailAddress>
 										
                         
-										<gco:CharacterString>clientservices@ga.gov.au</gco:CharacterString>
+										<gco:CharacterString/>
 										
                       
 									</gmd:electronicMailAddress>
@@ -1088,7 +560,7 @@
 									<gmd:deliveryPoint>
 										
                         
-										<gco:CharacterString>GPO Box 378</gco:CharacterString>
+										<gco:CharacterString/>
 										
                       
 									</gmd:deliveryPoint>
@@ -1097,7 +569,7 @@
 									<gmd:city>
 										
                         
-										<gco:CharacterString>Canberra</gco:CharacterString>
+										<gco:CharacterString/>
 										
                       
 									</gmd:city>
@@ -1106,7 +578,7 @@
 									<gmd:administrativeArea>
 										
                         
-										<gco:CharacterString>ACT</gco:CharacterString>
+										<gco:CharacterString/>
 										
                       
 									</gmd:administrativeArea>
@@ -1115,7 +587,7 @@
 									<gmd:postalCode>
 										
                         
-										<gco:CharacterString>2601</gco:CharacterString>
+										<gco:CharacterString/>
 										
                       
 									</gmd:postalCode>
@@ -1124,7 +596,7 @@
 									<gmd:country>
 										
                         
-										<gco:CharacterString>Australia</gco:CharacterString>
+										<gco:CharacterString/>
 										
                       
 									</gmd:country>
@@ -1145,7 +617,7 @@
 									<gmd:linkage>
 										
                         
-										<gmd:URL>http://services.ga.gov.au/gis/services/NM_Hydrography_and_Marine/MapServer/WMSServer</gmd:URL>
+										<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map_WM/MapServer/WmsServer?</gmd:URL>
 										
                       
 									</gmd:linkage>
@@ -1193,7 +665,40 @@
 							<gmd:denominator>
 								
                     
-								<gco:Integer>4771950.349702</gco:Integer>
+								<gco:Integer>283483.087798</gco:Integer>
+								
+                  
+							</gmd:denominator>
+							
+                
+						</gmd:MD_RepresentativeFraction>
+						
+              
+					</gmd:equivalentScale>
+					
+            
+				</gmd:MD_Resolution>
+				
+          
+			</gmd:spatialResolution>
+			
+          
+			<gmd:spatialResolution>
+				
+            
+				<gmd:MD_Resolution>
+					
+              
+					<gmd:equivalentScale>
+						
+                
+						<gmd:MD_RepresentativeFraction>
+							
+                  
+							<gmd:denominator>
+								
+                    
+								<gco:Integer>1937127.976190</gco:Integer>
 								
                   
 							</gmd:denominator>
@@ -1253,7 +758,7 @@
 							<gmd:westBoundLongitude>
 								
                     
-								<gco:Decimal>95</gco:Decimal>
+								<gco:Decimal>113.538220</gco:Decimal>
 								
                   
 							</gmd:westBoundLongitude>
@@ -1262,7 +767,7 @@
 							<gmd:eastBoundLongitude>
 								
                     
-								<gco:Decimal>170</gco:Decimal>
+								<gco:Decimal>153.617020</gco:Decimal>
 								
                   
 							</gmd:eastBoundLongitude>
@@ -1271,7 +776,7 @@
 							<gmd:southBoundLatitude>
 								
                     
-								<gco:Decimal>-55</gco:Decimal>
+								<gco:Decimal>-43.431110</gco:Decimal>
 								
                   
 							</gmd:southBoundLatitude>
@@ -1280,7 +785,7 @@
 							<gmd:northBoundLatitude>
 								
                     
-								<gco:Decimal>-1</gco:Decimal>
+								<gco:Decimal>-12.208725</gco:Decimal>
 								
                   
 							</gmd:northBoundLatitude>
@@ -1355,7 +860,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/gis/services/NM_Hydrography_and_Marine/MapServer/WmsServer?</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map_WM/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1382,7 +887,7 @@
 							<gmd:name>
 								
                     
-								<gco:CharacterString>Waterbody_Lakes_National_Scale_to_5Million</gco:CharacterString>
+								<gco:CharacterString>Roads_4</gco:CharacterString>
 								
                   
 							</gmd:name>
@@ -1391,7 +896,7 @@
 							<gmd:description>
 								
                     
-								<gco:CharacterString>Waterbody - Lakes National Scale to 1:5,000,000</gco:CharacterString>
+								<gco:CharacterString>Roads_4</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -1412,7 +917,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/gis/rest/directories/capabilities/NM_Hydrography_and_Marine_/NM_Hydrography_and_Marine_Lakes.png</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/site_7/services/Topographic_Base_Map_WM/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Roads_4</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1430,7 +935,7 @@
 							<gmd:name>
 								
                     
-								<gco:CharacterString>Waterbody - Lakes National Scale to 1:5,000,000 (LegendURL)</gco:CharacterString>
+								<gco:CharacterString>Roads_4 (LegendURL)</gco:CharacterString>
 								
                   
 							</gmd:name>
