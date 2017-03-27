@@ -1,0 +1,11 @@
+language: java
+install: true
+
+cache: 
+  directories:
+    - $HOME/.m2
+  branches:
+    only:
+      - master
+  jdk:
+    - oraclejdk8
