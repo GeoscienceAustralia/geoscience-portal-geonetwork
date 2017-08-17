@@ -230,7 +230,7 @@
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>2016-05-11T22:56:58</gco:DateTime>
+		<gco:DateTime>2017-08-17T10:38:10</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -944,7 +944,7 @@
 							<gmd:date>
 								
                     
-								<gco:DateTime>2016-05-11T22:56:58</gco:DateTime>
+								<gco:DateTime>2017-08-17T10:38:10</gco:DateTime>
 								
                   
 							</gmd:date>
@@ -1337,6 +1337,15 @@
 							</gmd:protocol>
 							
                   
+							<gmd:applicationProfile>
+								
+                    
+								<gco:CharacterString>Esri:ArcGIS Server</gco:CharacterString>
+								
+                  
+							</gmd:applicationProfile>
+							
+                  
 							<gmd:name>
 								
                     
@@ -1370,7 +1379,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/gis/rest/directories/capabilities/Defence_Restricted_Areas_Prohibited_Legend.png</gmd:URL>
+								<gmd:URL>http://services.ga.gov.au/gis/rest/directories/capabilities/Defence_Restricted_Areas/Defence_Restricted_Areas_Prohibited_Legend.png</gmd:URL>
 								
                   
 							</gmd:linkage>

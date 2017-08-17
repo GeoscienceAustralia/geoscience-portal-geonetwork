@@ -230,7 +230,7 @@
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>2016-03-21T00:41:07</gco:DateTime>
+		<gco:DateTime>2017-08-17T10:41:30</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -449,7 +449,7 @@
 							<gmd:date>
 								
                     
-								<gco:DateTime>2016-03-21T00:41:07</gco:DateTime>
+								<gco:DateTime>2017-08-17T10:41:30</gco:DateTime>
 								
                   
 							</gmd:date>
@@ -873,6 +873,15 @@
 								
                   
 							</gmd:protocol>
+							
+                  
+							<gmd:applicationProfile>
+								
+                    
+								<gco:CharacterString>Esri:ArcGIS Server</gco:CharacterString>
+								
+                  
+							</gmd:applicationProfile>
 							
                   
 							<gmd:name>

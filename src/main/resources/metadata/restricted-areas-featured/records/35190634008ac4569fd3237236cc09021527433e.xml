@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>41c66a6d2063fcc6d375dc116176c37e4dd8d344</gco:CharacterString>
+		<gco:CharacterString>35190634008ac4569fd3237236cc09021527433e</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -56,7 +56,7 @@
 			<gmd:organisationName>
 				
             
-				<gco:CharacterString>Geoscience Australia</gco:CharacterString>
+				<gco:CharacterString>Australian Government Department of the Environment</gco:CharacterString>
 				
           
 			</gmd:organisationName>
@@ -65,7 +65,7 @@
 			<gmd:positionName>
 				
             
-				<gco:CharacterString>Client Services</gco:CharacterString>
+				<gco:CharacterString>Parks Data Manager</gco:CharacterString>
 				
           
 			</gmd:positionName>
@@ -86,7 +86,7 @@
 							<gmd:voice>
 								
                     
-								<gco:CharacterString>+61 2 6249 9111</gco:CharacterString>
+								<gco:CharacterString>02 6274 1111</gco:CharacterString>
 								
                   
 							</gmd:voice>
@@ -95,7 +95,7 @@
 							<gmd:facsimile>
 								
                     
-								<gco:CharacterString/>
+								<gco:CharacterString>02 6274 1666</gco:CharacterString>
 								
                   
 							</gmd:facsimile>
@@ -116,7 +116,7 @@
 							<gmd:electronicMailAddress>
 								
                     
-								<gco:CharacterString>clientservices@ga.gov.au</gco:CharacterString>
+								<gco:CharacterString>parks.metadata@environment.gov.au</gco:CharacterString>
 								
                   
 							</gmd:electronicMailAddress>
@@ -137,7 +137,7 @@
 							<gmd:deliveryPoint>
 								
                     
-								<gco:CharacterString>GPO Box 378</gco:CharacterString>
+								<gco:CharacterString>GPO Box 787</gco:CharacterString>
 								
                   
 							</gmd:deliveryPoint>
@@ -173,7 +173,7 @@
 							<gmd:country>
 								
                     
-								<gco:CharacterString>Australia</gco:CharacterString>
+								<gco:CharacterString>AU</gco:CharacterString>
 								
                   
 							</gmd:country>
@@ -194,7 +194,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/gis/services/Defence_Restricted_Areas/MapServer/WmsServer?</gmd:URL>
+								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/capad/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -230,7 +230,7 @@
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>2017-08-17T10:38:10</gco:DateTime>
+		<gco:DateTime>2017-08-17T10:38:28</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -269,7 +269,7 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>EPSG:4283</gco:CharacterString>
+						<gco:CharacterString>CRS:84</gco:CharacterString>
 						
               
 					</gmd:code>
@@ -335,39 +335,6 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>CRS:84</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
 						<gco:CharacterString>EPSG:3857</gco:CharacterString>
 						
               
@@ -401,7 +368,7 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>EPSG:28348</gco:CharacterString>
+						<gco:CharacterString>EPSG:102100</gco:CharacterString>
 						
               
 					</gmd:code>
@@ -434,469 +401,7 @@
 					<gmd:code>
 						
                 
-						<gco:CharacterString>EPSG:28349</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28350</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28351</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28352</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28353</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28354</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28355</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28356</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28357</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:28358</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32748</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32749</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32750</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32751</gco:CharacterString>
-						
-              
-					</gmd:code>
-					
-            
-				</gmd:RS_Identifier>
-				
-          
-			</gmd:referenceSystemIdentifier>
-			
-        
-		</gmd:MD_ReferenceSystem>
-		
-      
-	</gmd:referenceSystemInfo>
-	
-      
-	<gmd:referenceSystemInfo>
-		
-        
-		<gmd:MD_ReferenceSystem>
-			
-          
-			<gmd:referenceSystemIdentifier>
-				
-            
-				<gmd:RS_Identifier>
-					
-              
-					<gmd:code>
-						
-                
-						<gco:CharacterString>EPSG:32752</gco:CharacterString>
+						<gco:CharacterString>EPSG:4283</gco:CharacterString>
 						
               
 					</gmd:code>
@@ -929,7 +434,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>Defence Practice Areas</gco:CharacterString>
+						<gco:CharacterString>Protected_Areas</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -944,7 +449,7 @@
 							<gmd:date>
 								
                     
-								<gco:DateTime>2017-08-17T10:38:10</gco:DateTime>
+								<gco:DateTime>2017-08-17T10:38:28</gco:DateTime>
 								
                   
 							</gmd:date>
@@ -974,7 +479,11 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Defence Practice Areas are public safety exclusion zones located over areas to protect the public. The public safety exclusion zones are enforced to protect the public in the unlikely event of weapon system malfunction. It is very dangerous to be on land at any time, or on the water inside the Defence Practice Area public safety exclusion zones when aircraft are using the range for bombing or air-to-ground gunnery. Data included in this layer is indicative only and should not be used for detailed planning.</gco:CharacterString>
+				<gco:CharacterString>The Collaborative Australian Protected Areas Database (CAPAD) 2016 web service provides both spatial and text information about government, indigenous and privately protected areas for continental Australia. State and Territory conservation agencies supplied data current to 30 June 2016. This is the tenth version of the database, with previous versions released in 1997, 2000, 2002, 2004, 2006, 2008, 2010, 2012 and 2014.  
+
+The Department also publishes protected areas data for the marine environment. &quot;CAPAD 2016-marine&quot; contains spatial and text information about offshore protected areas, for both State and Commonwealth waters. Previous versions of CAPAD marine information have been published in 1997, 2002, 2004, 2008, 2010, 2012 and 2014. 
+
+The department publishes a summary of the CAPAD data biennially on its website at http://www.environment.gov.au/capad</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -1007,7 +516,7 @@
 					<gmd:organisationName>
 						
                 
-						<gco:CharacterString>Geoscience Australia</gco:CharacterString>
+						<gco:CharacterString>Australian Government Department of the Environment</gco:CharacterString>
 						
               
 					</gmd:organisationName>
@@ -1016,7 +525,7 @@
 					<gmd:positionName>
 						
                 
-						<gco:CharacterString>Client Services</gco:CharacterString>
+						<gco:CharacterString>Parks Data Manager</gco:CharacterString>
 						
               
 					</gmd:positionName>
@@ -1037,7 +546,7 @@
 									<gmd:voice>
 										
                         
-										<gco:CharacterString>+61 2 6249 9111</gco:CharacterString>
+										<gco:CharacterString>02 6274 1111</gco:CharacterString>
 										
                       
 									</gmd:voice>
@@ -1046,7 +555,7 @@
 									<gmd:facsimile>
 										
                         
-										<gco:CharacterString/>
+										<gco:CharacterString>02 6274 1666</gco:CharacterString>
 										
                       
 									</gmd:facsimile>
@@ -1067,7 +576,7 @@
 									<gmd:electronicMailAddress>
 										
                         
-										<gco:CharacterString>clientservices@ga.gov.au</gco:CharacterString>
+										<gco:CharacterString>parks.metadata@environment.gov.au</gco:CharacterString>
 										
                       
 									</gmd:electronicMailAddress>
@@ -1088,7 +597,7 @@
 									<gmd:deliveryPoint>
 										
                         
-										<gco:CharacterString>GPO Box 378</gco:CharacterString>
+										<gco:CharacterString>GPO Box 787</gco:CharacterString>
 										
                       
 									</gmd:deliveryPoint>
@@ -1124,7 +633,7 @@
 									<gmd:country>
 										
                         
-										<gco:CharacterString>Australia</gco:CharacterString>
+										<gco:CharacterString>AU</gco:CharacterString>
 										
                       
 									</gmd:country>
@@ -1145,7 +654,7 @@
 									<gmd:linkage>
 										
                         
-										<gmd:URL>http://services.ga.gov.au/gis/services/Defence_Restricted_Areas/MapServer/WmsServer?</gmd:URL>
+										<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/capad/MapServer/WmsServer?</gmd:URL>
 										
                       
 									</gmd:linkage>
@@ -1176,6 +685,39 @@
 				
           
 			</gmd:pointOfContact>
+			
+          
+			<gmd:spatialResolution>
+				
+            
+				<gmd:MD_Resolution>
+					
+              
+					<gmd:equivalentScale>
+						
+                
+						<gmd:MD_RepresentativeFraction>
+							
+                  
+							<gmd:denominator>
+								
+                    
+								<gco:Integer>75595238.095238</gco:Integer>
+								
+                  
+							</gmd:denominator>
+							
+                
+						</gmd:MD_RepresentativeFraction>
+						
+              
+					</gmd:equivalentScale>
+					
+            
+				</gmd:MD_Resolution>
+				
+          
+			</gmd:spatialResolution>
 			
           
 			<gmd:language gco:nilReason="missing">
@@ -1220,7 +762,7 @@
 							<gmd:westBoundLongitude>
 								
                     
-								<gco:Decimal>112.118467</gco:Decimal>
+								<gco:Decimal>60.879271</gco:Decimal>
 								
                   
 							</gmd:westBoundLongitude>
@@ -1229,7 +771,7 @@
 							<gmd:eastBoundLongitude>
 								
                     
-								<gco:Decimal>153.731749</gco:Decimal>
+								<gco:Decimal>167.964895</gco:Decimal>
 								
                   
 							</gmd:eastBoundLongitude>
@@ -1238,7 +780,7 @@
 							<gmd:southBoundLatitude>
 								
                     
-								<gco:Decimal>-44.016225</gco:Decimal>
+								<gco:Decimal>-69.477778</gco:Decimal>
 								
                   
 							</gmd:southBoundLatitude>
@@ -1247,7 +789,7 @@
 							<gmd:northBoundLatitude>
 								
                     
-								<gco:Decimal>-10.165962</gco:Decimal>
+								<gco:Decimal>-9.511911</gco:Decimal>
 								
                   
 							</gmd:northBoundLatitude>
@@ -1322,7 +864,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/gis/services/Defence_Restricted_Areas/MapServer/WmsServer?</gmd:URL>
+								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/capad/MapServer/WmsServer?</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1349,7 +891,7 @@
 							<gmd:name>
 								
                     
-								<gco:CharacterString>Defence_Practice_Areas</gco:CharacterString>
+								<gco:CharacterString>Protected_Areas</gco:CharacterString>
 								
                   
 							</gmd:name>
@@ -1358,7 +900,7 @@
 							<gmd:description>
 								
                     
-								<gco:CharacterString>Defence Practice Areas</gco:CharacterString>
+								<gco:CharacterString>Protected_Areas</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -1379,7 +921,7 @@
 							<gmd:linkage>
 								
                     
-								<gmd:URL>http://services.ga.gov.au/gis/rest/directories/capabilities/Defence_Restricted_Areas/Defence_Restricted_Areas_Practice_Legend.png</gmd:URL>
+								<gmd:URL>http://www.environment.gov.au/mapping/services/ogc_services/capad/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Protected_Areas</gmd:URL>
 								
                   
 							</gmd:linkage>
@@ -1397,7 +939,7 @@
 							<gmd:name>
 								
                     
-								<gco:CharacterString>Defence Practice Areas (LegendURL)</gco:CharacterString>
+								<gco:CharacterString>Protected_Areas (LegendURL)</gco:CharacterString>
 								
                   
 							</gmd:name>
