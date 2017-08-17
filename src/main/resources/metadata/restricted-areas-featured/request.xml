@@ -17,8 +17,8 @@
         <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>Protected_Areas_2014</ogc:Literal>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
+                    <ogc:Literal>Protected_Areas</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>Title</ogc:PropertyName>
@@ -29,16 +29,16 @@
                     <ogc:Literal>World_Heritage_Areas_Australia</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>Defence Practice Areas</ogc:Literal>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
+                    <ogc:Literal>Defence_Practice_Areas</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>Defence Prohibited Areas</ogc:Literal>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
+                    <ogc:Literal>Defence_Prohibited_Areas</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>Title</ogc:PropertyName>
-                    <ogc:Literal>Defence Training Areas</ogc:Literal>
+                    <ogc:PropertyName>LinkageName</ogc:PropertyName>
+                    <ogc:Literal>Defence_Training_Areas</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
             </ogc:Or>
         </ogc:Filter>
