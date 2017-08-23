@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<geonet>
+  <services package="org.fao.geonet">
+    <!-- Virtual CSW for EarthResource layers. Mineral Tenements are included with this CSW as they are generally requested with 
+    mining and mineral occurrence data -->
+    
+    <service name="csw-earth-resource">
+      <class name=".services.main.CswDiscoveryDispatcher">
+        <param name="filter" value="+linkageName:(mo\:MinOccView OR 
+        er\:Mine OR
+        er\:MiningActivity OR
+        er\:MineralOccurrence OR
+        erl\:MineralOccurrenceView OR
+        erl\:CommodityResourceView OR
+        erl\:MineView OR
+        mt\:MineralTenement OR
+        MineralTenement OR
+        er\:MiningFeatureOccurrence)"/>
+      </class>
+    </service>
+     
+    <service name="csw-boreholes">
+         <class name=".services.main.CswDiscoveryDispatcher">
+           <param name="filter" value="+linkageName:(gsml\:Borehole OR
+             nvcl\:ScannedBoreholeCollection OR
+             gsmlp\:BoreholeView)"/>
+         </class>
+    </service>
+    
+    <service name="csw-geological-maps-test">
+      <class name=".services.main.CswDiscoveryDispatcher">
+        <param name="filter" value="+linkageName:(AUS_GA_2500k_MiscLines OR
+          AUS_GA_2500k_Faults OR
+          AUS_GA_2500k_Contacts OR
+          AUS_GA_2500k_GUPoly_Lithostratigraphy OR
+          AUS_GA_2500k_GUPoly_Age OR
+          AUS_GA_2500k_GUPoly_Lithology OR
+          AUS_GA_1M_MiscLines OR
+          AUS_GA_1M_Faults OR
+          AUS_GA_1M_Contacts OR
+          AUS_GA_1M_GULine OR
+          AUS_GA_1M_GUPoly_Lithostratigraphy OR
+          AUS_GA_1M_GUPoly_Age OR
+          AUS_GA_1M_GUPoly_Lithology)"/>
+      </class>
+    </service>
+    <!--
+    <service name="csw-topography">
+    </service>
+    
+    <service name="csw-restricted-areas">
+    </service>
+    
+     -->
+    <service name="csw-integration-test">
+      <class name=".services.main.CswDiscoveryDispatcher">
+        <param name="filter" value="+spatialRepresentationType:vector"/>
+      </class>
+    </service>
+
+  </services>
+</geonet>
