@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <geonet>
   <services package="org.fao.geonet">
+  
     <!-- Virtual CSW for EarthResource layers. Mineral Tenements are included with this CSW as they are generally requested with 
     mining and mineral occurrence data -->
     
@@ -27,31 +28,56 @@
          </class>
     </service>
     
-    <service name="csw-geological-maps-test">
+    <service name="csw-geological-maps">
       <class name=".services.main.CswDiscoveryDispatcher">
-        <param name="filter" value="+linkageName:(AUS_GA_2500k_MiscLines OR
-          AUS_GA_2500k_Faults OR
-          AUS_GA_2500k_Contacts OR
-          AUS_GA_2500k_GUPoly_Lithostratigraphy OR
-          AUS_GA_2500k_GUPoly_Age OR
-          AUS_GA_2500k_GUPoly_Lithology OR
-          AUS_GA_1M_MiscLines OR
-          AUS_GA_1M_Faults OR
-          AUS_GA_1M_Contacts OR
-          AUS_GA_1M_GULine OR
-          AUS_GA_1M_GUPoly_Lithostratigraphy OR
-          AUS_GA_1M_GUPoly_Age OR
-          AUS_GA_1M_GUPoly_Lithology)"/>
+        <param name="filter" value="+linkageName:(AUS_GA_2500k_* OR
+          AUS_GA_1M_* OR
+          Scanned_250K_Geological_Map_Index)"/>
       </class>
     </service>
-    <!--
+    
     <service name="csw-topography">
+    <class name=".services.main.CswDiscoveryDispatcher">
+        <param name="filter" value="+linkageName:(Populated_Places_* OR
+        Roads_* OR
+        TOPO250K_Roads OR
+        Railways_* OR
+        Waterbody_* OR
+        Watercourses_* OR
+        Watercourse_Areas)"/>
+      </class>
     </service>
+    
+   
+    
+    <service name="csw-geological-provinces">
+    	<class name=".services.main.CswDiscoveryDispatcher">
+        	<param name="filter" value="+linkageName:(ProvinceContacts OR
+        		MetallogenicProvinces)" />
+      	</class>
+    </service>
+    
     
     <service name="csw-restricted-areas">
+    	<class name=".services.main.CswDiscoveryDispatcher">
+        	<param name="filter" value="linkageName:(Protected_Areas OR
+        		Australia_Commonwealth_Marine_Reserves) OR
+        		title:(World_Heritage_Areas_Australia)" />
+      	</class>
+    </service>
+    <!--
+    <service name="csw-geophysics">
+    </service> -->
+    
+    <service name="csw-rock-properties">
+    <class name=".services.main.CswDiscoveryDispatcher">
+        <param name="filter" value="+linkageName:(ga_rock_properties_wfs* OR
+        koenigsberger_ratio)"/>
+      </class>
     </service>
     
-     -->
+    
+
     <service name="csw-integration-test">
       <class name=".services.main.CswDiscoveryDispatcher">
         <param name="filter" value="+spatialRepresentationType:vector"/>
