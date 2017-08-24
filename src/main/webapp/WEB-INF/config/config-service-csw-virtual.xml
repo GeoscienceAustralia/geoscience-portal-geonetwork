@@ -44,16 +44,22 @@
         Railways_* OR
         Waterbody_* OR
         Watercourses_* OR
-        Watercourse_Areas)"/>
+        Watercourse_Areas OR
+        Coastline1M OR
+        National_Onshore_*_Pipelines OR
+        National_Major_Ports)"/>
       </class>
     </service>
     
-   
-    
     <service name="csw-geological-provinces">
     	<class name=".services.main.CswDiscoveryDispatcher">
-        	<param name="filter" value="+linkageName:(ProvinceContacts OR
-        		MetallogenicProvinces)" />
+        	<param name="filter" value="+linkageName:(SedimentaryBasins* OR
+                TectonicProvinces* OR 
+                IgneousProvinces* OR
+                AllProvinces OR
+                CrustalElements OR
+        		MetallogenicProvinces OR
+                ProvinceContacts)" />
       	</class>
     </service>
     
@@ -61,18 +67,38 @@
     <service name="csw-restricted-areas">
     	<class name=".services.main.CswDiscoveryDispatcher">
         	<param name="filter" value="linkageName:(Protected_Areas OR
-        		Australia_Commonwealth_Marine_Reserves) OR
-        		title:(World_Heritage_Areas_Australia)" />
+                    Defence_*_Areas) OR
+        		title:(Australia_Commonwealth_Marine_Reserves OR 
+                    World_Heritage_Areas_Australia)" />
       	</class>
     </service>
-    <!--
-    <service name="csw-geophysics">
-    </service> -->
+    
+    <service name="csw-national-geophysical-datasets">
+        <class name=".services.main.CswDiscoveryDispatcher">
+            <param name="filter" value="linkageName:(Onshore_Seismic_Surveys OR
+                AirborneSurveys2014 OR
+                TotalMagneticIntensity* OR
+                GravityBouguerOnshore2010_greyscale OR
+                GravityAnomaly2010* OR
+                Radiometrics*)" />
+        </class>
+    </service>
     
     <service name="csw-rock-properties">
     <class name=".services.main.CswDiscoveryDispatcher">
         <param name="filter" value="+linkageName:(ga_rock_properties_wfs* OR
-        koenigsberger_ratio)"/>
+        bulk_density OR
+        chargeability OR
+        electrical_conductivity OR
+        electrical_resistivity OR
+        gamma_bulk_density OR
+        koenigsberger_ratio OR
+        magnetic_susceptibility OR
+        natural_gamma  OR
+        porosity OR
+        remanent_magnetisation OR
+        sonic_velocity OR
+        temperature)"/>
       </class>
     </service>
     
