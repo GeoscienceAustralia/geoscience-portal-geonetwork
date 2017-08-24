@@ -118,24 +118,11 @@ def xml_string(metadata_record):
 
 def main():
     # fetch_metadata_from_csw(("mrt", "https://data.thelist.tas.gov.au/datagn/srv/eng/csw"))
-    # fetch_metadata_from_csw(("australian-topography-featured",
-    #               "http://localhost:8080/geonetwork/srv/eng/csw-australian-topography"))
-    # fetch_metadata_from_csw(("australian-surface-geology-featured",
-    #                "http://localhost:8080/geonetwork/srv/eng/csw-australian-surface-geology"))
-    # fetch_metadata_from_csw("boreholes",
-    #                "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-boreholes")
-    # fetch_metadata_from_csw(("boreholes-view-featured",
-    #                          "http://dev.portal.geoscience.gov.au/geonetwork/srv/eng/csw-boreholes"))
-    # fetch_metadata_from_csw("boreholes",
-    #                "http://portal-dev.geoscience.gov.au/geonetwork/srv/eng/csw-boreholes")
     # fetch_metadata_from_csw("aster-maps",
     #                "http://aster.nci.org.au/geonetwork/srv/en/csw")
-    #fetch_metadata_from_csw(("geological-maps-featured",
-    #                         "http://localhost:8080/geonetwork/srv/eng/csw-australian-surface-geology"))
     # fetch_metadata_from_url(("geological-survey-of-victoria",
     #                          "http://geology.data.vic.gov.au/searchAssistant/csw/gsv-solr-csw.xml"))
-    fetch_metadata_from_csw(("restricted-areas-featured",
-                             "http://localhost:8080/geonetwork/srv/eng/csw-restricted-areas"))
+
 
 if __name__ == "__main__":
     main()

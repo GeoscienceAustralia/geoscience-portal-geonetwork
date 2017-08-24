@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<geonet>
+  <services package="org.fao.geonet">
+  
+    <!-- Virtual CSW for EarthResource layers. Mineral Tenements are included with this CSW as they are generally requested with 
+    mining and mineral occurrence data -->
+    
+    <service name="csw-earth-resource">
+      <class name=".services.main.CswDiscoveryDispatcher">
+        <param name="filter" value="+linkageName:(mo\:MinOccView OR 
+        er\:Mine OR
+        er\:MiningActivity OR
+        er\:MineralOccurrence OR
+        erl\:MineralOccurrenceView OR
+        erl\:CommodityResourceView OR
+        erl\:MineView OR
+        mt\:MineralTenement OR
+        MineralTenement OR
+        er\:MiningFeatureOccurrence)"/>
+      </class>
+    </service>
+     
+    <service name="csw-boreholes">
+         <class name=".services.main.CswDiscoveryDispatcher">
+           <param name="filter" value="+linkageName:(gsml\:Borehole OR
+             nvcl\:ScannedBoreholeCollection OR
+             gsmlp\:BoreholeView)"/>
+         </class>
+    </service>
+    
+    <service name="csw-geological-maps">
+      <class name=".services.main.CswDiscoveryDispatcher">
+        <param name="filter" value="+linkageName:(AUS_GA_2500k_* OR
+          AUS_GA_1M_* OR
+          Scanned_250K_Geological_Map_Index)"/>
+      </class>
+    </service>
+    
+    <service name="csw-topography">
+    <class name=".services.main.CswDiscoveryDispatcher">
+        <param name="filter" value="+linkageName:(Populated_Places_* OR
+        Roads_* OR
+        TOPO250K_Roads OR
+        Railways_* OR
+        Waterbody_* OR
+        Watercourses_* OR
+        Watercourse_Areas OR
+        Coastline1M OR
+        National_Onshore_*_Pipelines OR
+        National_Major_Ports)"/>
+      </class>
+    </service>
+    
+    <service name="csw-geological-provinces">
+    	<class name=".services.main.CswDiscoveryDispatcher">
+        	<param name="filter" value="+linkageName:(SedimentaryBasins* OR
+                TectonicProvinces* OR 
+                IgneousProvinces* OR
+                AllProvinces OR
+                CrustalElements OR
+        		MetallogenicProvinces OR
+                ProvinceContacts)" />
+      	</class>
+    </service>
+    
+    
+    <service name="csw-restricted-areas">
+    	<class name=".services.main.CswDiscoveryDispatcher">
+        	<param name="filter" value="linkageName:(Protected_Areas OR
+                    Defence_*_Areas) OR
+        		title:(Australia_Commonwealth_Marine_Reserves OR 
+                    World_Heritage_Areas_Australia)" />
+      	</class>
+    </service>
+    
+    <service name="csw-national-geophysical-datasets">
+        <class name=".services.main.CswDiscoveryDispatcher">
+            <param name="filter" value="linkageName:(Onshore_Seismic_Surveys OR
+                AirborneSurveys2014 OR
+                TotalMagneticIntensity* OR
+                GravityBouguerOnshore2010_greyscale OR
+                GravityAnomaly2010* OR
+                Radiometrics*)" />
+        </class>
+    </service>
+    
+    <service name="csw-rock-properties">
+    <class name=".services.main.CswDiscoveryDispatcher">
+        <param name="filter" value="+linkageName:(ga_rock_properties_wfs* OR
+        bulk_density OR
+        chargeability OR
+        electrical_conductivity OR
+        electrical_resistivity OR
+        gamma_bulk_density OR
+        koenigsberger_ratio OR
+        magnetic_susceptibility OR
+        natural_gamma  OR
+        porosity OR
+        remanent_magnetisation OR
+        sonic_velocity OR
+        temperature)"/>
+      </class>
+    </service>
+    
+    
+
+    <service name="csw-integration-test">
+      <class name=".services.main.CswDiscoveryDispatcher">
+        <param name="filter" value="+spatialRepresentationType:vector"/>
+      </class>
+    </service>
+
+  </services>
+</geonet>
