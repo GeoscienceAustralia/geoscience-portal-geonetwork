@@ -80,7 +80,7 @@
     </dependencies>
     <distributionManagement>
         <snapshotRepository>
-          <id>nexus.gadevs</id>
+          <id>nexus.gadevs.snapshots</id>
 	  <url>https://nexus.gadevs.ga/repository/maven-snapshots</url>
         </snapshotRepository>
     </distributionManagement>
