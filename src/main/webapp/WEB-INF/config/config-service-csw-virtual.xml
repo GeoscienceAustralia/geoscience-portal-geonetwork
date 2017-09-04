@@ -22,9 +22,9 @@
      
     <service name="csw-boreholes">
          <class name=".services.main.CswDiscoveryDispatcher">
-           <param name="filter" value="+linkageName:(gsml\:Borehole OR
-             nvcl\:ScannedBoreholeCollection OR
-             gsmlp\:BoreholeView)"/>
+           <param name="filter" value="(linkageName:(gsml\:Borehole OR
+             nvcl\:ScannedBoreholeCollection) AND protocol:OGC\:WFS*) OR
+             linkageName:gsmlp\:BoreholeView"/>
          </class>
     </service>
     

@@ -226,6 +226,8 @@
                 <parameter name="Relation" field="relation" type="AdditionalQueryables" />
 
                 <parameter name="LinkageName" field="linkageName" type="AdditionalQueryables" />
+                
+                <parameter name="OnlineResourceType" field="protocol" type="AdditionalQueryables" />
             </parameters>
             <outputformat>
                 <format>application/xml</format>
