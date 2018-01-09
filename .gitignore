@@ -1,4 +1,8 @@
+.DS_Store
 target
 .project
+*.iml
 /.settings/
 /.classpath
+overlays
+.idea

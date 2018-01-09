@@ -7,16 +7,16 @@
     
     <service name="csw-earth-resource">
       <class name=".services.main.CswDiscoveryDispatcher">
-        <param name="filter" value="+linkageName:(mo\:MinOccView OR 
-        er\:Mine OR
-        er\:MiningActivity OR
+        <param name="filter" value="linkageName:(mo\:MinOccView OR 
         er\:MineralOccurrence OR
         erl\:MineralOccurrenceView OR
         erl\:CommodityResourceView OR
         erl\:MineView OR
         mt\:MineralTenement OR
-        MineralTenement OR
-        er\:MiningFeatureOccurrence)"/>
+        MineralTenement) OR (_groupPublished:(sarig OR gswa OR ntgs OR NSW OR mrt or gsq)
+        AND linkageName:(er\:Mine OR
+        er\:MiningActivity OR
+        er\:MiningFeatureOccurrence))"/>
       </class>
     </service>
      

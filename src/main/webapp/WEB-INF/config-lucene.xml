@@ -230,6 +230,7 @@
     <Field name="_source" analyzer="org.apache.lucene.analysis.core.KeywordAnalyzer"/>
     <Field name="authorSurname" analyzer="org.apache.lucene.analysis.core.StandardAnalyzer"/>
     <Field name="linkageName" analyzer="org.apache.lucene.analysis.core.StandardAnalyzer"/>
+    <Field name="orgName" analyzer="org.apache.lucene.analysis.core.StandardAnalyzer"/>
     <Field name="protocol" analyzer="org.apache.lucene.analysis.core.StandardAnalyzer"/>
   </fieldSpecificAnalyzer>
   
@@ -309,7 +310,7 @@
     <Field name="title"/>
     <Field name="altTitle"/>
     <Field name="keywordType"/>
-    <!--<Field name="orgName"/>-->
+    <Field name="orgName"/>
     <Field name="specificationTitle"/>
     <Field name="levelName"/>
     <Field name="subject"/>
