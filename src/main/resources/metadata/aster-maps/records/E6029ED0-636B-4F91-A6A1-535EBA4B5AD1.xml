@@ -1,719 +1,730 @@
 <?xml version="1.0" ?>
 <gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco"
-	xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:ns3="http://www.w3.org/1999/xlink"
-	xmlns:ns4="http://www.isotc211.org/2005/gmx"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
-	<gmd:fileIdentifier>
-		<gco:CharacterString>E6029ED0-636B-4F91-A6A1-535EBA4B5AD1</gco:CharacterString>
-	</gmd:fileIdentifier>
-	<gmd:language>
-		<gco:CharacterString>eng</gco:CharacterString>
-	</gmd:language>
-	<gmd:characterSet>
-		<gmd:MD_CharacterSetCode
-			codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_CharacterSetCode"
-			codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
-	</gmd:characterSet>
-	<gmd:hierarchyLevel>
-		<gmd:MD_ScopeCode
-			codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode"
-			codeListValue="dataset"/>
-	</gmd:hierarchyLevel>
-	<gmd:hierarchyLevelName>
-		<gco:CharacterString>dataset</gco:CharacterString>
-	</gmd:hierarchyLevelName>
-	<gmd:contact>
-		<gmd:CI_ResponsibleParty>
-			<gmd:individualName>
-				<gco:CharacterString>Matilda Thomas</gco:CharacterString>
-			</gmd:individualName>
-			<gmd:organisationName>
-				<gco:CharacterString>Geoscience Australia</gco:CharacterString>
-			</gmd:organisationName>
-			<gmd:positionName>
-				<gco:CharacterString>Research scientist</gco:CharacterString>
-			</gmd:positionName>
-			<gmd:contactInfo>
-				<gmd:CI_Contact>
-					<gmd:phone>
-						<gmd:CI_Telephone>
-							<gmd:voice>
-								<gco:CharacterString>+61262499111</gco:CharacterString>
-							</gmd:voice>
-							<gmd:facsimile>
-								<gco:CharacterString/>
-							</gmd:facsimile>
-						</gmd:CI_Telephone>
-					</gmd:phone>
-					<gmd:address>
-						<gmd:CI_Address>
-							<gmd:electronicMailAddress>
-								<gco:CharacterString>clientservices@ga.gov.au</gco:CharacterString>
-							</gmd:electronicMailAddress>
-						</gmd:CI_Address>
-					</gmd:address>
-					<gmd:address>
-						<gmd:CI_Address>
-							<gmd:deliveryPoint>
-								<gco:CharacterString>Postal, GPO Box 378</gco:CharacterString>
-							</gmd:deliveryPoint>
-							<gmd:city>
-								<gco:CharacterString>Canberra</gco:CharacterString>
-							</gmd:city>
-							<gmd:administrativeArea>
-								<gco:CharacterString>ACT</gco:CharacterString>
-							</gmd:administrativeArea>
-							<gmd:postalCode>
-								<gco:CharacterString>2601</gco:CharacterString>
-							</gmd:postalCode>
-							<gmd:country>
-								<gco:CharacterString>Australia</gco:CharacterString>
-							</gmd:country>
-						</gmd:CI_Address>
-					</gmd:address>
-				</gmd:CI_Contact>
-			</gmd:contactInfo>
-			<gmd:role>
-				<gmd:CI_RoleCode
-					codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"
-					codeListValue="pointOfContact"/>
-			</gmd:role>
-		</gmd:CI_ResponsibleParty>
-	</gmd:contact>
-	<gmd:dateStamp>
-		<gco:DateTime>2012-07-31T12:57:23</gco:DateTime>
-	</gmd:dateStamp>
-	<gmd:metadataStandardName>
-		<gco:CharacterString>ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS
-			ISO 19115:2005, Geographic information - Metadata</gco:CharacterString>
-	</gmd:metadataStandardName>
-	<gmd:metadataStandardVersion>
-		<gco:CharacterString>1.1</gco:CharacterString>
-	</gmd:metadataStandardVersion>
-	<gmd:referenceSystemInfo>
-		<gmd:MD_ReferenceSystem>
-			<gmd:referenceSystemIdentifier>
-				<gmd:RS_Identifier>
-					<gmd:code>
-						<gco:CharacterString>GDA94</gco:CharacterString>
-					</gmd:code>
-				</gmd:RS_Identifier>
-			</gmd:referenceSystemIdentifier>
-		</gmd:MD_ReferenceSystem>
-	</gmd:referenceSystemInfo>
-	<gmd:identificationInfo>
-		<gmd:MD_DataIdentification>
-			<gmd:citation>
-				<gmd:CI_Citation>
-					<gmd:title>
-						<gco:CharacterString>National ASTER Map of Australia</gco:CharacterString>
-					</gmd:title>
-					<gmd:alternateTitle>
-						<gco:CharacterString>ASTER Map of Australia</gco:CharacterString>
-					</gmd:alternateTitle>
-					<gmd:alternateTitle>
-						<gco:CharacterString>National ASTER Map</gco:CharacterString>
-					</gmd:alternateTitle>
-					<gmd:date>
-						<gmd:CI_Date>
-							<gmd:date>
-								<gco:Date>2012-07-01</gco:Date>
-							</gmd:date>
-							<gmd:dateType>
-								<gmd:CI_DateTypeCode
-									codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode"
-									codeListValue="creation"/>
-							</gmd:dateType>
-						</gmd:CI_Date>
-					</gmd:date>
-					<gmd:date>
-						<gmd:CI_Date>
-							<gmd:date>
-								<gco:Date>2012-08-09</gco:Date>
-							</gmd:date>
-							<gmd:dateType>
-								<gmd:CI_DateTypeCode
-									codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode"
-									codeListValue="publication"/>
-							</gmd:dateType>
-						</gmd:CI_Date>
-					</gmd:date>
-				</gmd:CI_Citation>
-			</gmd:citation>
-			<gmd:abstract>
-				<gco:CharacterString>This is the parent datafile of a datset that comprises a set of
-					14+ geoscience products made up of mosaiced ASTER scenes across Australia. The
-					individual geoscience products are a compbination of bands and band ratios to
-					highlight different mineral groups and parameters including: False colour
-					composite CSIRO Landsat TM Regolith Ratios Green vegetation content Ferric oxide
-					content Ferric oxide composition Ferrous iron index Opaque index AlOH group
-					content AlOH group composition Kaolin group index FeOH group content MgOH group
-					content MgOH group composition Ferrous iron content in
-					MgOH/carbonate</gco:CharacterString>
-			</gmd:abstract>
-			<gmd:purpose>
-				<gco:CharacterString>Surface mineral group distribution (relative abundance and
-					composition)</gco:CharacterString>
-			</gmd:purpose>
-			<gmd:credit>
-				<gco:CharacterString>Cudahy, Thomas</gco:CharacterString>
-			</gmd:credit>
-			<gmd:credit>
-				<gco:CharacterString>Caccetta, Mike</gco:CharacterString>
-			</gmd:credit>
-			<gmd:credit>
-				<gco:CharacterString>Collings, Simon</gco:CharacterString>
-			</gmd:credit>
-			<gmd:credit>
-				<gco:CharacterString>Ong, Cindy</gco:CharacterString>
-			</gmd:credit>
-			<gmd:credit>
-				<gco:CharacterString>Rodger, Andrew</gco:CharacterString>
-			</gmd:credit>
-			<gmd:credit>
-				<gco:CharacterString>Laukamp, Carsten</gco:CharacterString>
-			</gmd:credit>
-			<gmd:credit>
-				<gco:CharacterString>Thomas, Matilda</gco:CharacterString>
-			</gmd:credit>
-			<gmd:credit>
-				<gco:CharacterString>Chia, Joanne</gco:CharacterString>
-			</gmd:credit>
-			<gmd:credit>
-				<gco:CharacterString>Lau, Ian</gco:CharacterString>
-			</gmd:credit>
-			<gmd:credit>
-				<gco:CharacterString>Abrahms, Mike</gco:CharacterString>
-			</gmd:credit>
-			<gmd:credit>
-				<gco:CharacterString>Mauger, Alan</gco:CharacterString>
-			</gmd:credit>
-			<gmd:credit>
-				<gco:CharacterString>Haest, Maarten</gco:CharacterString>
-			</gmd:credit>
-			<gmd:credit>
-				<gco:CharacterString>Fraser, Ryan</gco:CharacterString>
-			</gmd:credit>
-			<gmd:credit>
-				<gco:CharacterString>Warren, Peter</gco:CharacterString>
-			</gmd:credit>
-			<gmd:credit>
-				<gco:CharacterString>Wong, Derrick</gco:CharacterString>
-			</gmd:credit>
-			<gmd:status>
-				<gmd:MD_ProgressCode
-					codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"
-					codeListValue="underDevelopment"/>
-			</gmd:status>
-			<gmd:pointOfContact>
-				<gmd:CI_ResponsibleParty>
-					<gmd:individualName>
-						<gco:CharacterString>Dr Thomas Cudahy</gco:CharacterString>
-					</gmd:individualName>
-					<gmd:organisationName>
-						<gco:CharacterString>CSIRO</gco:CharacterString>
-					</gmd:organisationName>
-					<gmd:positionName>
-						<gco:CharacterString>Director, Western Australian Centre of Excellence for
-							3D Mineral Mapping (C3DMM)</gco:CharacterString>
-					</gmd:positionName>
-					<gmd:contactInfo>
-						<gmd:CI_Contact>
-							<gmd:phone>
-								<gmd:CI_Telephone>
-									<gmd:voice>
-										<gco:CharacterString>08 64368630,
-											08064368677</gco:CharacterString>
-									</gmd:voice>
-									<gmd:facsimile gco:nilReason="missing">
-										<gco:CharacterString/>
-									</gmd:facsimile>
-								</gmd:CI_Telephone>
-							</gmd:phone>
-							<gmd:address>
-								<gmd:CI_Address>
-									<gmd:deliveryPoint>
-										<gco:CharacterString>26 Dick Perry Avenue, Kensington, WA.
-											Australia,</gco:CharacterString>
-									</gmd:deliveryPoint>
-									<gmd:city>
-										<gco:CharacterString>Perth</gco:CharacterString>
-									</gmd:city>
-									<gmd:administrativeArea>
-										<gco:CharacterString>WA</gco:CharacterString>
-									</gmd:administrativeArea>
-									<gmd:postalCode>
-										<gco:CharacterString>6151</gco:CharacterString>
-									</gmd:postalCode>
-									<gmd:country>
-										<gco:CharacterString>Australia</gco:CharacterString>
-									</gmd:country>
-									<gmd:electronicMailAddress>
-										<gco:CharacterString>Thomas.Cudahy@csiro.au</gco:CharacterString>
-									</gmd:electronicMailAddress>
-								</gmd:CI_Address>
-							</gmd:address>
-						</gmd:CI_Contact>
-					</gmd:contactInfo>
-					<gmd:role>
-						<gmd:CI_RoleCode
-							codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"
-							codeListValue="originator"/>
-					</gmd:role>
-				</gmd:CI_ResponsibleParty>
-			</gmd:pointOfContact>
-			<gmd:pointOfContact>
-				<gmd:CI_ResponsibleParty>
-					<gmd:individualName>
-						<gco:CharacterString>Mike Caccetta</gco:CharacterString>
-					</gmd:individualName>
-					<gmd:organisationName>
-						<gco:CharacterString>CSIRO</gco:CharacterString>
-					</gmd:organisationName>
-					<gmd:positionName>
-						<gco:CharacterString>Computing, software and processing
-							specialist</gco:CharacterString>
-					</gmd:positionName>
-					<gmd:contactInfo>
-						<gmd:CI_Contact>
-							<gmd:phone>
-								<gmd:CI_Telephone>
-									<gmd:voice gco:nilReason="missing">
-										<gco:CharacterString/>
-									</gmd:voice>
-									<gmd:facsimile gco:nilReason="missing">
-										<gco:CharacterString/>
-									</gmd:facsimile>
-								</gmd:CI_Telephone>
-							</gmd:phone>
-							<gmd:address>
-								<gmd:CI_Address>
-									<gmd:deliveryPoint>
-										<gco:CharacterString>CSIRO</gco:CharacterString>
-									</gmd:deliveryPoint>
-									<gmd:city>
-										<gco:CharacterString>Perth</gco:CharacterString>
-									</gmd:city>
-									<gmd:administrativeArea>
-										<gco:CharacterString>WA</gco:CharacterString>
-									</gmd:administrativeArea>
-									<gmd:postalCode gco:nilReason="missing">
-										<gco:CharacterString/>
-									</gmd:postalCode>
-									<gmd:country>
-										<gco:CharacterString>Australia</gco:CharacterString>
-									</gmd:country>
-									<gmd:electronicMailAddress>
-										<gco:CharacterString>Mike.Caccetta@csiro.au</gco:CharacterString>
-									</gmd:electronicMailAddress>
-								</gmd:CI_Address>
-							</gmd:address>
-						</gmd:CI_Contact>
-					</gmd:contactInfo>
-					<gmd:role>
-						<gmd:CI_RoleCode
-							codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"
-							codeListValue="pointOfContact"/>
-					</gmd:role>
-				</gmd:CI_ResponsibleParty>
-			</gmd:pointOfContact>
-			<gmd:resourceMaintenance>
-				<gmd:MD_MaintenanceInformation>
-					<gmd:maintenanceAndUpdateFrequency>
-						<gmd:MD_MaintenanceFrequencyCode
-							codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"
-							codeListValue="asNeeded"/>
-					</gmd:maintenanceAndUpdateFrequency>
-					<gmd:dateOfNextUpdate>
-						<gco:Date>2012-07</gco:Date>
-					</gmd:dateOfNextUpdate>
-				</gmd:MD_MaintenanceInformation>
-			</gmd:resourceMaintenance>
-			<gmd:resourceFormat ns3:type="simple">
-				<gmd:MD_Format>
-					<gmd:name>
-						<gco:CharacterString>*.xml</gco:CharacterString>
-					</gmd:name>
-					<gmd:version>
-						<gco:CharacterString>Unknown</gco:CharacterString>
-					</gmd:version>
-				</gmd:MD_Format>
-			</gmd:resourceFormat>
-			<gmd:resourceConstraints>
-				<gmd:MD_LegalConstraints>
-					<gmd:accessConstraints>
-						<gmd:MD_RestrictionCode
-							codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"
-							codeListValue="copyright"/>
-					</gmd:accessConstraints>
-				</gmd:MD_LegalConstraints>
-			</gmd:resourceConstraints>
-			<gmd:resourceConstraints>
-				<gmd:MD_LegalConstraints>
-					<gmd:useLimitation>
-						<gco:CharacterString>National ASTER Map Geoscience products in GIS
-							compatible geoTIF format images are supplied under Creative Commons
-							license, however the the National ASTER reflectance mosaic, also in
-							BSQ/BIL format, is only accessible to CSIRO and the government
-							geosurveys as part of a copyright agreement with ERSDAC
-							(Japan).</gco:CharacterString>
-					</gmd:useLimitation>
-					<gmd:useConstraints>
-						<gmd:MD_RestrictionCode
-							codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"
-							codeListValue="copyright"/>
-					</gmd:useConstraints>
-				</gmd:MD_LegalConstraints>
-			</gmd:resourceConstraints>
-			<gmd:resourceConstraints>
-				<gmd:MD_LegalConstraints>
-					<gmd:useLimitation>
-						<gco:CharacterString>Due for completion and release in August
-							2012</gco:CharacterString>
-					</gmd:useLimitation>
-					<gmd:otherConstraints>
-						<gco:CharacterString>Pending Research</gco:CharacterString>
-					</gmd:otherConstraints>
-				</gmd:MD_LegalConstraints>
-			</gmd:resourceConstraints>
-			<gmd:spatialResolution>
-				<gmd:MD_Resolution>
-					<gmd:distance>
-						<gco:Distance uom="m">30</gco:Distance>
-					</gmd:distance>
-				</gmd:MD_Resolution>
-			</gmd:spatialResolution>
-			<gmd:language>
-				<gco:CharacterString>eng</gco:CharacterString>
-			</gmd:language>
-			<gmd:characterSet>
-				<gmd:MD_CharacterSetCode
-					codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode"
-					codeListValue="utf8"/>
-			</gmd:characterSet>
-			<gmd:topicCategory>
-				<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
-			</gmd:topicCategory>
-			<gmd:extent>
-				<gmd:EX_Extent>
-					<gmd:geographicElement>
-						<gmd:EX_GeographicBoundingBox>
-							<gmd:westBoundLongitude>
-								<gco:Decimal>111.5</gco:Decimal>
-							</gmd:westBoundLongitude>
-							<gmd:eastBoundLongitude>
-								<gco:Decimal>155</gco:Decimal>
-							</gmd:eastBoundLongitude>
-							<gmd:southBoundLatitude>
-								<gco:Decimal>-44.5</gco:Decimal>
-							</gmd:southBoundLatitude>
-							<gmd:northBoundLatitude>
-								<gco:Decimal>-9</gco:Decimal>
-							</gmd:northBoundLatitude>
-						</gmd:EX_GeographicBoundingBox>
-					</gmd:geographicElement>
-				</gmd:EX_Extent>
-			</gmd:extent>
-		</gmd:MD_DataIdentification>
-	</gmd:identificationInfo>
-	<gmd:distributionInfo>
-		<gmd:MD_Distribution>
-			<gmd:transferOptions>
-				<gmd:MD_DigitalTransferOptions>
-					<gmd:onLine>
-						<gmd:CI_OnlineResource>
-							<gmd:linkage>
-								<gmd:URL>http://aster.nci.org.au/geoserver/wms</gmd:URL>
-							</gmd:linkage>
-							<gmd:protocol>
-								<gco:CharacterString>OGC:WMS</gco:CharacterString>
-							</gmd:protocol>
-							<gmd:name>
-								<gco:CharacterString>ASTER WMS</gco:CharacterString>
-							</gmd:name>
-							<gmd:description gco:nilReason="missing">
-								<gco:CharacterString/>
-							</gmd:description>
-						</gmd:CI_OnlineResource>
-					</gmd:onLine>
-					<gmd:onLine>
-						<gmd:CI_OnlineResource>
-							<gmd:linkage>
-								<gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=auscope.png&amp;access=private</gmd:URL>
-							</gmd:linkage>
-							<gmd:protocol>
-								<gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
-							</gmd:protocol>
-							<gmd:name>
-								<ns4:MimeFileType type="image/png">auscope.png</ns4:MimeFileType>
-							</gmd:name>
-							<gmd:description>
-								<gco:CharacterString/>
-							</gmd:description>
-						</gmd:CI_OnlineResource>
-					</gmd:onLine>
-					<gmd:onLine>
-						<gmd:CI_OnlineResource>
-							<gmd:linkage>
-								<gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=csiro.png&amp;access=private</gmd:URL>
-							</gmd:linkage>
-							<gmd:protocol>
-								<gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
-							</gmd:protocol>
-							<gmd:name>
-								<ns4:MimeFileType type="image/png">csiro.png</ns4:MimeFileType>
-							</gmd:name>
-							<gmd:description>
-								<gco:CharacterString/>
-							</gmd:description>
-						</gmd:CI_OnlineResource>
-					</gmd:onLine>
-					<gmd:onLine>
-						<gmd:CI_OnlineResource>
-							<gmd:linkage>
-								<gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=ga.png&amp;access=private</gmd:URL>
-							</gmd:linkage>
-							<gmd:protocol>
-								<gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
-							</gmd:protocol>
-							<gmd:name>
-								<ns4:MimeFileType type="image/png">ga.png</ns4:MimeFileType>
-							</gmd:name>
-							<gmd:description>
-								<gco:CharacterString/>
-							</gmd:description>
-						</gmd:CI_OnlineResource>
-					</gmd:onLine>
-					<gmd:onLine>
-						<gmd:CI_OnlineResource>
-							<gmd:linkage>
-								<gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=gsnsw.png&amp;access=private</gmd:URL>
-							</gmd:linkage>
-							<gmd:protocol>
-								<gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
-							</gmd:protocol>
-							<gmd:name>
-								<ns4:MimeFileType type="image/png">gsnsw.png</ns4:MimeFileType>
-							</gmd:name>
-							<gmd:description>
-								<gco:CharacterString/>
-							</gmd:description>
-						</gmd:CI_OnlineResource>
-					</gmd:onLine>
-					<gmd:onLine>
-						<gmd:CI_OnlineResource>
-							<gmd:linkage>
-								<gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=gswa.png&amp;access=private</gmd:URL>
-							</gmd:linkage>
-							<gmd:protocol>
-								<gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
-							</gmd:protocol>
-							<gmd:name>
-								<ns4:MimeFileType type="image/png">gswa.png</ns4:MimeFileType>
-							</gmd:name>
-							<gmd:description>
-								<gco:CharacterString/>
-							</gmd:description>
-						</gmd:CI_OnlineResource>
-					</gmd:onLine>
-					<gmd:onLine>
-						<gmd:CI_OnlineResource>
-							<gmd:linkage>
-								<gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=ivec.png&amp;access=private</gmd:URL>
-							</gmd:linkage>
-							<gmd:protocol>
-								<gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
-							</gmd:protocol>
-							<gmd:name>
-								<ns4:MimeFileType type="image/png">ivec.png</ns4:MimeFileType>
-							</gmd:name>
-							<gmd:description>
-								<gco:CharacterString/>
-							</gmd:description>
-						</gmd:CI_OnlineResource>
-					</gmd:onLine>
-					<gmd:onLine>
-						<gmd:CI_OnlineResource>
-							<gmd:linkage>
-								<gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=jss.png&amp;access=private</gmd:URL>
-							</gmd:linkage>
-							<gmd:protocol>
-								<gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
-							</gmd:protocol>
-							<gmd:name>
-								<ns4:MimeFileType type="image/png">jss.png</ns4:MimeFileType>
-							</gmd:name>
-							<gmd:description>
-								<gco:CharacterString/>
-							</gmd:description>
-						</gmd:CI_OnlineResource>
-					</gmd:onLine>
-					<gmd:onLine>
-						<gmd:CI_OnlineResource>
-							<gmd:linkage>
-								<gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=nasajpl.png&amp;access=private</gmd:URL>
-							</gmd:linkage>
-							<gmd:protocol>
-								<gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
-							</gmd:protocol>
-							<gmd:name>
-								<ns4:MimeFileType type="image/png">nasajpl.png</ns4:MimeFileType>
-							</gmd:name>
-							<gmd:description>
-								<gco:CharacterString/>
-							</gmd:description>
-						</gmd:CI_OnlineResource>
-					</gmd:onLine>
-					<gmd:onLine>
-						<gmd:CI_OnlineResource>
-							<gmd:linkage>
-								<gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=wadoc.png&amp;access=private</gmd:URL>
-							</gmd:linkage>
-							<gmd:protocol>
-								<gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
-							</gmd:protocol>
-							<gmd:name>
-								<ns4:MimeFileType type="image/png">wadoc.png</ns4:MimeFileType>
-							</gmd:name>
-							<gmd:description>
-								<gco:CharacterString/>
-							</gmd:description>
-						</gmd:CI_OnlineResource>
-					</gmd:onLine>
-				</gmd:MD_DigitalTransferOptions>
-			</gmd:transferOptions>
-		</gmd:MD_Distribution>
-	</gmd:distributionInfo>
-	<gmd:dataQualityInfo>
-		<gmd:DQ_DataQuality>
-			<gmd:scope>
-				<gmd:DQ_Scope>
-					<gmd:level>
-						<gmd:MD_ScopeCode
-							codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode"
-							codeListValue="dataset"/>
-					</gmd:level>
-					<gmd:levelDescription>
-						<gmd:MD_ScopeDescription>
-							<gmd:other>
-								<gco:CharacterString>dataset</gco:CharacterString>
-							</gmd:other>
-						</gmd:MD_ScopeDescription>
-					</gmd:levelDescription>
-				</gmd:DQ_Scope>
-			</gmd:scope>
-			<gmd:lineage>
-				<gmd:LI_Lineage>
-					<gmd:statement>
-						<gco:CharacterString>For detailed product notes and history please see
-							associated &quot;NATIONAL ASTER MAP PRODUCT NOTES&quot; More accurate
-							mapping of land surface composition at a continental-scale for improved
-							resource exploration is becoming possible through a new generation of
-							remote sensing technologies. These include the multi-spectral Japanese
-							ASTER sensor onboard the US TERRA satellite which was launched in
-							December 1999 and has now collected an image archive that effectively
-							covers the Earth’s land surface three times over. ASTER calibration,
-							processing and standardisation approaches have been produced as part of
-							a large multi-agency project to facilitate uptake of these techniques
-							and make them easily integrated with other datasets in a GIS.
-							Collaborative research, undertaken by Geoscience Australia, the
-							Commonwealth Scientific Research Organisation (CSIRO) and state and
-							industry partners, on the world-class Mt Isa mineral province in
-							Queensland was completed in 2008 as a test-case for these new methods.
-							The project demonstrated that geochemical information about alteration
-							chemistry associated with footprints of mineral systems can be acquired
-							by analysing spectral ground response, particularly in short-wave
-							infra-red. Key materials that can be identified include clays and
-							magnesium/iron/ aluminium oxyhydroxides, as well as information on
-							mineral composition, abundance and physicochemistry (including
-							crystallinity) for minerals such as kaolinite, which can be used as a
-							surrogate for identifying transported versus in situ regolith material.
-							High resolution mineral maps, from instruments such as HyMap, and
-							Hyperion allow the recognition of various types of hydrothermal
-							alteration, and can map and distinguish between distinct geochemical and
-							mineralogical alteration halos and fluid pathways. The techniques and
-							applications applied in the Mount Isa program were extended into a
-							similar study for the eastern Gawler and Curnamona Cratons in South
-							Australia, and now into the National ASTER mosaic and maps of Australia,
-							using Hyperion satellite data as a means to calibrate the lower
-							resolution ASTER data The following is a summary of the ASTER image
-							processing procedure: Details will be provided in related publications
-							currently in preparation. 1. Acquisition of the required ASTER L1B
-							radiance@sensor data with SWIR cross-talk correction applied
-							(www.gds.aster.ersdac.or.jp). Note that ASTER L2 “surface radiance” or
-							“surface reflectance” can also be used; 2. SWIR Cross-talk correction
-							(ERSDAC GDS software); 3. Geometric correction; 4. Converting the three
-							15 m VNIR bands to 30 m pixel resolution; 5. Generating a single nine
-							band VNIR-SWIR image file (L1B) for each ASTER scene; 6. Solar
-							irradiance correction; 7. Masking clouds and green vegetation; 8.
-							Generation of ERMapper headers; 9. Calculation of statistics for
-							masked-image overlaps and global scene response; 10. Scene ordering
-							(best scenes up front in the mosaic); 11. Application of gains and
-							offsets to cross-calibrate all images to a global response; 12.
-							Reduction to “surface” reflectance using independent validation data
-							(e.g. satellite Hyperion data). This requires selecting overlapping
-							“regions of interest” (ROI) and calculating statistics to generate
-							regression coefficients (gains and offsets). Alternatively, if
-							independent EO data are not available then an estimate of the additive
-							component (Equations 1 and 2) can be measured using a “dark-pixel”
-							approach. The “dark pixel” can be estimated using: (1) deep water (very
-							effective for SWIR bands away from sun glint angle); or (2)
-							extrapolation to the dark-point using at least different materials
-							illuminated under a range of different topographic conditions; 13.
-							Application of the correction data (offset +/- gain for each band per
-							scene/mosaic); 14. Geoscience information extraction: Application of
-							“normalisation” scripts (see Tables 1 and 2 for product details); 15. QC
-							of normalised products using methods such as: o Images are “flat” with
-							both sides of topographic relief showing the same colour information.
-							That is, the surface composition is not dependent on topographic
-							shading; o Appearance of spatially-apparent “random” pixel behaviour in
-							areas of deep shade or water (in SWIR); o No correlation between
-							normalised products and non-normalised spectral bands; and o
-							Relationships to published geology and associated ASTER products; This
-							project has been financially supported through CSIRO, GA, GSWA, NTGS,
-							DMITRE and its PACE exploration incentive program, WA Department of
-							Commerce Centres of Excellence Funding for C3DMM as well as CSIRO MDU
-							and the NCRIS Auscope Grid projects. ASTER data were secured through
-							ERSDAC, NASA-JPL and the ASTER Science Team. In particular, Mike Abrams
-							from NAS-JPL was instrumental in securing the ASTER data access. ASTER
-							data were delivered to CSIRO through the USGS and Geoscience Australia.
-							Mike Caccetta (CSIRO Earth Science and Resource Engineering - CESRE) was
-							responsible for overseeing successful completion of all parts of the
-							ASTER data processing. Image processing support, especially validation
-							and QC, was provided by Matilda Thomas (GA), Alan Mauger (DMITRE),
-							Joanne Chia (CMIS) and Tom Cudahy (CSIRO). Simon Collings (CSIRO
-							Mathematics and Information Sciences - CMIS) conducted the statistical
-							cross-calibration of the ASTER mosaic using in-house CMIS software.
-							ASTER pre-processing support including masking for green vegetation,
-							cloud and water was provided by Cindy Ong, Andrew Rodger, Ian Lau,
-							Carsten Laukamp (all from CESRE) and Joanne Chia (CMIS). Web-access
-							support was provided by Derrick Wong (Curtin University), Ryan Fraser
-							(CESRE) and Peter Warren (CESRE). Geoscience product development was
-							assisted by Carsten Laukamp, Maarten Haest, Cindy Ong and Tom Cudahy
-							(all from CESRE-C3DMM). Hyperion data were provided by NASA/USGS via
-							Alex Held (CSIRO Marine and Atmospheric Research). Airborne HyMap data
-							were sourced from CSIRO Earth Observation Centre and CESRE-related
-							archives.</gco:CharacterString>
-					</gmd:statement>
-				</gmd:LI_Lineage>
-			</gmd:lineage>
-		</gmd:DQ_DataQuality>
-	</gmd:dataQualityInfo>
-	<gmd:metadataConstraints>
-		<gmd:MD_LegalConstraints>
-			<gmd:useConstraints>
-				<gmd:MD_RestrictionCode
-					codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"
-					codeListValue="copyright"/>
-			</gmd:useConstraints>
-		</gmd:MD_LegalConstraints>
-	</gmd:metadataConstraints>
-	<gmd:metadataConstraints>
-		<gmd:MD_LegalConstraints>
-			<gmd:otherConstraints>
-				<gco:CharacterString>Pending Research</gco:CharacterString>
-			</gmd:otherConstraints>
-		</gmd:MD_LegalConstraints>
-	</gmd:metadataConstraints>
+                 xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:ns3="http://www.w3.org/1999/xlink"
+                 xmlns:ns4="http://www.isotc211.org/2005/gmx"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>E6029ED0-636B-4F91-A6A1-535EBA4B5AD1</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode
+                codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_CharacterSetCode"
+                codeListValue="utf8">utf8
+        </gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode
+                codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode"
+                codeListValue="dataset"/>
+    </gmd:hierarchyLevel>
+    <gmd:hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </gmd:hierarchyLevelName>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Matilda Thomas</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>Geoscience Australia</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>Research scientist</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>+61262499111</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString/>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>clientservices@ga.gov.au</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>Postal, GPO Box 378</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>Canberra</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>ACT</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>2601</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>Australia</gco:CharacterString>
+                            </gmd:country>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode
+                        codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"
+                        codeListValue="pointOfContact"/>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:DateTime>2012-07-31T12:57:23</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS
+            ISO 19115:2005, Geographic information - Metadata
+        </gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.1</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+            <gmd:referenceSystemIdentifier>
+                <gmd:RS_Identifier>
+                    <gmd:code>
+                        <gco:CharacterString>GDA94</gco:CharacterString>
+                    </gmd:code>
+                </gmd:RS_Identifier>
+            </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+    </gmd:referenceSystemInfo>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>National ASTER Map of Australia</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString>ASTER Map of Australia</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString>National ASTER Map</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2012-07-01</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode
+                                        codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode"
+                                        codeListValue="creation"/>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2012-08-09</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode
+                                        codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode"
+                                        codeListValue="publication"/>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>This is the parent datafile of a datset that comprises a set of
+                    14+ geoscience products made up of mosaiced ASTER scenes across Australia. The
+                    individual geoscience products are a compbination of bands and band ratios to
+                    highlight different mineral groups and parameters including: False colour
+                    composite CSIRO Landsat TM Regolith Ratios Green vegetation content Ferric oxide
+                    content Ferric oxide composition Ferrous iron index Opaque index AlOH group
+                    content AlOH group composition Kaolin group index FeOH group content MgOH group
+                    content MgOH group composition Ferrous iron content in
+                    MgOH/carbonate
+                </gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString>Surface mineral group distribution (relative abundance and
+                    composition)
+                </gco:CharacterString>
+            </gmd:purpose>
+            <gmd:credit>
+                <gco:CharacterString>Cudahy, Thomas</gco:CharacterString>
+            </gmd:credit>
+            <gmd:credit>
+                <gco:CharacterString>Caccetta, Mike</gco:CharacterString>
+            </gmd:credit>
+            <gmd:credit>
+                <gco:CharacterString>Collings, Simon</gco:CharacterString>
+            </gmd:credit>
+            <gmd:credit>
+                <gco:CharacterString>Ong, Cindy</gco:CharacterString>
+            </gmd:credit>
+            <gmd:credit>
+                <gco:CharacterString>Rodger, Andrew</gco:CharacterString>
+            </gmd:credit>
+            <gmd:credit>
+                <gco:CharacterString>Laukamp, Carsten</gco:CharacterString>
+            </gmd:credit>
+            <gmd:credit>
+                <gco:CharacterString>Thomas, Matilda</gco:CharacterString>
+            </gmd:credit>
+            <gmd:credit>
+                <gco:CharacterString>Chia, Joanne</gco:CharacterString>
+            </gmd:credit>
+            <gmd:credit>
+                <gco:CharacterString>Lau, Ian</gco:CharacterString>
+            </gmd:credit>
+            <gmd:credit>
+                <gco:CharacterString>Abrahms, Mike</gco:CharacterString>
+            </gmd:credit>
+            <gmd:credit>
+                <gco:CharacterString>Mauger, Alan</gco:CharacterString>
+            </gmd:credit>
+            <gmd:credit>
+                <gco:CharacterString>Haest, Maarten</gco:CharacterString>
+            </gmd:credit>
+            <gmd:credit>
+                <gco:CharacterString>Fraser, Ryan</gco:CharacterString>
+            </gmd:credit>
+            <gmd:credit>
+                <gco:CharacterString>Warren, Peter</gco:CharacterString>
+            </gmd:credit>
+            <gmd:credit>
+                <gco:CharacterString>Wong, Derrick</gco:CharacterString>
+            </gmd:credit>
+            <gmd:status>
+                <gmd:MD_ProgressCode
+                        codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode"
+                        codeListValue="underDevelopment"/>
+            </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Dr Thomas Cudahy</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>CSIRO</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Director, Western Australian Centre of Excellence for
+                            3D Mineral Mapping (C3DMM)
+                        </gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>08 64368630,
+                                            08064368677
+                                        </gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile gco:nilReason="missing">
+                                        <gco:CharacterString/>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>26 Dick Perry Avenue, Kensington, WA.
+                                            Australia,
+                                        </gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Perth</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>WA</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>6151</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>Australia</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>Thomas.Cudahy@csiro.au</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode
+                                codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"
+                                codeListValue="originator"/>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Mike Caccetta</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>CSIRO</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Computing, software and processing
+                            specialist
+                        </gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice gco:nilReason="missing">
+                                        <gco:CharacterString/>
+                                    </gmd:voice>
+                                    <gmd:facsimile gco:nilReason="missing">
+                                        <gco:CharacterString/>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>CSIRO</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Perth</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>WA</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode gco:nilReason="missing">
+                                        <gco:CharacterString/>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>Australia</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>Mike.Caccetta@csiro.au</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode
+                                codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"
+                                codeListValue="pointOfContact"/>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:resourceMaintenance>
+                <gmd:MD_MaintenanceInformation>
+                    <gmd:maintenanceAndUpdateFrequency>
+                        <gmd:MD_MaintenanceFrequencyCode
+                                codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode"
+                                codeListValue="asNeeded"/>
+                    </gmd:maintenanceAndUpdateFrequency>
+                    <gmd:dateOfNextUpdate>
+                        <gco:Date>2012-07</gco:Date>
+                    </gmd:dateOfNextUpdate>
+                </gmd:MD_MaintenanceInformation>
+            </gmd:resourceMaintenance>
+            <gmd:resourceFormat ns3:type="simple">
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>*.xml</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version>
+                        <gco:CharacterString>Unknown</gco:CharacterString>
+                    </gmd:version>
+                </gmd:MD_Format>
+            </gmd:resourceFormat>
+            <gmd:resourceConstraints>
+                <gmd:MD_LegalConstraints>
+                    <gmd:accessConstraints>
+                        <gmd:MD_RestrictionCode
+                                codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"
+                                codeListValue="copyright"/>
+                    </gmd:accessConstraints>
+                </gmd:MD_LegalConstraints>
+            </gmd:resourceConstraints>
+            <gmd:resourceConstraints>
+                <gmd:MD_LegalConstraints>
+                    <gmd:useLimitation>
+                        <gco:CharacterString>National ASTER Map Geoscience products in GIS
+                            compatible geoTIF format images are supplied under Creative Commons
+                            license, however the the National ASTER reflectance mosaic, also in
+                            BSQ/BIL format, is only accessible to CSIRO and the government
+                            geosurveys as part of a copyright agreement with ERSDAC
+                            (Japan).
+                        </gco:CharacterString>
+                    </gmd:useLimitation>
+                    <gmd:useConstraints>
+                        <gmd:MD_RestrictionCode
+                                codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"
+                                codeListValue="copyright"/>
+                    </gmd:useConstraints>
+                </gmd:MD_LegalConstraints>
+            </gmd:resourceConstraints>
+            <gmd:resourceConstraints>
+                <gmd:MD_LegalConstraints>
+                    <gmd:useLimitation>
+                        <gco:CharacterString>Due for completion and release in August
+                            2012
+                        </gco:CharacterString>
+                    </gmd:useLimitation>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>Pending Research</gco:CharacterString>
+                    </gmd:otherConstraints>
+                </gmd:MD_LegalConstraints>
+            </gmd:resourceConstraints>
+            <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:distance>
+                        <gco:Distance uom="m">30</gco:Distance>
+                    </gmd:distance>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+            <gmd:language>
+                <gco:CharacterString>eng</gco:CharacterString>
+            </gmd:language>
+            <gmd:characterSet>
+                <gmd:MD_CharacterSetCode
+                        codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode"
+                        codeListValue="utf8"/>
+            </gmd:characterSet>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:extent>
+                <gmd:EX_Extent>
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>111.5</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>155</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>-44.5</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>-9</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://aster.nci.org.au/geoserver/wms</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:protocol>
+                                <gco:CharacterString>OGC:WMS</gco:CharacterString>
+                            </gmd:protocol>
+                            <gmd:name>
+                                <gco:CharacterString>ASTER WMS</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:description gco:nilReason="missing">
+                                <gco:CharacterString/>
+                            </gmd:description>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=auscope.png&amp;access=private</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:protocol>
+                                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                            </gmd:protocol>
+                            <gmd:name>
+                                <ns4:MimeFileType type="image/png">auscope.png</ns4:MimeFileType>
+                            </gmd:name>
+                            <gmd:description>
+                                <gco:CharacterString/>
+                            </gmd:description>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=csiro.png&amp;access=private</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:protocol>
+                                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                            </gmd:protocol>
+                            <gmd:name>
+                                <ns4:MimeFileType type="image/png">csiro.png</ns4:MimeFileType>
+                            </gmd:name>
+                            <gmd:description>
+                                <gco:CharacterString/>
+                            </gmd:description>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=ga.png&amp;access=private</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:protocol>
+                                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                            </gmd:protocol>
+                            <gmd:name>
+                                <ns4:MimeFileType type="image/png">ga.png</ns4:MimeFileType>
+                            </gmd:name>
+                            <gmd:description>
+                                <gco:CharacterString/>
+                            </gmd:description>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=gsnsw.png&amp;access=private</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:protocol>
+                                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                            </gmd:protocol>
+                            <gmd:name>
+                                <ns4:MimeFileType type="image/png">gsnsw.png</ns4:MimeFileType>
+                            </gmd:name>
+                            <gmd:description>
+                                <gco:CharacterString/>
+                            </gmd:description>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=gswa.png&amp;access=private</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:protocol>
+                                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                            </gmd:protocol>
+                            <gmd:name>
+                                <ns4:MimeFileType type="image/png">gswa.png</ns4:MimeFileType>
+                            </gmd:name>
+                            <gmd:description>
+                                <gco:CharacterString/>
+                            </gmd:description>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=ivec.png&amp;access=private</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:protocol>
+                                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                            </gmd:protocol>
+                            <gmd:name>
+                                <ns4:MimeFileType type="image/png">ivec.png</ns4:MimeFileType>
+                            </gmd:name>
+                            <gmd:description>
+                                <gco:CharacterString/>
+                            </gmd:description>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=jss.png&amp;access=private</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:protocol>
+                                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                            </gmd:protocol>
+                            <gmd:name>
+                                <ns4:MimeFileType type="image/png">jss.png</ns4:MimeFileType>
+                            </gmd:name>
+                            <gmd:description>
+                                <gco:CharacterString/>
+                            </gmd:description>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=nasajpl.png&amp;access=private</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:protocol>
+                                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                            </gmd:protocol>
+                            <gmd:name>
+                                <ns4:MimeFileType type="image/png">nasajpl.png</ns4:MimeFileType>
+                            </gmd:name>
+                            <gmd:description>
+                                <gco:CharacterString/>
+                            </gmd:description>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://aster.nci.org.au/geonetwork/srv/en/resources.get?id=1&amp;fname=wadoc.png&amp;access=private</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:protocol>
+                                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                            </gmd:protocol>
+                            <gmd:name>
+                                <ns4:MimeFileType type="image/png">wadoc.png</ns4:MimeFileType>
+                            </gmd:name>
+                            <gmd:description>
+                                <gco:CharacterString/>
+                            </gmd:description>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+            <gmd:scope>
+                <gmd:DQ_Scope>
+                    <gmd:level>
+                        <gmd:MD_ScopeCode
+                                codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode"
+                                codeListValue="dataset"/>
+                    </gmd:level>
+                    <gmd:levelDescription>
+                        <gmd:MD_ScopeDescription>
+                            <gmd:other>
+                                <gco:CharacterString>dataset</gco:CharacterString>
+                            </gmd:other>
+                        </gmd:MD_ScopeDescription>
+                    </gmd:levelDescription>
+                </gmd:DQ_Scope>
+            </gmd:scope>
+            <gmd:lineage>
+                <gmd:LI_Lineage>
+                    <gmd:statement>
+                        <gco:CharacterString>For detailed product notes and history please see
+                            associated &quot;NATIONAL ASTER MAP PRODUCT NOTES&quot; More accurate
+                            mapping of land surface composition at a continental-scale for improved
+                            resource exploration is becoming possible through a new generation of
+                            remote sensing technologies. These include the multi-spectral Japanese
+                            ASTER sensor onboard the US TERRA satellite which was launched in
+                            December 1999 and has now collected an image archive that effectively
+                            covers the Earth’s land surface three times over. ASTER calibration,
+                            processing and standardisation approaches have been produced as part of
+                            a large multi-agency project to facilitate uptake of these techniques
+                            and make them easily integrated with other datasets in a GIS.
+                            Collaborative research, undertaken by Geoscience Australia, the
+                            Commonwealth Scientific Research Organisation (CSIRO) and state and
+                            industry partners, on the world-class Mt Isa mineral province in
+                            Queensland was completed in 2008 as a test-case for these new methods.
+                            The project demonstrated that geochemical information about alteration
+                            chemistry associated with footprints of mineral systems can be acquired
+                            by analysing spectral ground response, particularly in short-wave
+                            infra-red. Key materials that can be identified include clays and
+                            magnesium/iron/ aluminium oxyhydroxides, as well as information on
+                            mineral composition, abundance and physicochemistry (including
+                            crystallinity) for minerals such as kaolinite, which can be used as a
+                            surrogate for identifying transported versus in situ regolith material.
+                            High resolution mineral maps, from instruments such as HyMap, and
+                            Hyperion allow the recognition of various types of hydrothermal
+                            alteration, and can map and distinguish between distinct geochemical and
+                            mineralogical alteration halos and fluid pathways. The techniques and
+                            applications applied in the Mount Isa program were extended into a
+                            similar study for the eastern Gawler and Curnamona Cratons in South
+                            Australia, and now into the National ASTER mosaic and maps of Australia,
+                            using Hyperion satellite data as a means to calibrate the lower
+                            resolution ASTER data The following is a summary of the ASTER image
+                            processing procedure: Details will be provided in related publications
+                            currently in preparation. 1. Acquisition of the required ASTER L1B
+                            radiance@sensor data with SWIR cross-talk correction applied
+                            (www.gds.aster.ersdac.or.jp). Note that ASTER L2 “surface radiance” or
+                            “surface reflectance” can also be used; 2. SWIR Cross-talk correction
+                            (ERSDAC GDS software); 3. Geometric correction; 4. Converting the three
+                            15 m VNIR bands to 30 m pixel resolution; 5. Generating a single nine
+                            band VNIR-SWIR image file (L1B) for each ASTER scene; 6. Solar
+                            irradiance correction; 7. Masking clouds and green vegetation; 8.
+                            Generation of ERMapper headers; 9. Calculation of statistics for
+                            masked-image overlaps and global scene response; 10. Scene ordering
+                            (best scenes up front in the mosaic); 11. Application of gains and
+                            offsets to cross-calibrate all images to a global response; 12.
+                            Reduction to “surface” reflectance using independent validation data
+                            (e.g. satellite Hyperion data). This requires selecting overlapping
+                            “regions of interest” (ROI) and calculating statistics to generate
+                            regression coefficients (gains and offsets). Alternatively, if
+                            independent EO data are not available then an estimate of the additive
+                            component (Equations 1 and 2) can be measured using a “dark-pixel”
+                            approach. The “dark pixel” can be estimated using: (1) deep water (very
+                            effective for SWIR bands away from sun glint angle); or (2)
+                            extrapolation to the dark-point using at least different materials
+                            illuminated under a range of different topographic conditions; 13.
+                            Application of the correction data (offset +/- gain for each band per
+                            scene/mosaic); 14. Geoscience information extraction: Application of
+                            “normalisation” scripts (see Tables 1 and 2 for product details); 15. QC
+                            of normalised products using methods such as: o Images are “flat” with
+                            both sides of topographic relief showing the same colour information.
+                            That is, the surface composition is not dependent on topographic
+                            shading; o Appearance of spatially-apparent “random” pixel behaviour in
+                            areas of deep shade or water (in SWIR); o No correlation between
+                            normalised products and non-normalised spectral bands; and o
+                            Relationships to published geology and associated ASTER products; This
+                            project has been financially supported through CSIRO, GA, GSWA, NTGS,
+                            DMITRE and its PACE exploration incentive program, WA Department of
+                            Commerce Centres of Excellence Funding for C3DMM as well as CSIRO MDU
+                            and the NCRIS Auscope Grid projects. ASTER data were secured through
+                            ERSDAC, NASA-JPL and the ASTER Science Team. In particular, Mike Abrams
+                            from NAS-JPL was instrumental in securing the ASTER data access. ASTER
+                            data were delivered to CSIRO through the USGS and Geoscience Australia.
+                            Mike Caccetta (CSIRO Earth Science and Resource Engineering - CESRE) was
+                            responsible for overseeing successful completion of all parts of the
+                            ASTER data processing. Image processing support, especially validation
+                            and QC, was provided by Matilda Thomas (GA), Alan Mauger (DMITRE),
+                            Joanne Chia (CMIS) and Tom Cudahy (CSIRO). Simon Collings (CSIRO
+                            Mathematics and Information Sciences - CMIS) conducted the statistical
+                            cross-calibration of the ASTER mosaic using in-house CMIS software.
+                            ASTER pre-processing support including masking for green vegetation,
+                            cloud and water was provided by Cindy Ong, Andrew Rodger, Ian Lau,
+                            Carsten Laukamp (all from CESRE) and Joanne Chia (CMIS). Web-access
+                            support was provided by Derrick Wong (Curtin University), Ryan Fraser
+                            (CESRE) and Peter Warren (CESRE). Geoscience product development was
+                            assisted by Carsten Laukamp, Maarten Haest, Cindy Ong and Tom Cudahy
+                            (all from CESRE-C3DMM). Hyperion data were provided by NASA/USGS via
+                            Alex Held (CSIRO Marine and Atmospheric Research). Airborne HyMap data
+                            were sourced from CSIRO Earth Observation Centre and CESRE-related
+                            archives.
+                        </gco:CharacterString>
+                    </gmd:statement>
+                </gmd:LI_Lineage>
+            </gmd:lineage>
+        </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+    <gmd:metadataConstraints>
+        <gmd:MD_LegalConstraints>
+            <gmd:useConstraints>
+                <gmd:MD_RestrictionCode
+                        codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_RestrictionCode"
+                        codeListValue="copyright"/>
+            </gmd:useConstraints>
+        </gmd:MD_LegalConstraints>
+    </gmd:metadataConstraints>
+    <gmd:metadataConstraints>
+        <gmd:MD_LegalConstraints>
+            <gmd:otherConstraints>
+                <gco:CharacterString>Pending Research</gco:CharacterString>
+            </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+    </gmd:metadataConstraints>
 </gmd:MD_Metadata>
