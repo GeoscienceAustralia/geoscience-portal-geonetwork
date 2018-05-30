@@ -712,43 +712,65 @@
 		</xsl:choose>
 		
 		<!-- TODO WCS -->
-		<xsl:variable name="minScale" select="//Layer[Name=$Name]/MinScaleDenominator
+
+        <xsl:variable name="minScale" select="//Layer[Name=$Name]/MinScaleDenominator
 		  |//wms:Layer[wms:Name=$Name]/wms:MinScaleDenominator"/>
-	  <xsl:variable name="minScaleHint" select="//Layer[Name=$Name]/ScaleHint/@min"/>
-		<xsl:if test="$minScale or $minScaleHint">
-			<spatialResolution>
-				<MD_Resolution>
-					<equivalentScale>
-						<MD_RepresentativeFraction>
-							<denominator>
-							  <gco:Integer><xsl:value-of select="if ($minScale) then $minScale else format-number(round($minScaleHint div math:sqrt(2) * 72 div 2.54 * 100), '0')"/></gco:Integer>
-							</denominator>
-						</MD_RepresentativeFraction>
-					</equivalentScale>
-				</MD_Resolution>
-			</spatialResolution>
-		</xsl:if>
-		<xsl:variable name="maxScale" select="//Layer[Name=$Name]/MaxScaleDenominator
+        <xsl:variable name="minScaleHint" select="//Layer[Name=$Name]/ScaleHint/@min"/>
+
+        <xsl:variable name="maxScale" select="//Layer[Name=$Name]/MaxScaleDenominator
 		  |//wms:Layer[wms:Name=$Name]/wms:MaxScaleDenominator"/>
-	  <xsl:variable name="maxScaleHint" select="//Layer[Name=$Name]/ScaleHint/@max"/>
-		<xsl:if test="$maxScale or $maxScaleHint">
-			<spatialResolution>
-				<MD_Resolution>
-					<equivalentScale>
-						<MD_RepresentativeFraction>
-							<denominator>
-								<gco:Integer><xsl:value-of select="if ($maxScale) 
-																		then $maxScale 
-																		else if ($maxScaleHint = 'Infinity') 
-																			then $maxScaleHint 
+        <xsl:variable name="maxScaleHint" select="//Layer[Name=$Name]/ScaleHint/@max"/>
+
+        <xsl:if test="($minScale or $minScaleHint) or ($maxScale or $maxScaleHint)">
+            <xsl:choose>
+                <xsl:when test="$minScale or $minScaleHint">
+                    <spatialResolution>
+                        <MD_Resolution>
+                            <equivalentScale>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer><xsl:value-of select="if ($minScale) then $minScale else format-number(round($minScaleHint div math:sqrt(2) * 72 div 2.54 * 100), '0')"/></gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </equivalentScale>
+                        </MD_Resolution>
+                    </spatialResolution>
+                </xsl:when>
+                <xsl:otherwise>
+                    <spatialResolution>
+                        <MD_Resolution>
+                            <equivalentScale>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer>0</gco:Integer>
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </equivalentScale>
+                        </MD_Resolution>
+                    </spatialResolution>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:choose>
+                <xsl:when test="$maxScale or $maxScaleHint">
+                    <spatialResolution>
+                        <MD_Resolution>
+                            <equivalentScale>
+                                <MD_RepresentativeFraction>
+                                    <denominator>
+                                        <gco:Integer><xsl:value-of select="if ($maxScale)
+																		then $maxScale
+																		else if ($maxScaleHint = 'Infinity')
+																			then $maxScaleHint
 																			else  format-number(round($maxScaleHint div math:sqrt(2) * 72 div 2.54 * 100), '0')"/></gco:Integer>
-							</denominator>
-						</MD_RepresentativeFraction>
-					</equivalentScale>
-				</MD_Resolution>
-			</spatialResolution>
-		</xsl:if>
-		
+                                    </denominator>
+                                </MD_RepresentativeFraction>
+                            </equivalentScale>
+                        </MD_Resolution>
+                    </spatialResolution>
+                </xsl:when>
+            </xsl:choose>
+        </xsl:if>
+
 		<language gco:nilReason="missing">
 			<gco:CharacterString/>
 		</language>
