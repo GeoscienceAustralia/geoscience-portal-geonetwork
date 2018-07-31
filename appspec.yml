@@ -4,7 +4,7 @@ files:
   - source: /
     destination: /home/ubuntu
 hooks:
-  BeforeInstall:
+  AfterInstall:
     - location: scripts/load_postgres.sh
       timeout: 300
       runas: root
