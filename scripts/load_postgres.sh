@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo `pwd`
+pushd ~ubuntu
 
 unzip src/main/resources/geonetwork-db.zip
 export GEONETWORK_PASSWORD=`date | sha512sum | base64 | head -c 32` &> /dev/null
