@@ -9,5 +9,5 @@ sudo psql -U postgres -f src/main/resources/geonetwork-db.sql
 
 sed -i 's/${password}/'"${GEONETWORK_PASSWORD}"'/' src/main/webapp/WEB-INF/config-db/jdbc.properties
 
-mvn clean deploy
+mvn clean package
 
