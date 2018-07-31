@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pushd ~ubuntu
+pushd ~ubuntu/geonetwork
 
 unzip src/main/resources/geonetwork-db.zip
 export GEONETWORK_PASSWORD=`date | sha512sum | base64 | head -c 32` &> /dev/null
@@ -13,4 +13,3 @@ echo $GEONETWORK_PASSWORD
 sed -i 's/${password}/'"${GEONETWORK_PASSWORD}"'/' src/main/webapp/WEB-INF/config-db/jdbc.properties
 
 mvn clean package
-

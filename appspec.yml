@@ -12,3 +12,11 @@ hooks:
     - location: scripts/load_postgres.sh
       timeout: 300
       runas: root
+  ApplicationStop:
+    - location: scripts/stop_tomcat.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: scripts/start_tomcat.sh
+      timeout: 300
+      runas: root
