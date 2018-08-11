@@ -7,8 +7,7 @@
     
     <service name="csw-earth-resource">
       <class name=".services.main.CswDiscoveryDispatcher">
-        <param name="filter" value="linkageName:(mo\:MinOccView OR 
-        er\:MineralOccurrence OR
+        <param name="filter" value="linkageName:(er\:MineralOccurrence OR
         erl\:MineralOccurrenceView OR
         erl\:CommodityResourceView OR
         erl\:MineView OR
@@ -16,7 +15,19 @@
         MineralTenement) OR (_groupPublished:(sarig OR gswa OR ntgs OR NSW OR mrt or gsq)
         AND linkageName:(er\:Mine OR
         er\:MiningActivity OR
-        er\:MiningFeatureOccurrence))"/>
+        er\:MiningFeatureOccurrence)) OR (_groupPublished:(sarig OR gswa OR ntgs OR gsv)
+        AND linkageName:(mo\:MinOccView))"/>
+      </class>
+    </service>
+
+    <!-- Remove tenements from the above earth resource end point when the change to
+         the tenements layer is in production
+         -->
+
+    <service name="csw-tenements">
+      <class name=".services.main.CswDiscoveryDispatcher">
+        <param name="filter" value="linkageName:(mt\:MineralTenement OR
+        MineralTenement) OR title:(Petroleum Titles Company)"/>
       </class>
     </service>
      
