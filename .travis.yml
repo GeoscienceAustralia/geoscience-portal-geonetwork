@@ -1,7 +1,6 @@
 language: java
 install: true
-before_deploy:
-  - travis/build.sh
+script: "[ ${TRAVIS_PULL_REQUEST} = 'false' ] && mvn clean deploy --settings travis/settings.xml || mvn clean verify --settings travis/settings.xml"
 deploy:
   provider: codedeploy
   revision_type: github
