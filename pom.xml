@@ -93,4 +93,11 @@
             <type>war</type>
         </dependency>
     </dependencies>
+    <repositories>
+        <repository>
+            <id>main</id>
+            <name>Geoscience Australia Nexus Repo</name>
+            <url>https://nexus.gadevs.ga/repository/maven-public</url>
+        </repository>
+    </repositories>
 </project>
