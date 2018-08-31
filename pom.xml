@@ -1,5 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>au.gov.ga</groupId>
     <artifactId>geoscience-portal-geonetwork</artifactId>
@@ -34,9 +34,30 @@
         <geotools.version>2.6.5</geotools.version>
         <portal.core.version>1.4.0-SNAPSHOT</portal.core.version>
     </properties>
-    <build>    
-        <finalName>geonetwork</finalName>
-        <plugins>        
+    <profiles>
+        <profile>
+            <id>external</id>
+            <repositories>
+                <repository>
+                    <id>main</id>
+                    <name>Geoscience Australia Nexus Repo</name>
+                    <url>https://nexus.gadevs.ga/repository/maven-public</url>
+                </repository>
+            </repositories>
+            <distributionManagement>
+                <repository>
+                    <id>release</id>
+                    <url>https://nexus.gadevs.ga/repository/maven-releases</url>
+                </repository>
+                <snapshotRepository>
+                    <id>snapshots</id>
+                    <url>https://nexus.gadevs.ga/repository/maven-snapshots</url>
+                </snapshotRepository>
+            </distributionManagement>
+        </profile>
+    </profiles>
+    <build>
+        <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
@@ -46,7 +67,7 @@
                     <compilerVersion>1.7</compilerVersion>
                 </configuration>
             </plugin>
-    
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
@@ -60,16 +81,10 @@
                         </overlay>
                     </overlays>
                 </configuration>
-            </plugin>        			        
+            </plugin>
+
         </plugins>
     </build>
-    <repositories>
-           <repository>
-               <id>nexus.gadevs</id>
-               <name>Geoscience Australia Nexus Repo</name>
-               <url>https://nexus.gadevs.ga/repository/maven-public</url>
-           </repository>
-    </repositories>
     <dependencies>
         <dependency>
             <groupId>org.geonetwork-opensource</groupId>
@@ -78,10 +93,4 @@
             <type>war</type>
         </dependency>
     </dependencies>
-    <distributionManagement>
-        <snapshotRepository>
-          <id>nexus.gadevs.snapshots</id>
-	  <url>http://maven-int.ga.gov.au/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
 </project>

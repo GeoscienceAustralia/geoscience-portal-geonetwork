@@ -1,6 +1,7 @@
 language: java
 install: true
-
+before_deploy:
+  - travis/build.sh
 deploy:
   provider: codedeploy
   revision_type: github
@@ -11,12 +12,15 @@ deploy:
   application: "geonetwork-codedeploy"
   deployment_group: "geonetwork-group"
   region: "ap-southeast-2"
-
-cache: 
+env:
+  global:
+    - secure: "Z0eV8OBkbhz/QJdxml8HWeN0gg2H4tHPgocJ3Xgr1n6C8ez8VnJrEd23jYu1pjrzESSvVg9lCzHSsIBsjokEDZ6JFdjM15arnHBUez03l5unoOW6nTn6pctUopgT4Do46OyAOAqtAJFyBURRnaDtTTGyAoTrl/apSOceVE1VvGnzDApvi4b6MQZrkpADCeBsXBlXivSyMlEwc0psLltnS1QjoJuOyPLtkQcYaBw3G4F5VpMnmRcEfZgAD+0Y7JXOQVKKHuK65uKc3BCvsuRYcbK309PVHFa1mj05nGt53cDiOxgG0kFbFBBpl/Io8EJQzvxwybNMLq2q6TuPFEq3ybMVzPPWMmaWD1m6sA+E3RdGeRznLyAVkKSOdUmW9/Rk33HU7Fq+jnevD1LcovX+oZ/bJiVyoQAF5wnjn1Al/4QzwRSOSDlrVMqWIzpVH48epPeIr2vUhogOi3B2YSuNoLFc6wLXWYdUpcCatlgtFbUlSPr8/zOKfUj3eDPDqSN9rCebvnsuc5gAYwZSjIr9PQJGtKPHuhFh4ebpY3P3ZRabsOlZE16GGoK2erkBYJ6wl0LKXshpl/ofyzBtJSPfh9zAZ+DYD8tJZrF8X5RK5aCPjAI1/NDkZv5HxkYIQw2jw05f/yZGcoAr6SwP+DzVsC0KtPF48Ykb8T3Tr/TtJHA="
+    - secure: "RyB44A6WT6YKezJnD0k/vEzbtP7prMqQNTxdEIT2snN+YEl9/FSBLTCGRf0Xj+vpVTUXvgtvWXhvlhIKohZ/0yz91QROECHEMZykbiJUEo5b0+KJF0OJdacbWjgpz1nPTxF3hlFd3GBf85kGYhoc52Zeaw4+NY2qKs583gx/Yuq/Yb+71WNqWWZAXDTlcmLoR5z1IlIgcyKaGVql9pR215z1qFaAinLYUlSlnKY0qHv0vbyIywtX6YAcAjjuLlAXwy8hVI7UCYnrhTeI9JM+rzaaCx7bVAcmfu9gpI1GyPXAX2CBp4/HKTl6O68QJUg4MCTMlVJiv8j7wBY+VehwT/1edBZWOdL+usKCQbGOlmtIB6ljY+VhtHlG0miH3bVsDOV8y6wecGq5iSwsttTwA7YP3ghiNmu+Yo6VEHAJONT6VYkR1+3bD3rgG9Bx/EER6SIo4Xsdn4qQVM0iWzKNkNpZAKWEiJ9FX2x1XpNqM2cL6Dpsqt+Mf2aUk/4gNwwZjRwugubnwpC41Rl8Hqwo4IBwWiKS+5ETZ8pLxHYC+FrKY8c4oa4bY+lisqlYWFn1u2S7PcLszXIO7sDbvDJfBA9gVm6ixHSKHDEToFvO2dF1xJI7fz+cSfmHPTnR2Yjyms1TQ1nY42CfCcUgCJfY7F6vqKxMDLSeHPxaxPDbTfA="
+cache:
   directories:
     - $HOME/.m2
-  branches:
-    only:
-      - master
-  jdk:
-    - oraclejdk8
+branches:
+  only:
+    - master
+jdk:
+  - oraclejdk8
