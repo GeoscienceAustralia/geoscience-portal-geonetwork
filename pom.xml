@@ -51,7 +51,7 @@
                 </repository>
                 <snapshotRepository>
                     <id>snapshots</id>
-                    <url>https://nexus.gadevs.ga/repository/maven-snapshots</url>
+                    <url>https://54.66.176.84/repository/maven-snapshots</url>
                 </snapshotRepository>
             </distributionManagement>
         </profile>
