@@ -97,7 +97,7 @@
         <repository>
             <id>main</id>
             <name>Geoscience Australia Nexus Repo</name>
-            <url>https://nexus.gadevs.ga/repository/maven-public</url>
+            <url>https://54.66.176.84/repository/maven-public</url>
         </repository>
     </repositories>
 </project>
