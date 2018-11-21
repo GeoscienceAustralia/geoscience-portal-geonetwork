@@ -55,6 +55,26 @@
                 </snapshotRepository>
             </distributionManagement>
         </profile>
+        <profile>
+            <id>internal</id>
+            <repositories>
+                <repository>
+                    <id>main</id>
+                    <name>Geoscience Australia Nexus Repo</name>
+                    <url>http://rhe-repo-prod01.prod.lan:8080/nexus/content/repositories/public</url>
+                </repository>
+            </repositories>
+			<distributionManagement>
+			                <repository>
+			                    <id>release</id>
+			                    <url>http://rhe-repo-prod01.prod.lan:8080/nexus/content/repositories/releases</url>
+			                </repository>
+			                <snapshotRepository>
+			                    <id>snapshots</id>
+			                    <url>http://rhe-repo-prod01.prod.lan:8080/nexus/content/repositories/snapshots</url>
+			                </snapshotRepository>
+			            </distributionManagement>
+        </profile>
     </profiles>
     <build>
         <plugins>
