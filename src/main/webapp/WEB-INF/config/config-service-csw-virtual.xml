@@ -13,7 +13,7 @@
         erl\:MineView) OR (_groupPublished:(sarig OR gswa OR ntgs OR NSW OR mrt or gsq)
         AND linkageName:(er\:Mine OR
         er\:MiningActivity OR
-        er\:MiningFeatureOccurrence)) OR (_groupPublished:(sarig OR gswa OR ntgs OR gsv)
+        er\:MiningFeatureOccurrence)) OR (_groupPublished:(gswa OR gsv)
         AND linkageName:(mo\:MinOccView))"/>
       </class>
     </service>
