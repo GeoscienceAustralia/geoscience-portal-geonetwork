@@ -1,6 +1,6 @@
---- geonetwork-db.sql	2016-03-17 16:08:21.750865700 +1100
-+++ geonetwork-db.sql	2016-03-17 16:05:58.098865700 +1100
-@@ -14,6 +14,11 @@
+--- src/main/resources/geonetwork-db.sql	2019-01-14 14:40:23.000000000 +1100
++++ src/main/resources/geonetwork-db.sql	2019-01-14 14:40:54.000000000 +1100
+@@ -16,6 +16,11 @@
  SET row_security = off;
  
  DROP DATABASE geonetwork;
