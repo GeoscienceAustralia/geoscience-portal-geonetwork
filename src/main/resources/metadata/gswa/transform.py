@@ -1,5 +1,6 @@
 from lxml import etree
 import os
+import shutil
 
 etree.register_namespace("xsi","http://www.w3.org/2001/XMLSchema-instance" )
 etree.register_namespace("gco","http://www.isotc211.org/2005/gco" )
@@ -29,4 +30,5 @@ def main():
     transform = etree.XSLT(xslt)
     newdom = transform(dom)
     newdom.write(os.path.join(RECORDS_DIR,file))
-  
+
+main()  

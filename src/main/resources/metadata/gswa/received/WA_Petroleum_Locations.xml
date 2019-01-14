@@ -24,10 +24,10 @@
         <gco:CharacterString>No Name</gco:CharacterString>
       </gmd:individualName>
       <gmd:organisationName>
-        <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+        <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
       </gmd:organisationName>
       <gmd:positionName>
-        <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
+        <gco:CharacterString>GSWA Digital Data Administrator</gco:CharacterString>
       </gmd:positionName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
@@ -59,7 +59,7 @@
                 <gco:CharacterString>Australia</gco:CharacterString>
               </gmd:country>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
@@ -125,7 +125,7 @@ The data is not projected.</gco:CharacterString>
             <gco:CharacterString>No Name</gco:CharacterString>
           </gmd:individualName>
           <gmd:organisationName>
-            <gco:CharacterString>Geospatial Unit, Petroleum Division, Department of Mines and Petroleum</gco:CharacterString>
+            <gco:CharacterString>Geospatial Unit, Petroleum Division, Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
           </gmd:organisationName>
           <gmd:positionName>
             <gco:CharacterString>Senior Geospatial Officer</gco:CharacterString>
@@ -160,7 +160,7 @@ The data is not projected.</gco:CharacterString>
                     <gco:CharacterString>Australia</gco:CharacterString>
                   </gmd:country>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>petroleum.mapping@dmp.wa.gov.au</gco:CharacterString>
+                    <gco:CharacterString>petroleum.mapping@dmirs.wa.gov.au</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
@@ -370,10 +370,10 @@ The data is not projected.</gco:CharacterString>
                 <gco:CharacterString>No Name</gco:CharacterString>
               </gmd:individualName>
               <gmd:organisationName>
-                <gco:CharacterString>Department of Mines and Petroleum - Geological Survey Division</gco:CharacterString>
+                <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety - Geological Survey Division</gco:CharacterString>
               </gmd:organisationName>
               <gmd:positionName>
-                <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
+                <gco:CharacterString>GSWA Digital Data Administrator</gco:CharacterString>
               </gmd:positionName>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
@@ -405,7 +405,7 @@ The data is not projected.</gco:CharacterString>
                         <gco:CharacterString>Australia</gco:CharacterString>
                       </gmd:country>
                       <gmd:electronicMailAddress>
-                        <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                        <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>
                       </gmd:electronicMailAddress>
                     </gmd:CI_Address>
                   </gmd:address>
@@ -449,7 +449,7 @@ The data is not projected.</gco:CharacterString>
       <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:statement>
-            <gco:CharacterString>Petroleum Location source data includes precision captured title and boundary definitions based on 5 x 5 minute graticular blocks while incorporating digital Maritime boundary data sourced from Geoscience Australia, (see below). It includes attribute data that has been extracted from databases maintained by DMP.</gco:CharacterString>
+            <gco:CharacterString>Petroleum Location source data includes precision captured title and boundary definitions based on 5 x 5 minute graticular blocks while incorporating digital Maritime boundary data sourced from Geoscience Australia, (see below). It includes attribute data that has been extracted from databases maintained by DMIRS.</gco:CharacterString>
           </gmd:statement>
         </gmd:LI_Lineage>
       </gmd:lineage>

@@ -19,7 +19,7 @@
   <gmd:contact>
     <gmd:CI_ResponsibleParty>
       <gmd:organisationName>
-        <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+        <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
       </gmd:organisationName>
       <gmd:positionName>
         <gco:CharacterString>GSWA Digital Data Administrator</gco:CharacterString>
@@ -45,7 +45,7 @@
                 <gco:CharacterString>Australia</gco:CharacterString>
               </gmd:country>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
@@ -128,7 +128,7 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:organisationName>
-                <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+                <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
               </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
@@ -148,7 +148,7 @@ The KINGSTON 1:250 000 is one of a series of combined regional regolith geochemi
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
           <gmd:organisationName>
-            <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+            <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
           </gmd:organisationName>
           <gmd:positionName>
             <gco:CharacterString>GSWA Digital Data Administrator</gco:CharacterString>
@@ -174,7 +174,7 @@ The KINGSTON 1:250 000 is one of a series of combined regional regolith geochemi
                     <gco:CharacterString>Australia</gco:CharacterString>
                   </gmd:country>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                    <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>

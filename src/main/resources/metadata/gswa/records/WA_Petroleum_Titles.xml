@@ -1,6 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?>
-<gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?><gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>ANZWA1220000512</gco:CharacterString>
   </gmd:fileIdentifier>
@@ -22,10 +20,10 @@
         <gco:CharacterString>No Name</gco:CharacterString>
       </gmd:individualName>
       <gmd:organisationName>
-        <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+        <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
       </gmd:organisationName>
       <gmd:positionName>
-        <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
+        <gco:CharacterString>GSWA Digital Data Administrator</gco:CharacterString>
       </gmd:positionName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
@@ -57,7 +55,7 @@
                 <gco:CharacterString>Australia</gco:CharacterString>
               </gmd:country>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
@@ -69,14 +67,14 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:Date>2013-08-28</gco:Date>
+    <gco:Date>2018-06-20</gco:Date>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS ISO 19115:2005, Geographic information - Metadata</gco:CharacterString>
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion>
     <gco:CharacterString>1.1</gco:CharacterString>
-  </gmd:metadataStandardVersion>
+  </gmd:metadataStandardVersion><gmd:dataSetURI><gco:CharacterString>http://www.dmp.wa.gov.au/datacentre</gco:CharacterString></gmd:dataSetURI>
   <gmd:referenceSystemInfo>
     <gmd:MD_ReferenceSystem>
       <gmd:referenceSystemIdentifier>
@@ -93,12 +91,12 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>Western Australian Petroleum Titles</gco:CharacterString>
+            <gco:CharacterString>Western Australian State Petroleum Titles</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date>
-                <gco:Date>1989-06-01</gco:Date>
+                <gco:Date>2017-04-20</gco:Date>
               </gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
@@ -151,7 +149,7 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:organisationName>
-                <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+                <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
               </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
@@ -161,7 +159,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>The WA Petroleum Title (formerly WAPMAP) digital data set contains all granted Petroleum Titles. The data is held in GDA94 latitude and longitude coordinates. It is also available in AGD66.</gco:CharacterString>
+        <gco:CharacterString>The WA Petroleum Title (formerly WAPMAP) digital data set contains all granted State Petroleum Titles. The data is held in GDA94 latitude and longitude coordinates.</gco:CharacterString>
       </gmd:abstract>
       <gmd:purpose>
         <gco:CharacterString>Data is captured in AGD66 latitude and longitude coordinates. Data is translated into GDA94 using the NTv2 process and the A66 National (13.09.01) gridfile, available from www.anzlic.org.au.
@@ -171,56 +169,7 @@ The data is not projected.</gco:CharacterString>
         <gmd:MD_ProgressCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
-        <gmd:CI_ResponsibleParty>
-          <gmd:individualName gco:nilReason="withheld">
-            <gco:CharacterString>No Name</gco:CharacterString>
-          </gmd:individualName>
-          <gmd:organisationName>
-            <gco:CharacterString>Geospatial Unit, Petroleum Division, Department of Mines and Petroleum</gco:CharacterString>
-          </gmd:organisationName>
-          <gmd:positionName>
-            <gco:CharacterString>Senior Geospatial Officer</gco:CharacterString>
-          </gmd:positionName>
-          <gmd:contactInfo>
-            <gmd:CI_Contact>
-              <gmd:phone>
-                <gmd:CI_Telephone>
-                  <gmd:voice>
-                    <gco:CharacterString>08 9222 3725</gco:CharacterString>
-                  </gmd:voice>
-                  <gmd:facsimile>
-                    <gco:CharacterString>08 9222 3799</gco:CharacterString>
-                  </gmd:facsimile>
-                </gmd:CI_Telephone>
-              </gmd:phone>
-              <gmd:address>
-                <gmd:CI_Address>
-                  <gmd:deliveryPoint>
-                    <gco:CharacterString>100 Plain Street</gco:CharacterString>
-                  </gmd:deliveryPoint>
-                  <gmd:city>
-                    <gco:CharacterString>East Perth </gco:CharacterString>
-                  </gmd:city>
-                  <gmd:administrativeArea>
-                    <gco:CharacterString>Western Australia </gco:CharacterString>
-                  </gmd:administrativeArea>
-                  <gmd:postalCode>
-                    <gco:CharacterString>6004</gco:CharacterString>
-                  </gmd:postalCode>
-                  <gmd:country>
-                    <gco:CharacterString>Australia</gco:CharacterString>
-                  </gmd:country>
-                  <gmd:electronicMailAddress>
-                    <gco:CharacterString>petroleum.mapping@dmp.wa.gov.au</gco:CharacterString>
-                  </gmd:electronicMailAddress>
-                </gmd:CI_Address>
-              </gmd:address>
-            </gmd:CI_Contact>
-          </gmd:contactInfo>
-          <gmd:role>
-            <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
-          </gmd:role>
-        </gmd:CI_ResponsibleParty>
+        <gmd:CI_ResponsibleParty>  <gmd:individualName gco:nilReason="withheld">    <gco:CharacterString>No Name</gco:CharacterString>  </gmd:individualName>  <gmd:organisationName>    <gco:CharacterString>Geospatial Unit, Petroleum Division, Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>  </gmd:organisationName>  <gmd:positionName>    <gco:CharacterString>Senior Geospatial Officer</gco:CharacterString>  </gmd:positionName>  <gmd:contactInfo>    <gmd:CI_Contact>      <gmd:phone>        <gmd:CI_Telephone>          <gmd:voice>            <gco:CharacterString>08 9222 3725</gco:CharacterString>          </gmd:voice>          <gmd:facsimile>            <gco:CharacterString>08 9222 3799</gco:CharacterString>          </gmd:facsimile>        </gmd:CI_Telephone>      </gmd:phone>      <gmd:address>        <gmd:CI_Address>          <gmd:deliveryPoint>            <gco:CharacterString>100 Plain Street</gco:CharacterString>          </gmd:deliveryPoint>          <gmd:city>            <gco:CharacterString>East Perth </gco:CharacterString>          </gmd:city>          <gmd:administrativeArea>            <gco:CharacterString>Western Australia </gco:CharacterString>          </gmd:administrativeArea>          <gmd:postalCode>            <gco:CharacterString>6004</gco:CharacterString>          </gmd:postalCode>          <gmd:country>            <gco:CharacterString>Australia</gco:CharacterString>          </gmd:country>          <gmd:electronicMailAddress>            <gco:CharacterString>petroleum.mapping@dmirs.wa.gov.au</gco:CharacterString>          </gmd:electronicMailAddress>        </gmd:CI_Address>      </gmd:address>    </gmd:CI_Contact>  </gmd:contactInfo>  <gmd:role>    <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>  </gmd:role></gmd:CI_ResponsibleParty>
       </gmd:pointOfContact>
       <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
@@ -540,56 +489,7 @@ The data is not projected.</gco:CharacterString>
       <gmd:distributor>
         <gmd:MD_Distributor>
           <gmd:distributorContact>
-            <gmd:CI_ResponsibleParty>
-              <gmd:individualName gco:nilReason="withheld">
-                <gco:CharacterString>No Name</gco:CharacterString>
-              </gmd:individualName>
-              <gmd:organisationName>
-                <gco:CharacterString>Department of Mines and Petroleum - Geological Survey Division</gco:CharacterString>
-              </gmd:organisationName>
-              <gmd:positionName>
-                <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
-              </gmd:positionName>
-              <gmd:contactInfo>
-                <gmd:CI_Contact>
-                  <gmd:phone>
-                    <gmd:CI_Telephone>
-                      <gmd:voice>
-                        <gco:CharacterString>(08) 9222 3816</gco:CharacterString>
-                      </gmd:voice>
-                      <gmd:facsimile>
-                        <gco:CharacterString>(08) 9222 3889</gco:CharacterString>
-                      </gmd:facsimile>
-                    </gmd:CI_Telephone>
-                  </gmd:phone>
-                  <gmd:address>
-                    <gmd:CI_Address>
-                      <gmd:deliveryPoint>
-                        <gco:CharacterString>100 Plain Street</gco:CharacterString>
-                      </gmd:deliveryPoint>
-                      <gmd:city>
-                        <gco:CharacterString>East Perth</gco:CharacterString>
-                      </gmd:city>
-                      <gmd:administrativeArea>
-                        <gco:CharacterString>Western Australia</gco:CharacterString>
-                      </gmd:administrativeArea>
-                      <gmd:postalCode>
-                        <gco:CharacterString>6004</gco:CharacterString>
-                      </gmd:postalCode>
-                      <gmd:country>
-                        <gco:CharacterString>Australia</gco:CharacterString>
-                      </gmd:country>
-                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
-                      </gmd:electronicMailAddress>
-                    </gmd:CI_Address>
-                  </gmd:address>
-                </gmd:CI_Contact>
-              </gmd:contactInfo>
-              <gmd:role>
-                <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
-              </gmd:role>
-            </gmd:CI_ResponsibleParty>
+            <gmd:CI_ResponsibleParty>  <gmd:individualName gco:nilReason="withheld">    <gco:CharacterString>No Name</gco:CharacterString>  </gmd:individualName>  <gmd:organisationName>    <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety - Geological Survey Division</gco:CharacterString>  </gmd:organisationName>  <gmd:positionName>    <gco:CharacterString>GSWA Digital Data Administrator</gco:CharacterString>  </gmd:positionName>  <gmd:contactInfo>    <gmd:CI_Contact>      <gmd:phone>        <gmd:CI_Telephone>          <gmd:voice>            <gco:CharacterString>(08) 9222 3816</gco:CharacterString>          </gmd:voice>          <gmd:facsimile>            <gco:CharacterString>(08) 9222 3889</gco:CharacterString>          </gmd:facsimile>        </gmd:CI_Telephone>      </gmd:phone>      <gmd:address>        <gmd:CI_Address>          <gmd:deliveryPoint>            <gco:CharacterString>100 Plain Street</gco:CharacterString>          </gmd:deliveryPoint>          <gmd:city>            <gco:CharacterString>East Perth</gco:CharacterString>          </gmd:city>          <gmd:administrativeArea>            <gco:CharacterString>Western Australia</gco:CharacterString>          </gmd:administrativeArea>          <gmd:postalCode>            <gco:CharacterString>6004</gco:CharacterString>          </gmd:postalCode>          <gmd:country>            <gco:CharacterString>Australia</gco:CharacterString>          </gmd:country>          <gmd:electronicMailAddress>            <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>          </gmd:electronicMailAddress>        </gmd:CI_Address>      </gmd:address>    </gmd:CI_Contact>  </gmd:contactInfo>  <gmd:role>    <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>  </gmd:role></gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
           <gmd:distributorFormat>
             <gmd:MD_Format>
@@ -647,7 +547,7 @@ The data is not projected.</gco:CharacterString>
       <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:statement>
-            <gco:CharacterString>Petroleum Title source data includes precision captured title and boundary definitions based on 5 x 5 minute AGD66 graticular blocks while incorporating digital AMB data sourced from Geoscience Australia. It also includes data that has been extracted from databases maintained by the Department.
+            <gco:CharacterString>State Petroleum Title source data includes precision captured title and boundary definitions based on 5 x 5 minute AGD66 graticular blocks while incorporating digital AMB data sourced from Geoscience Australia. It also includes data that has been extracted from databases maintained by the Department.
 
  </gco:CharacterString>
           </gmd:statement>
@@ -672,7 +572,7 @@ The data is not projected.</gco:CharacterString>
         </gmd:DQ_Scope>
       </gmd:scope>
       <gmd:report>
-        <gmd:DQ_NonQuantitativeAttributeAccuracy>
+        <gmd:DQ_CompletenessCommission>
           <gmd:dateTime>
             <gco:DateTime>1989-06-01T00:00:00</gco:DateTime>
           </gmd:dateTime>
@@ -701,14 +601,14 @@ The data is not projected.</gco:CharacterString>
                 </gmd:CI_Citation>
               </gmd:specification>
               <gmd:explanation>
-                <gco:CharacterString>Dependent on Electronic Petroleum Register (EPR) entries. EPR is the database that is used to link attributes pertaining to Status, Start and Expiry dates, Company names and other pertinent information.</gco:CharacterString>
+                <gco:CharacterString>The dataset is complete and has been verified. </gco:CharacterString>
               </gmd:explanation>
               <gmd:pass>
                 <gco:Boolean>true</gco:Boolean>
               </gmd:pass>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
-        </gmd:DQ_NonQuantitativeAttributeAccuracy>
+        </gmd:DQ_CompletenessCommission>
       </gmd:report>
     </gmd:DQ_DataQuality>
   </gmd:dataQualityInfo>
@@ -786,7 +686,7 @@ The data is not projected.</gco:CharacterString>
         </gmd:DQ_Scope>
       </gmd:scope>
       <gmd:report>
-        <gmd:DQ_CompletenessCommission>
+        <gmd:DQ_NonQuantitativeAttributeAccuracy>
           <gmd:dateTime>
             <gco:DateTime>1989-06-01T00:00:00</gco:DateTime>
           </gmd:dateTime>
@@ -815,14 +715,14 @@ The data is not projected.</gco:CharacterString>
                 </gmd:CI_Citation>
               </gmd:specification>
               <gmd:explanation>
-                <gco:CharacterString>The dataset is complete and has been verified. </gco:CharacterString>
+                <gco:CharacterString>Dependent on Petroleum &amp; Geothermal Register (PGR) entries. PGR is the database that is used to link attributes pertaining to Status, Start and Expiry dates, Company names and other pertinent information.</gco:CharacterString>
               </gmd:explanation>
               <gmd:pass>
                 <gco:Boolean>true</gco:Boolean>
               </gmd:pass>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
-        </gmd:DQ_CompletenessCommission>
+        </gmd:DQ_NonQuantitativeAttributeAccuracy>
       </gmd:report>
     </gmd:DQ_DataQuality>
   </gmd:dataQualityInfo>
@@ -872,18 +772,14 @@ The data is not projected.</gco:CharacterString>
                 </gmd:CI_Citation>
               </gmd:specification>
               <gmd:explanation>
-                <gco:CharacterString>All the Petroleum Titles were precision captured from known co-ordinates.
-AMBIS Statement
-The Commonwealth/State/Territory jurisdictional boundary in coastal waters is determined by the Australian Maritime Boundaries (AMB) dataset. The National Mapping Division of Geoscience Australia (formerly AUSLIG) is the custodian of this dataset. To date there have been three releases of the dataset. The table below indicates the affect of the various versions on petroleum title capture. Note that prior to the 2006 release AMB was known as AMBIS, short for Australian Maritime Boundaries Information System.
-AMB 2006 Version 2 - released 17 February 2006
-Titles captured on or after 17 February 2006 use this release.
-AMBIS 2001 Version 1.1 - released January 2001
-Titles between 16 February 2006 and 8 February 2001 are captured to this version.
-AMBIS 1995 (unvalidated) - released Early 1995
-Titles prior to 8 February 2001 are captured to this version.
-Section 5AAA of the Petroleum (Submerged Lands) Act provides, that where a change to the baseline of Australia’s territorial sea would impact on the boundary of a pre-existing petroleum title (either a Commonwealth, State or Territory waters title), there is no such impact. The relevant Commonwealth, State or Territory Act under which a title has been granted, continues to apply to that title for as long as it remains in force.
-Overlaps and gaps may exist in instances where abutting titles are defined on the differing AMB versions. No attempt is made to adjust or fit title boundaries to multiple AMB datasets, or to remove encroachments and close gaps. The precision of title boundaries captured along AMB boundaries is dependent on the accuracy of the AMB data.
-Further information is available at: www.ga.gov.au/nmd/products/thematic/ambis.jsp</gco:CharacterString>
+                <gco:CharacterString>All the State Petroleum Titles were precision captured from known co-ordinates. AMBIS Statement The Commonwealth/State/Territory jurisdictional boundary in coastal waters is determined by the Australian Maritime Boundaries (AMB) dataset. The National Mapping Division of Geoscience Australia (formerly AUSLIG) is the custodian of this dataset. To date there have been four releases of the dataset. The table below indicates the affect of the various versions on petroleum title capture. Note that prior to the 2006 release AMB was known as AMBIS, short for Australian Maritime Boundaries Information System. 
+AMB 2014a - released 4 May 2014 - Titles captured on or after 4 May 2014 use this release.
+AMB 2006 Version 2 - released 17 February 2006 &#8211; Titles 17 February 2006 and between 3 May 2014 are captured to this version.
+AMBIS 2001 Version 1.1 - released January 2001 Titles between 16 February 2006 and 8 February 2001 are captured to this version.
+AMBIS 1995 (unvalidated) - released Early 1995 Titles prior to 8 February 2001 are captured to this version. 
+
+
+Section 5AAA of the Petroleum (Submerged Lands) Act provides, that where a change to the baseline of Australia&#8217;s territorial sea would impact on the boundary of a pre-existing petroleum title (either a Commonwealth, State or Territory waters title), there is no such impact. The relevant Commonwealth, State or Territory Act under which a title has been granted, continues to apply to that title for as long as it remains in force. Overlaps and gaps may exist in instances where abutting titles are defined on the differing AMB versions. No attempt is made to adjust or fit title boundaries to multiple AMB datasets, or to remove encroachments and close gaps. The precision of title boundaries captured along AMB boundaries is dependent on the accuracy of the AMB data. Further information is available at: www.ga.gov.au</gco:CharacterString>
               </gmd:explanation>
               <gmd:pass>
                 <gco:Boolean>true</gco:Boolean>
@@ -929,5 +825,4 @@ Further information is available at: www.ga.gov.au/nmd/products/thematic/ambis.j
       </gmd:useConstraints>
     </gmd:MD_LegalConstraints>
   </gmd:metadataConstraints>
-</gmd:MD_Metadata>
-<!--METValidation=False-->
+</gmd:MD_Metadata><!--METValidation=False-->

@@ -19,10 +19,10 @@
   <gmd:contact>
     <gmd:CI_ResponsibleParty>
       <gmd:individualName gco:nilReason="withheld">
-        <gco:CharacterString>No Name</gco:CharacterString>
+        <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
       </gmd:individualName>
       <gmd:organisationName>
-        <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+        <gco:CharacterString>Department of Mines and Petroleum - Geological Survey</gco:CharacterString>
       </gmd:organisationName>
       <gmd:positionName>
         <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
@@ -32,11 +32,8 @@
           <gmd:phone>
             <gmd:CI_Telephone>
               <gmd:voice>
-                <gco:CharacterString>(08) 9222 3816</gco:CharacterString>
+                <gco:CharacterString>(08) 9222 3168</gco:CharacterString>
               </gmd:voice>
-              <gmd:facsimile>
-                <gco:CharacterString>(08) 9222 3889</gco:CharacterString>
-              </gmd:facsimile>
             </gmd:CI_Telephone>
           </gmd:phone>
           <gmd:address>
@@ -57,7 +54,7 @@
                 <gco:CharacterString>Australia</gco:CharacterString>
               </gmd:country>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
@@ -69,7 +66,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:Date>2010-03-18</gco:Date>
+    <gco:Date>2016-12-14</gco:Date>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS ISO 19115:2005, Geographic information - Metadata</gco:CharacterString>
@@ -98,7 +95,7 @@
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date>
-                <gco:Date>1977-06-30</gco:Date>
+                <gco:Date>1974-01-01</gco:Date>
               </gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
@@ -151,7 +148,7 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:organisationName>
-                <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+                <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
               </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
@@ -161,70 +158,18 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Detailed geological mapping at 1:250 000 providing information on geological units, structural geology and faultlines, to produce a geological plan of the Ravensthorpe region of Western Australia. The map was published in 1977.</gco:CharacterString>
+        <gco:CharacterString>Detailed geological mapping at 1:250 000 providing information on geological units, structural geology and faultlines, to produce a geological plan of the Ravensthorpe region of Western Australia. The map was published in 1974.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
-        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+        <gmd:MD_ProgressCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
-        <gmd:CI_ResponsibleParty>
-          <gmd:individualName gco:nilReason="withheld">
-            <gco:CharacterString>No Name</gco:CharacterString>
-          </gmd:individualName>
-          <gmd:organisationName>
-            <gco:CharacterString>Department of Mines and Petroleum - Geological Survey Division</gco:CharacterString>
-          </gmd:organisationName>
-          <gmd:positionName>
-            <gco:CharacterString>Chief Geoscientist</gco:CharacterString>
-          </gmd:positionName>
-          <gmd:contactInfo>
-            <gmd:CI_Contact>
-              <gmd:phone>
-                <gmd:CI_Telephone>
-                  <gmd:voice gco:nilReason="missing">
-                    <gco:CharacterString>
-                    </gco:CharacterString>
-                  </gmd:voice>
-                  <gmd:facsimile gco:nilReason="missing">
-                    <gco:CharacterString>
-                    </gco:CharacterString>
-                  </gmd:facsimile>
-                </gmd:CI_Telephone>
-              </gmd:phone>
-              <gmd:address>
-                <gmd:CI_Address>
-                  <gmd:deliveryPoint>
-                    <gco:CharacterString>100 Plain Street</gco:CharacterString>
-                  </gmd:deliveryPoint>
-                  <gmd:city>
-                    <gco:CharacterString>East Perth</gco:CharacterString>
-                  </gmd:city>
-                  <gmd:administrativeArea>
-                    <gco:CharacterString>Western Australia</gco:CharacterString>
-                  </gmd:administrativeArea>
-                  <gmd:postalCode>
-                    <gco:CharacterString>6004</gco:CharacterString>
-                  </gmd:postalCode>
-                  <gmd:country>
-                    <gco:CharacterString>Australia</gco:CharacterString>
-                  </gmd:country>
-                  <gmd:electronicMailAddress gco:nilReason="missing">
-                    <gco:CharacterString>
-                    </gco:CharacterString>
-                  </gmd:electronicMailAddress>
-                </gmd:CI_Address>
-              </gmd:address>
-            </gmd:CI_Contact>
-          </gmd:contactInfo>
-          <gmd:role>
-            <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
-          </gmd:role>
-        </gmd:CI_ResponsibleParty>
+        <gmd:CI_ResponsibleParty>  <gmd:individualName gco:nilReason="withheld">    <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>  </gmd:individualName>  <gmd:organisationName>    <gco:CharacterString>Department of Mines and Petroleum - Geological Survey</gco:CharacterString>  </gmd:organisationName>  <gmd:positionName>    <gco:CharacterString>Chief Geoscientist</gco:CharacterString>  </gmd:positionName>  <gmd:contactInfo>    <gmd:CI_Contact>      <gmd:phone>        <gmd:CI_Telephone>          <gmd:voice>            <gco:CharacterString>(08) 9222 3168</gco:CharacterString>          </gmd:voice>          <gmd:facsimile gco:nilReason="missing">            <gco:CharacterString></gco:CharacterString>          </gmd:facsimile>        </gmd:CI_Telephone>      </gmd:phone>      <gmd:address>        <gmd:CI_Address>          <gmd:deliveryPoint>            <gco:CharacterString>100 Plain Street</gco:CharacterString>          </gmd:deliveryPoint>          <gmd:city>            <gco:CharacterString>East Perth</gco:CharacterString>          </gmd:city>          <gmd:administrativeArea>            <gco:CharacterString>Western Australia</gco:CharacterString>          </gmd:administrativeArea>          <gmd:postalCode>            <gco:CharacterString>6004</gco:CharacterString>          </gmd:postalCode>          <gmd:country>            <gco:CharacterString>Australia</gco:CharacterString>          </gmd:country>          <gmd:electronicMailAddress>            <gco:CharacterString>chief.geoscientist@dmirs.wa.gov.au</gco:CharacterString>          </gmd:electronicMailAddress>        </gmd:CI_Address>      </gmd:address>    </gmd:CI_Contact>  </gmd:contactInfo>  <gmd:role>    <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>  </gmd:role></gmd:CI_ResponsibleParty>
       </gmd:pointOfContact>
       <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
           <gmd:maintenanceAndUpdateFrequency>
-            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
           </gmd:maintenanceAndUpdateFrequency>
         </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
@@ -416,6 +361,9 @@
       </gmd:resourceConstraints>
       <gmd:resourceConstraints>
         <gmd:MD_LegalConstraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Subject to licence agreement</gco:CharacterString>
+          </gmd:useLimitation>
           <gmd:accessConstraints>
             <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
           </gmd:accessConstraints>
@@ -512,67 +460,41 @@
       <gmd:distributor>
         <gmd:MD_Distributor>
           <gmd:distributorContact>
-            <gmd:CI_ResponsibleParty>
-              <gmd:individualName gco:nilReason="withheld">
-                <gco:CharacterString>No Name</gco:CharacterString>
-              </gmd:individualName>
-              <gmd:organisationName>
-                <gco:CharacterString>Department of Mines and Petroleum - Geological Survey Division</gco:CharacterString>
-              </gmd:organisationName>
-              <gmd:positionName>
-                <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
-              </gmd:positionName>
-              <gmd:contactInfo>
-                <gmd:CI_Contact>
-                  <gmd:phone>
-                    <gmd:CI_Telephone>
-                      <gmd:voice>
-                        <gco:CharacterString>(08) 9222 3816</gco:CharacterString>
-                      </gmd:voice>
-                      <gmd:facsimile>
-                        <gco:CharacterString>(08) 9222 3889</gco:CharacterString>
-                      </gmd:facsimile>
-                    </gmd:CI_Telephone>
-                  </gmd:phone>
-                  <gmd:address>
-                    <gmd:CI_Address>
-                      <gmd:deliveryPoint>
-                        <gco:CharacterString>100 Plain Street</gco:CharacterString>
-                      </gmd:deliveryPoint>
-                      <gmd:city>
-                        <gco:CharacterString>East Perth</gco:CharacterString>
-                      </gmd:city>
-                      <gmd:administrativeArea>
-                        <gco:CharacterString>Western Australia</gco:CharacterString>
-                      </gmd:administrativeArea>
-                      <gmd:postalCode>
-                        <gco:CharacterString>6004</gco:CharacterString>
-                      </gmd:postalCode>
-                      <gmd:country>
-                        <gco:CharacterString>Australia</gco:CharacterString>
-                      </gmd:country>
-                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
-                      </gmd:electronicMailAddress>
-                    </gmd:CI_Address>
-                  </gmd:address>
-                </gmd:CI_Contact>
-              </gmd:contactInfo>
-              <gmd:role>
-                <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
-              </gmd:role>
-            </gmd:CI_ResponsibleParty>
+            <gmd:CI_ResponsibleParty>  <gmd:individualName gco:nilReason="withheld">    <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>  </gmd:individualName>  <gmd:organisationName>    <gco:CharacterString>Department of Mines and Petroleum - Geological Survey</gco:CharacterString>  </gmd:organisationName>  <gmd:positionName>    <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>  </gmd:positionName>  <gmd:contactInfo>    <gmd:CI_Contact>      <gmd:phone>        <gmd:CI_Telephone>          <gmd:voice>            <gco:CharacterString>(08) 9222 3168</gco:CharacterString>          </gmd:voice>          <gmd:facsimile gco:nilReason="missing">            <gco:CharacterString></gco:CharacterString>          </gmd:facsimile>        </gmd:CI_Telephone>      </gmd:phone>      <gmd:address>        <gmd:CI_Address>          <gmd:deliveryPoint>            <gco:CharacterString>100 Plain Street</gco:CharacterString>          </gmd:deliveryPoint>          <gmd:city>            <gco:CharacterString>East Perth</gco:CharacterString>          </gmd:city>          <gmd:administrativeArea>            <gco:CharacterString>Western Australia</gco:CharacterString>          </gmd:administrativeArea>          <gmd:postalCode>            <gco:CharacterString>6004</gco:CharacterString>          </gmd:postalCode>          <gmd:country>            <gco:CharacterString>Australia</gco:CharacterString>          </gmd:country>          <gmd:electronicMailAddress>            <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>          </gmd:electronicMailAddress>        </gmd:CI_Address>      </gmd:address>    </gmd:CI_Contact>  </gmd:contactInfo>  <gmd:role>    <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>  </gmd:role></gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
           <gmd:distributorFormat>
             <gmd:MD_Format>
               <gmd:name>
-                <gco:CharacterString>ArcGIS, MapInfo, PDF, Printed map</gco:CharacterString>
+                <gco:CharacterString>ESRI shapefiles, MapInfo Tab files, and PDF documents</gco:CharacterString>
               </gmd:name>
               <gmd:version>
-                <gco:CharacterString>ArcGIS 9.3, MapInfo 10</gco:CharacterString>
+                <gco:CharacterString>ESRI layer files version 10.1, MapInfo 10</gco:CharacterString>
               </gmd:version>
             </gmd:MD_Format>
           </gmd:distributorFormat>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://www.dmp.wa.gov.au/DataCentre</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>Data and Software Centre</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>1:250 000 geological map – Ravensthorpe (si5105), first edition</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>Detailed geological mapping at 1:250 000 providing information on geological units, structural geology and faultlines, to produce a geological plan of the Ravensthorpe region of Western Australia. The map was published in 1974.</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
         </gmd:MD_Distributor>
       </gmd:distributor>
     </gmd:MD_Distribution>
@@ -620,9 +542,6 @@
       </gmd:scope>
       <gmd:report>
         <gmd:DQ_AbsoluteExternalPositionalAccuracy>
-          <gmd:dateTime>
-            <gco:DateTime>1977-06-30T00:00:00</gco:DateTime>
-          </gmd:dateTime>
           <gmd:result>
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
@@ -634,7 +553,8 @@
                   <gmd:date>
                     <gmd:CI_Date>
                       <gmd:date>
-                        <gco:Date>1977</gco:Date>
+                        <gco:Date>
+                        </gco:Date>
                       </gmd:date>
                       <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
@@ -677,9 +597,6 @@
       </gmd:scope>
       <gmd:report>
         <gmd:DQ_NonQuantitativeAttributeAccuracy>
-          <gmd:dateTime>
-            <gco:DateTime>1977-06-30T00:00:00</gco:DateTime>
-          </gmd:dateTime>
           <gmd:result>
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
@@ -691,7 +608,8 @@
                   <gmd:date>
                     <gmd:CI_Date>
                       <gmd:date>
-                        <gco:Date>1977</gco:Date>
+                        <gco:Date>
+                        </gco:Date>
                       </gmd:date>
                       <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
@@ -734,9 +652,6 @@
       </gmd:scope>
       <gmd:report>
         <gmd:DQ_ConceptualConsistency>
-          <gmd:dateTime>
-            <gco:DateTime>1977-06-30T00:00:00</gco:DateTime>
-          </gmd:dateTime>
           <gmd:result>
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
@@ -748,7 +663,8 @@
                   <gmd:date>
                     <gmd:CI_Date>
                       <gmd:date>
-                        <gco:Date>1977</gco:Date>
+                        <gco:Date>
+                        </gco:Date>
                       </gmd:date>
                       <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
@@ -791,9 +707,6 @@
       </gmd:scope>
       <gmd:report>
         <gmd:DQ_CompletenessCommission>
-          <gmd:dateTime>
-            <gco:DateTime>1977-06-30T00:00:00</gco:DateTime>
-          </gmd:dateTime>
           <gmd:result>
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
@@ -805,7 +718,8 @@
                   <gmd:date>
                     <gmd:CI_Date>
                       <gmd:date>
-                        <gco:Date>1977</gco:Date>
+                        <gco:Date>
+                        </gco:Date>
                       </gmd:date>
                       <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>

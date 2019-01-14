@@ -1,6 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?>
-<gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?><gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>ANZWA1220000406</gco:CharacterString>
   </gmd:fileIdentifier>
@@ -22,10 +20,10 @@
         <gco:CharacterString>No Name</gco:CharacterString>
       </gmd:individualName>
       <gmd:organisationName>
-        <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+        <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
       </gmd:organisationName>
       <gmd:positionName>
-        <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
+        <gco:CharacterString>GSWA Digital Data Administrator</gco:CharacterString>
       </gmd:positionName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
@@ -57,7 +55,7 @@
                 <gco:CharacterString>Australia</gco:CharacterString>
               </gmd:country>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
@@ -76,7 +74,7 @@
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion>
     <gco:CharacterString>1.1</gco:CharacterString>
-  </gmd:metadataStandardVersion>
+  </gmd:metadataStandardVersion><gmd:dataSetURI><gco:CharacterString>http://www.dmp.wa.gov.au/datacentre</gco:CharacterString></gmd:dataSetURI>
   <gmd:referenceSystemInfo>
     <gmd:MD_ReferenceSystem>
       <gmd:referenceSystemIdentifier>
@@ -161,7 +159,7 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:organisationName>
-                <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+                <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
               </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
@@ -182,7 +180,7 @@
             <gco:CharacterString>No Name</gco:CharacterString>
           </gmd:individualName>
           <gmd:organisationName>
-            <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+            <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
           </gmd:organisationName>
           <gmd:positionName>
             <gco:CharacterString>Chief Geochemist</gco:CharacterString>
@@ -531,10 +529,10 @@
                 <gco:CharacterString>No Name</gco:CharacterString>
               </gmd:individualName>
               <gmd:organisationName>
-                <gco:CharacterString>Department of Mines and Petroleum - Geological Survey Division</gco:CharacterString>
+                <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety - Geological Survey Division</gco:CharacterString>
               </gmd:organisationName>
               <gmd:positionName>
-                <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
+                <gco:CharacterString>GSWA Digital Data Administrator</gco:CharacterString>
               </gmd:positionName>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
@@ -566,7 +564,7 @@
                         <gco:CharacterString>Australia</gco:CharacterString>
                       </gmd:country>
                       <gmd:electronicMailAddress>
-                        <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                        <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>
                       </gmd:electronicMailAddress>
                     </gmd:CI_Address>
                   </gmd:address>
@@ -629,11 +627,11 @@
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing" />
+                  <gmd:title gco:nilReason="missing"/>
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown" />
-                      <gmd:dateType gco:nilReason="unknown" />
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:dateType gco:nilReason="unknown"/>
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -641,7 +639,7 @@
               <gmd:explanation>
                 <gco:CharacterString>All datasets are complete and have been verified.</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing" />
+              <gmd:pass gco:nilReason="missing"/>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_CompletenessOmission>
@@ -652,11 +650,11 @@
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing" />
+                  <gmd:title gco:nilReason="missing"/>
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown" />
-                      <gmd:dateType gco:nilReason="unknown" />
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:dateType gco:nilReason="unknown"/>
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -664,7 +662,7 @@
               <gmd:explanation>
                 <gco:CharacterString>Sample point data are identified by a unique GSWA number, and collected and logged by field survey. The sample location data was recorded by GPS, accurate to +/-10 m. Sample chemistry tables were converted from CSV format into ArcInfo, and joined with the location data. Mineral occurrence data were precision captured from the WAMIN database. Geological interpretation after: HOCKING, R. M., GREY, K., BAGAS, L., and STEVENS, M. K., 2000, Mesoproterozoic stratigraphy in the Oldham Inlier, Little Sandy Desert, Central Western Australia: Western Australia Geological Survey, Annual Review 1999-2000, p 49-56; MYERS, J. S., and HOCKING, R. M., 1998, Geological map of Western Australia, 1:2 500 000 (13th edition): Western Australia Geological Survey; WILLIAMS, I. R., 1995, Trainor, W.A. Sheet SG 51-2 (2nd edition) Western Australia Geological Survey, 1:250 000 Geological Series. The regolith compilations were interpreted from 1:100 000 Landsat TM (1994 data), also Aster images (2000 data), 1995 1:50 000 scale black and white aerial photography, GSWA Geological Series maps, and field observations in 2000. Estimated accuracy for the regolith coverage is +/-100 m. Road data has been digitized from Aster Satellite data (2000). Topographic base themes have an estimated accuracy of +/-100 m for road data and +/-125 m for localities.</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing" />
+              <gmd:pass gco:nilReason="missing"/>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_AbsoluteExternalPositionalAccuracy>
@@ -675,11 +673,11 @@
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing" />
+                  <gmd:title gco:nilReason="missing"/>
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown" />
-                      <gmd:dateType gco:nilReason="unknown" />
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:dateType gco:nilReason="unknown"/>
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -687,7 +685,7 @@
               <gmd:explanation>
                 <gco:CharacterString>The accuracy of the attribute information on all datasets in this data package is estimated at 95%.</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing" />
+              <gmd:pass gco:nilReason="missing"/>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_NonQuantitativeAttributeAccuracy>
@@ -698,11 +696,11 @@
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
                 <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing" />
+                  <gmd:title gco:nilReason="missing"/>
                   <gmd:date>
                     <gmd:CI_Date>
-                      <gmd:date gco:nilReason="unknown" />
-                      <gmd:dateType gco:nilReason="unknown" />
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:dateType gco:nilReason="unknown"/>
                     </gmd:CI_Date>
                   </gmd:date>
                 </gmd:CI_Citation>
@@ -710,7 +708,7 @@
               <gmd:explanation>
                 <gco:CharacterString>All digitized and compiled data was visually compared with source data to verify correct capture and attribution. Additional comparisons to database tables were performed on the sample location and chemistry data, and mineral occurrence coverages.</gco:CharacterString>
               </gmd:explanation>
-              <gmd:pass gco:nilReason="missing" />
+              <gmd:pass gco:nilReason="missing"/>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_ConceptualConsistency>
@@ -759,5 +757,4 @@
       </gmd:useConstraints>
     </gmd:MD_LegalConstraints>
   </gmd:metadataConstraints>
-</gmd:MD_Metadata>
-<!--METValidation=False-->
+</gmd:MD_Metadata><!--METValidation=False-->

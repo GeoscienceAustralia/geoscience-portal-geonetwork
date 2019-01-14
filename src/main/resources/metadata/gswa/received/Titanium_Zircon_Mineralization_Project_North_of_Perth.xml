@@ -24,10 +24,10 @@
         <gco:CharacterString>No Name</gco:CharacterString>
       </gmd:individualName>
       <gmd:organisationName>
-        <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+        <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
       </gmd:organisationName>
       <gmd:positionName>
-        <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
+        <gco:CharacterString>GSWA Digital Data Administrator</gco:CharacterString>
       </gmd:positionName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
@@ -59,7 +59,7 @@
                 <gco:CharacterString>Australia</gco:CharacterString>
               </gmd:country>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
@@ -131,7 +131,7 @@
             <gco:CharacterString>No Name</gco:CharacterString>
           </gmd:individualName>
           <gmd:organisationName>
-            <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+            <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
           </gmd:organisationName>
           <gmd:positionName>
             <gco:CharacterString>Senior Geologist Land-Use Planning</gco:CharacterString>
@@ -381,10 +381,10 @@
                 <gco:CharacterString>No Name</gco:CharacterString>
               </gmd:individualName>
               <gmd:organisationName>
-                <gco:CharacterString>Department of Mines and Petroleum - Geological Survey Division</gco:CharacterString>
+                <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety - Geological Survey Division</gco:CharacterString>
               </gmd:organisationName>
               <gmd:positionName>
-                <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
+                <gco:CharacterString>GSWA Digital Data Administrator</gco:CharacterString>
               </gmd:positionName>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
@@ -416,7 +416,7 @@
                         <gco:CharacterString>Australia</gco:CharacterString>
                       </gmd:country>
                       <gmd:electronicMailAddress>
-                        <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                        <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>
                       </gmd:electronicMailAddress>
                     </gmd:CI_Address>
                   </gmd:address>
@@ -483,7 +483,7 @@
       <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:statement>
-            <gco:CharacterString>The resources on which the Strategic Mineral Resource Protection Areas are based were mainly provided to DMP as digital data by the companies involved. Where digital resource data was not available, maps from company reports submitted to DMP were geo-referenced and the resource outline digitised using an orthophoto as reference. An infrastructure halo was constructed to allow for mining infrastructure. The resultant polygons were simplified and smoothed using a computer algorithm to produce the Strategic Mineral Resource Protection Areas.</gco:CharacterString>
+            <gco:CharacterString>The resources on which the Strategic Mineral Resource Protection Areas are based were mainly provided to DMIRS as digital data by the companies involved. Where digital resource data was not available, maps from company reports submitted to DMIRS were geo-referenced and the resource outline digitised using an orthophoto as reference. An infrastructure halo was constructed to allow for mining infrastructure. The resultant polygons were simplified and smoothed using a computer algorithm to produce the Strategic Mineral Resource Protection Areas.</gco:CharacterString>
           </gmd:statement>
         </gmd:LI_Lineage>
       </gmd:lineage>

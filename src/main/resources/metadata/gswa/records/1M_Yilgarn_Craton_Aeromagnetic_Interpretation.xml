@@ -1,15 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?>
-<gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xmlns:gco="http://www.isotc211.org/2005/gco"
-                 xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                 xmlns:gts="http://www.isotc211.org/2005/gts"
-                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
-                 xmlns:gss="http://www.isotc211.org/2005/gss"
-                 xmlns:gmx="http://www.isotc211.org/2005/gmx"
-                 xmlns:gml="http://www.opengis.net/gml"
-                 xmlns:xlink="http://www.w3.org/1999/xlink"
-                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?><gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>ANZWA1220000651</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -20,8 +9,7 @@
       <gmd:MD_CharacterSetCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
    </gmd:characterSet>
    <gmd:hierarchyLevel>
-      <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
-                        codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+      <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
    </gmd:hierarchyLevel>
    <gmd:hierarchyLevelName>
       <gco:CharacterString>dataset</gco:CharacterString>
@@ -62,8 +50,7 @@ Not documented</gco:CharacterString>
             </gmd:CI_Contact>
          </gmd:contactInfo>
          <gmd:role>
-            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                             codeListValue="custodian">custodian</gmd:CI_RoleCode>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
          </gmd:role>
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
@@ -75,7 +62,7 @@ Not documented</gco:CharacterString>
    </gmd:metadataStandardName>
    <gmd:metadataStandardVersion>
       <gco:CharacterString>1.1</gco:CharacterString>
-   </gmd:metadataStandardVersion>
+   </gmd:metadataStandardVersion><gmd:dataSetURI><gco:CharacterString/></gmd:dataSetURI>
    <gmd:identificationInfo>
       <gmd:MD_DataIdentification>
          <gmd:citation>
@@ -89,8 +76,7 @@ Not documented</gco:CharacterString>
                         <gco:Date>2004-06-16</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
                      </gmd:dateType>
                   </gmd:CI_Date>
                </gmd:date>
@@ -107,8 +93,7 @@ Not documented</gco:CharacterString>
                                     <gco:Date>2001-02</gco:Date>
                                  </gmd:date>
                                  <gmd:dateType>
-                                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                                         codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
                                  </gmd:dateType>
                               </gmd:CI_Date>
                            </gmd:date>
@@ -124,8 +109,7 @@ Not documented</gco:CharacterString>
                                     <gco:CharacterString>ANZLIC - the Spatial Information Council</gco:CharacterString>
                                  </gmd:organisationName>
                                  <gmd:role>
-                                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                                     codeListValue="owner">owner</gmd:CI_RoleCode>
+                                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
                                  </gmd:role>
                               </gmd:CI_ResponsibleParty>
                            </gmd:citedResponsibleParty>
@@ -145,8 +129,7 @@ Not documented</gco:CharacterString>
                         <gco:CharacterString>Geoscience Australia</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                         codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
                      </gmd:role>
                   </gmd:CI_ResponsibleParty>
                </gmd:citedResponsibleParty>
@@ -159,8 +142,7 @@ The Archaean rocks of the Yilgarn Craton are subdivided into undivided gneiss-mi
 </gco:CharacterString>
          </gmd:abstract>
          <gmd:status>
-            <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode"
-                                 codeListValue="completed">completed</gmd:MD_ProgressCode>
+            <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
          </gmd:status>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
@@ -198,16 +180,14 @@ Not documented</gco:CharacterString>
                   </gmd:CI_Contact>
                </gmd:contactInfo>
                <gmd:role>
-                  <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                   codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                  <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
                </gmd:role>
             </gmd:CI_ResponsibleParty>
          </gmd:pointOfContact>
          <gmd:resourceMaintenance>
             <gmd:MD_MaintenanceInformation>
                <gmd:maintenanceAndUpdateFrequency>
-                  <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode"
-                                                   codeListValue="irregular">irregular</gmd:MD_MaintenanceFrequencyCode>
+                  <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="irregular">irregular</gmd:MD_MaintenanceFrequencyCode>
                </gmd:maintenanceAndUpdateFrequency>
             </gmd:MD_MaintenanceInformation>
          </gmd:resourceMaintenance>
@@ -227,8 +207,7 @@ Not documented</gco:CharacterString>
                   <gco:CharacterString>Australia</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
-                                          codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
                </gmd:type>
                <gmd:thesaurusName>
                   <gmd:CI_Citation>
@@ -241,8 +220,7 @@ Not documented</gco:CharacterString>
                               <gco:Date>2008-10-29</gco:Date>
                            </gmd:date>
                            <gmd:dateType>
-                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                                   codeListValue="revision"/>
+                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"/>
                            </gmd:dateType>
                         </gmd:CI_Date>
                      </gmd:date>
@@ -265,8 +243,7 @@ Not documented</gco:CharacterString>
                               <gco:CharacterString>ANZLIC the Spatial Information Council" </gco:CharacterString>
                            </gmd:organisationName>
                            <gmd:role>
-                              <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                               codeListValue="custodian"/>
+                              <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian"/>
                            </gmd:role>
                         </gmd:CI_ResponsibleParty>
                      </gmd:citedResponsibleParty>
@@ -280,8 +257,7 @@ Not documented</gco:CharacterString>
                   <gco:CharacterString>GEOSCIENCES Geophysics</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
-                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
-                                          codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
                </gmd:type>
                <gmd:thesaurusName>
                   <gmd:CI_Citation>
@@ -294,8 +270,7 @@ Not documented</gco:CharacterString>
                               <gco:Date>2001</gco:Date>
                            </gmd:date>
                            <gmd:dateType>
-                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
-                                                   codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
                            </gmd:dateType>
                         </gmd:CI_Date>
                      </gmd:date>
@@ -318,8 +293,7 @@ Not documented</gco:CharacterString>
                               <gco:CharacterString>ANZLIC - the Spatial Information Council</gco:CharacterString>
                            </gmd:organisationName>
                            <gmd:role>
-                              <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                                               codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                              <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
                            </gmd:role>
                         </gmd:CI_ResponsibleParty>
                      </gmd:citedResponsibleParty>
@@ -398,8 +372,7 @@ Not documented</gco:CharacterString>
          <gmd:scope>
             <gmd:DQ_Scope>
                <gmd:level>
-                  <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
-                                    codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+                  <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
                </gmd:level>
             </gmd:DQ_Scope>
          </gmd:scope>
