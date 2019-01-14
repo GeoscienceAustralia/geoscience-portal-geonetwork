@@ -19,10 +19,10 @@
   <gmd:contact>
     <gmd:CI_ResponsibleParty>
       <gmd:individualName gco:nilReason="withheld">
-        <gco:CharacterString>No Name</gco:CharacterString>
+        <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
       </gmd:individualName>
       <gmd:organisationName>
-        <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+        <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety - Geological Survey</gco:CharacterString>
       </gmd:organisationName>
       <gmd:positionName>
         <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
@@ -32,11 +32,8 @@
           <gmd:phone>
             <gmd:CI_Telephone>
               <gmd:voice>
-                <gco:CharacterString>(08) 9222 3816</gco:CharacterString>
+                <gco:CharacterString>(08) 9222 3168</gco:CharacterString>
               </gmd:voice>
-              <gmd:facsimile>
-                <gco:CharacterString>(08) 9222 3889</gco:CharacterString>
-              </gmd:facsimile>
             </gmd:CI_Telephone>
           </gmd:phone>
           <gmd:address>
@@ -57,19 +54,19 @@
                 <gco:CharacterString>Australia</gco:CharacterString>
               </gmd:country>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
         </gmd:CI_Contact>
       </gmd:contactInfo>
       <gmd:role>
-        <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+        <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
       </gmd:role>
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:Date>2011-06-30</gco:Date>
+    <gco:Date>2017-02-24</gco:Date>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS ISO 19115:2005, Geographic information - Metadata</gco:CharacterString>
@@ -98,7 +95,7 @@
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date>
-                <gco:Date>1981-06-30</gco:Date>
+                <gco:Date>1981-01-01</gco:Date>
               </gmd:date>
               <gmd:dateType>
                 <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
@@ -151,7 +148,7 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:organisationName>
-                <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+                <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
               </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
@@ -161,18 +158,18 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Detailed geological mapping at 1:250 000 providing information on geological units, structural geology and faultlines, to produce a geological plan of the Southern Cross region of Western Australia. The map was published in 1981.</gco:CharacterString>
+        <gco:CharacterString>Detailed geological mapping at 1:250 000 providing information on geological units, structural geology and faultlines, to produce a geological plan of the Southern Cross region of Western Australia. The map was published in 1981. This data is held in GDA 94 decimal degrees.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
-        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+        <gmd:MD_ProgressCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
           <gmd:individualName gco:nilReason="withheld">
-            <gco:CharacterString>No Name</gco:CharacterString>
+            <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
           </gmd:individualName>
           <gmd:organisationName>
-            <gco:CharacterString>Department of Mines and Petroleum - Geological Survey Division</gco:CharacterString>
+            <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety - Geological Survey</gco:CharacterString>
           </gmd:organisationName>
           <gmd:positionName>
             <gco:CharacterString>Chief Geoscientist</gco:CharacterString>
@@ -181,9 +178,8 @@
             <gmd:CI_Contact>
               <gmd:phone>
                 <gmd:CI_Telephone>
-                  <gmd:voice gco:nilReason="missing">
-                    <gco:CharacterString>
-                    </gco:CharacterString>
+                  <gmd:voice>
+                    <gco:CharacterString>(08) 9222 3168</gco:CharacterString>
                   </gmd:voice>
                   <gmd:facsimile gco:nilReason="missing">
                     <gco:CharacterString>
@@ -208,9 +204,8 @@
                   <gmd:country>
                     <gco:CharacterString>Australia</gco:CharacterString>
                   </gmd:country>
-                  <gmd:electronicMailAddress gco:nilReason="missing">
-                    <gco:CharacterString>
-                    </gco:CharacterString>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>chief.geoscientist@dmirs.wa.gov.au</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
@@ -224,7 +219,7 @@
       <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
           <gmd:maintenanceAndUpdateFrequency>
-            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
           </gmd:maintenanceAndUpdateFrequency>
         </gmd:MD_MaintenanceInformation>
       </gmd:resourceMaintenance>
@@ -416,6 +411,9 @@
       </gmd:resourceConstraints>
       <gmd:resourceConstraints>
         <gmd:MD_LegalConstraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Subject to licence agreement</gco:CharacterString>
+          </gmd:useLimitation>
           <gmd:accessConstraints>
             <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
           </gmd:accessConstraints>
@@ -514,10 +512,10 @@
           <gmd:distributorContact>
             <gmd:CI_ResponsibleParty>
               <gmd:individualName gco:nilReason="withheld">
-                <gco:CharacterString>No Name</gco:CharacterString>
+                <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
               </gmd:individualName>
               <gmd:organisationName>
-                <gco:CharacterString>Department of Mines and Petroleum - Geological Survey Division</gco:CharacterString>
+                <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety - Geological Survey</gco:CharacterString>
               </gmd:organisationName>
               <gmd:positionName>
                 <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
@@ -527,10 +525,11 @@
                   <gmd:phone>
                     <gmd:CI_Telephone>
                       <gmd:voice>
-                        <gco:CharacterString>(08) 9222 3816</gco:CharacterString>
+                        <gco:CharacterString>(08) 9222 3168</gco:CharacterString>
                       </gmd:voice>
-                      <gmd:facsimile>
-                        <gco:CharacterString>(08) 9222 3889</gco:CharacterString>
+                      <gmd:facsimile gco:nilReason="missing">
+                        <gco:CharacterString>
+                        </gco:CharacterString>
                       </gmd:facsimile>
                     </gmd:CI_Telephone>
                   </gmd:phone>
@@ -552,27 +551,47 @@
                         <gco:CharacterString>Australia</gco:CharacterString>
                       </gmd:country>
                       <gmd:electronicMailAddress>
-                        <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                        <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>
                       </gmd:electronicMailAddress>
                     </gmd:CI_Address>
                   </gmd:address>
                 </gmd:CI_Contact>
               </gmd:contactInfo>
               <gmd:role>
-                <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
               </gmd:role>
             </gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
           <gmd:distributorFormat>
             <gmd:MD_Format>
               <gmd:name>
-                <gco:CharacterString>ArcGIS, MapInfo, PDF, Printed map</gco:CharacterString>
+                <gco:CharacterString>ESRI shapefiles, MapInfo Tab files, and PDF documents</gco:CharacterString>
               </gmd:name>
               <gmd:version>
-                <gco:CharacterString>ArcGIS 9.3, MapInfo 10</gco:CharacterString>
+                <gco:CharacterString>ESRI layer files version 10.1, MapInfo 10</gco:CharacterString>
               </gmd:version>
             </gmd:MD_Format>
           </gmd:distributorFormat>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://www.dmp.wa.gov.au/DataCentre</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:applicationProfile>
+                    <gco:CharacterString>Data and Software Centre</gco:CharacterString>
+                  </gmd:applicationProfile>
+                  <gmd:name>
+                    <gco:CharacterString>1:250 000 geological map – Southern Cross (sh5016), first edition</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
         </gmd:MD_Distributor>
       </gmd:distributor>
     </gmd:MD_Distribution>
@@ -596,7 +615,7 @@
       <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:statement>
-            <gco:CharacterString>This dataset has been compiled from information collected from field notes and input from aerial photo interpretation.</gco:CharacterString>
+            <gco:CharacterString>This dataset has been compiled from information collected from field notes and interpretation of aerial photo interpretation. Original map has been digitized and labelled to create digital version. Map image was transformed from AMG zone 50 to MGA zone 50 using ERMapper. ArcToolBox projected data from MGA zone 50 to GDA94 latlong.</gco:CharacterString>
           </gmd:statement>
         </gmd:LI_Lineage>
       </gmd:lineage>
@@ -620,9 +639,6 @@
       </gmd:scope>
       <gmd:report>
         <gmd:DQ_AbsoluteExternalPositionalAccuracy>
-          <gmd:dateTime>
-            <gco:DateTime>1981-06-30T00:00:00</gco:DateTime>
-          </gmd:dateTime>
           <gmd:result>
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
@@ -634,7 +650,8 @@
                   <gmd:date>
                     <gmd:CI_Date>
                       <gmd:date>
-                        <gco:Date>1981</gco:Date>
+                        <gco:Date>
+                        </gco:Date>
                       </gmd:date>
                       <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
@@ -648,7 +665,7 @@
                 </gmd:CI_Citation>
               </gmd:specification>
               <gmd:explanation>
-                <gco:CharacterString>25 metres to 250 metres</gco:CharacterString>
+                <gco:CharacterString>0 metres to 250 metres.</gco:CharacterString>
               </gmd:explanation>
               <gmd:pass>
                 <gco:Boolean>true</gco:Boolean>
@@ -677,9 +694,6 @@
       </gmd:scope>
       <gmd:report>
         <gmd:DQ_NonQuantitativeAttributeAccuracy>
-          <gmd:dateTime>
-            <gco:DateTime>1981-06-30T00:00:00</gco:DateTime>
-          </gmd:dateTime>
           <gmd:result>
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
@@ -691,7 +705,8 @@
                   <gmd:date>
                     <gmd:CI_Date>
                       <gmd:date>
-                        <gco:Date>1981</gco:Date>
+                        <gco:Date>
+                        </gco:Date>
                       </gmd:date>
                       <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
@@ -705,7 +720,7 @@
                 </gmd:CI_Citation>
               </gmd:specification>
               <gmd:explanation>
-                <gco:CharacterString>Geological units classified by standard geological nomenclature showing rock types (together with the lithographical formations in pre 1984 series). Units are identified by standard colours and symbols. Accuracy of attribute information in this dataset is estimated at 98%.</gco:CharacterString>
+                <gco:CharacterString>The accuracy of the attribute information on all datasets in this data package is estimated at 95%.</gco:CharacterString>
               </gmd:explanation>
               <gmd:pass>
                 <gco:Boolean>true</gco:Boolean>
@@ -734,9 +749,6 @@
       </gmd:scope>
       <gmd:report>
         <gmd:DQ_ConceptualConsistency>
-          <gmd:dateTime>
-            <gco:DateTime>1981-06-30T00:00:00</gco:DateTime>
-          </gmd:dateTime>
           <gmd:result>
             <gmd:DQ_ConformanceResult>
               <gmd:specification>
@@ -748,7 +760,8 @@
                   <gmd:date>
                     <gmd:CI_Date>
                       <gmd:date>
-                        <gco:Date>1981</gco:Date>
+                        <gco:Date>
+                        </gco:Date>
                       </gmd:date>
                       <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
@@ -762,7 +775,7 @@
                 </gmd:CI_Citation>
               </gmd:specification>
               <gmd:explanation>
-                <gco:CharacterString>All converted data was visually compared with original map work to verify complete capture and attribution.</gco:CharacterString>
+                <gco:CharacterString>All digitized data were visually compared with original map work to verify complete capture and attribution.</gco:CharacterString>
               </gmd:explanation>
               <gmd:pass>
                 <gco:Boolean>true</gco:Boolean>

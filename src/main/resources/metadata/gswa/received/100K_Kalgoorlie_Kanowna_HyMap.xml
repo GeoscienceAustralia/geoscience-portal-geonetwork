@@ -29,7 +29,7 @@
    <gmd:contact>
       <gmd:CI_ResponsibleParty>
          <gmd:organisationName>
-            <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+            <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
          </gmd:organisationName>
          <gmd:positionName>
             <gco:CharacterString>Stream Leader: Spectral Sensing</gco:CharacterString>
@@ -142,7 +142,7 @@ Not documented</gco:CharacterString>
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:organisationName>
-                        <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+                        <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:role>
                         <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
@@ -164,7 +164,7 @@ Airborne Hyperspectral Mapping (HyMap) alteration and regolith mineral abundance
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
                <gmd:organisationName>
-                  <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+                  <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
                </gmd:organisationName>
                <gmd:positionName>
                   <gco:CharacterString>Stream Leader: Spectral Sensing</gco:CharacterString>

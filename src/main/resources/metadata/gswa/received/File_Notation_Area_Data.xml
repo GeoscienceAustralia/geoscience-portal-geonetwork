@@ -21,7 +21,7 @@
   <gmd:contact>
     <gmd:CI_ResponsibleParty>
       <gmd:individualName gco:nilReason="withheld">
-        <gco:CharacterString>No Name</gco:CharacterString>
+        <gco:CharacterString>Sean Doherty</gco:CharacterString>
       </gmd:individualName>
       <gmd:organisationName>
         <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
@@ -34,11 +34,8 @@
           <gmd:phone>
             <gmd:CI_Telephone>
               <gmd:voice>
-                <gco:CharacterString>(08) 9222 3816</gco:CharacterString>
+                <gco:CharacterString>(08) 9222 3487</gco:CharacterString>
               </gmd:voice>
-              <gmd:facsimile>
-                <gco:CharacterString>(08) 9222 3889</gco:CharacterString>
-              </gmd:facsimile>
             </gmd:CI_Telephone>
           </gmd:phone>
           <gmd:address>
@@ -59,7 +56,7 @@
                 <gco:CharacterString>Australia</gco:CharacterString>
               </gmd:country>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                <gco:CharacterString>mtd.sda@dmirs.wa.gov.au</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
@@ -71,7 +68,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:Date>2011-09-12</gco:Date>
+    <gco:Date>2017-09-21</gco:Date>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS ISO 19115:2005, Geographic information - Metadata</gco:CharacterString>
@@ -95,7 +92,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>FIle Notation Area Data</gco:CharacterString>
+            <gco:CharacterString>FIle Notation Areas</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -110,7 +107,8 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>File Notation Areas as they appear spatially within the Departments TENGRAPH system. File Notation Areas are any proposed land transaction, or alienation from the Crown, or other proposed change in land use. The information provides purpose details and a reference to a Departmental file, (i.e. file/volume/folio number). Many of the FNA's involve Section 16(3) clearances under the Mining Act.</gco:CharacterString>
+        <gco:CharacterString>File Notation Areas ( FNA's) are areas where Government have proposed a change of land tenure that is being considered, or endorsed by DMP, for possible implementation, and/or areas of sensitivity to activities by the mineral resource industry that warrants the application of specific tenement conditions.
+Many of the FNA's involve Section 16(3) clearances under the Mining Act 1978.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
@@ -118,23 +116,24 @@
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
           <gmd:individualName gco:nilReason="withheld">
-            <gco:CharacterString>No name</gco:CharacterString>
+            <gco:CharacterString>Sean Doherty</gco:CharacterString>
           </gmd:individualName>
           <gmd:organisationName>
             <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
           </gmd:organisationName>
           <gmd:positionName>
-            <gco:CharacterString>Manager, Titles Information</gco:CharacterString>
+            <gco:CharacterString>MTD Spatial Data Administrator</gco:CharacterString>
           </gmd:positionName>
           <gmd:contactInfo>
             <gmd:CI_Contact>
               <gmd:phone>
                 <gmd:CI_Telephone>
                   <gmd:voice>
-                    <gco:CharacterString>(08) 9222 3230</gco:CharacterString>
+                    <gco:CharacterString>(08) 9222 3487</gco:CharacterString>
                   </gmd:voice>
-                  <gmd:facsimile>
-                    <gco:CharacterString>(08) 9222 3342</gco:CharacterString>
+                  <gmd:facsimile gco:nilReason="missing">
+                    <gco:CharacterString>
+                    </gco:CharacterString>
                   </gmd:facsimile>
                 </gmd:CI_Telephone>
               </gmd:phone>
@@ -293,6 +292,9 @@
       </gmd:descriptiveKeywords>
       <gmd:resourceConstraints>
         <gmd:MD_SecurityConstraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Subject to licence agreement</gco:CharacterString>
+          </gmd:useLimitation>
           <gmd:classification>
             <gmd:MD_ClassificationCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified">unclassified</gmd:MD_ClassificationCode>
           </gmd:classification>
@@ -314,6 +316,9 @@
       </gmd:resourceConstraints>
       <gmd:resourceConstraints>
         <gmd:MD_LegalConstraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Subject to licence agreement</gco:CharacterString>
+          </gmd:useLimitation>
           <gmd:useConstraints>
             <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
           </gmd:useConstraints>
@@ -324,6 +329,16 @@
           <gmd:useConstraints>
             <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license">license</gmd:MD_RestrictionCode>
           </gmd:useConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Subject to licence agreement</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Indigenous</gco:CharacterString>
+          </gmd:otherConstraints>
         </gmd:MD_LegalConstraints>
       </gmd:resourceConstraints>
       <gmd:spatialRepresentationType>
@@ -339,12 +354,15 @@
       <gmd:topicCategory>
         <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
       </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>economy</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
       <gmd:extent>
         <gmd:EX_Extent>
           <gmd:geographicElement>
             <gmd:EX_GeographicBoundingBox>
               <gmd:westBoundLongitude>
-                <gco:Decimal>112</gco:Decimal>
+                <gco:Decimal>95</gco:Decimal>
               </gmd:westBoundLongitude>
               <gmd:eastBoundLongitude>
                 <gco:Decimal>129</gco:Decimal>
@@ -368,23 +386,24 @@
           <gmd:distributorContact>
             <gmd:CI_ResponsibleParty>
               <gmd:individualName gco:nilReason="withheld">
-                <gco:CharacterString>No name</gco:CharacterString>
+                <gco:CharacterString>Sean Doherty</gco:CharacterString>
               </gmd:individualName>
               <gmd:organisationName>
                 <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
               </gmd:organisationName>
               <gmd:positionName>
-                <gco:CharacterString>MTSD Digital Data Administrator</gco:CharacterString>
+                <gco:CharacterString>MTD Spatial Data Administrator</gco:CharacterString>
               </gmd:positionName>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
                   <gmd:phone>
                     <gmd:CI_Telephone>
                       <gmd:voice>
-                        <gco:CharacterString>(08) 9222 3339</gco:CharacterString>
+                        <gco:CharacterString>(08) 9222 3487</gco:CharacterString>
                       </gmd:voice>
-                      <gmd:facsimile>
-                        <gco:CharacterString>(08) 9222 3342</gco:CharacterString>
+                      <gmd:facsimile gco:nilReason="missing">
+                        <gco:CharacterString>
+                        </gco:CharacterString>
                       </gmd:facsimile>
                     </gmd:CI_Telephone>
                   </gmd:phone>
@@ -406,7 +425,7 @@
                         <gco:CharacterString>Australia</gco:CharacterString>
                       </gmd:country>
                       <gmd:electronicMailAddress>
-                        <gco:CharacterString>mtd.dd@dmp.wa.gov.au</gco:CharacterString>
+                        <gco:CharacterString>mtd.sda@dmirs.wa.gov.au</gco:CharacterString>
                       </gmd:electronicMailAddress>
                     </gmd:CI_Address>
                   </gmd:address>
@@ -420,10 +439,10 @@
           <gmd:distributorFormat>
             <gmd:MD_Format>
               <gmd:name>
-                <gco:CharacterString>ArcGis, MapInfo, ArcSDE Export</gco:CharacterString>
+                <gco:CharacterString>ESRI shapefile, ESRI file geodatabase, MapInfo tab file</gco:CharacterString>
               </gmd:name>
               <gmd:version>
-                <gco:CharacterString>ArcGis 9.3, MapInfo 10</gco:CharacterString>
+                <gco:CharacterString>ArcGIS 10.0, MapInfo 10</gco:CharacterString>
               </gmd:version>
               <gmd:specification>
                 <gco:CharacterString>Geographical Coordinates stored in DB2 relational database tables</gco:CharacterString>
@@ -444,7 +463,8 @@
                     <gco:CharacterString>FIle Notation Area Data</gco:CharacterString>
                   </gmd:name>
                   <gmd:description>
-                    <gco:CharacterString>File Notation Areas as they appear spatially within the Departments TENGRAPH system. File Notation Areas are any proposed land transaction, or alienation from the Crown, or other proposed change in land use. The information provides purpose details and a reference to a Departmental file, (i.e. file/volume/folio number). Many of the FNA's involve Section 16(3) clearances under the Mining Act.</gco:CharacterString>
+                    <gco:CharacterString>File Notation Areas ( FNA's) are areas where Government have proposed a change of land tenure that is being considered, or endorsed by DMP, for possible implementation, and/or areas of sensitivity to activities by the mineral resource industry that warrants the application of specific tenement conditions.
+Many of the FNA's involve Section 16(3) clearances under the Mining Act 1978.</gco:CharacterString>
                   </gmd:description>
                   <gmd:function>
                     <gmd:CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
@@ -476,65 +496,12 @@
       <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:statement>
-            <gco:CharacterString>This data has been compiled from information collected from a number of agencies.</gco:CharacterString>
+            <gco:CharacterString>This data is derived from information collected from a variety of agencies and internal interpretation. As such it has varying degrees of positional accuracy. 
+Boundary definitions can be derived from precision survey, unsurveyed data, Graticular Grids ( GDA,AGD geographical latitude- longitude), topographical data or a combination of these.
+</gco:CharacterString>
           </gmd:statement>
         </gmd:LI_Lineage>
       </gmd:lineage>
-    </gmd:DQ_DataQuality>
-  </gmd:dataQualityInfo>
-  <gmd:dataQualityInfo>
-    <gmd:DQ_DataQuality>
-      <gmd:scope>
-        <gmd:DQ_Scope>
-          <gmd:level>
-            <gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-          </gmd:level>
-          <gmd:levelDescription>
-            <gmd:MD_ScopeDescription>
-              <gmd:other>
-                <gco:CharacterString>dataset</gco:CharacterString>
-              </gmd:other>
-            </gmd:MD_ScopeDescription>
-          </gmd:levelDescription>
-        </gmd:DQ_Scope>
-      </gmd:scope>
-      <gmd:report>
-        <gmd:DQ_ConceptualConsistency>
-          <gmd:result>
-            <gmd:DQ_ConformanceResult>
-              <gmd:specification>
-                <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing">
-                    <gco:CharacterString>
-                    </gco:CharacterString>
-                  </gmd:title>
-                  <gmd:date>
-                    <gmd:CI_Date>
-                      <gmd:date>
-                        <gco:Date>
-                        </gco:Date>
-                      </gmd:date>
-                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
-                      </gmd:dateType>
-                    </gmd:CI_Date>
-                  </gmd:date>
-                  <gmd:edition gco:nilReason="missing">
-                    <gco:CharacterString>
-                    </gco:CharacterString>
-                  </gmd:edition>
-                </gmd:CI_Citation>
-              </gmd:specification>
-              <gmd:explanation>
-                <gco:CharacterString>All data is precision captured using rigorous formula. File Notation Areas are captured from  descriptions as supplied by agencies and are therefore subject to ground proofing or survey.</gco:CharacterString>
-              </gmd:explanation>
-              <gmd:pass>
-                <gco:Boolean>true</gco:Boolean>
-              </gmd:pass>
-            </gmd:DQ_ConformanceResult>
-          </gmd:result>
-        </gmd:DQ_ConceptualConsistency>
-      </gmd:report>
     </gmd:DQ_DataQuality>
   </gmd:dataQualityInfo>
   <gmd:dataQualityInfo>
@@ -581,7 +548,7 @@
                 </gmd:CI_Citation>
               </gmd:specification>
               <gmd:explanation>
-                <gco:CharacterString>The data is constantly updated in real time within the TENGRAPH system. The dataset is updated  daily and is current at the time of export.</gco:CharacterString>
+                <gco:CharacterString>The data is constantly updated in real time within the TENGRAPH system. The dataset is updated  daily ( 24 hourly) and is current at the time of export.</gco:CharacterString>
               </gmd:explanation>
               <gmd:pass>
                 <gco:Boolean>true</gco:Boolean>
@@ -636,7 +603,11 @@
                 </gmd:CI_Citation>
               </gmd:specification>
               <gmd:explanation>
-                <gco:CharacterString> +/- 2 metres</gco:CharacterString>
+                <gco:CharacterString> +/- 1 metre when derived from surveyed postions
++/- 5-10 metres when derived from unsurveyed positions
++/- 25 metres when derived from topographical features 
+100% when derived using GDA or AGD Graticule ( Geographicals- Latitude and Longitude)
+</gco:CharacterString>
               </gmd:explanation>
               <gmd:pass>
                 <gco:Boolean>true</gco:Boolean>
@@ -691,7 +662,7 @@
                 </gmd:CI_Citation>
               </gmd:specification>
               <gmd:explanation>
-                <gco:CharacterString>98%</gco:CharacterString>
+                <gco:CharacterString>95%</gco:CharacterString>
               </gmd:explanation>
               <gmd:pass>
                 <gco:Boolean>true</gco:Boolean>
@@ -702,8 +673,66 @@
       </gmd:report>
     </gmd:DQ_DataQuality>
   </gmd:dataQualityInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+          <gmd:levelDescription>
+            <gmd:MD_ScopeDescription>
+              <gmd:other>
+                <gco:CharacterString>dataset</gco:CharacterString>
+              </gmd:other>
+            </gmd:MD_ScopeDescription>
+          </gmd:levelDescription>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_ConceptualConsistency>
+          <gmd:result>
+            <gmd:DQ_ConformanceResult>
+              <gmd:specification>
+                <gmd:CI_Citation>
+                  <gmd:title gco:nilReason="missing">
+                    <gco:CharacterString>
+                    </gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>
+                        </gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                  <gmd:edition gco:nilReason="missing">
+                    <gco:CharacterString>
+                    </gco:CharacterString>
+                  </gmd:edition>
+                </gmd:CI_Citation>
+              </gmd:specification>
+              <gmd:explanation>
+                <gco:CharacterString>Surveyed data is precision captured in accordance with Licensed Surveyors Regs 1961. Unsurveyed data is derived from descriptions and are therefore subject to ground proofing or survey.</gco:CharacterString>
+              </gmd:explanation>
+              <gmd:pass>
+                <gco:Boolean>true</gco:Boolean>
+              </gmd:pass>
+            </gmd:DQ_ConformanceResult>
+          </gmd:result>
+        </gmd:DQ_ConceptualConsistency>
+      </gmd:report>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
   <gmd:metadataConstraints>
     <gmd:MD_SecurityConstraints>
+      <gmd:useLimitation>
+        <gco:CharacterString>Subject to licence agreement</gco:CharacterString>
+      </gmd:useLimitation>
       <gmd:classification>
         <gmd:MD_ClassificationCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified">unclassified</gmd:MD_ClassificationCode>
       </gmd:classification>

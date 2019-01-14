@@ -22,10 +22,10 @@
         <gco:CharacterString>No Name</gco:CharacterString>
       </gmd:individualName>
       <gmd:organisationName>
-        <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+        <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
       </gmd:organisationName>
       <gmd:positionName>
-        <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
+        <gco:CharacterString>GSWA Digital Data Administrator</gco:CharacterString>
       </gmd:positionName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
@@ -57,7 +57,7 @@
                 <gco:CharacterString>Australia</gco:CharacterString>
               </gmd:country>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
@@ -151,7 +151,7 @@
           <gmd:citedResponsibleParty>
             <gmd:CI_ResponsibleParty>
               <gmd:organisationName>
-                <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+                <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
               </gmd:organisationName>
               <gmd:role>
                 <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
@@ -161,7 +161,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>The Geological Survey of Western Australia, on behalf of the Department of Mines and Petroleum, acquires and stores mineral drillcore in its Core Libraries in Carlisle and Kalgoorlie. This mineral drillcore is usually obtained from mineral exploration companies and is selected on the basis of a number of geological criteria and the need to promote the mineral prospectivity of Western Australia. The core libraries in Perth and Kalgoorlie are only capable of storing 2 to 5% of core drilled each year in Western Australia, and once stored is available for public viewing. Information on drillcore is usually sourced from WAMEX reports (company reports) submitted to the Department of Mines and Petroleum. The accuracy of such information is not routinely checked.</gco:CharacterString>
+        <gco:CharacterString>The Geological Survey of Western Australia, on behalf of the Western Australian Department of Mines, Industry Regulation and Safety, acquires and stores mineral drillcore in its Core Libraries in Carlisle and Kalgoorlie. This mineral drillcore is usually obtained from mineral exploration companies and is selected on the basis of a number of geological criteria and the need to promote the mineral prospectivity of Western Australia. The core libraries in Perth and Kalgoorlie are only capable of storing 2 to 5% of core drilled each year in Western Australia, and once stored is available for public viewing. Information on drillcore is usually sourced from WAMEX reports (company reports) submitted to the Western Australian Department of Mines, Industry Regulation and Safety. The accuracy of such information is not routinely checked.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
@@ -173,7 +173,7 @@
             </gco:CharacterString>
           </gmd:individualName>
           <gmd:organisationName>
-            <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+            <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
           </gmd:organisationName>
           <gmd:positionName>
             <gco:CharacterString>Senior Geologist, Resources</gco:CharacterString>
@@ -493,10 +493,10 @@
                 <gco:CharacterString>No Name</gco:CharacterString>
               </gmd:individualName>
               <gmd:organisationName>
-                <gco:CharacterString>Department of Mines and Petroleum - Geological Survey Division</gco:CharacterString>
+                <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety - Geological Survey Division</gco:CharacterString>
               </gmd:organisationName>
               <gmd:positionName>
-                <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
+                <gco:CharacterString>GSWA Digital Data Administrator</gco:CharacterString>
               </gmd:positionName>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
@@ -528,7 +528,7 @@
                         <gco:CharacterString>Australia</gco:CharacterString>
                       </gmd:country>
                       <gmd:electronicMailAddress>
-                        <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                        <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>
                       </gmd:electronicMailAddress>
                     </gmd:CI_Address>
                   </gmd:address>
@@ -560,8 +560,8 @@
                     <gco:CharacterString>Core Library Drillholes</gco:CharacterString>
                   </gmd:name>
                   <gmd:description>
-                    <gco:CharacterString>The Geological Survey of Western Australia, on behalf of the Department of Mines and Petroleum, acquires and stores mineral drillcore. This mineral drillcore is usually obtained from mineral exploration companies and is selected on the basis of a number of geological criteria and the need to promote the mineral prospectivity of Western Australia.
-The core libraries in Perth and Kalgoorlie are only capable of storing 2 to 5% of core drilled each year in Western Australia, and once stored is available for public viewing. Information on drillcore is usually sourced from WAMEX reports (company reports) submitted to the Department of MInes and Petroleum. The accuracy of such information is not routinely checked.</gco:CharacterString>
+                    <gco:CharacterString>The Geological Survey of Western Australia, on behalf of the Western Australian Department of Mines, Industry Regulation and Safety, acquires and stores mineral drillcore. This mineral drillcore is usually obtained from mineral exploration companies and is selected on the basis of a number of geological criteria and the need to promote the mineral prospectivity of Western Australia.
+The core libraries in Perth and Kalgoorlie are only capable of storing 2 to 5% of core drilled each year in Western Australia, and once stored is available for public viewing. Information on drillcore is usually sourced from WAMEX reports (company reports) submitted to the Western Australian Department of Mines, Industry Regulation and Safety. The accuracy of such information is not routinely checked.</gco:CharacterString>
                   </gmd:description>
                   <gmd:function>
                     <gmd:CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>

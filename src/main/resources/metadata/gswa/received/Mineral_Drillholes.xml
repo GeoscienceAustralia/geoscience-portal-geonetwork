@@ -25,10 +25,10 @@
         </gco:CharacterString>
       </gmd:individualName>
       <gmd:organisationName>
-        <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+        <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
       </gmd:organisationName>
       <gmd:positionName>
-        <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
+        <gco:CharacterString>GSWA Digital Data Administrator</gco:CharacterString>
       </gmd:positionName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
@@ -60,7 +60,7 @@
                 <gco:CharacterString>Australia</gco:CharacterString>
               </gmd:country>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
@@ -120,7 +120,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>The Department of Mines and Petroleum (DMP) has released its open file Company Mineral Drillhole Database containing historic drillholes. The database is an aid to mineral exploration in Western Australia. Under the Mining Act 1978 companies submit annual mineral exploration reports some of which contain drillhole data. This information is made available when the reports are released to the public usually after a confidentiality period of five years. As a minimum, available drilling data comprises a collar file validated against the tenement outline. Additional files such as assays, geology and surveys may also be available depending on the company's submission</gco:CharacterString>
+        <gco:CharacterString>The Western Australian Department of Mines, Industry Regulation and Safety  (DMIRS) has released its open file Company Mineral Drillhole Database containing historic drillholes. The database is an aid to mineral exploration in Western Australia. Under the Mining Act 1978 companies submit annual mineral exploration reports some of which contain drillhole data. This information is made available when the reports are released to the public usually after a confidentiality period of five years. As a minimum, available drilling data comprises a collar file validated against the tenement outline. Additional files such as assays, geology and surveys may also be available depending on the company's submission</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
@@ -132,7 +132,7 @@
             </gco:CharacterString>
           </gmd:individualName>
           <gmd:organisationName>
-            <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+            <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
           </gmd:organisationName>
           <gmd:positionName>
             <gco:CharacterString>Senior Geologist, Resources</gco:CharacterString>
@@ -355,10 +355,10 @@
                 <gco:CharacterString>No Name</gco:CharacterString>
               </gmd:individualName>
               <gmd:organisationName>
-                <gco:CharacterString>Department of Mines and Petroleum - Geological Survey Division</gco:CharacterString>
+                <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety - Geological Survey Division</gco:CharacterString>
               </gmd:organisationName>
               <gmd:positionName>
-                <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
+                <gco:CharacterString>GSWA Digital Data Administrator</gco:CharacterString>
               </gmd:positionName>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
@@ -390,7 +390,7 @@
                         <gco:CharacterString>Australia</gco:CharacterString>
                       </gmd:country>
                       <gmd:electronicMailAddress>
-                        <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                        <gco:CharacterString>gsd.dda@dmirs.wa.gov.au</gco:CharacterString>
                       </gmd:electronicMailAddress>
                     </gmd:CI_Address>
                   </gmd:address>
@@ -422,7 +422,7 @@
                     <gco:CharacterString>Mineral Drillholes</gco:CharacterString>
                   </gmd:name>
                   <gmd:description>
-                    <gco:CharacterString>The Department of Mines and Petroleum (DMP) has released its open file Company Mineral Drillhole Database containing historic drillholes. The database is an aid to mineral exploration in Western Australia. Under the Mining Act 1978 companies submit annual mineral exploration reports some of which contain drillhole data. This information is made available when the reports are released to the public usually after a confidentiality period of five years. As a minimum, available drilling data comprises a collar file validated against the tenement outline. Additional files such as assays, geology and surveys may also be available depending on the company's submission.</gco:CharacterString>
+                    <gco:CharacterString>The Western Australian Department of Mines, Industry Regulation and Safety  (DMIRS) has released its open file Company Mineral Drillhole Database containing historic drillholes. The database is an aid to mineral exploration in Western Australia. Under the Mining Act 1978 companies submit annual mineral exploration reports some of which contain drillhole data. This information is made available when the reports are released to the public usually after a confidentiality period of five years. As a minimum, available drilling data comprises a collar file validated against the tenement outline. Additional files such as assays, geology and surveys may also be available depending on the company's submission.</gco:CharacterString>
                   </gmd:description>
                   <gmd:function>
                     <gmd:CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
