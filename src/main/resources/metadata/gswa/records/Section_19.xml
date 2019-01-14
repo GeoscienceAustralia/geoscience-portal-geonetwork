@@ -1,8 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?>
-<!-- UNCLASSIFIED -->
-<!-- Built from ANZLIC MET Template ISO 19139 2009-02-18 -->
-<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?><!-- UNCLASSIFIED --><!-- Built from ANZLIC MET Template ISO 19139 2009-02-18 --><gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>49B8328B-E812-42F5-BEC1-4A89E73B6FDB</gco:CharacterString>
   </gmd:fileIdentifier>
@@ -21,24 +17,21 @@
   <gmd:contact>
     <gmd:CI_ResponsibleParty>
       <gmd:individualName gco:nilReason="withheld">
-        <gco:CharacterString>No Name</gco:CharacterString>
+        <gco:CharacterString>Sean Doherty</gco:CharacterString>
       </gmd:individualName>
       <gmd:organisationName>
-        <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
+        <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>
       </gmd:organisationName>
       <gmd:positionName>
-        <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
+        <gco:CharacterString>MTD Spatial Data Administrator</gco:CharacterString>
       </gmd:positionName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
           <gmd:phone>
             <gmd:CI_Telephone>
               <gmd:voice>
-                <gco:CharacterString>(08) 9222 3816</gco:CharacterString>
+                <gco:CharacterString>(08) 9222 3487</gco:CharacterString>
               </gmd:voice>
-              <gmd:facsimile>
-                <gco:CharacterString>(08) 9222 3889</gco:CharacterString>
-              </gmd:facsimile>
             </gmd:CI_Telephone>
           </gmd:phone>
           <gmd:address>
@@ -59,7 +52,7 @@
                 <gco:CharacterString>Australia</gco:CharacterString>
               </gmd:country>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                <gco:CharacterString>mtd.sda@dmirs.wa.gov.au</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
@@ -71,14 +64,14 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:Date>2010-08-02</gco:Date>
+    <gco:Date>2016-10-06</gco:Date>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS ISO 19115:2005, Geographic information - Metadata</gco:CharacterString>
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion>
     <gco:CharacterString>1.1</gco:CharacterString>
-  </gmd:metadataStandardVersion>
+  </gmd:metadataStandardVersion><gmd:dataSetURI xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx"><gco:CharacterString>http://www.dmp.wa.gov.au/datacentre</gco:CharacterString></gmd:dataSetURI>
   <gmd:referenceSystemInfo>
     <gmd:MD_ReferenceSystem>
       <gmd:referenceSystemIdentifier>
@@ -110,13 +103,17 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Section 19 Areas as they appear spatially within the Departments TENGRAPH system. Section 19 Areas is land that is exempt from mining activities as defined under Section 19 of the Mining Act.</gco:CharacterString>
+        <gco:CharacterString>Section 19 &#8211; Under Section 19 of the Mining Act (1978) the Minister may exempt any Crown land, (not being Crown land that is the subject of a mining tenement or of an application therefore), from &#8211; mining or from any specified mining purpose.
+The distinguishing factor is that a S19 can only exist by ministerial approval and Gazettal. A S19 can only be granted over Crown Land and never co-exist with mining tenure.
+The purpose of a S19 is to provide a 24-month period for the interested party to organise the reserving or leasing of the area. More often than not this does not occur requiring the applicant to request an extension. Failing to do this will often mean forfeiture of the area.
+Section 19&#8217;s, have a two-year life span if approved on or after 14-10-1995.
+A Section 19 approved before 14-10-1995 has an indefinite life span and can only be cancelled if approved by the minister.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
       </gmd:status>
       <gmd:pointOfContact>
-        <gmd:CI_ResponsibleParty>  <gmd:individualName gco:nilReason="withheld">    <gco:CharacterString>No Name</gco:CharacterString>  </gmd:individualName>  <gmd:organisationName>    <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>  </gmd:organisationName>  <gmd:positionName>    <gco:CharacterString>MTSD Spatial Data Administrator</gco:CharacterString>  </gmd:positionName>  <gmd:contactInfo>    <gmd:CI_Contact>      <gmd:phone>        <gmd:CI_Telephone>          <gmd:voice>            <gco:CharacterString>(08) 9222 3339</gco:CharacterString>          </gmd:voice>          <gmd:facsimile>            <gco:CharacterString>(08) 9222 3342</gco:CharacterString>          </gmd:facsimile>        </gmd:CI_Telephone>      </gmd:phone>      <gmd:address>        <gmd:CI_Address>          <gmd:deliveryPoint>            <gco:CharacterString>100 Plain Street</gco:CharacterString>          </gmd:deliveryPoint>          <gmd:city>            <gco:CharacterString>East Perthj</gco:CharacterString>          </gmd:city>          <gmd:administrativeArea>            <gco:CharacterString>Western Australia</gco:CharacterString>          </gmd:administrativeArea>          <gmd:postalCode>            <gco:CharacterString>6004</gco:CharacterString>          </gmd:postalCode>          <gmd:country>            <gco:CharacterString>Australia</gco:CharacterString>          </gmd:country>          <gmd:electronicMailAddress>            <gco:CharacterString>mtd@dmp.wa.gov.au</gco:CharacterString>          </gmd:electronicMailAddress>        </gmd:CI_Address>      </gmd:address>    </gmd:CI_Contact>  </gmd:contactInfo>  <gmd:role>    <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>  </gmd:role></gmd:CI_ResponsibleParty>
+        <gmd:CI_ResponsibleParty>  <gmd:individualName gco:nilReason="withheld">    <gco:CharacterString>Sean Doherty</gco:CharacterString>  </gmd:individualName>  <gmd:organisationName>    <gco:CharacterString>Western Australian Department of Mines, Industry Regulation and Safety</gco:CharacterString>  </gmd:organisationName>  <gmd:positionName>    <gco:CharacterString>MTD Spatial Data Administrator</gco:CharacterString>  </gmd:positionName>  <gmd:contactInfo>    <gmd:CI_Contact>      <gmd:phone>        <gmd:CI_Telephone>          <gmd:voice>            <gco:CharacterString>(08) 9222 3487</gco:CharacterString>          </gmd:voice>          <gmd:facsimile gco:nilReason="missing">            <gco:CharacterString/>          </gmd:facsimile>        </gmd:CI_Telephone>      </gmd:phone>      <gmd:address>        <gmd:CI_Address>          <gmd:deliveryPoint>            <gco:CharacterString>100 Plain Street</gco:CharacterString>          </gmd:deliveryPoint>          <gmd:city>            <gco:CharacterString>East Perth</gco:CharacterString>          </gmd:city>          <gmd:administrativeArea>            <gco:CharacterString>Western Australia</gco:CharacterString>          </gmd:administrativeArea>          <gmd:postalCode>            <gco:CharacterString>6004</gco:CharacterString>          </gmd:postalCode>          <gmd:country>            <gco:CharacterString>Australia</gco:CharacterString>          </gmd:country>          <gmd:electronicMailAddress>            <gco:CharacterString>mtd.sda@dmirs.wa.gov.au</gco:CharacterString>          </gmd:electronicMailAddress>        </gmd:CI_Address>      </gmd:address>    </gmd:CI_Contact>  </gmd:contactInfo>  <gmd:role>    <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>  </gmd:role></gmd:CI_ResponsibleParty>
       </gmd:pointOfContact>
       <gmd:resourceMaintenance>
         <gmd:MD_MaintenanceInformation>
@@ -287,7 +284,7 @@
           <gmd:geographicElement>
             <gmd:EX_GeographicBoundingBox>
               <gmd:westBoundLongitude>
-                <gco:Decimal>96.45</gco:Decimal>
+                <gco:Decimal>95</gco:Decimal>
               </gmd:westBoundLongitude>
               <gmd:eastBoundLongitude>
                 <gco:Decimal>129</gco:Decimal>
@@ -296,7 +293,7 @@
                 <gco:Decimal>-36</gco:Decimal>
               </gmd:southBoundLatitude>
               <gmd:northBoundLatitude>
-                <gco:Decimal>-10.20</gco:Decimal>
+                <gco:Decimal>-10</gco:Decimal>
               </gmd:northBoundLatitude>
             </gmd:EX_GeographicBoundingBox>
           </gmd:geographicElement>
@@ -322,15 +319,15 @@
       <gmd:distributor>
         <gmd:MD_Distributor>
           <gmd:distributorContact>
-            <gmd:CI_ResponsibleParty>  <gmd:individualName gco:nilReason="withheld">    <gco:CharacterString>No Name</gco:CharacterString>  </gmd:individualName>  <gmd:organisationName>    <gco:CharacterString>Department of Mines and Petroleum - Mineral Titles Division</gco:CharacterString>  </gmd:organisationName>  <gmd:positionName>    <gco:CharacterString>MTD Data Administrator</gco:CharacterString>  </gmd:positionName>  <gmd:contactInfo>    <gmd:CI_Contact>      <gmd:phone>        <gmd:CI_Telephone>          <gmd:voice>            <gco:CharacterString>(08) 9222 3339</gco:CharacterString>          </gmd:voice>          <gmd:facsimile>            <gco:CharacterString>(08) 9222 3342</gco:CharacterString>          </gmd:facsimile>        </gmd:CI_Telephone>      </gmd:phone>      <gmd:address>        <gmd:CI_Address>          <gmd:deliveryPoint>            <gco:CharacterString>100 Plain Street</gco:CharacterString>          </gmd:deliveryPoint>          <gmd:city>            <gco:CharacterString>East Perth</gco:CharacterString>          </gmd:city>          <gmd:administrativeArea>            <gco:CharacterString>Western Australia</gco:CharacterString>          </gmd:administrativeArea>          <gmd:postalCode>            <gco:CharacterString>6004</gco:CharacterString>          </gmd:postalCode>          <gmd:country>            <gco:CharacterString>Australia</gco:CharacterString>          </gmd:country>          <gmd:electronicMailAddress>            <gco:CharacterString>mtd.dd@dmp.wa.gov.au</gco:CharacterString>          </gmd:electronicMailAddress>        </gmd:CI_Address>      </gmd:address>    </gmd:CI_Contact>  </gmd:contactInfo>  <gmd:role>    <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>  </gmd:role></gmd:CI_ResponsibleParty>
+            <gmd:CI_ResponsibleParty>  <gmd:individualName gco:nilReason="withheld">    <gco:CharacterString>Sean Doherty</gco:CharacterString>  </gmd:individualName>  <gmd:organisationName>    <gco:CharacterString>Department of Mines and Petroleum - Mineral Titles Division</gco:CharacterString>  </gmd:organisationName>  <gmd:positionName>    <gco:CharacterString>MTD Spatial Data Administrator</gco:CharacterString>  </gmd:positionName>  <gmd:contactInfo>    <gmd:CI_Contact>      <gmd:phone>        <gmd:CI_Telephone>          <gmd:voice>            <gco:CharacterString>(08) 9222 3487</gco:CharacterString>          </gmd:voice>          <gmd:facsimile gco:nilReason="missing">            <gco:CharacterString/>          </gmd:facsimile>        </gmd:CI_Telephone>      </gmd:phone>      <gmd:address>        <gmd:CI_Address>          <gmd:deliveryPoint>            <gco:CharacterString>100 Plain Street</gco:CharacterString>          </gmd:deliveryPoint>          <gmd:city>            <gco:CharacterString>East Perth</gco:CharacterString>          </gmd:city>          <gmd:administrativeArea>            <gco:CharacterString>Western Australia</gco:CharacterString>          </gmd:administrativeArea>          <gmd:postalCode>            <gco:CharacterString>6004</gco:CharacterString>          </gmd:postalCode>          <gmd:country>            <gco:CharacterString>Australia</gco:CharacterString>          </gmd:country>          <gmd:electronicMailAddress>            <gco:CharacterString>mtd.sda@dmirs.wa.gov.au</gco:CharacterString>          </gmd:electronicMailAddress>        </gmd:CI_Address>      </gmd:address>    </gmd:CI_Contact>  </gmd:contactInfo>  <gmd:role>    <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>  </gmd:role></gmd:CI_ResponsibleParty>
           </gmd:distributorContact>
           <gmd:distributorFormat>
             <gmd:MD_Format>
               <gmd:name>
-                <gco:CharacterString>ArcGIS, ArcSDE Export, MapInfo</gco:CharacterString>
+                <gco:CharacterString>ESRI Shape, MapInfo TAB</gco:CharacterString>
               </gmd:name>
               <gmd:version>
-                <gco:CharacterString>ArcGIS 9.3, MapInfo 10</gco:CharacterString>
+                <gco:CharacterString>ArcGIS 10.1</gco:CharacterString>
               </gmd:version>
               <gmd:specification>
                 <gco:CharacterString>Geographical Coordinates stored in DB2 relational database tables</gco:CharacterString>
@@ -351,7 +348,7 @@
                     <gco:CharacterString>Section 19 (Mining Act 1978)</gco:CharacterString>
                   </gmd:name>
                   <gmd:description>
-                    <gco:CharacterString>Section 19 Areas as they appear spatially within the Departments TENGRAPH system. A Section 19 Area is land that is exempt from mining activities as defined under Section 19 of the Mining Act.</gco:CharacterString>
+                    <gco:CharacterString>Secction 19  areas represent land that is exempt from mining activities as defined under Section 19 of the Mining Act.</gco:CharacterString>
                   </gmd:description>
                   <gmd:function>
                     <gmd:CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
@@ -383,9 +380,8 @@
       <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:statement>
-            <gco:CharacterString>Lineage:
- This data has been compiled from information collected from a number of agencies. 
- 
+            <gco:CharacterString>This data is derived from information collected from a variety of agencies and internal interpretation. As such it has varying degrees of positional accuracy. 
+Boundary definitions can be derived from precision survey, unsurveyed data, Graticular Grids ( GDA,AGD geographical latitude- longitude), topographical data or a combination of these.
 
  
 </gco:CharacterString>
@@ -440,7 +436,7 @@
                 </gmd:CI_Citation>
               </gmd:specification>
               <gmd:explanation>
-                <gco:CharacterString>All data is precision captured using rigorous formula. Section 19 areas are captured from descriptions as supplied by agencies and are therefore subject to ground proofing or survey.</gco:CharacterString>
+                <gco:CharacterString>Surveyed data is precision captured in accordance with Licensed Surveyors Regs 1961. Unsurveyed data is derived from descriptions  supplied from different agencies and are therefore subject to ground proofing or survey.</gco:CharacterString>
               </gmd:explanation>
               <gmd:pass>
                 <gco:Boolean>true</gco:Boolean>
@@ -448,6 +444,63 @@
             </gmd:DQ_ConformanceResult>
           </gmd:result>
         </gmd:DQ_ConceptualConsistency>
+      </gmd:report>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+          <gmd:levelDescription>
+            <gmd:MD_ScopeDescription>
+              <gmd:other>
+                <gco:CharacterString>dataset</gco:CharacterString>
+              </gmd:other>
+            </gmd:MD_ScopeDescription>
+          </gmd:levelDescription>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_NonQuantitativeAttributeAccuracy>
+          <gmd:dateTime>
+            <gco:DateTime>1994-08-09T00:00:00</gco:DateTime>
+          </gmd:dateTime>
+          <gmd:result>
+            <gmd:DQ_ConformanceResult>
+              <gmd:specification>
+                <gmd:CI_Citation>
+                  <gmd:title gco:nilReason="missing">
+                    <gco:CharacterString>
+                    </gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>1994</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                  <gmd:edition gco:nilReason="missing">
+                    <gco:CharacterString>
+                    </gco:CharacterString>
+                  </gmd:edition>
+                </gmd:CI_Citation>
+              </gmd:specification>
+              <gmd:explanation>
+                <gco:CharacterString>95%</gco:CharacterString>
+              </gmd:explanation>
+              <gmd:pass>
+                <gco:Boolean>true</gco:Boolean>
+              </gmd:pass>
+            </gmd:DQ_ConformanceResult>
+          </gmd:result>
+        </gmd:DQ_NonQuantitativeAttributeAccuracy>
       </gmd:report>
     </gmd:DQ_DataQuality>
   </gmd:dataQualityInfo>
@@ -565,63 +618,6 @@
       </gmd:report>
     </gmd:DQ_DataQuality>
   </gmd:dataQualityInfo>
-  <gmd:dataQualityInfo>
-    <gmd:DQ_DataQuality>
-      <gmd:scope>
-        <gmd:DQ_Scope>
-          <gmd:level>
-            <gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-          </gmd:level>
-          <gmd:levelDescription>
-            <gmd:MD_ScopeDescription>
-              <gmd:other>
-                <gco:CharacterString>dataset</gco:CharacterString>
-              </gmd:other>
-            </gmd:MD_ScopeDescription>
-          </gmd:levelDescription>
-        </gmd:DQ_Scope>
-      </gmd:scope>
-      <gmd:report>
-        <gmd:DQ_NonQuantitativeAttributeAccuracy>
-          <gmd:dateTime>
-            <gco:DateTime>1994-08-09T00:00:00</gco:DateTime>
-          </gmd:dateTime>
-          <gmd:result>
-            <gmd:DQ_ConformanceResult>
-              <gmd:specification>
-                <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing">
-                    <gco:CharacterString>
-                    </gco:CharacterString>
-                  </gmd:title>
-                  <gmd:date>
-                    <gmd:CI_Date>
-                      <gmd:date>
-                        <gco:Date>1994</gco:Date>
-                      </gmd:date>
-                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
-                      </gmd:dateType>
-                    </gmd:CI_Date>
-                  </gmd:date>
-                  <gmd:edition gco:nilReason="missing">
-                    <gco:CharacterString>
-                    </gco:CharacterString>
-                  </gmd:edition>
-                </gmd:CI_Citation>
-              </gmd:specification>
-              <gmd:explanation>
-                <gco:CharacterString>98%</gco:CharacterString>
-              </gmd:explanation>
-              <gmd:pass>
-                <gco:Boolean>true</gco:Boolean>
-              </gmd:pass>
-            </gmd:DQ_ConformanceResult>
-          </gmd:result>
-        </gmd:DQ_NonQuantitativeAttributeAccuracy>
-      </gmd:report>
-    </gmd:DQ_DataQuality>
-  </gmd:dataQualityInfo>
   <gmd:metadataConstraints>
     <gmd:MD_LegalConstraints>
       <gmd:accessConstraints>
@@ -653,5 +649,4 @@
       </gmd:useConstraints>
     </gmd:MD_LegalConstraints>
   </gmd:metadataConstraints>
-</gmd:MD_Metadata>
-<!--METValidation=False-->
+</gmd:MD_Metadata><!--METValidation=False-->

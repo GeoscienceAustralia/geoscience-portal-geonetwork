@@ -1,8 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?>
-<!-- UNCLASSIFIED -->
-<!-- Built from ANZLIC MET Template ISO 19139 2009-02-18 -->
-<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+<?xml-stylesheet type="text/xsl" href="../XSLT/Metadata_XSLT.xsl"?><!-- UNCLASSIFIED --><!-- Built from ANZLIC MET Template ISO 19139 2009-02-18 --><gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
   <gmd:fileIdentifier>
     <gco:CharacterString>6411DA86-1437-4897-8647-5B722988B290</gco:CharacterString>
   </gmd:fileIdentifier>
@@ -21,24 +17,21 @@
   <gmd:contact>
     <gmd:CI_ResponsibleParty>
       <gmd:individualName gco:nilReason="withheld">
-        <gco:CharacterString>No Name</gco:CharacterString>
+        <gco:CharacterString>Craig Wainwright</gco:CharacterString>
       </gmd:individualName>
       <gmd:organisationName>
         <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
       </gmd:organisationName>
       <gmd:positionName>
-        <gco:CharacterString>Spatial Data Administrator</gco:CharacterString>
+        <gco:CharacterString>MTD Spatial Data Administrator</gco:CharacterString>
       </gmd:positionName>
       <gmd:contactInfo>
         <gmd:CI_Contact>
           <gmd:phone>
             <gmd:CI_Telephone>
               <gmd:voice>
-                <gco:CharacterString>(08) 9222 3816</gco:CharacterString>
+                <gco:CharacterString>(08) 9222 3223</gco:CharacterString>
               </gmd:voice>
-              <gmd:facsimile>
-                <gco:CharacterString>(08) 9222 3889</gco:CharacterString>
-              </gmd:facsimile>
             </gmd:CI_Telephone>
           </gmd:phone>
           <gmd:address>
@@ -59,7 +52,7 @@
                 <gco:CharacterString>Australia</gco:CharacterString>
               </gmd:country>
               <gmd:electronicMailAddress>
-                <gco:CharacterString>gsd.dda@dmp.wa.gov.au</gco:CharacterString>
+                <gco:CharacterString>mtd.sda@dmirs.wa.gov.au</gco:CharacterString>
               </gmd:electronicMailAddress>
             </gmd:CI_Address>
           </gmd:address>
@@ -71,14 +64,14 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp>
-    <gco:Date>2010-08-05</gco:Date>
+    <gco:Date>2016-10-06</gco:Date>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS ISO 19115:2005, Geographic information - Metadata</gco:CharacterString>
   </gmd:metadataStandardName>
   <gmd:metadataStandardVersion>
     <gco:CharacterString>1.1</gco:CharacterString>
-  </gmd:metadataStandardVersion>
+  </gmd:metadataStandardVersion><gmd:dataSetURI xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx"><gco:CharacterString>http://www.dmp.wa.gov.au/datacentre</gco:CharacterString></gmd:dataSetURI>
   <gmd:referenceSystemInfo>
     <gmd:MD_ReferenceSystem>
       <gmd:referenceSystemIdentifier>
@@ -110,7 +103,8 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Mining Tenements - Contains pending Exploration Licence Amalgamations as referred to in section 67A of the Western Australian Mining Act 1978.</gco:CharacterString>
+        <gco:CharacterString>Pending Exploration Licence Amalgamation applications as referred to in section 67A of the Western Australian Mining Act 1978.
+Where an applicant is the holder of both an exploration licence and a secondary tenement the person, or an agent of the person may, without marking out the land, apply in writing to the Minister in the prescribed manner for the secondary tenement to be amalgamated with the exploration licence.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
@@ -118,23 +112,24 @@
       <gmd:pointOfContact>
         <gmd:CI_ResponsibleParty>
           <gmd:individualName gco:nilReason="withheld">
-            <gco:CharacterString>No Name</gco:CharacterString>
+            <gco:CharacterString>Craig Wainwright</gco:CharacterString>
           </gmd:individualName>
           <gmd:organisationName>
             <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
           </gmd:organisationName>
           <gmd:positionName>
-            <gco:CharacterString>Manager, Titles Information</gco:CharacterString>
+            <gco:CharacterString>MTD Spatial Data Administrator</gco:CharacterString>
           </gmd:positionName>
           <gmd:contactInfo>
             <gmd:CI_Contact>
               <gmd:phone>
                 <gmd:CI_Telephone>
                   <gmd:voice>
-                    <gco:CharacterString>(08) 9222 3230</gco:CharacterString>
+                    <gco:CharacterString>(08) 9222 3223</gco:CharacterString>
                   </gmd:voice>
-                  <gmd:facsimile>
-                    <gco:CharacterString>(08) 9222 3342</gco:CharacterString>
+                  <gmd:facsimile gco:nilReason="missing">
+                    <gco:CharacterString>
+                    </gco:CharacterString>
                   </gmd:facsimile>
                 </gmd:CI_Telephone>
               </gmd:phone>
@@ -156,7 +151,7 @@
                     <gco:CharacterString>Australia</gco:CharacterString>
                   </gmd:country>
                   <gmd:electronicMailAddress>
-                    <gco:CharacterString>mtd.dd@dmp.wa.gov.au</gco:CharacterString>
+                    <gco:CharacterString>mtd.sda@dmirs.wa.gov.au</gco:CharacterString>
                   </gmd:electronicMailAddress>
                 </gmd:CI_Address>
               </gmd:address>
@@ -366,30 +361,31 @@
           <gmd:distributorContact>
             <gmd:CI_ResponsibleParty>
               <gmd:individualName gco:nilReason="withheld">
-                <gco:CharacterString>No Name</gco:CharacterString>
+                <gco:CharacterString>Craig Wainwright</gco:CharacterString>
               </gmd:individualName>
               <gmd:organisationName>
                 <gco:CharacterString>Department of Mines and Petroleum</gco:CharacterString>
               </gmd:organisationName>
               <gmd:positionName>
-                <gco:CharacterString>MTSD Digital Data Administrator</gco:CharacterString>
+                <gco:CharacterString>MTD  Spatial Data Administrator</gco:CharacterString>
               </gmd:positionName>
               <gmd:contactInfo>
                 <gmd:CI_Contact>
                   <gmd:phone>
                     <gmd:CI_Telephone>
                       <gmd:voice>
-                        <gco:CharacterString>(08) 9222 3339</gco:CharacterString>
+                        <gco:CharacterString>(08) 9222 3223</gco:CharacterString>
                       </gmd:voice>
-                      <gmd:facsimile>
-                        <gco:CharacterString>(08) 9222 3342</gco:CharacterString>
+                      <gmd:facsimile gco:nilReason="missing">
+                        <gco:CharacterString>
+                        </gco:CharacterString>
                       </gmd:facsimile>
                     </gmd:CI_Telephone>
                   </gmd:phone>
                   <gmd:address>
                     <gmd:CI_Address>
                       <gmd:deliveryPoint>
-                        <gco:CharacterString>MIneral House, 100 Plain Street</gco:CharacterString>
+                        <gco:CharacterString>Mineral House, 100 Plain Street</gco:CharacterString>
                       </gmd:deliveryPoint>
                       <gmd:city>
                         <gco:CharacterString>East Perth</gco:CharacterString>
@@ -404,7 +400,7 @@
                         <gco:CharacterString>Australia</gco:CharacterString>
                       </gmd:country>
                       <gmd:electronicMailAddress>
-                        <gco:CharacterString>mtd.dd@dmp.wa.gov.au</gco:CharacterString>
+                        <gco:CharacterString>mtd.sda@dmirs.wa.gov.au</gco:CharacterString>
                       </gmd:electronicMailAddress>
                     </gmd:CI_Address>
                   </gmd:address>
@@ -418,10 +414,10 @@
           <gmd:distributorFormat>
             <gmd:MD_Format>
               <gmd:name>
-                <gco:CharacterString>ArcGis, MapInfo, ArcSDE Export</gco:CharacterString>
+                <gco:CharacterString>ESRI Shape, Google Earth KMZ , MapInfo TAB</gco:CharacterString>
               </gmd:name>
               <gmd:version>
-                <gco:CharacterString>ArcGis 9.3, MapInfo 10</gco:CharacterString>
+                <gco:CharacterString>ArcGis 10.1</gco:CharacterString>
               </gmd:version>
               <gmd:specification>
                 <gco:CharacterString>Geographical Coordinates stored in DB2 relational database tables</gco:CharacterString>
@@ -442,7 +438,8 @@
                     <gco:CharacterString>Amalgamation Applications</gco:CharacterString>
                   </gmd:name>
                   <gmd:description>
-                    <gco:CharacterString>Mining Tenements - Contains pending Exploration Licence Amalgamations as referred to in section 67A of the Western Australian Mining Act 1978.</gco:CharacterString>
+                    <gco:CharacterString>Pending Exploration Licence Amalgamation applications as referred to in section 67A of the Western Australian Mining Act 1978.
+Where an applicant is the holder of both an exploration licence and a secondary tenement the person or an agent of the person may, without marking out the land, apply in writing to the Minister in the prescribed manner for the secondary tenement to be amalgamated with the exploration licence</gco:CharacterString>
                   </gmd:description>
                   <gmd:function>
                     <gmd:CI_OnLineFunctionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
@@ -474,7 +471,8 @@
       <gmd:lineage>
         <gmd:LI_Lineage>
           <gmd:statement>
-            <gco:CharacterString>This data has been compiled from information collected from a number of agencies and information supplied by applicants for mining tenements.</gco:CharacterString>
+            <gco:CharacterString>This data has been compiled from information supplied by applicants.
+Data has been derived from existing tenement data.</gco:CharacterString>
           </gmd:statement>
         </gmd:LI_Lineage>
       </gmd:lineage>
@@ -497,7 +495,7 @@
         </gmd:DQ_Scope>
       </gmd:scope>
       <gmd:report>
-        <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+        <gmd:DQ_CompletenessCommission>
           <gmd:dateTime>
             <gco:DateTime>1994-08-09T00:00:00</gco:DateTime>
           </gmd:dateTime>
@@ -526,14 +524,71 @@
                 </gmd:CI_Citation>
               </gmd:specification>
               <gmd:explanation>
-                <gco:CharacterString>+/_ 2 metres</gco:CharacterString>
+                <gco:CharacterString>The data is constantly updated in real time within the TENGRAPH system. This download is updated daily ( 24 hourly) and is current at the time of export.</gco:CharacterString>
               </gmd:explanation>
               <gmd:pass>
                 <gco:Boolean>true</gco:Boolean>
               </gmd:pass>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
-        </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+        </gmd:DQ_CompletenessCommission>
+      </gmd:report>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+          <gmd:levelDescription>
+            <gmd:MD_ScopeDescription>
+              <gmd:other>
+                <gco:CharacterString>dataset</gco:CharacterString>
+              </gmd:other>
+            </gmd:MD_ScopeDescription>
+          </gmd:levelDescription>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_ConceptualConsistency>
+          <gmd:dateTime>
+            <gco:DateTime>1994-08-09T00:00:00</gco:DateTime>
+          </gmd:dateTime>
+          <gmd:result>
+            <gmd:DQ_ConformanceResult>
+              <gmd:specification>
+                <gmd:CI_Citation>
+                  <gmd:title gco:nilReason="missing">
+                    <gco:CharacterString>
+                    </gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>1994</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                  <gmd:edition gco:nilReason="missing">
+                    <gco:CharacterString>
+                    </gco:CharacterString>
+                  </gmd:edition>
+                </gmd:CI_Citation>
+              </gmd:specification>
+              <gmd:explanation>
+                <gco:CharacterString>Amalgamations pending are derived from existing tenement polygons previously supplied by tenement applicants which are  subject to ground proofing or survey if required.</gco:CharacterString>
+              </gmd:explanation>
+              <gmd:pass>
+                <gco:Boolean>true</gco:Boolean>
+              </gmd:pass>
+            </gmd:DQ_ConformanceResult>
+          </gmd:result>
+        </gmd:DQ_ConceptualConsistency>
       </gmd:report>
     </gmd:DQ_DataQuality>
   </gmd:dataQualityInfo>
@@ -612,7 +667,7 @@
         </gmd:DQ_Scope>
       </gmd:scope>
       <gmd:report>
-        <gmd:DQ_ConceptualConsistency>
+        <gmd:DQ_AbsoluteExternalPositionalAccuracy>
           <gmd:dateTime>
             <gco:DateTime>1994-08-09T00:00:00</gco:DateTime>
           </gmd:dateTime>
@@ -641,71 +696,17 @@
                 </gmd:CI_Citation>
               </gmd:specification>
               <gmd:explanation>
-                <gco:CharacterString>All data is precision captured using rigorous formula. Amalgamations are captured from descriptions as supplied by agencies and are therefore subject to ground proofing or survey.</gco:CharacterString>
+                <gco:CharacterString>+/- 1 metre derived from surveyed data
++/- 5-10 metres derived from unsurveyed data 
+Postitional accuracy 100% when derived from GDA94 or AGD84 Grid ( geographicals - latitude and longitude) 
+</gco:CharacterString>
               </gmd:explanation>
               <gmd:pass>
                 <gco:Boolean>true</gco:Boolean>
               </gmd:pass>
             </gmd:DQ_ConformanceResult>
           </gmd:result>
-        </gmd:DQ_ConceptualConsistency>
-      </gmd:report>
-    </gmd:DQ_DataQuality>
-  </gmd:dataQualityInfo>
-  <gmd:dataQualityInfo>
-    <gmd:DQ_DataQuality>
-      <gmd:scope>
-        <gmd:DQ_Scope>
-          <gmd:level>
-            <gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
-          </gmd:level>
-          <gmd:levelDescription>
-            <gmd:MD_ScopeDescription>
-              <gmd:other>
-                <gco:CharacterString>dataset</gco:CharacterString>
-              </gmd:other>
-            </gmd:MD_ScopeDescription>
-          </gmd:levelDescription>
-        </gmd:DQ_Scope>
-      </gmd:scope>
-      <gmd:report>
-        <gmd:DQ_CompletenessCommission>
-          <gmd:dateTime>
-            <gco:DateTime>1994-08-09T00:00:00</gco:DateTime>
-          </gmd:dateTime>
-          <gmd:result>
-            <gmd:DQ_ConformanceResult>
-              <gmd:specification>
-                <gmd:CI_Citation>
-                  <gmd:title gco:nilReason="missing">
-                    <gco:CharacterString>
-                    </gco:CharacterString>
-                  </gmd:title>
-                  <gmd:date>
-                    <gmd:CI_Date>
-                      <gmd:date>
-                        <gco:Date>1994</gco:Date>
-                      </gmd:date>
-                      <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
-                      </gmd:dateType>
-                    </gmd:CI_Date>
-                  </gmd:date>
-                  <gmd:edition gco:nilReason="missing">
-                    <gco:CharacterString>
-                    </gco:CharacterString>
-                  </gmd:edition>
-                </gmd:CI_Citation>
-              </gmd:specification>
-              <gmd:explanation>
-                <gco:CharacterString>The data is constantly updated in real time within the TENGRAPH system. The dataset is updated daily and is current at the time of export.</gco:CharacterString>
-              </gmd:explanation>
-              <gmd:pass>
-                <gco:Boolean>true</gco:Boolean>
-              </gmd:pass>
-            </gmd:DQ_ConformanceResult>
-          </gmd:result>
-        </gmd:DQ_CompletenessCommission>
+        </gmd:DQ_AbsoluteExternalPositionalAccuracy>
       </gmd:report>
     </gmd:DQ_DataQuality>
   </gmd:dataQualityInfo>
@@ -744,5 +745,4 @@
       </gmd:useConstraints>
     </gmd:MD_LegalConstraints>
   </gmd:metadataConstraints>
-</gmd:MD_Metadata>
-<!--METValidation=False-->
+</gmd:MD_Metadata><!--METValidation=False-->
