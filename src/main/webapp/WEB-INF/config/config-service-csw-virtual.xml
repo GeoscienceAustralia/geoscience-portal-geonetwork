@@ -58,13 +58,13 @@
     
     <service name="csw-geological-provinces">
     	<class name=".services.main.CswDiscoveryDispatcher">
-        	<param name="filter" value="+linkageName:(SedimentaryBasins* OR
+        	<param name="filter" value="+linkageName:(Australian_Geological_Provinces* OR SedimentaryBasins* OR
                 TectonicProvinces* OR 
                 IgneousProvinces* OR
                 AllProvinces OR
                 CrustalElements OR
         		MetallogenicProvinces OR
-                ProvinceContacts)" />
+                ProvinceContacts )" />
       	</class>
     </service>
     
