@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mvn --settings travis/settings.xml clean deploy -P external
+mvn --settings travis/settings.xml clean deploy

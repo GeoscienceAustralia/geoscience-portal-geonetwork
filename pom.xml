@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>au.gov.ga</groupId>
     <artifactId>geoscience-portal-geonetwork</artifactId>
@@ -34,48 +33,6 @@
         <geotools.version>2.6.5</geotools.version>
         <portal.core.version>1.4.0-SNAPSHOT</portal.core.version>
     </properties>
-    <profiles>
-        <profile>
-            <id>external</id>
-            <repositories>
-                <repository>
-                    <id>main</id>
-                    <name>Geoscience Australia Nexus Repo</name>
-                    <url>https://nexus.cloud.ga.gov.au/repository/maven-public</url>
-                </repository>
-            </repositories>
-            <distributionManagement>
-                <repository>
-                    <id>release</id>
-                    <url>https://nexus.cloud.ga.gov.au/repository/maven-releases</url>
-                </repository>
-                <snapshotRepository>
-                    <id>snapshots</id>
-                    <url>https://nexus.cloud.ga.gov.au/repository/maven-snapshots</url>
-                </snapshotRepository>
-            </distributionManagement>
-        </profile>
-        <profile>
-            <id>internal</id>
-            <repositories>
-                <repository>
-                    <id>main</id>
-                    <name>Geoscience Australia Nexus Repo</name>
-                    <url>http://nexus.cloud.ga.gov.au/nexus/content/repositories/public</url>
-                </repository>
-            </repositories>
-			<distributionManagement>
-			                <repository>
-			                    <id>release</id>
-			                    <url>http://nexus.cloud.ga.gov.au/nexus/content/repositories/releases</url>
-			                </repository>
-			                <snapshotRepository>
-			                    <id>snapshots</id>
-			                    <url>http://nexus.cloud.ga.gov.au/nexus/content/repositories/snapshots</url>
-			                </snapshotRepository>
-			            </distributionManagement>
-        </profile>
-    </profiles>
     <build>
         <plugins>
             <plugin>
@@ -113,4 +70,21 @@
             <type>war</type>
         </dependency>
     </dependencies>
+    <repositories>
+        <repository>
+            <id>main</id>
+            <name>Geoscience Australia Nexus Repo</name>
+            <url>https://nexus.cloud.ga.gov.au/repository/maven-public</url>
+        </repository>
+    </repositories>
+    <distributionManagement>
+        <repository>
+            <id>release</id>
+            <url>https://nexus.cloud.ga.gov.au/repository/maven-releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <url>https://nexus.cloud.ga.gov.au/repository/maven-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
