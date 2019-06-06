@@ -1,6 +1,8 @@
 language: java
 install: true
 script: "[ ${TRAVIS_PULL_REQUEST} = 'false' ] && mvn clean deploy --settings travis/settings.xml -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true || mvn clean verify --settings travis/settings.xml -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true"
+before_deploy:
+  - sed -i '' 's/__PASSWORD__/'"${GEONETWORK_PASSWORD}"'/' src/main/webapp/WEB-INF/config-db/jdbc.properties
 deploy:
   provider: codedeploy
   revision_type: github
