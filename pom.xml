@@ -5,6 +5,7 @@
     <packaging>war</packaging>
     <version>1.0.0-SNAPSHOT</version>
     <name>Geoscience Portal Geonetwork</name>
+
     <description></description>
     <url>http://portal.geoscience.gov.au/geonetwork</url>
     <issueManagement>
@@ -34,6 +35,7 @@
         <portal.core.version>1.4.0-SNAPSHOT</portal.core.version>
     </properties>
     <build>
+        <finalName>geonetwork</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -57,6 +59,7 @@
                             <type>war</type>
                         </overlay>
                     </overlays>
+
                 </configuration>
             </plugin>
 
