@@ -20,8 +20,8 @@ hooks:
   ApplicationStop:
     - location: scripts/stop_tomcat.sh
       timeout: 300
-      runas: ubuntu
+      runas: root
   ApplicationStart:
     - location: scripts/start_tomcat.sh
       timeout: 300
-      runas: ubuntu
+      runas: root
