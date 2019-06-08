@@ -7,16 +7,16 @@ hooks:
   BeforeInstall:
     - location: scripts/create_directory.sh
       timeout: 300
-      runas: root
+      runas: ubuntu
   AfterInstall:
     - location: scripts/load_postgres.sh
       timeout: 300
-      runas: root
+      runas: ubuntu
   ApplicationStop:
     - location: scripts/stop_tomcat.sh
       timeout: 300
-      runas: root
+      runas: ubuntu
   ApplicationStart:
     - location: scripts/start_tomcat.sh
       timeout: 300
-      runas: root
+      runas: ubuntu
