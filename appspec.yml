@@ -4,8 +4,7 @@ files:
   - source: /
     destination: /home/ubuntu/geonetwork
 permissions:
-  - object: ~ubuntu/geonetwork
-    pattern: "**"
+  - object: /home/ubuntu/geonetwork
     owner: ubuntu
     type:
       - directory
