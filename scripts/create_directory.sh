@@ -2,8 +2,8 @@
 
 pushd ~ubuntu
 
-rm -rf geonetwork
+sudo rm -rf geonetwork
 
-mkdir geonetwork
+sudo mkdir geonetwork
 
 popd
