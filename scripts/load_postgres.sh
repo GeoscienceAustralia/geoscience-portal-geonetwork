@@ -2,7 +2,7 @@
 
 pushd ~ubuntu/geonetwork
 
-chmown -R ubuntu *
+chown -R ubuntu *
 
 # Get RDS password from key store and rewrite JDBC config
 DB_PASSWORD=$( aws ssm get-parameters --name ausgin.catalog.db-password --region ap-southeast-2 --with-decryption --query Parameters[0].Value )
