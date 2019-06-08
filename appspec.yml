@@ -3,11 +3,6 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/geonetwork
-permissions:
-  - object: /home/ubuntu/geonetwork
-    owner: ubuntu
-    type:
-      - directory
 hooks:
   BeforeInstall:
     - location: scripts/create_directory.sh
