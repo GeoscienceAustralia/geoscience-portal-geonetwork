@@ -12,5 +12,5 @@ sed -i 's/__PASSWORD__/'"${DB_PASSWORD}"'/' src/main/webapp/WEB-INF/config-db/jd
 
 # Install GeoNetwork WAR
 mvn clean package
-rm -rf /var/lib/tomcat8/webapps/geonetwork*
-mv target/geonetwork.war /var/lib/tomcat8/webapps/
+rm -rf /var/lib/tomcat8/webapps/*
+mv target/geonetwork.war /var/lib/tomcat8/webapps/ROOT.war
