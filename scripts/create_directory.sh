@@ -1,9 +1,11 @@
 #!/bin/bash
 
+pip install awscli
+
 pushd ~ubuntu
 
-sudo rm -rf geonetwork
+rm -rf geonetworkpopd
 
-sudo mkdir geonetwork
+mkdir geonetwork
 
-popd
+
