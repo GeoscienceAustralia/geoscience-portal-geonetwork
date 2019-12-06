@@ -1,0 +1,883 @@
+<?xml version="1.0" ?>
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:ns2="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+      
+	<gmd:fileIdentifier>
+		
+        
+		<gco:CharacterString>0f307d0a-0540-46f0-a0a8-ee82b11b9963</gco:CharacterString>
+		
+      
+	</gmd:fileIdentifier>
+	
+      
+	<gmd:hierarchyLevel>
+		
+        
+		<gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/GAScopeCodeList.xml#MD_ScopeCode" codeListValue="dataset"/>
+		
+      
+	</gmd:hierarchyLevel>
+	
+      
+	<gmd:contact>
+		
+        
+		<gmd:CI_ResponsibleParty>
+			
+          
+			<gmd:individualName>
+				
+            
+				<gco:CharacterString>Manager Geoscience</gco:CharacterString>
+				
+          
+			</gmd:individualName>
+			
+          
+			<gmd:organisationName>
+				
+            
+				<gco:CharacterString>Mineral Resources Tasmania</gco:CharacterString>
+				
+          
+			</gmd:organisationName>
+			
+          
+			<gmd:positionName>
+				
+            
+				<gco:CharacterString>Manager Geoscience</gco:CharacterString>
+				
+          
+			</gmd:positionName>
+			
+          
+			<gmd:contactInfo>
+				
+            
+				<gmd:CI_Contact>
+					
+              
+					<gmd:phone>
+						
+                
+						<gmd:CI_Telephone>
+							
+                  
+							<gmd:voice>
+								
+                    
+								<gco:CharacterString>03 6165 4732</gco:CharacterString>
+								
+                  
+							</gmd:voice>
+							
+                
+						</gmd:CI_Telephone>
+						
+              
+					</gmd:phone>
+					
+              
+					<gmd:address>
+						
+                
+						<gmd:CI_Address>
+							
+                  
+							<gmd:deliveryPoint>
+								
+                    
+								<gco:CharacterString>30 Gordons Hill Rd</gco:CharacterString>
+								
+                  
+							</gmd:deliveryPoint>
+							
+                  
+							<gmd:city>
+								
+                    
+								<gco:CharacterString>Rosny</gco:CharacterString>
+								
+                  
+							</gmd:city>
+							
+                  
+							<gmd:administrativeArea>
+								
+                    
+								<gco:CharacterString>TAS</gco:CharacterString>
+								
+                  
+							</gmd:administrativeArea>
+							
+                  
+							<gmd:postalCode>
+								
+                    
+								<gco:CharacterString>7018</gco:CharacterString>
+								
+                  
+							</gmd:postalCode>
+							
+                  
+							<gmd:country>
+								
+                    
+								<gco:CharacterString>Australia</gco:CharacterString>
+								
+                  
+							</gmd:country>
+							
+                  
+							<gmd:electronicMailAddress>
+								
+                    
+								<gco:CharacterString>info@mrt.tas.gov.au</gco:CharacterString>
+								
+                  
+							</gmd:electronicMailAddress>
+							
+                
+						</gmd:CI_Address>
+						
+              
+					</gmd:address>
+					
+              
+					<gmd:onlineResource>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>www.mrt.tas.gov.au</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onlineResource>
+					
+            
+				</gmd:CI_Contact>
+				
+          
+			</gmd:contactInfo>
+			
+          
+			<gmd:role>
+				
+            
+				<gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="author"/>
+				
+          
+			</gmd:role>
+			
+        
+		</gmd:CI_ResponsibleParty>
+		
+      
+	</gmd:contact>
+	
+      
+	<gmd:dateStamp>
+		
+        
+		<gco:DateTime>2015-04-13T12:08:50.598+10:00</gco:DateTime>
+		
+      
+	</gmd:dateStamp>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>GDA94 (EPSG:4283)</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:identificationInfo>
+		
+        
+		<gmd:MD_DataIdentification>
+			
+          
+			<gmd:citation>
+				
+            
+				<gmd:CI_Citation>
+					
+              
+					<gmd:title>
+						
+                
+						<gco:CharacterString>Mineral Occurrence Points of Tasmania (Mineral Resources Tasmania)</gco:CharacterString>
+						
+              
+					</gmd:title>
+					
+              
+					<gmd:date>
+						
+                
+						<gmd:CI_Date>
+							
+                  
+							<gmd:date>
+								
+                    
+								<gco:Date>2015-01-15</gco:Date>
+								
+                  
+							</gmd:date>
+							
+                  
+							<gmd:dateType>
+								
+                    
+								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"/>
+								
+                  
+							</gmd:dateType>
+							
+                
+						</gmd:CI_Date>
+						
+              
+					</gmd:date>
+					
+              
+					<gmd:date>
+						
+                
+						<gmd:CI_Date>
+							
+                  
+							<gmd:date>
+								
+                    
+								<gco:Date>2015-01-15</gco:Date>
+								
+                  
+							</gmd:date>
+							
+                  
+							<gmd:dateType>
+								
+                    
+								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+								
+                  
+							</gmd:dateType>
+							
+                
+						</gmd:CI_Date>
+						
+              
+					</gmd:date>
+					
+              
+					<gmd:date>
+						
+                
+						<gmd:CI_Date>
+							
+                  
+							<gmd:date>
+								
+                    
+								<gco:Date>2015-01-15</gco:Date>
+								
+                  
+							</gmd:date>
+							
+                  
+							<gmd:dateType>
+								
+                    
+								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"/>
+								
+                  
+							</gmd:dateType>
+							
+                
+						</gmd:CI_Date>
+						
+              
+					</gmd:date>
+					
+            
+				</gmd:CI_Citation>
+				
+          
+			</gmd:citation>
+			
+          
+			<gmd:abstract>
+				
+            
+				<gco:CharacterString>Mineral occurrences, including operating and abandoned mines, located in Tasmania, with summary mineral occurrence data, derived from the Mineral Occurrence Database, which is a component of the Tasmanian Information on Geoscience and Exploration Resources (TIGER) system; administered by Mineral Resources Tasmania (MRT).  Mineral occurrences include operating and abandoned mines, prospects, mapped occurrences and mineral fields or mineralised areas.  Mineral occurrences are shown subdivided by commodity type, which largely corresponds to the mineral categories defined in the Mineral Resources Development Act 1995; Fuel Minerals, including geothermal (Categories 2, 4 and 6), Construction Minerals (Category 3), Industrial minerals (Category 5) and metallic minerals (Category 1).  Alluvial, placer and man-made (tailings dam) occurrences are shown separately (commodities are mineral Categories 1 and 5) and occurrences (generally abandoned mine workings) where there are no records of the commodity of interest, are shown as unknown.  
+The summary Mineral Occurrence data includes: the Mineral occurrence name (note that an occurrence may have multiple names or aliases), the commodity type (as defined above), the nature of the occurrence (e.g., mine or prospect, mineralised area), the commodity or commodities present, the geological unit that hosts the occurrence and the positional accuracy of the record.  A Details field provides a link to a Mineral Occurrence Details page where further information, including references and public domain resource figures, may be available.</gco:CharacterString>
+				
+          
+			</gmd:abstract>
+			
+          
+			<gmd:pointOfContact>
+				
+            
+				<gmd:CI_ResponsibleParty>
+					
+              
+					<gmd:organisationName>
+						
+                
+						<gco:CharacterString>Mineral Resources Tasmania</gco:CharacterString>
+						
+              
+					</gmd:organisationName>
+					
+              
+					<gmd:positionName>
+						
+                
+						<gco:CharacterString>Manager Geoscience</gco:CharacterString>
+						
+              
+					</gmd:positionName>
+					
+              
+					<gmd:contactInfo>
+						
+                
+						<gmd:CI_Contact>
+							
+                  
+							<gmd:phone>
+								
+                    
+								<gmd:CI_Telephone>
+									
+                      
+									<gmd:voice>
+										
+                        
+										<gco:CharacterString>03 6165 4800</gco:CharacterString>
+										
+                      
+									</gmd:voice>
+									
+                    
+								</gmd:CI_Telephone>
+								
+                  
+							</gmd:phone>
+							
+                  
+							<gmd:address>
+								
+                    
+								<gmd:CI_Address>
+									
+                      
+									<gmd:deliveryPoint>
+										
+                        
+										<gco:CharacterString>30 Gordons Hill Road</gco:CharacterString>
+										
+                      
+									</gmd:deliveryPoint>
+									
+                      
+									<gmd:city>
+										
+                        
+										<gco:CharacterString>Rosny Park</gco:CharacterString>
+										
+                      
+									</gmd:city>
+									
+                      
+									<gmd:administrativeArea>
+										
+                        
+										<gco:CharacterString>TAS</gco:CharacterString>
+										
+                      
+									</gmd:administrativeArea>
+									
+                      
+									<gmd:postalCode>
+										
+                        
+										<gco:CharacterString>7018</gco:CharacterString>
+										
+                      
+									</gmd:postalCode>
+									
+                      
+									<gmd:country>
+										
+                        
+										<gco:CharacterString>Australia</gco:CharacterString>
+										
+                      
+									</gmd:country>
+									
+                      
+									<gmd:electronicMailAddress>
+										
+                        
+										<gco:CharacterString>info@mrt.tas.gov.au</gco:CharacterString>
+										
+                      
+									</gmd:electronicMailAddress>
+									
+                    
+								</gmd:CI_Address>
+								
+                  
+							</gmd:address>
+							
+                  
+							<gmd:onlineResource>
+								
+                    
+								<gmd:CI_OnlineResource>
+									
+                      
+									<gmd:linkage/>
+									
+                    
+								</gmd:CI_OnlineResource>
+								
+                  
+							</gmd:onlineResource>
+							
+                
+						</gmd:CI_Contact>
+						
+              
+					</gmd:contactInfo>
+					
+              
+					<gmd:role>
+						
+                
+						<gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian"/>
+						
+              
+					</gmd:role>
+					
+            
+				</gmd:CI_ResponsibleParty>
+				
+          
+			</gmd:pointOfContact>
+			
+          
+			<gmd:descriptiveKeywords>
+				
+            
+				<gmd:MD_Keywords>
+					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>GEOSCIENCES-Geology</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>INDUSTRY-Mining</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>MINERALS-Any</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+            
+				</gmd:MD_Keywords>
+				
+          
+			</gmd:descriptiveKeywords>
+			
+          
+			<gmd:spatialRepresentationType>
+				
+            
+				<gmd:MD_SpatialRepresentationTypeCode codeListValue="vector"/>
+				
+          
+			</gmd:spatialRepresentationType>
+			
+          
+			<gmd:language>
+				
+            
+				<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng"/>
+				
+          
+			</gmd:language>
+			
+          
+			<gmd:characterSet>
+				
+            
+				<gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+				
+          
+			</gmd:characterSet>
+			
+          
+			<gmd:topicCategory>
+				
+            
+				<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+				
+          
+			</gmd:topicCategory>
+			
+          
+			<gmd:extent>
+				
+            
+				<gmd:EX_Extent>
+					
+              
+					<gmd:description>
+						
+                
+						<gco:CharacterString>TASMANIA</gco:CharacterString>
+						
+              
+					</gmd:description>
+					
+              
+					<gmd:geographicElement>
+						
+                
+						<gmd:EX_GeographicBoundingBox>
+							
+                  
+							<gmd:westBoundLongitude>
+								
+                    
+								<gco:Decimal>143.5</gco:Decimal>
+								
+                  
+							</gmd:westBoundLongitude>
+							
+                  
+							<gmd:eastBoundLongitude>
+								
+                    
+								<gco:Decimal>149.0</gco:Decimal>
+								
+                  
+							</gmd:eastBoundLongitude>
+							
+                  
+							<gmd:southBoundLatitude>
+								
+                    
+								<gco:Decimal>-44.0</gco:Decimal>
+								
+                  
+							</gmd:southBoundLatitude>
+							
+                  
+							<gmd:northBoundLatitude>
+								
+                    
+								<gco:Decimal>-39.0</gco:Decimal>
+								
+                  
+							</gmd:northBoundLatitude>
+							
+                
+						</gmd:EX_GeographicBoundingBox>
+						
+              
+					</gmd:geographicElement>
+					
+              
+					<gmd:temporalElement>
+						
+                
+						<gmd:EX_TemporalExtent>
+							
+                  
+							<gmd:extent>
+								
+                    
+								<ns2:TimePeriod>
+									
+                      
+									<ns2:beginPosition>1826-10-25</ns2:beginPosition>
+									
+                      
+									<ns2:endPosition/>
+									
+                    
+								</ns2:TimePeriod>
+								
+                  
+							</gmd:extent>
+							
+                
+						</gmd:EX_TemporalExtent>
+						
+              
+					</gmd:temporalElement>
+					
+            
+				</gmd:EX_Extent>
+				
+          
+			</gmd:extent>
+			
+        
+		</gmd:MD_DataIdentification>
+		
+      
+	</gmd:identificationInfo>
+	
+      
+	<gmd:distributionInfo>
+		
+        
+		<gmd:MD_Distribution>
+			
+          
+			<gmd:transferOptions>
+				
+            
+				<gmd:MD_DigitalTransferOptions>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL/>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>View Dataset</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+            
+				</gmd:MD_DigitalTransferOptions>
+				
+          
+			</gmd:transferOptions>
+			
+          
+			<gmd:transferOptions>
+				
+            
+				<gmd:MD_DigitalTransferOptions>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL/>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>Download Data</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+            
+				</gmd:MD_DigitalTransferOptions>
+				
+          
+			</gmd:transferOptions>
+			
+        
+		</gmd:MD_Distribution>
+		
+      
+	</gmd:distributionInfo>
+	
+      
+	<gmd:dataQualityInfo>
+		
+        
+		<gmd:DQ_DataQuality>
+			
+          
+			<gmd:lineage>
+				
+            
+				<gmd:LI_Lineage>
+					
+              
+					<gmd:statement>
+						
+                
+						<gco:CharacterString>The Mineral occurrence data and summary mineral occurrence data are derived from the Mineral Occurrence Database, which is a component of theTasmanian Information on Geoscience and Exploration Resources (TIGER) system; administered by Mineral Resources Tasmania (MRT).  The Mineral Occurrence database was designed as a quick reference for specific mineral occurrences, for mineral occurrence map production, resource assessments and GIS applications.  It is loosely based on the MINLOC database of Geoscience Australia and was formed by the merging, in 2003, of two earlier databases developed by MRT: MIRLOCH for minerals and CONMAT for construction materials.  The Construction Materials Register (CONMAT) was initially developed in FORTRAN and was migrated to the TIGER system in 2003.  The Mineral Resources Location and Characterisation System (MIRLOCH) was initially created in the 1970s as a card-based index (the Mineral Deposit Index).  From 1981 data was recorded on more consistent and comprehensive Mineral Deposit Datasheets (using a format based on the Mineral Deposit Data Sheet used by the NSW Geological Survey) which resulted in the recording of more metadata.  MIRLOCH was digitised into a FORTRAN database in 1983 and migrated to the TIGER system in 2003.  The combined MIRLOCH and CONMAT datasets were known as the Mineral Deposit database of TIGER but were renamed the Mineral Occurrence module in 2014, to be consistent with the EarthresourceML v2.0 data standard.  The structure of the Mineral Occurrence database is in the process of being modified to more closely match EarthresourceML v2.0 which uses ISO and OGC data standards.</gco:CharacterString>
+						
+              
+					</gmd:statement>
+					
+              
+					<gmd:source>
+						
+                
+						<gmd:LI_Source>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Positional Accuracy:
+Accuracy field ranges from greater than 1 metre to less than or equal to 5 km.  Records with unknown psotional accuracy have been recorded as such.  Estimates of positional accuracy can vary as a function of how and when data were captured. For example early capture of locations from mine plans which were based on local grids, with no reference to a modern datum, required rectification using topographic features.
+
+Attribute Accuracy:
+Data is from a range of sources, spanning several decades, but mostly from the best hardcopy sources available or field observation by MRT staff.  All reasonable effort has been made to ensure these occurrences are accurately attributed.
+
+Logical Consistency:
+The data held in the Mineral Occurrence Database, from which this dataset is derived, has been compiled from a range of sources, spanning several decades, with a range of data capture methodologies and effort. As a result there is variation in the logical consistency of the data across Tasmania.
+
+Completeness:
+Statewide coverage including King and Flinders Islands. Some attribute fields may not completed and some occurrences in the MRT Mineral Occurrence database are not displayed as they are “closed file”, i.e., they are derived from data that is not currently in the public domain.</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:LI_Source>
+						
+              
+					</gmd:source>
+					
+            
+				</gmd:LI_Lineage>
+				
+          
+			</gmd:lineage>
+			
+        
+		</gmd:DQ_DataQuality>
+		
+      
+	</gmd:dataQualityInfo>
+	
+      
+	<gmd:metadataConstraints>
+		
+        
+		<gmd:MD_Constraints xsi:type="gmd:MD_LegalConstraints_Type">
+			
+          
+			<gmd:useLimitation>
+				
+            
+				<gco:CharacterString/>
+				
+          
+			</gmd:useLimitation>
+			
+          
+			<gmd:useLimitation>
+				
+            
+				<gco:CharacterString/>
+				
+          
+			</gmd:useLimitation>
+			
+        
+		</gmd:MD_Constraints>
+		
+      
+	</gmd:metadataConstraints>
+	
+    
+</gmd:MD_Metadata>

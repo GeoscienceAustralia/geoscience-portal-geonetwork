@@ -1,0 +1,893 @@
+<?xml version="1.0" ?>
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:ns2="http://www.opengis.net/gml">
+	
+      
+	<gmd:fileIdentifier>
+		
+        
+		<gco:CharacterString>9f38c394-e9d1-45b3-89b0-3043377acdfc</gco:CharacterString>
+		
+      
+	</gmd:fileIdentifier>
+	
+      
+	<gmd:hierarchyLevel>
+		
+        
+		<gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/GAScopeCodeList.xml#MD_ScopeCode" codeListValue="dataset"/>
+		
+      
+	</gmd:hierarchyLevel>
+	
+      
+	<gmd:contact>
+		
+        
+		<gmd:CI_ResponsibleParty>
+			
+          
+			<gmd:individualName>
+				
+            
+				<gco:CharacterString>Manager Geoscience</gco:CharacterString>
+				
+          
+			</gmd:individualName>
+			
+          
+			<gmd:organisationName>
+				
+            
+				<gco:CharacterString>Mineral Resources Tasmania</gco:CharacterString>
+				
+          
+			</gmd:organisationName>
+			
+          
+			<gmd:positionName>
+				
+            
+				<gco:CharacterString>Manager Geoscience</gco:CharacterString>
+				
+          
+			</gmd:positionName>
+			
+          
+			<gmd:contactInfo>
+				
+            
+				<gmd:CI_Contact>
+					
+              
+					<gmd:phone>
+						
+                
+						<gmd:CI_Telephone>
+							
+                  
+							<gmd:voice>
+								
+                    
+								<gco:CharacterString>6165 4800</gco:CharacterString>
+								
+                  
+							</gmd:voice>
+							
+                
+						</gmd:CI_Telephone>
+						
+              
+					</gmd:phone>
+					
+              
+					<gmd:address>
+						
+                
+						<gmd:CI_Address>
+							
+                  
+							<gmd:deliveryPoint>
+								
+                    
+								<gco:CharacterString>30 Gordons Hill Road</gco:CharacterString>
+								
+                  
+							</gmd:deliveryPoint>
+							
+                  
+							<gmd:city>
+								
+                    
+								<gco:CharacterString>Rosny Park</gco:CharacterString>
+								
+                  
+							</gmd:city>
+							
+                  
+							<gmd:administrativeArea>
+								
+                    
+								<gco:CharacterString>TAS</gco:CharacterString>
+								
+                  
+							</gmd:administrativeArea>
+							
+                  
+							<gmd:postalCode>
+								
+                    
+								<gco:CharacterString>7018</gco:CharacterString>
+								
+                  
+							</gmd:postalCode>
+							
+                  
+							<gmd:country>
+								
+                    
+								<gco:CharacterString>Australia</gco:CharacterString>
+								
+                  
+							</gmd:country>
+							
+                  
+							<gmd:electronicMailAddress>
+								
+                    
+								<gco:CharacterString>info@mrt.tas.gov.au</gco:CharacterString>
+								
+                  
+							</gmd:electronicMailAddress>
+							
+                
+						</gmd:CI_Address>
+						
+              
+					</gmd:address>
+					
+              
+					<gmd:onlineResource>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage/>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onlineResource>
+					
+            
+				</gmd:CI_Contact>
+				
+          
+			</gmd:contactInfo>
+			
+          
+			<gmd:role>
+				
+            
+				<gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="author"/>
+				
+          
+			</gmd:role>
+			
+        
+		</gmd:CI_ResponsibleParty>
+		
+      
+	</gmd:contact>
+	
+      
+	<gmd:dateStamp>
+		
+        
+		<gco:DateTime>2018-09-06T12:15:42.877+10:00</gco:DateTime>
+		
+      
+	</gmd:dateStamp>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>GDA94 / MGA zone 55 (EPSG:28355)</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:identificationInfo>
+		
+        
+		<gmd:MD_DataIdentification>
+			
+          
+			<gmd:citation>
+				
+            
+				<gmd:CI_Citation>
+					
+              
+					<gmd:title>
+						
+                
+						<gco:CharacterString>Sample and Observation Points of Tasmania (Mineral Resources Tasmania)</gco:CharacterString>
+						
+              
+					</gmd:title>
+					
+              
+					<gmd:date>
+						
+                
+						<gmd:CI_Date>
+							
+                  
+							<gmd:date>
+								
+                    
+								<gco:Date>2018-07-26</gco:Date>
+								
+                  
+							</gmd:date>
+							
+                  
+							<gmd:dateType>
+								
+                    
+								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"/>
+								
+                  
+							</gmd:dateType>
+							
+                
+						</gmd:CI_Date>
+						
+              
+					</gmd:date>
+					
+              
+					<gmd:date>
+						
+                
+						<gmd:CI_Date>
+							
+                  
+							<gmd:date>
+								
+                    
+								<gco:Date>2018-07-26</gco:Date>
+								
+                  
+							</gmd:date>
+							
+                  
+							<gmd:dateType>
+								
+                    
+								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+								
+                  
+							</gmd:dateType>
+							
+                
+						</gmd:CI_Date>
+						
+              
+					</gmd:date>
+					
+              
+					<gmd:date>
+						
+                
+						<gmd:CI_Date>
+							
+                  
+							<gmd:date>
+								
+                    
+								<gco:Date>2018-07-26</gco:Date>
+								
+                  
+							</gmd:date>
+							
+                  
+							<gmd:dateType>
+								
+                    
+								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"/>
+								
+                  
+							</gmd:dateType>
+							
+                
+						</gmd:CI_Date>
+						
+              
+					</gmd:date>
+					
+            
+				</gmd:CI_Citation>
+				
+          
+			</gmd:citation>
+			
+          
+			<gmd:abstract>
+				
+            
+				<gco:CharacterString>This dataset shows point locations at which geological samples have been taken and/or (less commonly) geological observations or measurements have been made. Only basic information is included, but further data for each point may be available on-line from the Mineral Resources Tasmania website (go to Products and Services/Database Searches/Samples and Geochemistry Search or use this link): http://www.mrt.tas.gov.au/portal/samples-and-geochemistry-search and click on Search, then Export Results)
+
+Data attached to each sample ideally includes metric coordinates (or sometimes lat/long), locality name and description, positional accuracy (3D), field and registration numbers, originator, project, collection date, sample type and description, and may include lithology, lithostratigraphy, chronostratigraphy, minerals, mineralisation types, potential hazards, soil type, storage details, references and comments. Major and trace element analyses and assays, petrophysical data (density, magnetic, electrical, thermal, sonic velocity etc.), electron microprobe analyses of minerals, x-ray diffraction determination of mineralogy, soil tests, photographs, reports and other data may be attached and are also down-loadable.
+
+Most points refer to surface samples or observations, but down-hole data is also included for some sample types. Data is open to the public for 126,606 records and closed, restricted or reserved for 67,879. 
+
+The largest dataset is of rock samples (111,778, including 26,685 with whole-rock chemical analyses by x-ray fluorescence). The stream sediment dataset consists of 52,281 samples, mainly collected for mineral exploration and with geochemical results attached. The soil sample dataset (19,626) includes samples collected both for mineral exploration and geotechnical properties.     
+
+There are smaller datasets for minerals (i.e. specimens, 4579 samples), mineralised samples (e.g. ores; 2781), sediments (e.g. heavy mineral sands, building sand, gravel, clay, 976), tailings and mine waste (1,926), fossils (344), environmental samples (e.g. dust at mine sites; 160), artificial samples (e.g. slags, metallurgical products, concrete; 289) and concentrates (e.g. of sluiced or panned tin or gold; 107). Drill logs (839) and miscellaneous readings/observations (including physical property measurements; 1610) are also included.</gco:CharacterString>
+				
+          
+			</gmd:abstract>
+			
+          
+			<gmd:pointOfContact>
+				
+            
+				<gmd:CI_ResponsibleParty>
+					
+              
+					<gmd:organisationName>
+						
+                
+						<gco:CharacterString>Mineral Resources Tasmania</gco:CharacterString>
+						
+              
+					</gmd:organisationName>
+					
+              
+					<gmd:positionName>
+						
+                
+						<gco:CharacterString>Manager Geoscience</gco:CharacterString>
+						
+              
+					</gmd:positionName>
+					
+              
+					<gmd:contactInfo>
+						
+                
+						<gmd:CI_Contact>
+							
+                  
+							<gmd:phone>
+								
+                    
+								<gmd:CI_Telephone>
+									
+                      
+									<gmd:voice>
+										
+                        
+										<gco:CharacterString>6165 4800</gco:CharacterString>
+										
+                      
+									</gmd:voice>
+									
+                    
+								</gmd:CI_Telephone>
+								
+                  
+							</gmd:phone>
+							
+                  
+							<gmd:address>
+								
+                    
+								<gmd:CI_Address>
+									
+                      
+									<gmd:deliveryPoint>
+										
+                        
+										<gco:CharacterString>30 Gordons Hill Road</gco:CharacterString>
+										
+                      
+									</gmd:deliveryPoint>
+									
+                      
+									<gmd:city>
+										
+                        
+										<gco:CharacterString>Rosny Park</gco:CharacterString>
+										
+                      
+									</gmd:city>
+									
+                      
+									<gmd:administrativeArea>
+										
+                        
+										<gco:CharacterString>TAS</gco:CharacterString>
+										
+                      
+									</gmd:administrativeArea>
+									
+                      
+									<gmd:postalCode>
+										
+                        
+										<gco:CharacterString>7018</gco:CharacterString>
+										
+                      
+									</gmd:postalCode>
+									
+                      
+									<gmd:country>
+										
+                        
+										<gco:CharacterString>Australia</gco:CharacterString>
+										
+                      
+									</gmd:country>
+									
+                      
+									<gmd:electronicMailAddress>
+										
+                        
+										<gco:CharacterString>info@mrt.tas.gov.au</gco:CharacterString>
+										
+                      
+									</gmd:electronicMailAddress>
+									
+                    
+								</gmd:CI_Address>
+								
+                  
+							</gmd:address>
+							
+                  
+							<gmd:onlineResource>
+								
+                    
+								<gmd:CI_OnlineResource>
+									
+                      
+									<gmd:linkage/>
+									
+                    
+								</gmd:CI_OnlineResource>
+								
+                  
+							</gmd:onlineResource>
+							
+                
+						</gmd:CI_Contact>
+						
+              
+					</gmd:contactInfo>
+					
+              
+					<gmd:role>
+						
+                
+						<gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian"/>
+						
+              
+					</gmd:role>
+					
+            
+				</gmd:CI_ResponsibleParty>
+				
+          
+			</gmd:pointOfContact>
+			
+          
+			<gmd:descriptiveKeywords>
+				
+            
+				<gmd:MD_Keywords>
+					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>GEOSCIENCES-Geology</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>GEOSCIENCES-Geochemistry</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>GEOSCIENCES-Any</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+            
+				</gmd:MD_Keywords>
+				
+          
+			</gmd:descriptiveKeywords>
+			
+          
+			<gmd:spatialRepresentationType>
+				
+            
+				<gmd:MD_SpatialRepresentationTypeCode codeListValue="vector"/>
+				
+          
+			</gmd:spatialRepresentationType>
+			
+          
+			<gmd:language>
+				
+            
+				<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng"/>
+				
+          
+			</gmd:language>
+			
+          
+			<gmd:characterSet>
+				
+            
+				<gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+				
+          
+			</gmd:characterSet>
+			
+          
+			<gmd:topicCategory>
+				
+            
+				<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+				
+          
+			</gmd:topicCategory>
+			
+          
+			<gmd:extent>
+				
+            
+				<gmd:EX_Extent>
+					
+              
+					<gmd:description>
+						
+                
+						<gco:CharacterString>TASMANIA</gco:CharacterString>
+						
+              
+					</gmd:description>
+					
+              
+					<gmd:geographicElement>
+						
+                
+						<gmd:EX_GeographicBoundingBox>
+							
+                  
+							<gmd:westBoundLongitude>
+								
+                    
+								<gco:Decimal>143.5</gco:Decimal>
+								
+                  
+							</gmd:westBoundLongitude>
+							
+                  
+							<gmd:eastBoundLongitude>
+								
+                    
+								<gco:Decimal>149.0</gco:Decimal>
+								
+                  
+							</gmd:eastBoundLongitude>
+							
+                  
+							<gmd:southBoundLatitude>
+								
+                    
+								<gco:Decimal>-44.0</gco:Decimal>
+								
+                  
+							</gmd:southBoundLatitude>
+							
+                  
+							<gmd:northBoundLatitude>
+								
+                    
+								<gco:Decimal>-39.0</gco:Decimal>
+								
+                  
+							</gmd:northBoundLatitude>
+							
+                
+						</gmd:EX_GeographicBoundingBox>
+						
+              
+					</gmd:geographicElement>
+					
+              
+					<gmd:temporalElement>
+						
+                
+						<gmd:EX_TemporalExtent>
+							
+                  
+							<gmd:extent>
+								
+                    
+								<ns2:TimePeriod>
+									
+                      
+									<ns2:beginPosition/>
+									
+                      
+									<ns2:endPosition/>
+									
+                    
+								</ns2:TimePeriod>
+								
+                  
+							</gmd:extent>
+							
+                
+						</gmd:EX_TemporalExtent>
+						
+              
+					</gmd:temporalElement>
+					
+            
+				</gmd:EX_Extent>
+				
+          
+			</gmd:extent>
+			
+        
+		</gmd:MD_DataIdentification>
+		
+      
+	</gmd:identificationInfo>
+	
+      
+	<gmd:distributionInfo>
+		
+        
+		<gmd:MD_Distribution>
+			
+          
+			<gmd:transferOptions>
+				
+            
+				<gmd:MD_DigitalTransferOptions>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>https://maps.thelist.tas.gov.au/listmap/app/list/map?layout-options=LAYER_LIST_OPEN&amp;cpoint=146.5,-42.0,300000&amp;srs=EPSG:4283&amp;bmlayer=3&amp;layers=2348</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>View Dataset</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+            
+				</gmd:MD_DigitalTransferOptions>
+				
+          
+			</gmd:transferOptions>
+			
+          
+			<gmd:transferOptions>
+				
+            
+				<gmd:MD_DigitalTransferOptions>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL/>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>Download Data</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+            
+				</gmd:MD_DigitalTransferOptions>
+				
+          
+			</gmd:transferOptions>
+			
+        
+		</gmd:MD_Distribution>
+		
+      
+	</gmd:distributionInfo>
+	
+      
+	<gmd:dataQualityInfo>
+		
+        
+		<gmd:DQ_DataQuality>
+			
+          
+			<gmd:lineage>
+				
+            
+				<gmd:LI_Lineage>
+					
+              
+					<gmd:statement>
+						
+                
+						<gco:CharacterString>The original Samples and Observations database was one of several TIGER (Tasmanian Information on Geoscience and Exploration Resources) modules assembled by Mineral Resources Tasmania around ~2000 from existing records and computer databases. Individual records mostly post-date 1954 but a few go back to at least 1916 and probably earlier. 
+
+The function of the TIGER system is to manage, capture, store, maintain, integrate and deliver key geoscientific information, both for internal MRT use and for external clients, including groundwater, geohazards, mineral deposits, samples and geochemistry, into a web-based data entry and inquiry system. It is maintained by MRT staff. 
+
+The backbone of the Samples and Observations datasets is historical MRT data; sources include Tasmanian Geological Survey publications, reports, sample registers, internal memoranda and unpublished data. It is continually being expanded as new data are acquired, especially by MRT investigations and from annual reports of mining and exploration companies (as required by legislation), together with reports by geological, geotechnical and environmental consultants, scientific papers, university theses and samples submitted to the MRT laboratories.</gco:CharacterString>
+						
+              
+					</gmd:statement>
+					
+              
+					<gmd:source>
+						
+                
+						<gmd:LI_Source>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Positional Accuracy: Fields for both estimated horizontal and vertical accuracy are included, but not always filled. In general, locations since approximately 2000 have mostly been determined by GPS and may be accurate to within +-10m. Between about 1970 and 2000, locations were mainly determined by using detailed topographic maps and will mostly be accurate to within 100m (and until about 2000 most of the pre-existing databases only stored data to +/- 100m). Locations before 1970 are of variable but commonly poorer accuracy.  
+
+Attribute Accuracy:
+Data is from many sources, spanning over 100 years, but mostly from the best hard-copy or more recently digital sources available. All reasonable effort has been made to ensure that data is accurate, but it has not been feasible to systematically populate all of the many fields for each sample or observation. 
+
+Logical Consistency:
+As the data was collected for many purposes, (e. g. regional geological mapping, petrological studies, mineral exploration, geotechnical and environmental investigations etc.) by many organisations over many years, there is considerable variation in its logical consistency. Some wholly or partly duplicated records remain.
+
+Completeness:
+Many fields are incomplete and/or inapplicable because of varied sources and sample types as described above.  Generally, more recently collected data is more complete. Most Geological Survey rock samples collected since the mid-1960s have been entered with location and sample information, commonly along with any geochemical data, although some large gaps remain. Descriptive fields such as lithostratigraphy, chronostratigraphy, etc are frequently incomplete, particularly for the earlier part of this period. Older samples have been added if records and location information are adequate.
+
+A large proportion of exploration stream sediment data has been compiled, whereas only a small proportion of exploration soil geochemistry and rock geochemistry data has been entered. Currently most incoming rock and stream sediment geochemistry is captured, but new soils data are not. A back-log also exists for the last few years of MRT geochemistry.
+
+One of the functions of the dataset is to catalogue samples (e.g. rocks, mineral specimens and fossils) stored in MRT’s collection. This is fairly complete, and most sample storage has been audited. However, some stored samples still lack descriptive or location information. The thin and polished section collections are poorly recorded, but this is being addressed.
+
+Data for other sample types are much less complete. For example, the “Readings/observations” fields have been used mainly to provide a convenient repository of miscellaneous information (e.g. magnetic susceptibility measurements, vein orientations, field photos, etc). It is unlikely that it will ever be possible, even with more staff, to systematically enter more than a small proportion of the geological observations that have been and are being made.</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:LI_Source>
+						
+              
+					</gmd:source>
+					
+            
+				</gmd:LI_Lineage>
+				
+          
+			</gmd:lineage>
+			
+        
+		</gmd:DQ_DataQuality>
+		
+      
+	</gmd:dataQualityInfo>
+	
+      
+	<gmd:metadataConstraints>
+		
+        
+		<gmd:MD_LegalConstraints>
+			
+          
+			<gmd:useLimitation>
+				
+            
+				<gco:CharacterString>Creative Commons Attribution 3.0 Australia Licence</gco:CharacterString>
+				
+          
+			</gmd:useLimitation>
+			
+          
+			<gmd:useLimitation>
+				
+            
+				<gco:CharacterString>Creative Commons Attribution 3.0 Australia Licence</gco:CharacterString>
+				
+          
+			</gmd:useLimitation>
+			
+        
+		</gmd:MD_LegalConstraints>
+		
+      
+	</gmd:metadataConstraints>
+	
+    
+</gmd:MD_Metadata>

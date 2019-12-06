@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>0302d72f-d759-4585-aeee-c7fc7894c5ca</gco:CharacterString>
+		<gco:CharacterString>4fd8274a-8274-4b2f-9f1c-8a249bf41f7f</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -26,7 +26,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>1:100,000 Simplified Geology</gco:CharacterString>
+						<gco:CharacterString>Whole-Rock and Mineral Chemistry Database (ROCKCHEM)</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -50,7 +50,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-07-22</gco:Date>
 								
                   
 							</gmd:date>
@@ -80,7 +80,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-07-22</gco:Date>
 								
                   
 							</gmd:date>
@@ -110,7 +110,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-07-22</gco:Date>
 								
                   
 							</gmd:date>
@@ -131,7 +131,10 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology. Intended as an input to regional planning processes.</gco:CharacterString>
+				<gco:CharacterString>The database stores major elements, trace elements, rare earth elements and mineral analyses. The fields are partly modelled on those of the PETCHEM Data Set of AGSO, produced by Wyborn and Ryburn (BMR Record 1989/19). New data is added as part of the 1:25,000 scale geology program. Items include: positional accuracy, easting, northing, name of the geographic area, tectono-stratigraphic region, stratigraphic subdivision, genetic classification, lithology, lithological description, age, outcrop scale description of the locality, geologist or organisation who collected or submitted the sample for analysis, collector of the sample, laboratory that analysed the sample, number used by the geologist for the analysis, name of the mineral, relationship of the analysis to others in the sample or other information. Incorporates physical properties database.
+.
+
+&quot;</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -280,6 +283,15 @@
               
 					</gmd:keyword>
 					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>GEOSCIENCES Geochemistry</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
             
 				</gmd:MD_Keywords>
 				
@@ -305,7 +317,7 @@
 								<ns2:TimePeriod>
 									
                       
-									<ns2:beginPosition>2002-03-25</ns2:beginPosition>
+									<ns2:beginPosition>1961-01-01</ns2:beginPosition>
 									
                     
 								</ns2:TimePeriod>
@@ -447,13 +459,13 @@
 								
                     
 								<gco:CharacterString>Position Accuracy:
-Data based on 1:250,000 geology giving a final accuracy of up to +-250m. 
+Accuracy field exists. Accuracy usually greater than +-200m.
+
 Attribute Accuracy:
-Database has not been verified, but database contains an attribute describing reliability. 
-Logical Consistency:
-All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates 
+Data from the best hardcopy sources possible.
+
 Completeness:
-State wide coverage, including King and Flinders Islands. Many attribute fields are unfilled.</gco:CharacterString>
+Incomplete. Probably includes over 50% of the available data.</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -468,7 +480,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 					<gmd:statement>
 						
                 
-						<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology.</gco:CharacterString>
+						<gco:CharacterString>Compiled from spreadsheets, laboratory databases, published and unpublished (eg university theses) reports. Incorporates CHEMDAT chemical database. Part of MRT TIGER system Samples, Geochemistry and OBservations module.</gco:CharacterString>
 						
               
 					</gmd:statement>
@@ -504,7 +516,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:useLimitation>
 				
             
-				<gco:CharacterString>Unrestricted access. Data is Crown Copyright.</gco:CharacterString>
+				<gco:CharacterString>Open file access. Data is Crown Copyright.</gco:CharacterString>
 				
           
 			</gmd:useLimitation>
@@ -519,7 +531,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>Fri Dec 20 09:37:43 EST 2013</gco:DateTime>
+		<gco:DateTime>Fri Dec 20 09:27:23 EST 2013</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -543,7 +555,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:individualName>
 				
             
-				<gco:CharacterString>Spatial Information Services</gco:CharacterString>
+				<gco:CharacterString>Managing Geo Metallic Minerals</gco:CharacterString>
 				
           
 			</gmd:individualName>
@@ -561,7 +573,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:positionName>
 				
             
-				<gco:CharacterString>Section Leader - Spatial Info Services</gco:CharacterString>
+				<gco:CharacterString>Managing Geologist - Metalic Minerals</gco:CharacterString>
 				
           
 			</gmd:positionName>
@@ -648,7 +660,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 							<gmd:voice>
 								
                     
-								<gco:CharacterString>62 338 340</gco:CharacterString>
+								<gco:CharacterString>62 338 379</gco:CharacterString>
 								
                   
 							</gmd:voice>

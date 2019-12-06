@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>0302d72f-d759-4585-aeee-c7fc7894c5ca</gco:CharacterString>
+		<gco:CharacterString>ad516e2a-d2b6-4879-933a-0315787e7674</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -26,7 +26,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>1:100,000 Simplified Geology</gco:CharacterString>
+						<gco:CharacterString>Rock Unit Database (TASGEOL)</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -50,7 +50,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-07-21</gco:Date>
 								
                   
 							</gmd:date>
@@ -80,7 +80,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-07-21</gco:Date>
 								
                   
 							</gmd:date>
@@ -110,7 +110,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-07-21</gco:Date>
 								
                   
 							</gmd:date>
@@ -131,7 +131,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology. Intended as an input to regional planning processes.</gco:CharacterString>
+				<gco:CharacterString>The attribute scheme for Tasmanian digital geological maps is created automatically during the process of building geological maps in ArcInfo. A code given to each unique 1:25,000 or 1:250,000 or 1:500,000 polygon linking it to the textual information for each rock type. Items include: Mnemonic and letter symbols used on the map and key, number used by MRT's plotting routine to suppress the labelling of selected polygons on output products, tectono-stratigraphic regions, stratigraphic subdivision, geological age, description of the unit. 1452 records.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -305,7 +305,7 @@
 								<ns2:TimePeriod>
 									
                       
-									<ns2:beginPosition>2002-03-25</ns2:beginPosition>
+									<ns2:beginPosition>1993-01-01</ns2:beginPosition>
 									
                     
 								</ns2:TimePeriod>
@@ -447,13 +447,16 @@
 								
                     
 								<gco:CharacterString>Position Accuracy:
-Data based on 1:250,000 geology giving a final accuracy of up to +-250m. 
+Statewide coverage for 1:25,000 Digital Geology (i.e. Statewide coverage, including King and Flinders Islands. Currently, 86 sheets of ~400 total are completed) and 1:250,000 Digital Geology.
+
 Attribute Accuracy:
-Database has not been verified, but database contains an attribute describing reliability. 
+Data from best sources possible.
+
 Logical Consistency:
-All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates 
+All data is topologically related to geology polygons. Visually verified for consistency.
+
 Completeness:
-State wide coverage, including King and Flinders Islands. Many attribute fields are unfilled.</gco:CharacterString>
+Statewide coverage for 1:25,000 Digital Geology (i.e. Statewide coverage, including King and Flinders Islands. Currently, 86 sheets of ~400 total are completed) and 1:250,000 Digital Geology.</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -468,7 +471,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 					<gmd:statement>
 						
                 
-						<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology.</gco:CharacterString>
+						<gco:CharacterString>Originally maintained as an index for the purpose of on-demand map printing, this database is becoming part of the overall architecture of MRT databases that refer to rock units.</gco:CharacterString>
 						
               
 					</gmd:statement>
@@ -519,7 +522,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>Fri Dec 20 09:37:43 EST 2013</gco:DateTime>
+		<gco:DateTime>Fri Dec 20 09:26:54 EST 2013</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -543,7 +546,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:individualName>
 				
             
-				<gco:CharacterString>Spatial Information Services</gco:CharacterString>
+				<gco:CharacterString>Managing Geo Metallic Minerals</gco:CharacterString>
 				
           
 			</gmd:individualName>
@@ -561,7 +564,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:positionName>
 				
             
-				<gco:CharacterString>Section Leader - Spatial Info Services</gco:CharacterString>
+				<gco:CharacterString>Managing Geologist - Metalic Minerals</gco:CharacterString>
 				
           
 			</gmd:positionName>
@@ -648,7 +651,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 							<gmd:voice>
 								
                     
-								<gco:CharacterString>62 338 340</gco:CharacterString>
+								<gco:CharacterString>62 338 379</gco:CharacterString>
 								
                   
 							</gmd:voice>

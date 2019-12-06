@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>0302d72f-d759-4585-aeee-c7fc7894c5ca</gco:CharacterString>
+		<gco:CharacterString>ed20a9aa-8335-402c-964f-0828d907556f</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -26,7 +26,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>1:100,000 Simplified Geology</gco:CharacterString>
+						<gco:CharacterString>Sub-Parmeener Geology</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -50,7 +50,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-08-02</gco:Date>
 								
                   
 							</gmd:date>
@@ -80,7 +80,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-08-02</gco:Date>
 								
                   
 							</gmd:date>
@@ -110,7 +110,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-08-02</gco:Date>
 								
                   
 							</gmd:date>
@@ -131,7 +131,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology. Intended as an input to regional planning processes.</gco:CharacterString>
+				<gco:CharacterString>The predicted geology at or near the unconformity at the base of the Parmeener Supergroup under the Tasmania Basin. Interpreted from source data held by MRT and AGSO by Dr D.E. Leaman of Leaman Geophysics, Hobart. Resolution 2000m. Items include: rock type code, rock type description.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -305,7 +305,10 @@
 								<ns2:TimePeriod>
 									
                       
-									<ns2:beginPosition>2002-03-25</ns2:beginPosition>
+									<ns2:beginPosition>1996-01-01</ns2:beginPosition>
+									
+                      
+									<ns2:endPosition>1996-09-30</ns2:endPosition>
 									
                     
 								</ns2:TimePeriod>
@@ -447,13 +450,19 @@
 								
                     
 								<gco:CharacterString>Position Accuracy:
-Data based on 1:250,000 geology giving a final accuracy of up to +-250m. 
+ Is +-5000m.
+
 Attribute Accuracy:
-Database has not been verified, but database contains an attribute describing reliability. 
+Interpretation is the best currently available for the existing data. Data have been verified for consistency with the known geology.
+
 Logical Consistency:
-All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates 
+Data have been verified for consistency with the known geology. Built and cleaned in Arc environment.
+
 Completeness:
-State wide coverage, including King and Flinders Islands. Many attribute fields are unfilled.</gco:CharacterString>
+Complete for southeast Tasmania (Tasmania Basin).
+
+Additional:
+Developed to illustrate the likely Sub-Parmeener geology and does not represent an accurate distribution of rock types.</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -468,7 +477,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 					<gmd:statement>
 						
                 
-						<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology.</gco:CharacterString>
+						<gco:CharacterString>Interpreted from regional gravity and aeromagnetic data to reflect the nature and distribution of the materials. Prepared for the Tasmania-Commonwealth Regional Forest Agreement assessment.</gco:CharacterString>
 						
               
 					</gmd:statement>
@@ -519,7 +528,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>Fri Dec 20 09:37:43 EST 2013</gco:DateTime>
+		<gco:DateTime>Fri Dec 20 09:28:27 EST 2013</gco:DateTime>
 		
       
 	</gmd:dateStamp>

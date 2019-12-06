@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>0302d72f-d759-4585-aeee-c7fc7894c5ca</gco:CharacterString>
+		<gco:CharacterString>8e9b4422-7c2b-4e09-9dde-68e80196ab63</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -26,7 +26,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>1:100,000 Simplified Geology</gco:CharacterString>
+						<gco:CharacterString>Construction Materials Register (CONMAT)</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -50,7 +50,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-07-22</gco:Date>
 								
                   
 							</gmd:date>
@@ -80,7 +80,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-07-22</gco:Date>
 								
                   
 							</gmd:date>
@@ -110,7 +110,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-07-22</gco:Date>
 								
                   
 							</gmd:date>
@@ -131,7 +131,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology. Intended as an input to regional planning processes.</gco:CharacterString>
+				<gco:CharacterString>The construction materials register lists basic data relating to many sources of construction materials  in Tasmania. It is a quick reference to potential sources of construction materials for map production and for GIS applications. Items include: coordinates, occupier (if applicable), mineral lease number (if applicable), locality, land tenure, Planning Authority land use, report number, annual production, total production, reserves, operational status (most are not ni opoperation), rock name, rock unit, age, colour, generic environment, extractability, data collection year, geophysical testing, drilling, laboratory testing (including grain size analysis), laboratory, unified soil classification symbol, use.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -280,6 +280,15 @@
               
 					</gmd:keyword>
 					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>INDUSTRY Mining</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
             
 				</gmd:MD_Keywords>
 				
@@ -305,7 +314,7 @@
 								<ns2:TimePeriod>
 									
                       
-									<ns2:beginPosition>2002-03-25</ns2:beginPosition>
+									<ns2:beginPosition>1975-01-01</ns2:beginPosition>
 									
                     
 								</ns2:TimePeriod>
@@ -447,13 +456,16 @@
 								
                     
 								<gco:CharacterString>Position Accuracy:
-Data based on 1:250,000 geology giving a final accuracy of up to +-250m. 
+Estimated to be 100-300 metres, but checked during verification/migration to less than 100m.
+
 Attribute Accuracy:
-Database has not been verified, but database contains an attribute describing reliability. 
+Data is accurate at time of entry to the best knowledge of the people compiling the data. Data have been identified from field mapping and from published and unpublished sources.
+
 Logical Consistency:
-All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates 
+Data have been verified for consistency with the known geology and topography.
+
 Completeness:
-State wide coverage, including King and Flinders Islands. Many attribute fields are unfilled.</gco:CharacterString>
+Data have been identified from field mapping and from published and unpublished sources. There may be a significant time between issue of a mining lease for construction materials and entry of the reosurce into the database.</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -468,7 +480,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 					<gmd:statement>
 						
                 
-						<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology.</gco:CharacterString>
+						<gco:CharacterString>Migrated from Fortran to Microsoft Excel 1986, and then to Arview in 2000. Results of basic laboratory tests (eg grain size analysis) still reside in original Fortran (SEDSAM). Incorporated into MIRLOCH (ANZTA0009000014) in mid-2000s.</gco:CharacterString>
 						
               
 					</gmd:statement>
@@ -504,7 +516,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:useLimitation>
 				
             
-				<gco:CharacterString>Unrestricted access. Data is Crown Copyright.</gco:CharacterString>
+				<gco:CharacterString>Open file access. Data is Crown Copyright.</gco:CharacterString>
 				
           
 			</gmd:useLimitation>
@@ -519,7 +531,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>Fri Dec 20 09:37:43 EST 2013</gco:DateTime>
+		<gco:DateTime>Fri Dec 20 09:26:40 EST 2013</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -543,7 +555,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:individualName>
 				
             
-				<gco:CharacterString>Spatial Information Services</gco:CharacterString>
+				<gco:CharacterString>Managing Geo Industrial Minera</gco:CharacterString>
 				
           
 			</gmd:individualName>
@@ -561,7 +573,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:positionName>
 				
             
-				<gco:CharacterString>Section Leader - Spatial Info Services</gco:CharacterString>
+				<gco:CharacterString>Managing Geologist - Industrial Minerals</gco:CharacterString>
 				
           
 			</gmd:positionName>
@@ -648,7 +660,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 							<gmd:voice>
 								
                     
-								<gco:CharacterString>62 338 340</gco:CharacterString>
+								<gco:CharacterString>62 338 326</gco:CharacterString>
 								
                   
 							</gmd:voice>

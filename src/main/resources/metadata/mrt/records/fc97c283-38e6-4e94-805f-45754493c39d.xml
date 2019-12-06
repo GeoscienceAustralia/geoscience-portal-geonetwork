@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>0302d72f-d759-4585-aeee-c7fc7894c5ca</gco:CharacterString>
+		<gco:CharacterString>fc97c283-38e6-4e94-805f-45754493c39d</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -26,7 +26,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>1:100,000 Simplified Geology</gco:CharacterString>
+						<gco:CharacterString>Structural Geology Database (TASSTR)</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -50,7 +50,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-08-02</gco:Date>
 								
                   
 							</gmd:date>
@@ -80,7 +80,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-08-02</gco:Date>
 								
                   
 							</gmd:date>
@@ -110,7 +110,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-08-02</gco:Date>
 								
                   
 							</gmd:date>
@@ -131,7 +131,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology. Intended as an input to regional planning processes.</gco:CharacterString>
+				<gco:CharacterString>Structural geological data are stored in a single table with one location stored for each measurement. Thus if measurements of bedding and cleavage have been made at the same location, there will be two label points in the coverage with the same co-ordinates. There are two tables, one for the 1:25,000 and the other for the 1:250,000 base scale digital data. Data is available seamlessly for both 1:25,000 or 1:250,000 coverages. Attributes include: coordinates, accuracy, symbol, azimuth, angle, dip, rock type. 44,365 points.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -305,7 +305,7 @@
 								<ns2:TimePeriod>
 									
                       
-									<ns2:beginPosition>2002-03-25</ns2:beginPosition>
+									<ns2:beginPosition>1964-01-01</ns2:beginPosition>
 									
                     
 								</ns2:TimePeriod>
@@ -447,13 +447,16 @@
 								
                     
 								<gco:CharacterString>Position Accuracy:
-Data based on 1:250,000 geology giving a final accuracy of up to +-250m. 
+Use of the 1:25,000 digital topography base implies an accuracy of +-12.5m, but +-25m is probably more reasonable. Contains accuracy attribute.
+
 Attribute Accuracy:
-Database has not been verified, but database contains an attribute describing reliability. 
+Transcription from field notebooks is completed by geologist and data collated by custodian. Some attributes commonly not captured. Contains reliability attribute.
+
 Logical Consistency:
-All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates 
+All point data labelled. All data is topologically related to geology polygons. Visually verified for consistency.
+
 Completeness:
-State wide coverage, including King and Flinders Islands. Many attribute fields are unfilled.</gco:CharacterString>
+Incomplete statewide coverage as for 1:25,000 Digital Geology (i.e. Statewide coverage, including King and Flinders Islands. Currently, 86 sheets of ~400 total are completed). In addition, there is complete 1:250,000 coverage.</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -468,7 +471,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 					<gmd:statement>
 						
                 
-						<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology.</gco:CharacterString>
+						<gco:CharacterString>Data is captured from existing maps, field notebooks and new digital entries and usually temporarily maintained in spreadsheets. The data is migrated to ArcInfo as required.</gco:CharacterString>
 						
               
 					</gmd:statement>
@@ -519,7 +522,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>Fri Dec 20 09:37:43 EST 2013</gco:DateTime>
+		<gco:DateTime>Fri Dec 20 09:29:28 EST 2013</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -543,7 +546,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:individualName>
 				
             
-				<gco:CharacterString>Spatial Information Services</gco:CharacterString>
+				<gco:CharacterString>Managing Geo Metallic Minerals</gco:CharacterString>
 				
           
 			</gmd:individualName>
@@ -561,7 +564,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:positionName>
 				
             
-				<gco:CharacterString>Section Leader - Spatial Info Services</gco:CharacterString>
+				<gco:CharacterString>Managing Geologist - Metalic Minerals</gco:CharacterString>
 				
           
 			</gmd:positionName>
@@ -648,7 +651,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 							<gmd:voice>
 								
                     
-								<gco:CharacterString>62 338 340</gco:CharacterString>
+								<gco:CharacterString>62 338 379</gco:CharacterString>
 								
                   
 							</gmd:voice>

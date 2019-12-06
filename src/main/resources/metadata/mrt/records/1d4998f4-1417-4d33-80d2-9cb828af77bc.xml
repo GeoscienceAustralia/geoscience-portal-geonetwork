@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>0302d72f-d759-4585-aeee-c7fc7894c5ca</gco:CharacterString>
+		<gco:CharacterString>1d4998f4-1417-4d33-80d2-9cb828af77bc</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -26,7 +26,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>1:100,000 Simplified Geology</gco:CharacterString>
+						<gco:CharacterString>1:500,000 Digital Geology</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -50,7 +50,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2001-09-07</gco:Date>
 								
                   
 							</gmd:date>
@@ -80,7 +80,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2001-09-07</gco:Date>
 								
                   
 							</gmd:date>
@@ -110,7 +110,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2001-09-07</gco:Date>
 								
                   
 							</gmd:date>
@@ -131,7 +131,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology. Intended as an input to regional planning processes.</gco:CharacterString>
+				<gco:CharacterString>Geology and structure from existing digital and printed maps has been generalised and compiled to fit the 1:500,000 scale digital topographical base of Land Information Services, Department of Primary Industries, Water and Environment (coastline). 1 map, 11,367 polygons.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -305,7 +305,7 @@
 								<ns2:TimePeriod>
 									
                       
-									<ns2:beginPosition>2002-03-25</ns2:beginPosition>
+									<ns2:beginPosition>1964-01-01</ns2:beginPosition>
 									
                     
 								</ns2:TimePeriod>
@@ -447,13 +447,16 @@
 								
                     
 								<gco:CharacterString>Position Accuracy:
-Data based on 1:250,000 geology giving a final accuracy of up to +-250m. 
+Based on 1:25,000 Digital Geology accuracy (i.e. Historic field location data used aerial photography together with available topographic maps, commonly at 1:10,000 to 1:100,000. Current methods include GPS, rectified aerial photography and digital 1:25,000 topography, giving position to within +-25m in the final product). Generalisation of rock units and fit to 1:500,000 digital topography (coastline) base gives a final accuracy of up to +-500m. 
+
 Attribute Accuracy:
-Database has not been verified, but database contains an attribute describing reliability. 
+Data is accurate at time of data compilation/generalisation to the best knowledge of the people compiling the map, given the state of geological knowledge.
+
 Logical Consistency:
-All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates 
+All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates.
+
 Completeness:
-State wide coverage, including King and Flinders Islands. Many attribute fields are unfilled.</gco:CharacterString>
+Statewide coverage, including King and Flinders Islands.  Many attribute fields are unfilled.</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -468,7 +471,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 					<gmd:statement>
 						
                 
-						<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology.</gco:CharacterString>
+						<gco:CharacterString>The data are derived from the 1:250,000 Digital Geology  using ArcInfo GIS software.</gco:CharacterString>
 						
               
 					</gmd:statement>
@@ -519,7 +522,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>Fri Dec 20 09:37:43 EST 2013</gco:DateTime>
+		<gco:DateTime>Fri Dec 20 09:26:18 EST 2013</gco:DateTime>
 		
       
 	</gmd:dateStamp>
