@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>0302d72f-d759-4585-aeee-c7fc7894c5ca</gco:CharacterString>
+		<gco:CharacterString>532f1236-7017-499e-9d81-62f3769f6a38</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -26,7 +26,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>1:100,000 Simplified Geology</gco:CharacterString>
+						<gco:CharacterString>Macquarie Island Geology</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -50,7 +50,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-08-02</gco:Date>
 								
                   
 							</gmd:date>
@@ -80,7 +80,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-08-02</gco:Date>
 								
                   
 							</gmd:date>
@@ -110,7 +110,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-08-02</gco:Date>
 								
                   
 							</gmd:date>
@@ -131,7 +131,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology. Intended as an input to regional planning processes.</gco:CharacterString>
+				<gco:CharacterString>The geology of Macquarie Island was mapped December 1994 - January 1996 in a joint project involving Mineral Resources Tasmania, the Australian Antarctic Foundation and the Australian Antarctic Division.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -305,7 +305,10 @@
 								<ns2:TimePeriod>
 									
                       
-									<ns2:beginPosition>2002-03-25</ns2:beginPosition>
+									<ns2:beginPosition>1994-12-01</ns2:beginPosition>
+									
+                      
+									<ns2:endPosition>1998-12-01</ns2:endPosition>
 									
                     
 								</ns2:TimePeriod>
@@ -329,7 +332,7 @@
 							<gmd:northBoundLatitude>
 								
                     
-								<gco:Decimal>-39.2</gco:Decimal>
+								<gco:Decimal>-54.23</gco:Decimal>
 								
                   
 							</gmd:northBoundLatitude>
@@ -338,7 +341,7 @@
 							<gmd:southBoundLatitude>
 								
                     
-								<gco:Decimal>-44.0</gco:Decimal>
+								<gco:Decimal>-55.0</gco:Decimal>
 								
                   
 							</gmd:southBoundLatitude>
@@ -347,7 +350,7 @@
 							<gmd:eastBoundLongitude>
 								
                     
-								<gco:Decimal>149.0</gco:Decimal>
+								<gco:Decimal>159.58</gco:Decimal>
 								
                   
 							</gmd:eastBoundLongitude>
@@ -356,7 +359,7 @@
 							<gmd:westBoundLongitude>
 								
                     
-								<gco:Decimal>143.5</gco:Decimal>
+								<gco:Decimal>158.58</gco:Decimal>
 								
                   
 							</gmd:westBoundLongitude>
@@ -371,7 +374,7 @@
 					<gmd:description>
 						
                 
-						<gco:CharacterString>Tasmania</gco:CharacterString>
+						<gco:CharacterString>Macquarie Island</gco:CharacterString>
 						
               
 					</gmd:description>
@@ -447,13 +450,16 @@
 								
                     
 								<gco:CharacterString>Position Accuracy:
-Data based on 1:250,000 geology giving a final accuracy of up to +-250m. 
+Absolute position with respect to horizontal datum and topographic features is approximate only. Base maps used were a combination of 1971 1:50,000 mapping with later aerial photography and satellite imagery.
+
 Attribute Accuracy:
-Database has not been verified, but database contains an attribute describing reliability. 
+Data is accurate at time of data compilation/generalisation to the best knowledge of the people compiling the mapping, given the state of geological knowledge.
+
 Logical Consistency:
-All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates 
+Built and cleaned in Arc environment.
+
 Completeness:
-State wide coverage, including King and Flinders Islands. Many attribute fields are unfilled.</gco:CharacterString>
+The whole island was mapped in detail.</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -468,7 +474,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 					<gmd:statement>
 						
                 
-						<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology.</gco:CharacterString>
+						<gco:CharacterString>Geology by B.D.Goscombe, BSc.(Hons), PhD and J.E.Everard, BSc.(Hons)., December 1994 - May 1995; September 1995 - January 1996.</gco:CharacterString>
 						
               
 					</gmd:statement>
@@ -519,7 +525,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>Fri Dec 20 09:37:43 EST 2013</gco:DateTime>
+		<gco:DateTime>Fri Dec 20 09:28:29 EST 2013</gco:DateTime>
 		
       
 	</gmd:dateStamp>

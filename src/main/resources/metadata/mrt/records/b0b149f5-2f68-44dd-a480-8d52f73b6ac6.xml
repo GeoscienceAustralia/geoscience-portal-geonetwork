@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>0302d72f-d759-4585-aeee-c7fc7894c5ca</gco:CharacterString>
+		<gco:CharacterString>b0b149f5-2f68-44dd-a480-8d52f73b6ac6</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -26,7 +26,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>1:100,000 Simplified Geology</gco:CharacterString>
+						<gco:CharacterString>Launceston geomorphology - structural surface dip direction and slope points</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -50,7 +50,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2006-02-23</gco:Date>
 								
                   
 							</gmd:date>
@@ -80,7 +80,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2006-02-23</gco:Date>
 								
                   
 							</gmd:date>
@@ -110,7 +110,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2006-02-23</gco:Date>
 								
                   
 							</gmd:date>
@@ -131,7 +131,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology. Intended as an input to regional planning processes.</gco:CharacterString>
+				<gco:CharacterString>This dataset (geomorphology_point_dips.shp) contains data in point form showing the dip direction and slope for structural slope surfaces identified within the area of the Tasmanian Landslide Hazard Map Series: Launceston. The surfaces themselves are delinated as polygons within the accompanying Launceston geomorphology - structural polygons dataset (geomorphology_polygon_structural.shp). This point shapefile has been generated using ArcGIS software.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -275,7 +275,25 @@
 					<gmd:keyword>
 						
                 
+						<gco:CharacterString>HAZARDS Landslip</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+              
+					<gmd:keyword>
+						
+                
 						<gco:CharacterString>GEOSCIENCES Geology</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>GEOSCIENCES Geomorphology</gco:CharacterString>
 						
               
 					</gmd:keyword>
@@ -305,7 +323,10 @@
 								<ns2:TimePeriod>
 									
                       
-									<ns2:beginPosition>2002-03-25</ns2:beginPosition>
+									<ns2:beginPosition>2005-05-01</ns2:beginPosition>
+									
+                      
+									<ns2:endPosition>2006-01-01</ns2:endPosition>
 									
                     
 								</ns2:TimePeriod>
@@ -329,7 +350,7 @@
 							<gmd:northBoundLatitude>
 								
                     
-								<gco:Decimal>-39.2</gco:Decimal>
+								<gco:Decimal>-41.326</gco:Decimal>
 								
                   
 							</gmd:northBoundLatitude>
@@ -338,7 +359,7 @@
 							<gmd:southBoundLatitude>
 								
                     
-								<gco:Decimal>-44.0</gco:Decimal>
+								<gco:Decimal>-41.506</gco:Decimal>
 								
                   
 							</gmd:southBoundLatitude>
@@ -347,7 +368,7 @@
 							<gmd:eastBoundLongitude>
 								
                     
-								<gco:Decimal>149.0</gco:Decimal>
+								<gco:Decimal>147.228</gco:Decimal>
 								
                   
 							</gmd:eastBoundLongitude>
@@ -356,7 +377,7 @@
 							<gmd:westBoundLongitude>
 								
                     
-								<gco:Decimal>143.5</gco:Decimal>
+								<gco:Decimal>146.988</gco:Decimal>
 								
                   
 							</gmd:westBoundLongitude>
@@ -371,7 +392,7 @@
 					<gmd:description>
 						
                 
-						<gco:CharacterString>Tasmania</gco:CharacterString>
+						<gco:CharacterString>Tasmanian Landslide Hazard Map - Launceston</gco:CharacterString>
 						
               
 					</gmd:description>
@@ -447,13 +468,15 @@
 								
                     
 								<gco:CharacterString>Position Accuracy:
-Data based on 1:250,000 geology giving a final accuracy of up to +-250m. 
+Accuracy of data is not guaranteed beyond 1:25 000 scale.
 Attribute Accuracy:
-Database has not been verified, but database contains an attribute describing reliability. 
+Fields in the attribute table for this dataset include FID, SHAPE, AZIMUTH and SLOPE. Definitions of these fields are as follows: FID - computer-generated ID number; SHAPE - computer-generated descriptor of data geometry; AZIMUTH - direction the structural slope faces (degrees true); SLOPE - angle the structural slope dips from horizontal in degrees.
 Logical Consistency:
-All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates 
+The location points have been checked visually to ensure they are within the boundaries of the structual surface polygons which are located on slopes and to ensure that the direction of the dip is consitent with the site.
 Completeness:
-State wide coverage, including King and Flinders Islands. Many attribute fields are unfilled.</gco:CharacterString>
+The data is complete.
+Additional:
+Paper maps showing hazard zones can be obtained from MRT.</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -468,7 +491,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 					<gmd:statement>
 						
                 
-						<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology.</gco:CharacterString>
+						<gco:CharacterString>The dip direction data in this dataset have been generated from on-screen assessment of an aspect map for the study area, produced by ArcGIS from a DEM created using the TOPO to RASTER function within ArcGIS. This DEM is derived from contour data at 1:5000 where available, and 1:25 000 eslewhere. The slope data as degrees, is derived from the highest resolution contour data available for the location. This is either 1:5 000 or 1:25 000 depending on location. The positioning of the points is within structural surfaces which slope as identified in the Launceston geomorphology - structural polygons dataset. These surfaces have been identified through aerial photography interpretation as specified metadata associated with the Launceston geomorphology - structural surfaces dataset.</gco:CharacterString>
 						
               
 					</gmd:statement>
@@ -504,7 +527,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:useLimitation>
 				
             
-				<gco:CharacterString>Unrestricted access. Data is Crown Copyright.</gco:CharacterString>
+				<gco:CharacterString>These maps can be used as a guide (or flag) to the need for specific assessment in potential hazard areas. Planning decisions should not be made solely on the basis of the hazard zones delineated on the map. Practitioners undertaking specific assessments should read the text and appendices attached to the maps and obtain a thorough understanding of the methodology and limitations of the maps. The data should be appropriately acknowledged if used in any other publications or reports.</gco:CharacterString>
 				
           
 			</gmd:useLimitation>
@@ -519,7 +542,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>Fri Dec 20 09:37:43 EST 2013</gco:DateTime>
+		<gco:DateTime>Fri Dec 20 09:35:07 EST 2013</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -543,7 +566,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:individualName>
 				
             
-				<gco:CharacterString>Spatial Information Services</gco:CharacterString>
+				<gco:CharacterString>Senior Geologist Urban Geology</gco:CharacterString>
 				
           
 			</gmd:individualName>
@@ -561,7 +584,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:positionName>
 				
             
-				<gco:CharacterString>Section Leader - Spatial Info Services</gco:CharacterString>
+				<gco:CharacterString>Senior Geologist, Urban Geology</gco:CharacterString>
 				
           
 			</gmd:positionName>
@@ -582,7 +605,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 							<gmd:deliveryPoint>
 								
                     
-								<gco:CharacterString>PO Box 56</gco:CharacterString>
+								<gco:CharacterString>30 Gordons Hill Rd</gco:CharacterString>
 								
                   
 							</gmd:deliveryPoint>
@@ -591,7 +614,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 							<gmd:city>
 								
                     
-								<gco:CharacterString>Rosny Park</gco:CharacterString>
+								<gco:CharacterString>Rosny</gco:CharacterString>
 								
                   
 							</gmd:city>
@@ -648,7 +671,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 							<gmd:voice>
 								
                     
-								<gco:CharacterString>62 338 340</gco:CharacterString>
+								<gco:CharacterString>03 62338330</gco:CharacterString>
 								
                   
 							</gmd:voice>

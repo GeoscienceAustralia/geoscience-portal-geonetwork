@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>0302d72f-d759-4585-aeee-c7fc7894c5ca</gco:CharacterString>
+		<gco:CharacterString>aa01ba0b-3523-48cd-8e05-fa24f02e381f</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -26,7 +26,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>1:100,000 Simplified Geology</gco:CharacterString>
+						<gco:CharacterString>1:250,000 Digital Geology</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -131,7 +131,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology. Intended as an input to regional planning processes.</gco:CharacterString>
+				<gco:CharacterString>Geology and structure data derived from 1:50,000 and 1:63,360 Digital Geological Atlas printed map series and 1:25,000 digital geology data where available. Geological units and boundaries have been generalised and compiled for 1:250,000 scale. Data is available as a seamless state wide coverage or on a 1:250,000 map sheet basis (SW, SE, NE, NW).</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -280,6 +280,15 @@
               
 					</gmd:keyword>
 					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>GEOSCIENCES</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
             
 				</gmd:MD_Keywords>
 				
@@ -305,7 +314,7 @@
 								<ns2:TimePeriod>
 									
                       
-									<ns2:beginPosition>2002-03-25</ns2:beginPosition>
+									<ns2:beginPosition>1994-04-08</ns2:beginPosition>
 									
                     
 								</ns2:TimePeriod>
@@ -447,13 +456,13 @@
 								
                     
 								<gco:CharacterString>Position Accuracy:
-Data based on 1:250,000 geology giving a final accuracy of up to +-250m. 
+Generalisation of rock units to 1:250,000 scale gives a final accuracy of up to +-250m. 
 Attribute Accuracy:
 Database has not been verified, but database contains an attribute describing reliability. 
 Logical Consistency:
 All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates 
 Completeness:
-State wide coverage, including King and Flinders Islands. Many attribute fields are unfilled.</gco:CharacterString>
+Statewide coverage, including King and Flinders Islands. Many attribute fields are unfilled.</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -468,7 +477,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 					<gmd:statement>
 						
                 
-						<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology.</gco:CharacterString>
+						<gco:CharacterString>Data is derived from 1:50,000 and 1:63,360 Digital Geological Atlas printed map series and 1:25,000 digital geology data where available. The data has been generalised and compiled to fit the 1:250,000 scale digital topographical base of Land Information Services, Department of Primary Industries, Parks, Water and Environment.</gco:CharacterString>
 						
               
 					</gmd:statement>
@@ -519,7 +528,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>Fri Dec 20 09:37:43 EST 2013</gco:DateTime>
+		<gco:DateTime>Fri Dec 20 09:26:23 EST 2013</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -670,6 +679,60 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 		
       
 	</gmd:contact>
+	
+      
+	<gmd:distributionInfo>
+		
+        
+		<gmd:MD_Distribution>
+			
+          
+			<gmd:transferOptions>
+				
+            
+				<gmd:MD_DigitalTransferOptions>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>View Dataset</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://maps.thelist.tas.gov.au/listmap/app/list/map?layout-options=LAYER_LIST_OPEN&amp;cpoint=147.43,-42.85,10000&amp;srs=EPSG:4283&amp;bmlayer=3&amp;layers=265</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+            
+				</gmd:MD_DigitalTransferOptions>
+				
+          
+			</gmd:transferOptions>
+			
+        
+		</gmd:MD_Distribution>
+		
+      
+	</gmd:distributionInfo>
 	
       
 	<gmd:referenceSystemInfo>

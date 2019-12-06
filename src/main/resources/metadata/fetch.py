@@ -117,7 +117,7 @@ def xml_string(metadata_record):
     return Minidom.parseString(ET.tostring(metadata_record, "utf-8")).toprettyxml()
 
 def main():
-    # fetch_metadata_from_csw(("mrt", "https://data.thelist.tas.gov.au/datagn/srv/eng/csw"))
+    fetch_metadata_from_csw(("mrt", "https://data.thelist.tas.gov.au/datagn/srv/eng/csw"))
     # fetch_metadata_from_csw("aster-maps",
     #                "http://aster.nci.org.au/geonetwork/srv/en/csw")
     # fetch_metadata_from_url(("geological-survey-of-victoria",

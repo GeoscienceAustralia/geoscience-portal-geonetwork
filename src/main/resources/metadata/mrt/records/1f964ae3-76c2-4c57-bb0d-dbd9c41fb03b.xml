@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>0302d72f-d759-4585-aeee-c7fc7894c5ca</gco:CharacterString>
+		<gco:CharacterString>1f964ae3-76c2-4c57-bb0d-dbd9c41fb03b</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -26,7 +26,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>1:100,000 Simplified Geology</gco:CharacterString>
+						<gco:CharacterString>Open File Airborne Electromagnetic Surveys Database</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -50,7 +50,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2004-04-21</gco:Date>
 								
                   
 							</gmd:date>
@@ -80,7 +80,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2004-04-21</gco:Date>
 								
                   
 							</gmd:date>
@@ -110,7 +110,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2004-04-21</gco:Date>
 								
                   
 							</gmd:date>
@@ -131,7 +131,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology. Intended as an input to regional planning processes.</gco:CharacterString>
+				<gco:CharacterString>Index of open file airborne eleetromagnetic surveys.  Index map and Mapinfo metadata available for download free from MRT's website.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -275,6 +275,15 @@
 					<gmd:keyword>
 						
                 
+						<gco:CharacterString>GEOSCIENCES Geophysics</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+              
+					<gmd:keyword>
+						
+                
 						<gco:CharacterString>GEOSCIENCES Geology</gco:CharacterString>
 						
               
@@ -305,7 +314,7 @@
 								<ns2:TimePeriod>
 									
                       
-									<ns2:beginPosition>2002-03-25</ns2:beginPosition>
+									<ns2:beginPosition>1985-01-01</ns2:beginPosition>
 									
                     
 								</ns2:TimePeriod>
@@ -447,13 +456,13 @@
 								
                     
 								<gco:CharacterString>Position Accuracy:
-Data based on 1:250,000 geology giving a final accuracy of up to +-250m. 
+Up to +- 50 m worst case. More recent data positioned using differential GPS.
 Attribute Accuracy:
-Database has not been verified, but database contains an attribute describing reliability. 
+Data derived from fixed wing surveys typically at 100m and 200m line spacing and helicopter surveys typically at 50m and 200m line spacing.
 Logical Consistency:
-All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates 
+Data have been verified for consistency with all other similar overlapping datasets and, where possible, against 1:25,000 topography.
 Completeness:
-State wide coverage, including King and Flinders Islands. Many attribute fields are unfilled.</gco:CharacterString>
+Patchy coverage over parts of west coast, north coast. Little coverage elsewhere..</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -468,7 +477,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 					<gmd:statement>
 						
                 
-						<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology.</gco:CharacterString>
+						<gco:CharacterString>Data derived from fixed wing surveys typically at 200m and 500m line spacing and helicopter surveys typically at 200m line spacing.</gco:CharacterString>
 						
               
 					</gmd:statement>
@@ -519,7 +528,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>Fri Dec 20 09:37:43 EST 2013</gco:DateTime>
+		<gco:DateTime>Fri Dec 20 09:26:25 EST 2013</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -543,7 +552,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:individualName>
 				
             
-				<gco:CharacterString>Spatial Information Services</gco:CharacterString>
+				<gco:CharacterString>Geophysics</gco:CharacterString>
 				
           
 			</gmd:individualName>
@@ -561,7 +570,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:positionName>
 				
             
-				<gco:CharacterString>Section Leader - Spatial Info Services</gco:CharacterString>
+				<gco:CharacterString>Senior Geophysicist</gco:CharacterString>
 				
           
 			</gmd:positionName>
@@ -648,7 +657,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 							<gmd:voice>
 								
                     
-								<gco:CharacterString>62 338 340</gco:CharacterString>
+								<gco:CharacterString>62 338 336</gco:CharacterString>
 								
                   
 							</gmd:voice>

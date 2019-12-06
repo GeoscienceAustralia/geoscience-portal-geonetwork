@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>0302d72f-d759-4585-aeee-c7fc7894c5ca</gco:CharacterString>
+		<gco:CharacterString>78d2313e-8aca-402d-8eec-0afed3ec6219</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -26,7 +26,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>1:100,000 Simplified Geology</gco:CharacterString>
+						<gco:CharacterString>Debris flow hazard map of Glenorchy</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -50,7 +50,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2005-03-23</gco:Date>
 								
                   
 							</gmd:date>
@@ -80,7 +80,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2005-03-23</gco:Date>
 								
                   
 							</gmd:date>
@@ -110,7 +110,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2005-03-23</gco:Date>
 								
                   
 							</gmd:date>
@@ -131,7 +131,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology. Intended as an input to regional planning processes.</gco:CharacterString>
+				<gco:CharacterString>This layer is an image of the debris-flow hazard map of the Glenorchy Area as part of the Tasmanian Landslide Hazard Map Series, 2005.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -275,7 +275,25 @@
 					<gmd:keyword>
 						
                 
+						<gco:CharacterString>HAZARDS Landslip</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+              
+					<gmd:keyword>
+						
+                
 						<gco:CharacterString>GEOSCIENCES Geology</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>GEOSCIENCES Geomorphology</gco:CharacterString>
 						
               
 					</gmd:keyword>
@@ -305,7 +323,7 @@
 								<ns2:TimePeriod>
 									
                       
-									<ns2:beginPosition>2002-03-25</ns2:beginPosition>
+									<ns2:beginPosition>2005-03-15</ns2:beginPosition>
 									
                     
 								</ns2:TimePeriod>
@@ -329,7 +347,7 @@
 							<gmd:northBoundLatitude>
 								
                     
-								<gco:Decimal>-39.2</gco:Decimal>
+								<gco:Decimal>-42.3</gco:Decimal>
 								
                   
 							</gmd:northBoundLatitude>
@@ -338,7 +356,7 @@
 							<gmd:southBoundLatitude>
 								
                     
-								<gco:Decimal>-44.0</gco:Decimal>
+								<gco:Decimal>-42.6</gco:Decimal>
 								
                   
 							</gmd:southBoundLatitude>
@@ -347,7 +365,7 @@
 							<gmd:eastBoundLongitude>
 								
                     
-								<gco:Decimal>149.0</gco:Decimal>
+								<gco:Decimal>147.3</gco:Decimal>
 								
                   
 							</gmd:eastBoundLongitude>
@@ -356,7 +374,7 @@
 							<gmd:westBoundLongitude>
 								
                     
-								<gco:Decimal>143.5</gco:Decimal>
+								<gco:Decimal>147.1</gco:Decimal>
 								
                   
 							</gmd:westBoundLongitude>
@@ -371,7 +389,7 @@
 					<gmd:description>
 						
                 
-						<gco:CharacterString>Tasmania</gco:CharacterString>
+						<gco:CharacterString>Tasmanian Landslide Hazard Map  - Glenorchy</gco:CharacterString>
 						
               
 					</gmd:description>
@@ -447,13 +465,15 @@
 								
                     
 								<gco:CharacterString>Position Accuracy:
-Data based on 1:250,000 geology giving a final accuracy of up to +-250m. 
+Data constructed from a 10m grid and positional accuracy to 1:25 000 scale. Data created by modelling process identifying source and runout paths. Reasonable attempts were made to assemble information relevant to land stability and to ensure it was quality controlled. However, it is recognised that much more information exists in council records that could not be easily retrieved. The hazard identification technique is underpinned by available factual data but the limited number of ground control points necessitates use of modelling techniques to predict ground conditions beyond these areas. Models however, are approximations to reality based on data and assumptions that will in the course of time change as new information, ideas and techniques become available. All reasonable care was taken to produce the maps (including limited field checking), but qualified people undertaking subsequent risk analysis should critically examine the information portrayed. Various forms of depicted ground control points (e.g. regolith observations on the debris-flow map, structural measurements on the geology map) serve to provide an indication of where data has been observed versus where it is was inferred.
 Attribute Accuracy:
-Database has not been verified, but database contains an attribute describing reliability. 
+Hazard zones defined by simplistic catagorical attributes. A full explanation of the fields and attributes is provided with the accompanying data dictionary.
 Logical Consistency:
-All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates 
+The data has been visually checked against topographic maps to ensure accuracy.
 Completeness:
-State wide coverage, including King and Flinders Islands. Many attribute fields are unfilled.</gco:CharacterString>
+The data is complete according to the modelling process.
+Additional:
+Paper maps showing hazard zones can be obtained from MRT.</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -468,7 +488,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 					<gmd:statement>
 						
                 
-						<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology.</gco:CharacterString>
+						<gco:CharacterString>Principal underpinning data is a DEM (10m) built from contour data from DPIWE (5m contours of urban area, 1:5000 scale). Data created by grid modelling process in 2004. Landslide data from Geohazards database.</gco:CharacterString>
 						
               
 					</gmd:statement>
@@ -504,7 +524,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:useLimitation>
 				
             
-				<gco:CharacterString>Unrestricted access. Data is Crown Copyright.</gco:CharacterString>
+				<gco:CharacterString>Practitioners undertaking specific assessments should read the text and appendices attached to the maps and obtain a thorough understanding of the methodology and limitations of the maps. The data should be appropriately acknowledged if used in any other publications or reports.</gco:CharacterString>
 				
           
 			</gmd:useLimitation>
@@ -519,7 +539,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>Fri Dec 20 09:37:43 EST 2013</gco:DateTime>
+		<gco:DateTime>Fri Dec 20 09:28:16 EST 2013</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -543,7 +563,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:individualName>
 				
             
-				<gco:CharacterString>Spatial Information Services</gco:CharacterString>
+				<gco:CharacterString>Senior Geologist Urban Geology</gco:CharacterString>
 				
           
 			</gmd:individualName>
@@ -561,7 +581,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:positionName>
 				
             
-				<gco:CharacterString>Section Leader - Spatial Info Services</gco:CharacterString>
+				<gco:CharacterString>Senior Geologist, Urban Geology</gco:CharacterString>
 				
           
 			</gmd:positionName>
@@ -582,7 +602,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 							<gmd:deliveryPoint>
 								
                     
-								<gco:CharacterString>PO Box 56</gco:CharacterString>
+								<gco:CharacterString>30 Gordons Hill Rd</gco:CharacterString>
 								
                   
 							</gmd:deliveryPoint>
@@ -591,7 +611,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 							<gmd:city>
 								
                     
-								<gco:CharacterString>Rosny Park</gco:CharacterString>
+								<gco:CharacterString>Rosny</gco:CharacterString>
 								
                   
 							</gmd:city>
@@ -648,7 +668,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 							<gmd:voice>
 								
                     
-								<gco:CharacterString>62 338 340</gco:CharacterString>
+								<gco:CharacterString>03 62338330</gco:CharacterString>
 								
                   
 							</gmd:voice>

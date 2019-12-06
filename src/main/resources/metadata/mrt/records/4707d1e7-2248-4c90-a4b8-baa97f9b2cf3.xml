@@ -1,0 +1,864 @@
+<?xml version="1.0" ?>
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:ns2="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+      
+	<gmd:fileIdentifier>
+		
+        
+		<gco:CharacterString>4707d1e7-2248-4c90-a4b8-baa97f9b2cf3</gco:CharacterString>
+		
+      
+	</gmd:fileIdentifier>
+	
+      
+	<gmd:hierarchyLevel>
+		
+        
+		<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset"/>
+		
+      
+	</gmd:hierarchyLevel>
+	
+      
+	<gmd:contact>
+		
+        
+		<gmd:CI_ResponsibleParty>
+			
+          
+			<gmd:individualName>
+				
+            
+				<gco:CharacterString>Geomorphologist</gco:CharacterString>
+				
+          
+			</gmd:individualName>
+			
+          
+			<gmd:organisationName>
+				
+            
+				<gco:CharacterString>Mineral Resources Tasmania</gco:CharacterString>
+				
+          
+			</gmd:organisationName>
+			
+          
+			<gmd:positionName>
+				
+            
+				<gco:CharacterString>Geomorphologist</gco:CharacterString>
+				
+          
+			</gmd:positionName>
+			
+          
+			<gmd:contactInfo>
+				
+            
+				<gmd:CI_Contact>
+					
+              
+					<gmd:phone>
+						
+                
+						<gmd:CI_Telephone>
+							
+                  
+							<gmd:voice>
+								
+                    
+								<gco:CharacterString>03 6165 4742</gco:CharacterString>
+								
+                  
+							</gmd:voice>
+							
+                
+						</gmd:CI_Telephone>
+						
+              
+					</gmd:phone>
+					
+              
+					<gmd:address>
+						
+                
+						<gmd:CI_Address>
+							
+                  
+							<gmd:deliveryPoint>
+								
+                    
+								<gco:CharacterString>30 Gordons Hill Rd</gco:CharacterString>
+								
+                  
+							</gmd:deliveryPoint>
+							
+                  
+							<gmd:city>
+								
+                    
+								<gco:CharacterString>Rosny</gco:CharacterString>
+								
+                  
+							</gmd:city>
+							
+                  
+							<gmd:administrativeArea>
+								
+                    
+								<gco:CharacterString>TAS</gco:CharacterString>
+								
+                  
+							</gmd:administrativeArea>
+							
+                  
+							<gmd:postalCode>
+								
+                    
+								<gco:CharacterString>7018</gco:CharacterString>
+								
+                  
+							</gmd:postalCode>
+							
+                  
+							<gmd:country>
+								
+                    
+								<gco:CharacterString>Australia</gco:CharacterString>
+								
+                  
+							</gmd:country>
+							
+                  
+							<gmd:electronicMailAddress>
+								
+                    
+								<gco:CharacterString>info@mrt.tas.gov.au</gco:CharacterString>
+								
+                  
+							</gmd:electronicMailAddress>
+							
+                
+						</gmd:CI_Address>
+						
+              
+					</gmd:address>
+					
+              
+					<gmd:onlineResource>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>www.mrt.tas.gov.au</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onlineResource>
+					
+            
+				</gmd:CI_Contact>
+				
+          
+			</gmd:contactInfo>
+			
+          
+			<gmd:role>
+				
+            
+				<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="author"/>
+				
+          
+			</gmd:role>
+			
+        
+		</gmd:CI_ResponsibleParty>
+		
+      
+	</gmd:contact>
+	
+      
+	<gmd:dateStamp>
+		
+        
+		<gco:DateTime>2015-04-13T12:14:10.004+10:00</gco:DateTime>
+		
+      
+	</gmd:dateStamp>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>GDA94 (EPSG:4283)</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:identificationInfo>
+		
+        
+		<gmd:MD_DataIdentification>
+			
+          
+			<gmd:citation>
+				
+            
+				<gmd:CI_Citation>
+					
+              
+					<gmd:title>
+						
+                
+						<gco:CharacterString>Landslide Damage Polygons of Tasmania (Mineral Resources Tasmania)</gco:CharacterString>
+						
+              
+					</gmd:title>
+					
+              
+					<gmd:date>
+						
+                
+						<gmd:CI_Date>
+							
+                  
+							<gmd:date>
+								
+                    
+								<gco:Date>2015-01-06</gco:Date>
+								
+                  
+							</gmd:date>
+							
+                  
+							<gmd:dateType>
+								
+                    
+								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"/>
+								
+                  
+							</gmd:dateType>
+							
+                
+						</gmd:CI_Date>
+						
+              
+					</gmd:date>
+					
+              
+					<gmd:date>
+						
+                
+						<gmd:CI_Date>
+							
+                  
+							<gmd:date>
+								
+                    
+								<gco:Date>2015-01-06</gco:Date>
+								
+                  
+							</gmd:date>
+							
+                  
+							<gmd:dateType>
+								
+                    
+								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+								
+                  
+							</gmd:dateType>
+							
+                
+						</gmd:CI_Date>
+						
+              
+					</gmd:date>
+					
+              
+					<gmd:date>
+						
+                
+						<gmd:CI_Date>
+							
+                  
+							<gmd:date>
+								
+                    
+								<gco:Date>2015-01-06</gco:Date>
+								
+                  
+							</gmd:date>
+							
+                  
+							<gmd:dateType>
+								
+                    
+								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"/>
+								
+                  
+							</gmd:dateType>
+							
+                
+						</gmd:CI_Date>
+						
+              
+					</gmd:date>
+					
+            
+				</gmd:CI_Citation>
+				
+          
+			</gmd:citation>
+			
+          
+			<gmd:abstract>
+				
+            
+				<gco:CharacterString>Polygons of structures or property damaged by a landslide, throughout Tasmania, with summary damage data derived from the Geohazards (Landslide) Database, Tasmanian Information on Geoscience and Exploration Resources (TIGER) system; administered by Mineral Resources Tasmania (MRT). A landslide is defined as a downslope movement of a mass of rock, debris or earth by a variety of failure modes (slide, flow, spread, fall, topple, or combinations thereof) – but excludes subsidence (such as karst areas). The summary damage data includes: the damage ID (database reference), the type of structure or property damaged, the cause of the damage, the severity of the damage, the earliest known date of damage, the landslide ID (database reference for associated landslide), and related reports (largely MRT reports). Only the landslide damage reported to MRT is included.</gco:CharacterString>
+				
+          
+			</gmd:abstract>
+			
+          
+			<gmd:pointOfContact>
+				
+            
+				<gmd:CI_ResponsibleParty>
+					
+              
+					<gmd:organisationName>
+						
+                
+						<gco:CharacterString>Mineral Resources Tasmania</gco:CharacterString>
+						
+              
+					</gmd:organisationName>
+					
+              
+					<gmd:positionName>
+						
+                
+						<gco:CharacterString>Manager Geoscience</gco:CharacterString>
+						
+              
+					</gmd:positionName>
+					
+              
+					<gmd:contactInfo>
+						
+                
+						<gmd:CI_Contact>
+							
+                  
+							<gmd:phone>
+								
+                    
+								<gmd:CI_Telephone>
+									
+                      
+									<gmd:voice>
+										
+                        
+										<gco:CharacterString>03 6165 4800</gco:CharacterString>
+										
+                      
+									</gmd:voice>
+									
+                    
+								</gmd:CI_Telephone>
+								
+                  
+							</gmd:phone>
+							
+                  
+							<gmd:address>
+								
+                    
+								<gmd:CI_Address>
+									
+                      
+									<gmd:deliveryPoint>
+										
+                        
+										<gco:CharacterString>30 Gordons Hill Road</gco:CharacterString>
+										
+                      
+									</gmd:deliveryPoint>
+									
+                      
+									<gmd:city>
+										
+                        
+										<gco:CharacterString>Rosny Park</gco:CharacterString>
+										
+                      
+									</gmd:city>
+									
+                      
+									<gmd:administrativeArea>
+										
+                        
+										<gco:CharacterString>TAS</gco:CharacterString>
+										
+                      
+									</gmd:administrativeArea>
+									
+                      
+									<gmd:postalCode>
+										
+                        
+										<gco:CharacterString>7018</gco:CharacterString>
+										
+                      
+									</gmd:postalCode>
+									
+                      
+									<gmd:country>
+										
+                        
+										<gco:CharacterString>Australia</gco:CharacterString>
+										
+                      
+									</gmd:country>
+									
+                      
+									<gmd:electronicMailAddress>
+										
+                        
+										<gco:CharacterString>info@mrt.tas.gov.au</gco:CharacterString>
+										
+                      
+									</gmd:electronicMailAddress>
+									
+                    
+								</gmd:CI_Address>
+								
+                  
+							</gmd:address>
+							
+                  
+							<gmd:onlineResource>
+								
+                    
+								<gmd:CI_OnlineResource>
+									
+                      
+									<gmd:linkage/>
+									
+                    
+								</gmd:CI_OnlineResource>
+								
+                  
+							</gmd:onlineResource>
+							
+                
+						</gmd:CI_Contact>
+						
+              
+					</gmd:contactInfo>
+					
+              
+					<gmd:role>
+						
+                
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="custodian"/>
+						
+              
+					</gmd:role>
+					
+            
+				</gmd:CI_ResponsibleParty>
+				
+          
+			</gmd:pointOfContact>
+			
+          
+			<gmd:descriptiveKeywords>
+				
+            
+				<gmd:MD_Keywords>
+					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>HAZARDS Landslip</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+            
+				</gmd:MD_Keywords>
+				
+          
+			</gmd:descriptiveKeywords>
+			
+          
+			<gmd:spatialRepresentationType>
+				
+            
+				<gmd:MD_SpatialRepresentationTypeCode codeListValue="vector"/>
+				
+          
+			</gmd:spatialRepresentationType>
+			
+          
+			<gmd:language>
+				
+            
+				<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng"/>
+				
+          
+			</gmd:language>
+			
+          
+			<gmd:characterSet>
+				
+            
+				<gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+				
+          
+			</gmd:characterSet>
+			
+          
+			<gmd:topicCategory>
+				
+            
+				<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+				
+          
+			</gmd:topicCategory>
+			
+          
+			<gmd:extent>
+				
+            
+				<gmd:EX_Extent>
+					
+              
+					<gmd:description>
+						
+                
+						<gco:CharacterString>TASMANIA</gco:CharacterString>
+						
+              
+					</gmd:description>
+					
+              
+					<gmd:geographicElement>
+						
+                
+						<gmd:EX_GeographicBoundingBox>
+							
+                  
+							<gmd:westBoundLongitude>
+								
+                    
+								<gco:Decimal>143.5</gco:Decimal>
+								
+                  
+							</gmd:westBoundLongitude>
+							
+                  
+							<gmd:eastBoundLongitude>
+								
+                    
+								<gco:Decimal>149.0</gco:Decimal>
+								
+                  
+							</gmd:eastBoundLongitude>
+							
+                  
+							<gmd:southBoundLatitude>
+								
+                    
+								<gco:Decimal>-44.0</gco:Decimal>
+								
+                  
+							</gmd:southBoundLatitude>
+							
+                  
+							<gmd:northBoundLatitude>
+								
+                    
+								<gco:Decimal>-39.0</gco:Decimal>
+								
+                  
+							</gmd:northBoundLatitude>
+							
+                
+						</gmd:EX_GeographicBoundingBox>
+						
+              
+					</gmd:geographicElement>
+					
+              
+					<gmd:temporalElement>
+						
+                
+						<gmd:EX_TemporalExtent>
+							
+                  
+							<gmd:extent>
+								
+                    
+								<ns2:TimePeriod>
+									
+                      
+									<ns2:beginPosition>2003-01-01</ns2:beginPosition>
+									
+                      
+									<ns2:endPosition/>
+									
+                    
+								</ns2:TimePeriod>
+								
+                  
+							</gmd:extent>
+							
+                
+						</gmd:EX_TemporalExtent>
+						
+              
+					</gmd:temporalElement>
+					
+            
+				</gmd:EX_Extent>
+				
+          
+			</gmd:extent>
+			
+        
+		</gmd:MD_DataIdentification>
+		
+      
+	</gmd:identificationInfo>
+	
+      
+	<gmd:distributionInfo>
+		
+        
+		<gmd:MD_Distribution>
+			
+          
+			<gmd:transferOptions>
+				
+            
+				<gmd:MD_DigitalTransferOptions>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL/>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>View Dataset</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+            
+				</gmd:MD_DigitalTransferOptions>
+				
+          
+			</gmd:transferOptions>
+			
+          
+			<gmd:transferOptions>
+				
+            
+				<gmd:MD_DigitalTransferOptions>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL/>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>Download Data</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+            
+				</gmd:MD_DigitalTransferOptions>
+				
+          
+			</gmd:transferOptions>
+			
+        
+		</gmd:MD_Distribution>
+		
+      
+	</gmd:distributionInfo>
+	
+      
+	<gmd:dataQualityInfo>
+		
+        
+		<gmd:DQ_DataQuality>
+			
+          
+			<gmd:lineage>
+				
+            
+				<gmd:LI_Lineage>
+					
+              
+					<gmd:statement>
+						
+                
+						<gco:CharacterString>The polygons of damaged structures or property and summary damage data are derived from the Geohazards (Landslide) Database, Tasmanian Information on Geoscience and Exploration Resources (TIGER) system; administered by Mineral Resources Tasmania (MRT), Department of State Growth. The Geohazards (Landslide) Database was originally developed from information held in a records system (CARS) for land stability and groundwater investigations (1972-1993) conducted by engineering geology staff of the former Department of Mines, and later Mineral Resources Tasmania. New and historic landslide damage data was captured in the TIGER system, as point and polygon data and non-spatial data, from 2003 onwards. Landslide damage data has been added to the Geohazards (Landslide) Database largely in support of the production of the Tasmanian Landslide Map Series. The methodology of this map series is described in the document &quot;Tasmanian Landslide Map Series: User Guide and Technical Methodology&quot; (Mazengarb, C. and Stevenson, M.D. 2010. Tasmanian Geological Survey Record 2010/01). Other landslide damage data from around Tasmania is added to the database from time to time if MRT is made aware of such cases. The landslide damage data presented is sourced from MRT records as well as other external sources where available to MRT (e.g. reports by other State Government departments, reports supplied by Local Government, newspaper articles, etc.). This dataset will continue to expand with new mapping projects and as data is made available to MRT.</gco:CharacterString>
+						
+              
+					</gmd:statement>
+					
+              
+					<gmd:source>
+						
+                
+						<gmd:LI_Source>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Positional Accuracy:
+The data held in the Geohazards (Landslide) Database, from which this dataset is derived, has been compiled from a range of sources spanning several decades. As a result there are a range of positional accuracies across Tasmania, depending on the information source, varying up to about 100m in some cases. However, the landslide damage data has been added largely in support of the production of the Tasmanian Landslide Map Series, as well as some other detailed landslide mapping projects. Landslide damage data presented in this map series, which is published at 1:25,000 scale but mapped at a more detailed scale, will usually have a positional accuracy better than 25m. Most of the landslide damage polygons representing buildings are digitised from aerial orthophotos (state-wide or regional) or from various plans.
+
+Attribute Accuracy:
+The data held in the Geohazards (Landslide) Database, from which this dataset is derived, has been compiled from a range of sources spanning several decades. As a result there are a range of attribute accuracies across Tasmania, depending on the information source. However, the landslide damage data has been added largely in support of the production of the Tasmanian Landslide Map Series, and as part of the compilation process for this series all reasonable effort has been made to ensure the landslide damage is accurately located and attributed.
+
+Logical Consistency:
+The landslide damage data has been added to the Geohazards (Landslide) Database largely in support of the production of the Tasmanian Landslide Map Series, where it has been utilised to meet the requirements of map production at 1:25,000 scale. As a result the landslide damage data has generally maintained a logical consistency across Tasmania with a uniform data structure and attribution. All of the landslide damage polygons (currently) represent the footprints of damaged buildings or damaged sections of roadway. Each damage record is linked to the record for the landslide feature that caused the damage.
+
+Completeness:
+The data held in the Geohazards (Landslide) Database, from which this dataset is derived, has been compiled from a range of sources spanning several decades. As a result the completeness of the coverage, the attribution and the verification varies across Tasmania, depending on the information source. The landslide damage data has been added largely in support of the production of the Tasmanian Landslide Map Series, as well as some other detailed landslide mapping projects, and additionally MRT has endeavoured to capture all of the building damage that has occurred within the Proclaimed Landslip Areas of Tasmania. The data for all of the landslide damage included within the Tasmanian Landslide Map Series and within the Proclaimed Landslip Areas has been checked by MRT geologists to ensure that it meets the necessary minimum requirements. Verification of damage reports is often difficult or impossible due to subsequent repair work or demolition. There will be many other cases of damage to structures and property due to landslides around Tasmania that are not included in this dataset. This dataset only includes the landslide damage reported to MRT and will be biased toward more significant damage and damage to homes. Less significant damage, damage to infrastructure and damage occurring outside of urban areas will be greatly under-represented in this dataset.</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:LI_Source>
+						
+              
+					</gmd:source>
+					
+            
+				</gmd:LI_Lineage>
+				
+          
+			</gmd:lineage>
+			
+        
+		</gmd:DQ_DataQuality>
+		
+      
+	</gmd:dataQualityInfo>
+	
+      
+	<gmd:metadataConstraints>
+		
+        
+		<gmd:MD_Constraints xsi:type="gmd:MD_LegalConstraints_Type">
+			
+          
+			<gmd:useLimitation>
+				
+            
+				<gco:CharacterString/>
+				
+          
+			</gmd:useLimitation>
+			
+          
+			<gmd:useLimitation>
+				
+            
+				<gco:CharacterString/>
+				
+          
+			</gmd:useLimitation>
+			
+        
+		</gmd:MD_Constraints>
+		
+      
+	</gmd:metadataConstraints>
+	
+    
+</gmd:MD_Metadata>

@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>0302d72f-d759-4585-aeee-c7fc7894c5ca</gco:CharacterString>
+		<gco:CharacterString>3d4804a2-392c-40f2-819f-d2351e996554</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -26,7 +26,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>1:100,000 Simplified Geology</gco:CharacterString>
+						<gco:CharacterString>1:25,000 Digital Geology</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -41,7 +41,7 @@
 							<gmd:dateType>
 								
                     
-								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"/>
+								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"/>
 								
                   
 							</gmd:dateType>
@@ -71,7 +71,7 @@
 							<gmd:dateType>
 								
                     
-								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
 								
                   
 							</gmd:dateType>
@@ -101,7 +101,7 @@
 							<gmd:dateType>
 								
                     
-								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"/>
+								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"/>
 								
                   
 							</gmd:dateType>
@@ -131,7 +131,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology. Intended as an input to regional planning processes.</gco:CharacterString>
+				<gco:CharacterString>Geology and structure data derived from existing reports, 1:25,000 1:50,000 and 1:63,360 scale printed maps, new field mapping and interpretation of aerial photography and airborne geophysical data. Data is available on a 1:25,000 map sheet basis, or can be supplied as seamless layer, with the understanding that it may include unresolved edge-matching issues originating from mapping project boundaries.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -146,7 +146,7 @@
 					<gmd:role>
 						
                 
-						<gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian"/>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="custodian"/>
 						
               
 					</gmd:role>
@@ -305,7 +305,7 @@
 								<ns2:TimePeriod>
 									
                       
-									<ns2:beginPosition>2002-03-25</ns2:beginPosition>
+									<ns2:beginPosition>1994-04-08</ns2:beginPosition>
 									
                     
 								</ns2:TimePeriod>
@@ -395,7 +395,7 @@
 			<gmd:characterSet>
 				
             
-				<gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+				<gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8"/>
 				
           
 			</gmd:characterSet>
@@ -404,7 +404,7 @@
 			<gmd:spatialRepresentationType>
 				
             
-				<gmd:MD_SpatialRepresentationTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector"/>
+				<gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector"/>
 				
           
 			</gmd:spatialRepresentationType>
@@ -447,13 +447,14 @@
 								
                     
 								<gco:CharacterString>Position Accuracy:
-Data based on 1:250,000 geology giving a final accuracy of up to +-250m. 
+Historic data used aerial photography together with available topographic maps (commonly at 1:10,000 –1:100,000). Current methods include GPS, rectified aerial photography and digital 1:25,000 topography, giving position to within +-25m.
 Attribute Accuracy:
 Database has not been verified, but database contains an attribute describing reliability. 
 Logical Consistency:
-All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates 
+All polygons, lines and point data attributed. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates
+
 Completeness:
-State wide coverage, including King and Flinders Islands. Many attribute fields are unfilled.</gco:CharacterString>
+Approximately 45% of the state has been completed as at 10 June 2010.</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -468,7 +469,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 					<gmd:statement>
 						
                 
-						<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology.</gco:CharacterString>
+						<gco:CharacterString>Data derived from existing printed maps and reports of various scales, new field mapping and interpretation of aerial photography and airborne geophysical data. Data has been compiled to fit the Land Information System Tasmania (LIST) digital topographic base.</gco:CharacterString>
 						
               
 					</gmd:statement>
@@ -519,7 +520,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>Fri Dec 20 09:37:43 EST 2013</gco:DateTime>
+		<gco:DateTime>2014-10-08T09:55:06</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -534,7 +535,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:role>
 				
             
-				<gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="author"/>
+				<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="author"/>
 				
           
 			</gmd:role>
@@ -670,6 +671,60 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 		
       
 	</gmd:contact>
+	
+      
+	<gmd:distributionInfo>
+		
+        
+		<gmd:MD_Distribution>
+			
+          
+			<gmd:transferOptions>
+				
+            
+				<gmd:MD_DigitalTransferOptions>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>View Dataset</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>http://maps.thelist.tas.gov.au/listmap/app/list/map?layout-options=LAYER_LIST_OPEN&amp;cpoint=147.43,-42.85,10000&amp;srs=EPSG:4283&amp;bmlayer=3&amp;layers=263</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+            
+				</gmd:MD_DigitalTransferOptions>
+				
+          
+			</gmd:transferOptions>
+			
+        
+		</gmd:MD_Distribution>
+		
+      
+	</gmd:distributionInfo>
 	
       
 	<gmd:referenceSystemInfo>

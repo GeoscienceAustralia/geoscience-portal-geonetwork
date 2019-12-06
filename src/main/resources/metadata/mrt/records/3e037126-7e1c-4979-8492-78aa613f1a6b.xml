@@ -1,0 +1,915 @@
+<?xml version="1.0" ?>
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:ns2="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+      
+	<gmd:fileIdentifier>
+		
+        
+		<gco:CharacterString>3e037126-7e1c-4979-8492-78aa613f1a6b</gco:CharacterString>
+		
+      
+	</gmd:fileIdentifier>
+	
+      
+	<gmd:hierarchyLevel>
+		
+        
+		<gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/GAScopeCodeList.xml#MD_ScopeCode" codeListValue="dataset"/>
+		
+      
+	</gmd:hierarchyLevel>
+	
+      
+	<gmd:contact>
+		
+        
+		<gmd:CI_ResponsibleParty>
+			
+          
+			<gmd:individualName>
+				
+            
+				<gco:CharacterString>Manager Tenement Administration</gco:CharacterString>
+				
+          
+			</gmd:individualName>
+			
+          
+			<gmd:organisationName>
+				
+            
+				<gco:CharacterString>Mineral Resources Tasmania</gco:CharacterString>
+				
+          
+			</gmd:organisationName>
+			
+          
+			<gmd:positionName>
+				
+            
+				<gco:CharacterString>Manager Tenement Administration</gco:CharacterString>
+				
+          
+			</gmd:positionName>
+			
+          
+			<gmd:contactInfo>
+				
+            
+				<gmd:CI_Contact>
+					
+              
+					<gmd:phone>
+						
+                
+						<gmd:CI_Telephone>
+							
+                  
+							<gmd:voice>
+								
+                    
+								<gco:CharacterString>03 6165 4728</gco:CharacterString>
+								
+                  
+							</gmd:voice>
+							
+                
+						</gmd:CI_Telephone>
+						
+              
+					</gmd:phone>
+					
+              
+					<gmd:address>
+						
+                
+						<gmd:CI_Address>
+							
+                  
+							<gmd:deliveryPoint>
+								
+                    
+								<gco:CharacterString>30 Gordons Hill Rd</gco:CharacterString>
+								
+                  
+							</gmd:deliveryPoint>
+							
+                  
+							<gmd:city>
+								
+                    
+								<gco:CharacterString>Rosny</gco:CharacterString>
+								
+                  
+							</gmd:city>
+							
+                  
+							<gmd:administrativeArea>
+								
+                    
+								<gco:CharacterString>TAS</gco:CharacterString>
+								
+                  
+							</gmd:administrativeArea>
+							
+                  
+							<gmd:postalCode>
+								
+                    
+								<gco:CharacterString>7018</gco:CharacterString>
+								
+                  
+							</gmd:postalCode>
+							
+                  
+							<gmd:country>
+								
+                    
+								<gco:CharacterString>Australia</gco:CharacterString>
+								
+                  
+							</gmd:country>
+							
+                  
+							<gmd:electronicMailAddress>
+								
+                    
+								<gco:CharacterString>info@mrt.tas.gov.au</gco:CharacterString>
+								
+                  
+							</gmd:electronicMailAddress>
+							
+                
+						</gmd:CI_Address>
+						
+              
+					</gmd:address>
+					
+              
+					<gmd:onlineResource>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>www.mrt.tas.gov.au</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onlineResource>
+					
+            
+				</gmd:CI_Contact>
+				
+          
+			</gmd:contactInfo>
+			
+          
+			<gmd:role>
+				
+            
+				<gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="author"/>
+				
+          
+			</gmd:role>
+			
+        
+		</gmd:CI_ResponsibleParty>
+		
+      
+	</gmd:contact>
+	
+      
+	<gmd:dateStamp>
+		
+        
+		<gco:DateTime>2018-07-13T09:26:23.614+10:00</gco:DateTime>
+		
+      
+	</gmd:dateStamp>
+	
+      
+	<gmd:referenceSystemInfo>
+		
+        
+		<gmd:MD_ReferenceSystem>
+			
+          
+			<gmd:referenceSystemIdentifier>
+				
+            
+				<gmd:RS_Identifier>
+					
+              
+					<gmd:code>
+						
+                
+						<gco:CharacterString>GDA94 (EPSG:4283)</gco:CharacterString>
+						
+              
+					</gmd:code>
+					
+            
+				</gmd:RS_Identifier>
+				
+          
+			</gmd:referenceSystemIdentifier>
+			
+        
+		</gmd:MD_ReferenceSystem>
+		
+      
+	</gmd:referenceSystemInfo>
+	
+      
+	<gmd:identificationInfo>
+		
+        
+		<gmd:MD_DataIdentification>
+			
+          
+			<gmd:citation>
+				
+            
+				<gmd:CI_Citation>
+					
+              
+					<gmd:title>
+						
+                
+						<gco:CharacterString>Category 5 Exploration Licence Polygons of Tasmania (Mineral Resources Tasmania)</gco:CharacterString>
+						
+              
+					</gmd:title>
+					
+              
+					<gmd:date>
+						
+                
+						<gmd:CI_Date>
+							
+                  
+							<gmd:date>
+								
+                    
+								<gco:Date>2015-01-15</gco:Date>
+								
+                  
+							</gmd:date>
+							
+                  
+							<gmd:dateType>
+								
+                    
+								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"/>
+								
+                  
+							</gmd:dateType>
+							
+                
+						</gmd:CI_Date>
+						
+              
+					</gmd:date>
+					
+              
+					<gmd:date>
+						
+                
+						<gmd:CI_Date>
+							
+                  
+							<gmd:date>
+								
+                    
+								<gco:Date>2015-01-15</gco:Date>
+								
+                  
+							</gmd:date>
+							
+                  
+							<gmd:dateType>
+								
+                    
+								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+								
+                  
+							</gmd:dateType>
+							
+                
+						</gmd:CI_Date>
+						
+              
+					</gmd:date>
+					
+              
+					<gmd:date>
+						
+                
+						<gmd:CI_Date>
+							
+                  
+							<gmd:date>
+								
+                    
+								<gco:Date>2015-01-15</gco:Date>
+								
+                  
+							</gmd:date>
+							
+                  
+							<gmd:dateType>
+								
+                    
+								<gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"/>
+								
+                  
+							</gmd:dateType>
+							
+                
+						</gmd:CI_Date>
+						
+              
+					</gmd:date>
+					
+            
+				</gmd:CI_Citation>
+				
+          
+			</gmd:citation>
+			
+          
+			<gmd:abstract>
+				
+            
+				<gco:CharacterString>Category 5 Exploration Licence polygons and Exploration Release Areas across Tasmania, with tenement information derived from the Tasmanian Information on Geoscience and Exploration Resources (TIGER) system; administered by Mineral Resources Tasmania (MRT), Department of State Growth. Exploration licence polygons delineate areas in which licence holders are permitted to explore for Category 5 minerals - industrial minerals, prescribed precious stones, and prescribed semi-precious stones. Exploration licences may be granted over both Crown and private land, so long as that land falls under the Mineral Resources Development Act 1995. Mineral exploration activities may include: geological, geophysical and geochemical surveys, drilling, and taking samples of rock, soil, water or other substances for analysis. Mining is not an exploration activity and cannot occur on an exploration licence.</gco:CharacterString>
+				
+          
+			</gmd:abstract>
+			
+          
+			<gmd:pointOfContact>
+				
+            
+				<gmd:CI_ResponsibleParty>
+					
+              
+					<gmd:organisationName>
+						
+                
+						<gco:CharacterString>Mineral Resources Tasmania</gco:CharacterString>
+						
+              
+					</gmd:organisationName>
+					
+              
+					<gmd:positionName>
+						
+                
+						<gco:CharacterString>Manager Geoscience</gco:CharacterString>
+						
+              
+					</gmd:positionName>
+					
+              
+					<gmd:contactInfo>
+						
+                
+						<gmd:CI_Contact>
+							
+                  
+							<gmd:phone>
+								
+                    
+								<gmd:CI_Telephone>
+									
+                      
+									<gmd:voice>
+										
+                        
+										<gco:CharacterString>03 6165 4800</gco:CharacterString>
+										
+                      
+									</gmd:voice>
+									
+                    
+								</gmd:CI_Telephone>
+								
+                  
+							</gmd:phone>
+							
+                  
+							<gmd:address>
+								
+                    
+								<gmd:CI_Address>
+									
+                      
+									<gmd:deliveryPoint>
+										
+                        
+										<gco:CharacterString>30 Gordons Hill Road</gco:CharacterString>
+										
+                      
+									</gmd:deliveryPoint>
+									
+                      
+									<gmd:city>
+										
+                        
+										<gco:CharacterString>Rosny Park</gco:CharacterString>
+										
+                      
+									</gmd:city>
+									
+                      
+									<gmd:administrativeArea>
+										
+                        
+										<gco:CharacterString>TAS</gco:CharacterString>
+										
+                      
+									</gmd:administrativeArea>
+									
+                      
+									<gmd:postalCode>
+										
+                        
+										<gco:CharacterString>7018</gco:CharacterString>
+										
+                      
+									</gmd:postalCode>
+									
+                      
+									<gmd:country>
+										
+                        
+										<gco:CharacterString>Australia</gco:CharacterString>
+										
+                      
+									</gmd:country>
+									
+                      
+									<gmd:electronicMailAddress>
+										
+                        
+										<gco:CharacterString>info@mrt.tas.gov.au</gco:CharacterString>
+										
+                      
+									</gmd:electronicMailAddress>
+									
+                    
+								</gmd:CI_Address>
+								
+                  
+							</gmd:address>
+							
+                  
+							<gmd:onlineResource>
+								
+                    
+								<gmd:CI_OnlineResource>
+									
+                      
+									<gmd:linkage/>
+									
+                    
+								</gmd:CI_OnlineResource>
+								
+                  
+							</gmd:onlineResource>
+							
+                
+						</gmd:CI_Contact>
+						
+              
+					</gmd:contactInfo>
+					
+              
+					<gmd:role>
+						
+                
+						<gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian"/>
+						
+              
+					</gmd:role>
+					
+            
+				</gmd:CI_ResponsibleParty>
+				
+          
+			</gmd:pointOfContact>
+			
+          
+			<gmd:descriptiveKeywords>
+				
+            
+				<gmd:MD_Keywords>
+					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>GEOSCIENCES-Geology</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>BOUNDARIES-Administrative</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+            
+				</gmd:MD_Keywords>
+				
+          
+			</gmd:descriptiveKeywords>
+			
+          
+			<gmd:spatialRepresentationType>
+				
+            
+				<gmd:MD_SpatialRepresentationTypeCode codeListValue="vector"/>
+				
+          
+			</gmd:spatialRepresentationType>
+			
+          
+			<gmd:language>
+				
+            
+				<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng"/>
+				
+          
+			</gmd:language>
+			
+          
+			<gmd:characterSet>
+				
+            
+				<gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+				
+          
+			</gmd:characterSet>
+			
+          
+			<gmd:topicCategory>
+				
+            
+				<gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+				
+          
+			</gmd:topicCategory>
+			
+          
+			<gmd:extent>
+				
+            
+				<gmd:EX_Extent>
+					
+              
+					<gmd:description>
+						
+                
+						<gco:CharacterString>TASMANIA</gco:CharacterString>
+						
+              
+					</gmd:description>
+					
+              
+					<gmd:geographicElement>
+						
+                
+						<gmd:EX_GeographicBoundingBox>
+							
+                  
+							<gmd:westBoundLongitude>
+								
+                    
+								<gco:Decimal>143.5</gco:Decimal>
+								
+                  
+							</gmd:westBoundLongitude>
+							
+                  
+							<gmd:eastBoundLongitude>
+								
+                    
+								<gco:Decimal>149.0</gco:Decimal>
+								
+                  
+							</gmd:eastBoundLongitude>
+							
+                  
+							<gmd:southBoundLatitude>
+								
+                    
+								<gco:Decimal>-44.0</gco:Decimal>
+								
+                  
+							</gmd:southBoundLatitude>
+							
+                  
+							<gmd:northBoundLatitude>
+								
+                    
+								<gco:Decimal>-39.0</gco:Decimal>
+								
+                  
+							</gmd:northBoundLatitude>
+							
+                
+						</gmd:EX_GeographicBoundingBox>
+						
+              
+					</gmd:geographicElement>
+					
+              
+					<gmd:temporalElement>
+						
+                
+						<gmd:EX_TemporalExtent>
+							
+                  
+							<gmd:extent>
+								
+                    
+								<ns2:TimePeriod>
+									
+                      
+									<ns2:beginPosition>1949-01-01</ns2:beginPosition>
+									
+                      
+									<ns2:endPosition/>
+									
+                    
+								</ns2:TimePeriod>
+								
+                  
+							</gmd:extent>
+							
+                
+						</gmd:EX_TemporalExtent>
+						
+              
+					</gmd:temporalElement>
+					
+            
+				</gmd:EX_Extent>
+				
+          
+			</gmd:extent>
+			
+        
+		</gmd:MD_DataIdentification>
+		
+      
+	</gmd:identificationInfo>
+	
+      
+	<gmd:distributionInfo>
+		
+        
+		<gmd:MD_Distribution>
+			
+          
+			<gmd:transferOptions>
+				
+            
+				<gmd:MD_DigitalTransferOptions>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>https://maps.thelist.tas.gov.au/listmap/app/list/map?layout-options=LAYER_LIST_OPEN&amp;cpoint=146.5,-42.0,300000&amp;srs=EPSG:4283&amp;bmlayer=3&amp;layers=259</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>View Dataset</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+            
+				</gmd:MD_DigitalTransferOptions>
+				
+          
+			</gmd:transferOptions>
+			
+          
+			<gmd:transferOptions>
+				
+            
+				<gmd:MD_DigitalTransferOptions>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL/>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>Download Data</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+            
+				</gmd:MD_DigitalTransferOptions>
+				
+          
+			</gmd:transferOptions>
+			
+          
+			<gmd:transferOptions>
+				
+            
+				<gmd:MD_DigitalTransferOptions>
+					
+              
+					<gmd:onLine>
+						
+                
+						<gmd:CI_OnlineResource>
+							
+                  
+							<gmd:linkage>
+								
+                    
+								<gmd:URL>https://services.thelist.tas.gov.au/arcgis/rest/services/Public/GeologicalAndSoils/MapServer/34</gmd:URL>
+								
+                  
+							</gmd:linkage>
+							
+                  
+							<gmd:name>
+								
+                    
+								<gco:CharacterString>Access LIST Web Services</gco:CharacterString>
+								
+                  
+							</gmd:name>
+							
+                
+						</gmd:CI_OnlineResource>
+						
+              
+					</gmd:onLine>
+					
+            
+				</gmd:MD_DigitalTransferOptions>
+				
+          
+			</gmd:transferOptions>
+			
+        
+		</gmd:MD_Distribution>
+		
+      
+	</gmd:distributionInfo>
+	
+      
+	<gmd:dataQualityInfo>
+		
+        
+		<gmd:DQ_DataQuality>
+			
+          
+			<gmd:lineage>
+				
+            
+				<gmd:LI_Lineage>
+					
+              
+					<gmd:statement>
+						
+                
+						<gco:CharacterString>Category 5 exploration licence polygons are derived from the TIGER system. Boundaries are based on map coordinates, geographic features (e.g. coastline) or administrative boundaries (e.g. World Heritage Area) and show areas excluded from the licence (e.g. National Parks). The TIGER database is updated on a daily basis.</gco:CharacterString>
+						
+              
+					</gmd:statement>
+					
+              
+					<gmd:source>
+						
+                
+						<gmd:LI_Source>
+							
+                  
+							<gmd:description>
+								
+                    
+								<gco:CharacterString>Positional Accuracy:
+The positional accuracy of the boundaries is dependent on the accuracy of the underlying data it follows. Where possible polygon boundaries follow MGA grid (legacy data follows AGD grid), geographic features or administrative boundaries.
+
+Attribute Accuracy:
+Tenement attributes are maintained in the TIGER system and are in accordance with the requirements of the legislation.
+
+Logical Consistency:
+All data is topologically related, all polygons close and all polygons are labelled. There are no duplicates.
+
+Completeness:
+Complete.</gco:CharacterString>
+								
+                  
+							</gmd:description>
+							
+                
+						</gmd:LI_Source>
+						
+              
+					</gmd:source>
+					
+            
+				</gmd:LI_Lineage>
+				
+          
+			</gmd:lineage>
+			
+        
+		</gmd:DQ_DataQuality>
+		
+      
+	</gmd:dataQualityInfo>
+	
+      
+	<gmd:metadataConstraints>
+		
+        
+		<gmd:MD_Constraints xsi:type="gmd:MD_LegalConstraints_Type">
+			
+          
+			<gmd:useLimitation>
+				
+            
+				<gco:CharacterString>Creative Commons Attribution 3.0 Australia Licence</gco:CharacterString>
+				
+          
+			</gmd:useLimitation>
+			
+          
+			<gmd:useLimitation>
+				
+            
+				<gco:CharacterString>Creative Commons Attribution 3.0 Australia Licence</gco:CharacterString>
+				
+          
+			</gmd:useLimitation>
+			
+        
+		</gmd:MD_Constraints>
+		
+      
+	</gmd:metadataConstraints>
+	
+    
+</gmd:MD_Metadata>

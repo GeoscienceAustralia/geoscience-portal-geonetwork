@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>0302d72f-d759-4585-aeee-c7fc7894c5ca</gco:CharacterString>
+		<gco:CharacterString>6d878f65-1066-414c-9607-953e88a38b88</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -26,7 +26,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>1:100,000 Simplified Geology</gco:CharacterString>
+						<gco:CharacterString>Landslides Database</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -50,7 +50,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-08-02</gco:Date>
 								
                   
 							</gmd:date>
@@ -80,7 +80,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-08-02</gco:Date>
 								
                   
 							</gmd:date>
@@ -110,7 +110,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-08-02</gco:Date>
 								
                   
 							</gmd:date>
@@ -131,7 +131,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology. Intended as an input to regional planning processes.</gco:CharacterString>
+				<gco:CharacterString>Data on Tasmanian landslides. Items include: centroid location, report number and annotation, type, activity, geology, initiators, dimensions, volume, direction, damage, casualties, speed, slope.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -280,6 +280,15 @@
               
 					</gmd:keyword>
 					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>HAZARDS Landslip</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
             
 				</gmd:MD_Keywords>
 				
@@ -305,7 +314,7 @@
 								<ns2:TimePeriod>
 									
                       
-									<ns2:beginPosition>2002-03-25</ns2:beginPosition>
+									<ns2:beginPosition>1972-01-01</ns2:beginPosition>
 									
                     
 								</ns2:TimePeriod>
@@ -447,13 +456,16 @@
 								
                     
 								<gco:CharacterString>Position Accuracy:
-Data based on 1:250,000 geology giving a final accuracy of up to +-250m. 
+Based on 1:25,000 and 1:50,000 Digital Topography.
+
 Attribute Accuracy:
-Database has not been verified, but database contains an attribute describing reliability. 
+Data from the best hardcopy sources possible. Data have been identified from field mapping and from published and unpublished sources and verified for consistency with the known geology.
+
 Logical Consistency:
-All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates 
+Data have been verified for consistency with the known geology. Under development.
+
 Completeness:
-State wide coverage, including King and Flinders Islands. Many attribute fields are unfilled.</gco:CharacterString>
+Data have been identified from field mapping and from published and unpublished sources. No updates since 2005. Recent updates used Map2TRIM.</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -468,7 +480,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 					<gmd:statement>
 						
                 
-						<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology.</gco:CharacterString>
+						<gco:CharacterString>Developed from a records system (CARS) for reports relating to landslides. Spatial data entered and integrated with corresponding existing data. Now part of MRT TIGER and TRIM system with images and links to correspondence and reports.</gco:CharacterString>
 						
               
 					</gmd:statement>
@@ -504,7 +516,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:useLimitation>
 				
             
-				<gco:CharacterString>Unrestricted access. Data is Crown Copyright.</gco:CharacterString>
+				<gco:CharacterString>Restricted access. Data is Crown Copyright.</gco:CharacterString>
 				
           
 			</gmd:useLimitation>
@@ -519,7 +531,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>Fri Dec 20 09:37:43 EST 2013</gco:DateTime>
+		<gco:DateTime>Fri Dec 20 09:27:59 EST 2013</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -543,7 +555,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:individualName>
 				
             
-				<gco:CharacterString>Spatial Information Services</gco:CharacterString>
+				<gco:CharacterString>Senior Geologist Urban Geology</gco:CharacterString>
 				
           
 			</gmd:individualName>
@@ -561,7 +573,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:positionName>
 				
             
-				<gco:CharacterString>Section Leader - Spatial Info Services</gco:CharacterString>
+				<gco:CharacterString>Senior Geologist, Urban Geology</gco:CharacterString>
 				
           
 			</gmd:positionName>
@@ -582,7 +594,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 							<gmd:deliveryPoint>
 								
                     
-								<gco:CharacterString>PO Box 56</gco:CharacterString>
+								<gco:CharacterString>30 Gordons Hill Rd</gco:CharacterString>
 								
                   
 							</gmd:deliveryPoint>
@@ -591,7 +603,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 							<gmd:city>
 								
                     
-								<gco:CharacterString>Rosny Park</gco:CharacterString>
+								<gco:CharacterString>Rosny</gco:CharacterString>
 								
                   
 							</gmd:city>
@@ -648,7 +660,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 							<gmd:voice>
 								
                     
-								<gco:CharacterString>62 338 340</gco:CharacterString>
+								<gco:CharacterString>03 62338330</gco:CharacterString>
 								
                   
 							</gmd:voice>

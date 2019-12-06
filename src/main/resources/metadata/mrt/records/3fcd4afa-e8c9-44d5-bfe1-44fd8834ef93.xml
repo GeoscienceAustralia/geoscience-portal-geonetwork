@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>0302d72f-d759-4585-aeee-c7fc7894c5ca</gco:CharacterString>
+		<gco:CharacterString>3fcd4afa-e8c9-44d5-bfe1-44fd8834ef93</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -26,7 +26,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>1:100,000 Simplified Geology</gco:CharacterString>
+						<gco:CharacterString>Groundwater Quality and Borehole Database (BORIS)</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -50,7 +50,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-08-02</gco:Date>
 								
                   
 							</gmd:date>
@@ -80,7 +80,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-08-02</gco:Date>
 								
                   
 							</gmd:date>
@@ -110,7 +110,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-08-02</gco:Date>
 								
                   
 							</gmd:date>
@@ -131,7 +131,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology. Intended as an input to regional planning processes.</gco:CharacterString>
+				<gco:CharacterString>Information regarding boreholes targetted on Tasmanian groundwater resources. As well as locational data, drilling details and borehole parameters, this dataset contains laboratory and field analyses of groundwater, both at the time of drilling, and at later visits. Dataset transferred to DPIPWE Warer Resources Division which has taken over responsibility for groundwater.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -280,6 +280,24 @@
               
 					</gmd:keyword>
 					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>GEOSCIENCES Hydrogeology</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>WATER Groundwater</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
             
 				</gmd:MD_Keywords>
 				
@@ -305,7 +323,7 @@
 								<ns2:TimePeriod>
 									
                       
-									<ns2:beginPosition>2002-03-25</ns2:beginPosition>
+									<ns2:beginPosition>2006-01-01</ns2:beginPosition>
 									
                     
 								</ns2:TimePeriod>
@@ -447,13 +465,16 @@
 								
                     
 								<gco:CharacterString>Position Accuracy:
-Data based on 1:250,000 geology giving a final accuracy of up to +-250m. 
+Accuracy field exists. Accuracy usually greater than +-200m.
+
 Attribute Accuracy:
-Database has not been verified, but database contains an attribute describing reliability. 
+Attributes verified in part. Data have been verified, where possible, against 1:25,000 topography.
+
 Logical Consistency:
-All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates 
+Data have been verified for consistency, where possible, against 1:25,000 topography.
+
 Completeness:
-State wide coverage, including King and Flinders Islands. Many attribute fields are unfilled.</gco:CharacterString>
+Not all companies report drilling, but over 50% are reported and recorded. Database is out of date by at least 36 months.</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -468,7 +489,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 					<gmd:statement>
 						
                 
-						<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology.</gco:CharacterString>
+						<gco:CharacterString>Migrated from a card system in 1987 partially, and completed in April 2001. Initially maintained in Microsoft Access 2.0 then migrated to Oracle. Responsibility for groundwater taken over by Water Resources Division, DPIPWE.</gco:CharacterString>
 						
               
 					</gmd:statement>
@@ -504,7 +525,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:useLimitation>
 				
             
-				<gco:CharacterString>Unrestricted access. Data is Crown Copyright.</gco:CharacterString>
+				<gco:CharacterString>Available in interim at www.mrt.tas.gov.au   Data is Crown Copyright.</gco:CharacterString>
 				
           
 			</gmd:useLimitation>
@@ -519,7 +540,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>Fri Dec 20 09:37:43 EST 2013</gco:DateTime>
+		<gco:DateTime>Fri Dec 20 09:27:51 EST 2013</gco:DateTime>
 		
       
 	</gmd:dateStamp>
@@ -543,7 +564,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:individualName>
 				
             
-				<gco:CharacterString>Spatial Information Services</gco:CharacterString>
+				<gco:CharacterString>Managing Geo Industrial Minera</gco:CharacterString>
 				
           
 			</gmd:individualName>
@@ -561,7 +582,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 			<gmd:positionName>
 				
             
-				<gco:CharacterString>Section Leader - Spatial Info Services</gco:CharacterString>
+				<gco:CharacterString>Managing Geologist - Industrial Minerals</gco:CharacterString>
 				
           
 			</gmd:positionName>
@@ -648,7 +669,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 							<gmd:voice>
 								
                     
-								<gco:CharacterString>62 338 340</gco:CharacterString>
+								<gco:CharacterString>62 338 326</gco:CharacterString>
 								
                   
 							</gmd:voice>

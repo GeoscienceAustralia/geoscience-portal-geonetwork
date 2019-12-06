@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>0302d72f-d759-4585-aeee-c7fc7894c5ca</gco:CharacterString>
+		<gco:CharacterString>9fcf0b76-0f43-4ee3-ab37-d70951beadab</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -26,7 +26,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>1:100,000 Simplified Geology</gco:CharacterString>
+						<gco:CharacterString>1:25,000 Geology Source Database (Source25)</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -50,7 +50,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2001-09-05</gco:Date>
 								
                   
 							</gmd:date>
@@ -80,7 +80,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2001-09-05</gco:Date>
 								
                   
 							</gmd:date>
@@ -110,7 +110,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2001-09-05</gco:Date>
 								
                   
 							</gmd:date>
@@ -131,7 +131,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology. Intended as an input to regional planning processes.</gco:CharacterString>
+				<gco:CharacterString>Records the sources of the information for the 1:25,000 geological coverage, the type of source map and the geologists responsible for preparing the information for GIS input. The type of source map has a bearing on the reliability of the information. 159 records.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -280,6 +280,15 @@
               
 					</gmd:keyword>
 					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>MINERALS</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
             
 				</gmd:MD_Keywords>
 				
@@ -305,7 +314,7 @@
 								<ns2:TimePeriod>
 									
                       
-									<ns2:beginPosition>2002-03-25</ns2:beginPosition>
+									<ns2:beginPosition>1964-01-01</ns2:beginPosition>
 									
                     
 								</ns2:TimePeriod>
@@ -447,13 +456,16 @@
 								
                     
 								<gco:CharacterString>Position Accuracy:
-Data based on 1:250,000 geology giving a final accuracy of up to +-250m. 
+Polygons based on 1:25,000 Digital Topography with a nominal accuracy of +-12.5m.
+
 Attribute Accuracy:
-Database has not been verified, but database contains an attribute describing reliability. 
+Data from best sources possible.
+
 Logical Consistency:
-All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates 
+All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates.
+
 Completeness:
-State wide coverage, including King and Flinders Islands. Many attribute fields are unfilled.</gco:CharacterString>
+Complete statewide coverage.</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -468,7 +480,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 					<gmd:statement>
 						
                 
-						<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology.</gco:CharacterString>
+						<gco:CharacterString>Textual attributes are maintained in Microsoft Access 2.0, and spatial polygons maintained in ArcInfo.</gco:CharacterString>
 						
               
 					</gmd:statement>
@@ -519,7 +531,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>Fri Dec 20 09:37:43 EST 2013</gco:DateTime>
+		<gco:DateTime>Fri Dec 20 09:26:56 EST 2013</gco:DateTime>
 		
       
 	</gmd:dateStamp>

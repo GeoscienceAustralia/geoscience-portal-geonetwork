@@ -5,7 +5,7 @@
 	<gmd:fileIdentifier>
 		
         
-		<gco:CharacterString>0302d72f-d759-4585-aeee-c7fc7894c5ca</gco:CharacterString>
+		<gco:CharacterString>6d642950-8eb3-4790-ab5e-a94e1742f09b</gco:CharacterString>
 		
       
 	</gmd:fileIdentifier>
@@ -26,7 +26,7 @@
 					<gmd:title>
 						
                 
-						<gco:CharacterString>1:100,000 Simplified Geology</gco:CharacterString>
+						<gco:CharacterString>Mineral Resource Potential Assessment</gco:CharacterString>
 						
               
 					</gmd:title>
@@ -50,7 +50,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-07-22</gco:Date>
 								
                   
 							</gmd:date>
@@ -80,7 +80,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-07-22</gco:Date>
 								
                   
 							</gmd:date>
@@ -110,7 +110,7 @@
 							<gmd:date>
 								
                     
-								<gco:Date>2010-06-16</gco:Date>
+								<gco:Date>2010-07-22</gco:Date>
 								
                   
 							</gmd:date>
@@ -131,7 +131,7 @@
 			<gmd:abstract>
 				
             
-				<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology. Intended as an input to regional planning processes.</gco:CharacterString>
+				<gco:CharacterString>As part of the Social and Economic Background Report for the Tasmania-Commonwealth Regional Forest Agreement, MRT completed a mineral resource potential study for Tasmania. The study produced 45 maps quantifying potential for 45 mineral deposit models over Tasmanian geological tracts. Assessments were made by Bureau of Resource Sciences and MRT based on comparing geological models of each deposit model with the tract in question. Reliability of the data used to assess the tracts is also included. Composite mineral potential maps combining all 45 models are also included in the study. Deposit models include: volcanic hosted base and precious metals, tin, tungsten, granite associated magnetite, base and precious metals, carbonate hosted base metals and silver, slate belt gold, iron, ironstone, porphyry copper, ultramafic nickel copper, and platinoids, sediment hosted base metals, alluvial and beach deposits, magnesite, silica flour, ochre, kaolin, coal, dolomite, limestone and construction materials. See http://www.rfa.gov.au/rfa/tas/raa/soceco/index.html.</gco:CharacterString>
 				
           
 			</gmd:abstract>
@@ -280,6 +280,15 @@
               
 					</gmd:keyword>
 					
+              
+					<gmd:keyword>
+						
+                
+						<gco:CharacterString>INDUSTRY Mining</gco:CharacterString>
+						
+              
+					</gmd:keyword>
+					
             
 				</gmd:MD_Keywords>
 				
@@ -305,7 +314,7 @@
 								<ns2:TimePeriod>
 									
                       
-									<ns2:beginPosition>2002-03-25</ns2:beginPosition>
+									<ns2:beginPosition>1996-06-01</ns2:beginPosition>
 									
                     
 								</ns2:TimePeriod>
@@ -447,13 +456,16 @@
 								
                     
 								<gco:CharacterString>Position Accuracy:
-Data based on 1:250,000 geology giving a final accuracy of up to +-250m. 
+Based on 1:250,000 digital geology.
+
 Attribute Accuracy:
-Database has not been verified, but database contains an attribute describing reliability. 
+Audited by expert panel.
+
 Logical Consistency:
-All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates 
+All polygons, lines and point data labelled. All vertices are snapped and all polygons close. All data is topologically related. There are no duplicates
+
 Completeness:
-State wide coverage, including King and Flinders Islands. Many attribute fields are unfilled.</gco:CharacterString>
+Data was complete at time of entry to the best knowledge of the people compiling the data and the expert panel. Data have been interpreted from published and unpublished sources.</gco:CharacterString>
 								
                   
 							</gmd:description>
@@ -468,7 +480,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 					<gmd:statement>
 						
                 
-						<gco:CharacterString>Simplified geology data derived from 1:250,000 digital geology. Structural symbols and boundaries have been removed and lithological subdivisions of the main rock units have been consolidated, whilst preserving the time scale framework of the State’s geology.</gco:CharacterString>
+						<gco:CharacterString>Built specifically for RFA background report.</gco:CharacterString>
 						
               
 					</gmd:statement>
@@ -519,7 +531,7 @@ State wide coverage, including King and Flinders Islands. Many attribute fields 
 	<gmd:dateStamp>
 		
         
-		<gco:DateTime>Fri Dec 20 09:37:43 EST 2013</gco:DateTime>
+		<gco:DateTime>Fri Dec 20 09:26:44 EST 2013</gco:DateTime>
 		
       
 	</gmd:dateStamp>
