@@ -69,7 +69,7 @@
         <dependency>
             <groupId>org.geonetwork-opensource</groupId>
             <artifactId>web-app</artifactId>
-            <version>3.0.1</version>
+            <version>3.0.4</version>
             <type>war</type>
         </dependency>
     </dependencies>
